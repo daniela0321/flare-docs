@@ -11,10 +11,10 @@ import Image from "next/image"
 import flareLogo from "../../public/images/200701-flare-hub-logo-white.png"
 
 // Bootstrap Navbar with next/link and next/image
-// ToDo: Add URLs!
+// ToDo: Add URLs and fixed top with custom css
 function Header() {
     return (
-        <Navbar bg="dark" variant="dark" expand="sm">
+        <Navbar bg="dark" variant="dark" expand="lg">
             <Navbar.Brand href="#home">
                 <Image
                     src={flareLogo}
@@ -24,20 +24,23 @@ function Header() {
                     alt="Flare Hub logo"
                 />
             </Navbar.Brand>
-            <Nav className="mr-auto">
-                <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
-                <NavDropdown title="Insight Library" id="basic-nav-dropdown">
-                    <Link href="#" passHref><NavDropdown.Item>Introduction</NavDropdown.Item></Link>
-                    <Link href="#" passHref><NavDropdown.Item>Insights</NavDropdown.Item></Link>
-                    <Link href="#" passHref><NavDropdown.Item>Subscribe</NavDropdown.Item></Link>
-                </NavDropdown>
-                <Link href="#" passHref><Nav.Link>About Us</Nav.Link></Link>
-                <Link href="#" passHref><Nav.Link>Contact</Nav.Link></Link>
-            </Nav>
-            <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-info">Search</Button>
-            </Form>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
+                    <NavDropdown title="Insight Library" id="basic-nav-dropdown">
+                        <Link href="#" passHref><NavDropdown.Item>Introduction</NavDropdown.Item></Link>
+                        <Link href="#" passHref><NavDropdown.Item>Insights</NavDropdown.Item></Link>
+                        <Link href="#" passHref><NavDropdown.Item>Subscribe</NavDropdown.Item></Link>
+                    </NavDropdown>
+                    <Link href="#" passHref><Nav.Link>About Us</Nav.Link></Link>
+                    <Link href="#" passHref><Nav.Link>Contact</Nav.Link></Link>
+                </Nav>
+                <Form inline>
+                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                    <Button variant="outline-info">Search</Button>
+                </Form>
+            </Navbar.Collapse>
         </Navbar>
     )
 }
