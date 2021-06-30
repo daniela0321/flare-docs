@@ -1,6 +1,7 @@
 /* Flare Hub colours */
 
-/* #2B6CB0
+/*
+#2B6CB0
 #3182CE
 #1A202C
 #2D3748
@@ -8,17 +9,37 @@
 #718096
 #EDF2F7
 #F7FAFC
-#FFFFFF */
+#FFFFFF
+*/
 
 /* Global CSS */
+
+/* ToDo: finetuning */
 
 html, body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3182CE;
+}
+
+a:active {
+  color: #3182CE;
+}
+
+a:link {
   text-decoration: none;
 }
