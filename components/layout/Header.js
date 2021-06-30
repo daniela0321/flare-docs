@@ -10,7 +10,7 @@ import Link from "next/link"
 import Image from "next/image"
 import flareLogo from "../../public/images/200701-flare-hub-logo-white.png"
 
-// Bootstrap Navbar with next/link and next/image
+// react-bootstrap Navbar with next/links and next/image
 // ToDo: Add URLs and fixed top with custom css
 function Header() {
     return (
