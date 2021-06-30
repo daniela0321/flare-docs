@@ -6,7 +6,7 @@ import {
     Button,
     NavDropdown
 } from "react-bootstrap"
-import classes from "./Header.module.css"
+// import classes from "./Header.module.css"
 import Link from "next/link"
 import Image from "next/image"
 import flareLogo from "../../public/images/200701-flare-hub-logo-white.png"
@@ -27,7 +27,7 @@ function Header() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="ml-auto">
                     <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
                     <NavDropdown title="Insight Library" id="basic-nav-dropdown">
                         <Link href="#" passHref><NavDropdown.Item>Introduction</NavDropdown.Item></Link>
