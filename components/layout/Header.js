@@ -6,6 +6,7 @@ import {
     Button,
     NavDropdown
 } from "react-bootstrap"
+import classes from "./Header.module.css"
 import Link from "next/link"
 import Image from "next/image"
 import flareLogo from "../../public/images/200701-flare-hub-logo-white.png"
