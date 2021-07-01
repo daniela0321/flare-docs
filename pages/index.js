@@ -1,20 +1,34 @@
-import Head from 'next/head'
+import Head from "next/head"
+// import Image from "next/image"
+import { Fragment } from "react"
 import styles from '../styles/Home.module.css'
+import { Container, Button } from "react-bootstrap"
 
-export default function Home() {
+// Home Page
+function Home() {
   return (
-    <div className={styles.container}>
+    <Fragment>
       <Head>
         <title>Flare Docs</title>
         <meta name="description" content="Flare Docs provides a home for your knowledge base" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Flare Docs
-        </h1>
-      </main>
-    </div >
+      <Container className={styles.container} fluid>
+        <div className={styles.intro}>
+          <img
+            src="./images/intro-image.jpg"
+            alt="Flare intro image"
+            className={styles.introImage}
+          ></img>
+          <div className={styles.introText}>
+            <h2>Build Value-Adding Digital Solutions</h2>
+            <p>Gain the Insights and understand relationships between the concepts.</p>
+            <Button variant="light">Read more</Button>
+          </div>
+        </div>
+      </Container>
+    </Fragment>
   )
 }
+
+export default Home
