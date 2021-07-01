@@ -1,13 +1,6 @@
 /* ToDo: colors, finetuning */
 
-/* General */
-
-.container {
-  margin: 0;
-  padding: 0;
-}
-
-/* First container (intro) */
+/* First section (intro) */
 
 .intro {
   margin: 0;
@@ -38,6 +31,21 @@
   left: 0;
   right: 0;
 }
+
+/* Second section (why, what, to whom) */
+
+.roundImage {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.paragraphWidth {
+  max-width: 500px;
+}
+
+/* Delete CSS below */
 
 /* .container {
   min-height: 100vh;
