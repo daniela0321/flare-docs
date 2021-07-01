@@ -1,3 +1,44 @@
+/* ToDo: colors, finetuning */
+
+/* General */
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+/* First container (intro) */
+
+.intro {
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  position: relative;
+}
+
+.introImage {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.introText {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(26, 32, 44, 0.6);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 35px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 /* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
