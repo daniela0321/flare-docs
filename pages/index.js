@@ -23,7 +23,7 @@ function Home() {
             className={styles.introImage}
           />
           <div className={styles.introText}>
-            <h2>Build Value-Adding Digital Solutions</h2>
+            <h1>Build Value-Adding Digital Solutions</h1>
             <p>Gain the Insights and understand relationships between the concepts.</p>
             <Button variant="light">Read more</Button>
           </div>
