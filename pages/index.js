@@ -9,6 +9,8 @@ function Home() {
   return (
     <Fragment>
       <Head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Flare Docs</title>
         <meta name="description" content="Flare Docs provides a home for your knowledge base" />
         <link rel="icon" href="/favicon.ico" />
@@ -19,7 +21,7 @@ function Home() {
             src="./images/intro-image.jpg"
             alt="Flare intro image"
             className={styles.introImage}
-          ></img>
+          />
           <div className={styles.introText}>
             <h2>Build Value-Adding Digital Solutions</h2>
             <p>Gain the Insights and understand relationships between the concepts.</p>
