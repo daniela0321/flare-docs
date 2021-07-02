@@ -33,6 +33,16 @@
   right: 0;
 }
 
+.viewInsightsTitle {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.viewInsightsButton {
+  margin-bottom: 30px;
+}
+
 /* Delete CSS below */
 
 /* .container {
