@@ -1,0 +1,35 @@
+/* ToDo: finetuning */
+
+.imageStyle {
+    width: 100%;
+    object-fit: cover;
+}
+
+.button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #fff;
+    margin-bottom: 20px;
+    /* font-size: 5rem; */
+}
+
+.description {
+    color: #fff;
+    text-align: center;
+}
+
+.amountAndTime {
+    color: #fff;
+    font-size: small;
+}
+
+/* @media only screen and (max-width: var(--breakpoint-lg)) { */
+
+@media (max-width: 992px) {
+    .title {
+        margin-top: 30px;
+    }
+}

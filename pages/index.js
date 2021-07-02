@@ -1,18 +1,21 @@
 // import Image from "next/image"
 import styles from '../styles/Home.module.css'
 import { Fragment } from "react"
-import { Container, Button, Row } from "react-bootstrap"
+import { Container, Button, Row, Col } from "react-bootstrap"
 import HeadMeta from "../components/layout/HeadMeta"
 import InfoCard from "../components/ui/InfoCard"
+import InsightCardHome from "../components/ui/InsightCardHome"
 
 // Home Page
 function Home() {
   return (
     <Fragment>
+
       <HeadMeta
         title="Flare Hub"
         description="Flare Hub provides you with an interconnected library of Insights - a top-down view to the common frameworks and theories used when building digital solutions."
       />
+
       <Container fluid className="m-0 p-0">
         <div className={styles.intro}>
           <img
@@ -27,6 +30,7 @@ function Home() {
           </div>
         </div>
       </Container>
+
       <Container className="py-5 px-3">
         <Row className="d-flex flex-row justify-content-center">
           <InfoCard
@@ -49,6 +53,26 @@ function Home() {
           />
         </Row>
       </Container>
+
+      <Container fluid className="m-0 p-0">
+        <InsightCardHome
+          image="./images/home/200916-systems-development-life-cycle.jpg"
+          imageTitle="Systems Development Life Cycle"
+          title="Product Life Cycles"
+          description="What are the phases and models of creating value-adding digital products?"
+          amountAndTime="15 Insights (1 hour 58 minutes)"
+          textFirst={false}
+        />
+        <InsightCardHome
+          image="./images/home/201204-governing-practices.jpg"
+          imageTitle="Governing Practices"
+          title="Governing Practices"
+          description="What else you should know - e.g. how to coordinate all activities to have a value-based approach?"
+          amountAndTime="12 Insights (1 hour 47 minutes)"
+          textFirst={true}
+        />
+      </Container>
+
     </Fragment>
   )
 }
