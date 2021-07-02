@@ -2,7 +2,8 @@ import Head from "next/head"
 // import Image from "next/image"
 import { Fragment } from "react"
 import styles from '../styles/Home.module.css'
-import { Container, Button, Row, Col } from "react-bootstrap"
+import { Container, Button, Row } from "react-bootstrap"
+import InfoCard from "../components/ui/InfoCard"
 
 // Home Page
 function Home() {
@@ -31,39 +32,24 @@ function Home() {
       </Container>
       <Container className="py-5 px-3">
         <Row className="d-flex flex-row justify-content-center">
-          <Col md={12} lg={4} className="p-3 d-flex flex-column align-items-center">
-            <img
-              src="./images/home/im-desperate.jpg"
-              alt="I'm desperate"
-              className={styles.roundImage}
-            />
-            <h2>Why?</h2>
-            <p className={styles.paragraphWidth}>
-              If you need an introduction, or a refresher, on the specifics of creating value-adding digital products
-            </p>
-          </Col>
-          <Col md={12} lg={4} className="p-3 d-flex flex-column align-items-center">
-            <img
-              src="./images/home/pile-of-books.jpg"
-              alt="Pile of books"
-              className={styles.roundImage}
-            />
-            <h2>What?</h2>
-            <p className={styles.paragraphWidth}>
-              An interconnected library of Insights that offer a top-down view to the common frameworks and models
-            </p>
-          </Col>
-          <Col md={12} lg={4} className="p-3 d-flex flex-column align-items-center">
-            <img
-              src="./images/home/teaching.jpg"
-              alt="Teaching"
-              className={styles.roundImage}
-            />
-            <h2>To Whom?</h2>
-            <p className={styles.paragraphWidth}>
-              E.g. for project managers, product managers, product owners, general managers, students and entrepreneurs
-            </p>
-          </Col>
+          <InfoCard
+            image="./images/home/im-desperate.jpg"
+            imageTitle="I'm desperate"
+            title="Why?"
+            description="If you need an introduction, or a refresher, on the specifics of creating value-adding digital products"
+          />
+          <InfoCard
+            image="./images/home/pile-of-books.jpg"
+            imageTitle="Pile of books"
+            title="What?"
+            description="An interconnected library of Insights that offer a top-down view to the common frameworks and models"
+          />
+          <InfoCard
+            image="./images/home/teaching.jpg"
+            imageTitle="Teaching"
+            title="To Whom?"
+            description="E.g. for project managers, product managers, product owners, general managers, students and entrepreneurs"
+          />
         </Row>
       </Container>
     </Fragment>
