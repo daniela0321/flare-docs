@@ -1,21 +1,18 @@
-import Head from "next/head"
 // import Image from "next/image"
-import { Fragment } from "react"
 import styles from '../styles/Home.module.css'
+import { Fragment } from "react"
 import { Container, Button, Row } from "react-bootstrap"
+import HeadMeta from "../components/layout/HeadMeta"
 import InfoCard from "../components/ui/InfoCard"
 
 // Home Page
 function Home() {
   return (
     <Fragment>
-      <Head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Flare Docs</title>
-        <meta name="description" content="Flare Docs provides a home for your knowledge base" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <HeadMeta
+        title="Flare Hub"
+        description="Flare Hub provides you with an interconnected library of Insights - a top-down view to the common frameworks and theories used when building digital solutions."
+      />
       <Container fluid className="m-0 p-0">
         <div className={styles.intro}>
           <img
