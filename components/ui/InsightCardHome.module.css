@@ -13,7 +13,7 @@
 .title {
     color: #fff;
     margin-bottom: 20px;
-    /* font-size: 5rem; */
+    text-align: center;
 }
 
 .description {
@@ -26,9 +26,9 @@
     font-size: small;
 }
 
-/* @media only screen and (max-width: var(--breakpoint-lg)) { */
+/* Not the normal lg breakpoint */
 
-@media (max-width: 992px) {
+@media (max-width: 990px) {
     .title {
         margin-top: 30px;
     }

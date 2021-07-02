@@ -56,21 +56,26 @@ function Home() {
 
       <Container fluid className="m-0 p-0">
         <InsightCardHome
-          image="./images/home/200916-systems-development-life-cycle.jpg"
+          image="./images/home/200916-systems-development-life-cycle-home.jpg"
           imageTitle="Systems Development Life Cycle"
-          title="Product Life Cycles"
+          title="Umbrella Insight on Product Life Cycles"
           description="What are the phases and models of creating value-adding digital products?"
           amountAndTime="15 Insights (1 hour 58 minutes)"
           textFirst={false}
         />
         <InsightCardHome
-          image="./images/home/201204-governing-practices.jpg"
+          image="./images/home/210702-governing-practices-home.jpg"
           imageTitle="Governing Practices"
-          title="Governing Practices"
+          title="Umbrella Insight on Governing Practices"
           description="What else you should know - e.g. how to coordinate all activities to have a value-based approach?"
           amountAndTime="12 Insights (1 hour 47 minutes)"
           textFirst={true}
         />
+      </Container>
+
+      <Container className="py-5 px-3 d-flex flex-column justify-content-center align-items-center">
+        <h2 className={styles.viewInsightsTitle}>Or View the Whole List of Insights</h2>
+        <Button className={styles.viewInsightsButton}>View the list</Button>
       </Container>
 
     </Fragment>
