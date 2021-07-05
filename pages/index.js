@@ -3,8 +3,8 @@ import styles from '../styles/Home.module.css'
 import { Fragment } from "react"
 import { Container, Button, Row, Col } from "react-bootstrap"
 import HeadMeta from "../components/layout/HeadMeta"
-import InfoCard from "../components/ui/InfoCard"
-import InsightCardHome from "../components/ui/InsightCardHome"
+import InfoCard from "../components/home/InfoCard"
+import InsightCardHome from "../components/home/InsightCardHome"
 
 // Home Page
 function Home() {
