@@ -18,7 +18,10 @@ function Home() {
 
       <Container fluid className="m-0 p-0">
         <div className={styles.intro}>
+          {/* Not using next/img as it doesn't work with static generation */}
+          {/* ToDo: check what plugin to install for image optimization */}
           <img
+            // Note the path (Next creates a hidden html file in the Public folder)
             src="./images/intro-image.jpg"
             alt="Flare intro image"
             className={styles.introImage}
