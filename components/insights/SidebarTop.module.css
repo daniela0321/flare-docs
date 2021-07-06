@@ -1,0 +1,9 @@
+/* ToDo: finetuning */
+
+.card {
+    background-color: var(--primary);
+}
+
+.title {
+    padding-top: 5px;
+}
