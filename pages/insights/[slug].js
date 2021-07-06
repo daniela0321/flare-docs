@@ -2,6 +2,7 @@ import { readdirSync, readFileSync } from 'fs'
 import path from 'path'
 import React from "react"
 import matter from "gray-matter"
+import ReactMarkdown from 'react-markdown'
 
 // Render Insight template
 export default function InsightTemplate({ frontmatter, content }) {
@@ -9,7 +10,7 @@ export default function InsightTemplate({ frontmatter, content }) {
     return (
         <div>
             <h1>{frontmatter.title}</h1>
-            <p>{content}</p>
+            <ReactMarkdown>{content}</ReactMarkdown>
         </div>
     )
 }
