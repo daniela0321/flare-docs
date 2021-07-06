@@ -11,18 +11,18 @@
 }
 
 .title {
-    color: #fff;
+    color: var(--white);
     margin-bottom: 20px;
     text-align: center;
 }
 
 .description {
-    color: #fff;
+    color: var(--white);
     text-align: center;
 }
 
 .amountAndTime {
-    color: #fff;
+    color: var(--white);
     font-size: small;
 }
 

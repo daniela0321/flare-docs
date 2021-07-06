@@ -1,7 +1,7 @@
 // Installed SASS in order to be able to customise Bootstrap
 
 // Colours
-// $blue:    #007bff !default;
+$blue:    #2B6CB0;
 // $indigo:  #6610f2 !default;
 // $purple:  #6f42c1 !default;
 // $pink:    #e83e8c !default;
@@ -13,9 +13,9 @@
 // $cyan:    #17a2b8 !default;
 
 // Grays
-// $white:    #fff !default;
-// $gray-100: #f8f9fa !default;
-// $gray-200: #e9ecef !default;
+$white:    #fff;
+$gray-100: #F7FAFC;
+// $gray-200: 
 // $gray-300: #dee2e6 !default;
 // $gray-400: #ced4da !default;
 // $gray-500: #adb5bd !default;
@@ -23,7 +23,7 @@
 // $gray-700: #495057 !default;
 // $gray-800: #343a40 !default;
 // $gray-900: #212529 !default;
-// $black:    #000 !default;
+$black:    #1A202C;
 
 // Theme colours
 $primary:       #4A5568;
@@ -32,7 +32,7 @@ $secondary:     #718096;
 $info:          #3182CE;
 // $warning:       $yellow !default;
 // $danger:        $red !default;
-$light:         #fff;
-$dark:          #1A202C;
+$light:         #EDF2F7;
+$dark:          #2D3748;
 
 @import "node_modules/bootstrap/scss/bootstrap";
