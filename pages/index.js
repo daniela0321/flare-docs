@@ -9,7 +9,7 @@ import InsightCardHome from "../components/home/InsightCardHome"
 // Home Page
 function Home() {
   return (
-    <Fragment>
+    <main>
 
       <HeadMeta
         title="Flare Hub"
@@ -77,11 +77,11 @@ function Home() {
       </Container>
 
       <Container className="py-5 px-3 d-flex flex-column justify-content-center align-items-center">
-        <h2 className={styles.viewInsightsTitle}>Or View the Whole List of Insights</h2>
+        <h2 className={styles.viewInsightsTitle}>View the List of All Current Insights</h2>
         <Button className={styles.viewInsightsButton}>View the list</Button>
       </Container>
 
-    </Fragment>
+    </main>
   )
 }
 
