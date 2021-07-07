@@ -28,14 +28,14 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
-                    <NavDropdown title="Insight Library" id="basic-nav-dropdown">
+                    <Link href="/" passHref><Nav.Link className="pr-4">Home</Nav.Link></Link>
+                    <NavDropdown className="pr-4" title="Insight Library" id="basic-nav-dropdown">
                         <Link href="#" passHref><NavDropdown.Item>Introduction</NavDropdown.Item></Link>
                         <Link href="#" passHref><NavDropdown.Item>Insights</NavDropdown.Item></Link>
                         <Link href="#" passHref><NavDropdown.Item>Subscribe</NavDropdown.Item></Link>
                     </NavDropdown>
-                    <Link href="#" passHref><Nav.Link>About Us</Nav.Link></Link>
-                    <Link href="#" passHref><Nav.Link>Contact</Nav.Link></Link>
+                    <Link href="#" passHref><Nav.Link className="pr-4">About Us</Nav.Link></Link>
+                    <Link href="#" passHref><Nav.Link className="pr-5">Contact</Nav.Link></Link>
                 </Nav>
                 <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />
