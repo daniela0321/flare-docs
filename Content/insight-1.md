@@ -3,20 +3,24 @@ title: "Insight title 1"
 author: "Daniela"
 created: "July 5th 2021"
 revised: "July 5th 2021"
-image: "./public/images/insights/temp-image.png"
+image: "/images/insights/temp-image.png"
 imageTitle: "Test Image Title"
 sources: "Test sources"
 links: "https://flarehub.io/"
 ---
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a augue non enim imperdiet eleifend. Maecenas eu ultricies dolor, sed viverra sapien. Proin a diam ac ipsum accumsan fringilla. Aenean lobortis dui magna, ullamcorper posuere neque semper sit amet. Praesent id sapien quam. Aliquam erat volutpat. Morbi imperdiet libero vel felis aliquam feugiat.
+
+![image alt text](/images/insights/temp-image.png)
+
 ## Test title 1
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a augue non enim imperdiet eleifend. Maecenas eu ultricies dolor, sed viverra sapien. Proin a diam ac ipsum accumsan fringilla. Aenean lobortis dui magna, ullamcorper posuere neque semper sit amet. Praesent id sapien quam. Aliquam erat volutpat. Morbi imperdiet libero vel felis aliquam feugiat.
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
-- Bullet 4
+* Bullet 1
+* Bullet 2
+* Bullet 3
+* Bullet 4
 
 ## Test title 2
 
