@@ -26,7 +26,11 @@ export default function InsightTemplate({ frontmatter, content }) {
                 <Col xl={contentColumnOrder} className="m-0 p-5 d-flex flex-column align-items-center">
                     <main className={classes.main}>
                         <h1>{frontmatter.title}</h1>
-                        <ReactMarkdown>{content}</ReactMarkdown>
+                        <img className={classes.image} src={frontmatter.image} alt={frontmatter.title} />
+                        <ReactMarkdown className="markdown-content"
+                        // This will change later when I will install the image plugin
+                        // transformImageUri={uri => uri.startsWith("/") ? `${process.env.IMAGE_BASE_URL}${uri}` : uri}
+                        >{content}</ReactMarkdown>
                     </main>
                 </Col>
             </Row>
@@ -58,8 +62,10 @@ export async function getStaticPaths() {
 
 // For each slug, return the content and frontmatter 
 export async function getStaticProps(context) {
+    // params contains the variables from the dynamic routes (Next)
     const { slug } = context.params
 
+    // Construct the filepaths
     const filePath = path.join(process.cwd(), `Content/${slug}.md`)
 
     //  Import .md file using the `slug` from the URL

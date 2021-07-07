@@ -43,3 +43,9 @@ a:active {
 a:link {
   text-decoration: none;
 }
+
+/* Images in Insight content */
+
+.markdown-content img {
+  max-width: 100%;
+}
