@@ -13,7 +13,7 @@ const currentYear = new Date().getFullYear()
 function Footer() {
     return (
         <footer className={classes.footer}>
-            <Container>
+            <Container className="d-flex flex-column align-items-center">
                 {/* Links */}
                 <Row className={classes.row}>
                     <Col sm className={classes.column}>
