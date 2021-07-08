@@ -1,8 +1,10 @@
 import InsightCard from "./InsightCard"
+import classes from "./InsightList.module.css"
+import { Row } from "react-bootstrap"
 
 function InsightList(props) {
     return (
-        <>
+        <Row className="d-flex flex-row justify-content-center">
             {
                 props.insights.map((insight) => (
                     <InsightCard
@@ -15,7 +17,7 @@ function InsightList(props) {
                     />
                 ))
             }
-        </>
+        </Row>
     )
 }
 
