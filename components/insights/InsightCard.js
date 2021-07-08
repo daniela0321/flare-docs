@@ -9,7 +9,7 @@ function InsightCard({ image, title, body, buttonLink }) {
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text><ReactMarkdown>{body}</ReactMarkdown></Card.Text>
-                <Button href="{buttonLink}" variant="primary">Read more</Button>
+                <Button href={buttonLink} variant="primary">Read more</Button>
             </Card.Body>
         </Card>
     )
