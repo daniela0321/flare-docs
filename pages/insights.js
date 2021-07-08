@@ -1,5 +1,5 @@
 import Head from "next/head"
-import React from "react"
+import React, { useState } from "react"
 import { Fragment } from "react"
 import { Container } from "react-bootstrap"
 import { readdirSync, readFileSync } from 'fs'
@@ -8,8 +8,15 @@ import matter from "gray-matter"
 import ReactMarkdown from 'react-markdown'
 import PageTitle from "../components/layout/PageTitle"
 import InsightList from "../components/insights/InsightList"
+import InsightsPagination from "../components/insights/InsightsPagination"
 
 export default function Insights(props) {
+    const [activePage, setActivePage] = useState(1)
+
+    function handleClick(newActivePage) {
+        setActivePage(newActivePage)
+    }
+
     return (
         <Fragment>
             <Head>
@@ -25,6 +32,12 @@ export default function Insights(props) {
             <Container>
                 <InsightList
                     insights={props.insights}
+                    activePage={activePage}
+                />
+                <InsightsPagination
+                    amountOfFiles={props.insights.length}
+                    handleClick={handleClick}
+                    activePage={activePage}
                 />
             </Container>
         </Fragment>

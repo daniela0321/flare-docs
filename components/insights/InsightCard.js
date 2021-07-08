@@ -1,8 +1,9 @@
-import { useRouter } from "next/router"
+// import { useRouter } from "next/router"
 import { Card, Button } from "react-bootstrap"
 import ReactMarkdown from 'react-markdown'
 
 function InsightCard({ image, title, body, buttonLink }) {
+
     return (
         <Card className="mx-2 mb-3" style={{ width: '22rem' }}>
             <Card.Img variant="top" src={image} alt={title} />
