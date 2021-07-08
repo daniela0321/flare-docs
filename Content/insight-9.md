@@ -41,6 +41,12 @@ Donec venenatis pretium faucibus. Lorem ipsum dolor sit amet, consectetur adipis
 ***
 &nbsp;
 
+##### Move up to
+
+[Parent Insight](/insights/insight-1)
+
+&nbsp;
+
 ##### Sources
 
 1. Source 1
