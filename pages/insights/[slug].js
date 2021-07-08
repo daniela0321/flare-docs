@@ -27,6 +27,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                     <main className={classes.main}>
                         <h1>{frontmatter.title}</h1>
                         <img className={classes.image} src={frontmatter.image} alt={frontmatter.title} />
+                        <p className={classes.date}>By {frontmatter.author} | Created on {frontmatter.created} | Last revised on {frontmatter.revised}</p>
                         <ReactMarkdown className="markdown-content"
                         // This will change later when I will install the image plugin
                         // transformImageUri={uri => uri.startsWith("/") ? `${process.env.IMAGE_BASE_URL}${uri}` : uri}
