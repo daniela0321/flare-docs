@@ -22,7 +22,7 @@ export default function Insights(props) {
             <PageTitle
                 title="Insights"
             />
-            <Container fluid>
+            <Container>
                 <InsightList
                     insights={props.insights}
                 />

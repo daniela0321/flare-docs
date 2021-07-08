@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 
 function InsightCard({ image, title, body, buttonLink }) {
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card className="mx-2 mb-3" style={{ width: '22rem' }}>
             <Card.Img variant="top" src={image} alt={title} />
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
