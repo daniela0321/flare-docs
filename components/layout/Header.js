@@ -4,18 +4,20 @@ import {
     Form,
     FormControl,
     Button,
-    NavDropdown
+    NavDropdown,
+    InputGroup
 } from "react-bootstrap"
 // import classes from "./Header.module.css"
 import Link from "next/link"
 import Image from "next/image"
 import flareLogo from "../../public/images/200701-flare-hub-logo-white.png"
+import classes from "./Header.module.css"
 
 // react-bootstrap Navbar with next/links and next/image
 // ToDo: Add URLs and fixed top with custom css
 function Header() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
             <Navbar.Brand href="#home">
                 <Image
                     src={flareLogo}
@@ -25,9 +27,9 @@ function Header() {
                     alt="Flare Hub logo"
                 />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ml-auto">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className="fh-toggler" />
+            <Navbar.Collapse id="basic-navbar-nav" className="ml-1 ml-xl-0">
+                <Nav className="ml-auto fh-link-white">
                     <Link href="/" passHref><Nav.Link className="pr-4">Home</Nav.Link></Link>
                     <NavDropdown className="pr-4" title="Insight Library" id="basic-nav-dropdown">
                         <Link href="#" passHref><NavDropdown.Item>Introduction</NavDropdown.Item></Link>
@@ -37,9 +39,13 @@ function Header() {
                     <Link href="#" passHref><Nav.Link className="pr-4">About Us</Nav.Link></Link>
                     <Link href="#" passHref><Nav.Link className="pr-5">Contact</Nav.Link></Link>
                 </Nav>
-                <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-info">Search</Button>
+                <Form inline className="mt-2 mb-4 mt-lg-1 mb-lg-1">
+                    <InputGroup>
+                        <FormControl type="text" placeholder="Search" className="mt-2 mt-lg-0" />
+                        <InputGroup.Append>
+                            <Button variant="outline-light" className="mt-2 mt-lg-0">Search</Button>
+                        </InputGroup.Append>
+                    </InputGroup>
                 </Form>
             </Navbar.Collapse>
         </Navbar>
