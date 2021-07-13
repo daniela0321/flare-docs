@@ -7,6 +7,8 @@ import { Container, Row, Col } from "react-bootstrap"
 import SidebarRight from "../../components/insights/SidebarRight"
 import SidebarTop from "../../components/insights/SidebarTop"
 import classes from "./[slug].module.css"
+import H2WithId from "../../components/insights/H2WithId"
+import H3WithId from "../../components/insights/H3WithId"
 
 // Render Insight template
 export default function InsightTemplate({ frontmatter, content }) {
@@ -19,23 +21,32 @@ export default function InsightTemplate({ frontmatter, content }) {
             <Row className="m-0 p-0">
                 <Col xl={sidebarColumnOrder} className="m-0 bg-primary text-light">
                     {/* Page contents on large screens */}
-                    <SidebarRight />
+                    <SidebarRight
+                        content={content}
+                    />
                     {/* Page contents on smaller screens */}
-                    <SidebarTop />
+                    <SidebarTop
+                        content={content}
+                    />
                 </Col>
                 <Col xl={contentColumnOrder} className="m-0 p-5 d-flex flex-column align-items-center">
                     <main className={classes.main}>
                         <h1>{frontmatter.title}</h1>
                         <img className={classes.image} src={frontmatter.image} alt={frontmatter.title} />
                         <p className={classes.date}>By {frontmatter.author} | Created on {frontmatter.created} | Last revised on {frontmatter.revised}</p>
-                        <ReactMarkdown className="markdown-content"
+                        <ReactMarkdown
+                            className="markdown-content"
+                            components={{
+                                h2: H2WithId,
+                                h3: H3WithId,
+                            }}
                         // This will change later when I will install the image plugin
                         // transformImageUri={uri => uri.startsWith("/") ? `${process.env.IMAGE_BASE_URL}${uri}` : uri}
                         >{content}</ReactMarkdown>
                     </main>
                 </Col>
             </Row>
-        </Container>
+        </Container >
     )
 }
 

@@ -1,10 +1,11 @@
 import React, { useState } from "react"
 import { Accordion, Card, Button } from "react-bootstrap"
 import classes from "./SidebarTop.module.css"
-import InsightContents from "./InsightContents"
+// import InsightContents from "./InsightContents"
 import ClickArrow from "./ClickArrow"
+import TableOfContents from "./TableOfContents"
 
-function SidebarTop() {
+function SidebarTop({ content }) {
     const [open, setOpen] = useState(false)
 
     return (
@@ -21,7 +22,9 @@ function SidebarTop() {
 
                     <Accordion.Collapse eventKey="1">
                         <Card.Body>
-                            <InsightContents />
+                            <TableOfContents
+                                content={content}
+                            />
                         </Card.Body>
                     </Accordion.Collapse>
 
