@@ -1,12 +1,18 @@
+import ReactMarkdown from "react-markdown"
 import classes from "./SidebarRight.module.css"
-import InsightContents from "./InsightContents"
+import TableOfContents from "./TableOfContents"
 
-function SidebarRight() {
+function SidebarRight({ content }) {
+
     return (
         <aside className="m-0 px-2 py-5 d-none d-xl-block">
             <h5 className={classes.title}>Page Contents</h5>
-            <InsightContents />
-        </aside>
+            <div>
+                <TableOfContents
+                    content={content}
+                />
+            </div>
+        </aside >
     )
 }
 
