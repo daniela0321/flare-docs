@@ -5,7 +5,7 @@ function TocH3({ children }) {
 
     const path = "#" + slugify(children[0])
 
-    return <li className="ml-3 mb-2"><a href={path}>{children}</a></li>
+    return <li className="mb-2 text-muted small-font reduce-lineheight"><a href={path} className="custom-links">{children}</a></li>
 }
 
 export default TocH3
