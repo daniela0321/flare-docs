@@ -36,12 +36,25 @@ a:hover {
   color: #ced4da;
 }
 
+a:hover.custom-links {
+  text-decoration: underline;
+  color: inherit;
+}
+
 a:active {
   color: #ced4da;
 }
 
 a:link {
   text-decoration: none;
+}
+
+.small-font {
+  font-size: small;
+}
+
+.reduce-lineheight {
+  line-height: 1;
 }
 
 /* Navbar */
