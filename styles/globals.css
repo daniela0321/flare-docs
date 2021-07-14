@@ -57,6 +57,10 @@ a:link {
   line-height: 1;
 }
 
+.font-semi-bold {
+  font-weight: 600;
+}
+
 /* Navbar */
 
 .fh-link-white.navbar-nav .nav-link {
@@ -79,7 +83,7 @@ a:link {
 
 .markdown-content h2, h3 {
   scroll-margin-top: 5.5rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
 }
 
