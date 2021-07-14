@@ -5,8 +5,8 @@ import TableOfContents from "./TableOfContents"
 function SidebarRight({ content }) {
 
     return (
-        <aside className="m-0 px-2 py-5 d-none d-xl-block">
-            <h5 className={classes.title}>Page Contents</h5>
+        <aside className="m-0 px-2 py-5 position-fixed d-none d-xl-block">
+            <h6 className={classes.title}>Page Contents</h6>
             <div>
                 <TableOfContents
                     content={content}

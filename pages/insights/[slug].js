@@ -13,13 +13,13 @@ import H3WithId from "../../components/insights/H3WithId"
 // Render Insight template
 export default function InsightTemplate({ frontmatter, content }) {
     // console.log(frontmatter)
-    const contentColumnOrder = { span: 9, order: 1 }
-    const sidebarColumnOrder = { span: 3, order: 2 }
+    const contentColumnOrder = { span: 8, order: 1 }
+    const sidebarColumnOrder = { span: 4, order: 2 }
 
     return (
         <Container className="m-0 p-0" fluid>
             <Row className="m-0 p-0">
-                <Col xl={sidebarColumnOrder} className="m-0 bg-primary text-light">
+                <Col xl={sidebarColumnOrder} className="m-0 p-0 border-left custom-bg">
                     {/* Page contents on large screens */}
                     <SidebarRight
                         content={content}
