@@ -65,5 +65,15 @@ a:link {
 }
 
 .markdown-content h2, h3 {
-  scroll-margin-top: 4.5rem;
+  scroll-margin-top: 5.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* TOC */
+
+/* ToDo: change the exact right color later, this is tint of the secondary color (see also sidebar top css) */
+
+.custom-bg {
+  background-color: #f8f9fa;
 }
