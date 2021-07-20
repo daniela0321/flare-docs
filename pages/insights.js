@@ -78,7 +78,8 @@ export async function getStaticProps(context) {
         return {
             image: frontmatter.data.image,
             title: frontmatter.data.title,
-            body: frontmatter.content.slice(0, 200) + "...",
+            excerpt: frontmatter.data.excerpt,
+            // body: frontmatter.content.slice(0, 200) + "...",
             buttonLink: "/insights/" + slug,
             id: slug,
         }

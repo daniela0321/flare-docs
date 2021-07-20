@@ -15,7 +15,7 @@ function InsightList({ insights, activePage }) {
                         id={insight.id}
                         image={insight.image}
                         title={insight.title}
-                        body={insight.body}
+                        excerpt={insight.excerpt}
                         buttonLink={insight.buttonLink}
                     />
                 ))
