@@ -22,6 +22,15 @@
     text-align: center;
 }
 
+.footerlink {
+    color: white;
+}
+
+.footerlink:hover {
+    color: #ced4da;
+    text-decoration: none;
+}
+
 .copyright {
     color: #718096;
     font-size: small;
