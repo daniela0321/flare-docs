@@ -27,26 +27,26 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+/* Links on light background */
+
 a {
-  color: inherit;
+  color: #2B6CB0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ced4da;
+  text-decoration: underline;
 }
 
-a:hover.custom-links {
-  text-decoration: underline;
+/* Links in the insight TOC sidebar */
+
+a.sidelink {
   color: inherit;
 }
 
-a:active {
-  color: #ced4da;
-}
-
-a:link {
-  text-decoration: none;
+a:hover.sidelink {
+  text-decoration: underline;
+  color: inherit;
 }
 
 .small-font {
@@ -85,11 +85,10 @@ a:link {
   scroll-margin-top: 5.5rem;
   margin-top: 3rem;
   margin-bottom: 1rem;
+  font-weight: 650;
 }
 
-/* TOC */
-
-/* ToDo: change the exact right color later, this is tint of the secondary color (see also sidebar top css) */
+/* TOC - ToDo: change the exact right color later, this is tint of the secondary color (see also sidebar top css) */
 
 .custom-bg {
   background-color: #f8f9fa;
