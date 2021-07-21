@@ -11,6 +11,7 @@ import H2WithId from "../../components/insights/H2WithId"
 import H3WithId from "../../components/insights/H3WithId"
 import MarkdownList from "../../components/insights/MarkdownList"
 import MarkdownLink from "../../components/insights/MarkdownLink"
+import MarkdownImage from "../../components/insights/MarkdownImage"
 
 // Render Insight template
 export default function InsightTemplate({ frontmatter, content }) {
@@ -35,7 +36,10 @@ export default function InsightTemplate({ frontmatter, content }) {
                     <main className={classes.main}>
                         <h1 className="mb-4">{frontmatter.title}</h1>
                         <p className={classes.date}>By {frontmatter.author} | Created on {frontmatter.created} | Last revised on {frontmatter.revised}</p>
-                        <img className={classes.image} src={frontmatter.image} alt={frontmatter.title} />
+                        <MarkdownImage
+                            src={frontmatter.image}
+                            title={frontmatter.title}
+                        />
                         <p className="mt-4 font-semi-bold">{frontmatter.excerpt}</p>
                         <ReactMarkdown
                             className="markdown-content"
@@ -44,6 +48,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                                 h3: H3WithId,
                                 ul: MarkdownList,
                                 a: MarkdownLink,
+                                img: MarkdownImage,
                             }}
                         // This will change later when I will install the image plugin
                         // transformImageUri={uri => uri.startsWith("/") ? `${process.env.IMAGE_BASE_URL}${uri}` : uri}
