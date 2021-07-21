@@ -20,8 +20,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a augue non enim i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a augue non enim imperdiet eleifend. Maecenas eu ultricies dolor, sed viverra sapien. Proin a diam ac ipsum accumsan fringilla. Aenean lobortis dui magna, ullamcorper posuere neque semper sit amet. Praesent id sapien quam. Aliquam erat volutpat. Morbi imperdiet libero vel felis aliquam feugiat.
 
-* Bullet 1
-* Bullet 2
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a augue non enim imperdiet eleifend. Maecenas eu ultricies dolor, sed viverra sapien. Proin a diam ac ipsum accumsan fringilla. 
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a augue non enim imperdiet eleifend. Maecenas eu ultricies dolor, sed viverra sapien. Proin a diam ac ipsum accumsan fringilla. 
 * Bullet 3
 * Bullet 4
 

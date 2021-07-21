@@ -9,6 +9,7 @@ import SidebarTop from "../../components/insights/SidebarTop"
 import classes from "./[slug].module.css"
 import H2WithId from "../../components/insights/H2WithId"
 import H3WithId from "../../components/insights/H3WithId"
+import MarkdownList from "../../components/insights/MarkdownList"
 
 // Render Insight template
 export default function InsightTemplate({ frontmatter, content }) {
@@ -40,6 +41,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                             components={{
                                 h2: H2WithId,
                                 h3: H3WithId,
+                                ul: MarkdownList,
                             }}
                         // This will change later when I will install the image plugin
                         // transformImageUri={uri => uri.startsWith("/") ? `${process.env.IMAGE_BASE_URL}${uri}` : uri}
