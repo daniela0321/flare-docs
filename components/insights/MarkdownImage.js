@@ -1,6 +1,6 @@
 import { Modal } from 'react-bootstrap'
 import React, { useState } from 'react';
-import classes from "./MarkdownImage.module.css"
+import Close from "./Close"
 
 function MarkdownImage({ src, title }) {
     const [show, setShow] = useState(false);
@@ -10,21 +10,23 @@ function MarkdownImage({ src, title }) {
 
     return (
         <>
+            {/* Img placed inside a link to get the mouse hover over */}
             <a href="#" onClick={handleShow}>
-                <img src={src} alt={title} className={classes.image} />
+                <img src={src} alt={title} className="mw-100" />
             </a>
 
-            {/* Set the hight of the modal, and then the hight of the image */}
             <Modal
+                className="mh-100"
                 show={show}
                 size="xl"
                 onHide={handleClose}
             >
 
                 <Modal.Body>
-                    {/* Modify the close icon! */}
-                    <p onClick={handleClose}>X</p>
-                    <img src={src} alt={title} className={classes.image} />
+                    <div onClick={handleClose} className="mb-2 d-flex flex-row-reverse">
+                        <Close />
+                    </div>
+                    <img src={src} alt={title} className="mh-100 mw-100" />
                 </Modal.Body>
             </Modal>
         </>
@@ -32,4 +34,6 @@ function MarkdownImage({ src, title }) {
 }
 
 export default MarkdownImage
+
+
 
