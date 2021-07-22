@@ -1,4 +1,4 @@
-import Head from "next/head"
+import HeadMeta from "../components/layout/HeadMeta"
 import React, { useState } from "react"
 import { Fragment } from "react"
 import { Container } from "react-bootstrap"
@@ -19,13 +19,10 @@ export default function Insights(props) {
 
     return (
         <Fragment>
-            <Head>
-                <title>Flare Hub Insights</title>
-                <meta
-                    name="description"
-                    content="Browse the list of Insights which address common frameworks and theories used when building digital solutions"
-                />
-            </Head>
+            <HeadMeta
+                title="Flare Hub Insights"
+                description="Browse the list of Insights which address common frameworks and theories used when building digital solutions"
+            />
             <PageTitle
                 title="Insights"
             />
