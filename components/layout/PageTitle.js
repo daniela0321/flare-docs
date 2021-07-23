@@ -2,8 +2,8 @@ import { Container, Row } from "react-bootstrap"
 
 function PageTitle(props) {
     return (
-        <Container className="m=0 p-5 d-flex flex-row justify-content-center" >
-            <Row>
+        <Container className="py-5" >
+            <Row className="pt-3 px-2 d-flex flex-row justify-content-center">
                 <h1>{props.title}</h1>
             </Row>
         </Container >

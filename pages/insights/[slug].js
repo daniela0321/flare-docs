@@ -34,7 +34,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                 </Col>
                 <Col xl={contentColumnOrder} className="m-0 p-5 d-flex flex-column align-items-center">
                     <main className={classes.main}>
-                        <h1 className="mb-4">{frontmatter.title}</h1>
+                        <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
                         <p className={classes.date}>By {frontmatter.author} | Created on {frontmatter.created} | Last revised on {frontmatter.revised}</p>
                         <MarkdownImage
                             src={frontmatter.image}
