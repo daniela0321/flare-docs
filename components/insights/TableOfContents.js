@@ -4,7 +4,7 @@ import TocH3 from "./TocH3"
 
 function TableOfContents({ content }) {
     return (
-        <ul className="ml-4">
+        <ul className="ml-4 nomarker">
             <ReactMarkdown
                 allowedElements={['h2', 'h3']}
                 components={{
