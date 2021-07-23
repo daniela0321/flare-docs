@@ -27,6 +27,32 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+ul.nomarker {
+  list-style-type: none;
+}
+
+/* Change to 800px? */
+
+.container700 {
+  max-width: 800px;
+  margin-bottom: 100px;
+  padding: 0 30px;
+}
+
+/* Check title styling on pages*/
+
+.container700 h2, h3 {
+  scroll-margin-top: 5.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 650;
+}
+
 /* Links on light background */
 
 a {

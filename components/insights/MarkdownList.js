@@ -1,8 +1,8 @@
-import classes from "./MarkdownList.module.css"
+// import classes from "./MarkdownList.module.css"
 
 function MarkdownList({ children }) {
     return (
-        <ul className={classes.list}>{children}</ul>
+        <ul>{children}</ul>
     )
 }
 
