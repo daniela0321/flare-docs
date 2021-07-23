@@ -19,12 +19,16 @@
     line-height: 0.5;
 }
 
-.text {
+.text1 {
     margin-top: 40px;
+}
+
+.text2 {
     margin-bottom: 40px;
 }
 
-.button {
-    margin-bottom: 30px;
-    align-items: center;
-}
+/* .footer {
+    padding-top: 0;
+    border-style: none;
+    background-color: #fff;
+} */
