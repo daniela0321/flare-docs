@@ -12,7 +12,7 @@ function MarkdownImage({ src, title }) {
         <>
             {/* Img placed inside a link to get the mouse hover over */}
             <a href="#" onClick={handleShow}>
-                <img src={src} alt={title} className="mw-100" />
+                <img src={src} alt={title} className="mt-3 mw-100" />
             </a>
 
             <Modal

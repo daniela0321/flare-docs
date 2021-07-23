@@ -32,15 +32,15 @@ export default function InsightTemplate({ frontmatter, content }) {
                         content={content}
                     />
                 </Col>
-                <Col xl={contentColumnOrder} className="m-0 p-5 d-flex flex-column align-items-center">
+                <Col xl={contentColumnOrder} className="mt-3 p-5 d-flex flex-column align-items-center">
                     <main className={classes.main}>
-                        <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
+                        <h1 className="mt-3 mb-2">{frontmatter.title}</h1>
                         <p className={classes.date}>By {frontmatter.author} | Created on {frontmatter.created} | Last revised on {frontmatter.revised}</p>
                         <MarkdownImage
                             src={frontmatter.image}
                             title={frontmatter.title}
                         />
-                        <p className="mt-4 font-semi-bold">{frontmatter.excerpt}</p>
+                        <p className="mt-5 font-semi-bold">{frontmatter.excerpt}</p>
                         <ReactMarkdown
                             className="markdown-content"
                             components={{
