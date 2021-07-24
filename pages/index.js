@@ -67,7 +67,7 @@ function Home() {
           textFirst={false}
         />
         <InsightCardHome
-          image="./images/home/210702-governing-practices-home.jpg"
+          image="./images/home/210724-governing-practices-home.jpg"
           imageTitle="Governing Practices"
           title="Umbrella Insight on Governing Practices"
           description="What else you should know - e.g. how to coordinate all activities to have a value-based approach?"
