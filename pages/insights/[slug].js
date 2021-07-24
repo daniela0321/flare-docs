@@ -20,7 +20,7 @@ export default function InsightTemplate({ frontmatter, content }) {
     const sidebarColumnOrder = { span: 4, order: 2 }
 
     return (
-        <Container className="m-0 p-0" fluid>
+        <Container className="mx-0 mt-0 mb-5 p-0" fluid>
             <Row className="m-0 p-0">
                 <Col xl={sidebarColumnOrder} className="m-0 p-0 border-left custom-bg">
                     {/* Page contents on large screens */}
@@ -34,8 +34,9 @@ export default function InsightTemplate({ frontmatter, content }) {
                 </Col>
                 <Col xl={contentColumnOrder} className="mt-3 p-5 d-flex flex-column align-items-center">
                     <main className={classes.main}>
-                        <h1 className="mt-3 mb-2">{frontmatter.title}</h1>
-                        <p className={classes.date}>By {frontmatter.author} | Created on {frontmatter.created} | Last revised on {frontmatter.revised}</p>
+                        <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
+                        <p className={classes.authoretc}>By {frontmatter.author} | Created on {frontmatter.created} | Last revised on {frontmatter.revised}</p>
+                        <p className={classes.time}>Reading time: {frontmatter.time}</p>
                         <MarkdownImage
                             src={frontmatter.image}
                             title={frontmatter.title}
@@ -56,7 +57,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                     </main>
                 </Col>
             </Row>
-        </Container >
+        </Container>
     )
 }
 
