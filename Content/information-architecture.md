@@ -2,10 +2,11 @@
 title: "Information Architecture"
 author: "Daniela"
 created: "July 28, 2020"
-revised: "July 28, 2020"
+revised: "July 24, 2021"
+time: "2 min"
 image: "/images/insights/200902b-information-architecture.jpg"
 imageTitle: "Types of Information Architecture"
-excerpt: "In this Insight you can read about information architecture and what types of information architecture there are."
+excerpt: "In this Insight you can read what information architecture means and - from website and mobile application point of view - what types of information architecture there are."
 ---
 
 ## 1. What Is Information Architecture?
@@ -18,31 +19,31 @@ Joe Natoli has listed examples of types of information architecture on websites 
 
 ### 2.1 Hierarchical Structure
 
-An index page and a series of sub-pages.
+The hierarchical structure refers to an index page and a series of sub-pages:
 
 ![Hierarchical Structure](/images/insights/200701-information-architecture-hierachy.JPG)
 
 ### 2.2 Hub-and-Spoke
 
-Users navigate out from a central index (hub). I.e. users cannot navigate between spokes but they have to return to the hub.
+In the hub-and-spoke model users navigate out from a central index (hub). I.e. users cannot navigate between spokes but they have to return to the hub:
 
 ![Hub-and-Spoke](/images/insights/200704-information-architecture-hub-and-spoke.jpg)
 
 ### 2.3 Nested List
 
-Leads users to more detailed content through linear paths.
+The nested list leads users to more detailed content through linear paths:
 
 ![Nested List](/images/insights/200701-information-architecture-nested-list.JPG)
 
 ### 2.4 Bento Box (Dashboard)
 
-The dashboard displays portions of related tools or content on a main screen.
+The bento box (dashboard) displays portions of related tools or content on a main screen:
 
 ![Bento Box](/images/insights/200701-information-architecture-bento-box.jpg)
 
 ### 2.5 Filtered View
 
-Filtering is a feature designed to make sorting out items easy and simple. Can also be used as a sub-pattern within another navigation pattern.
+The filtered view can also be used as a sub-pattern within another navigation pattern. Filtering is a feature designed to make sorting out items easy and simple:
 
 ![Filtered View](/images/insights/200701-information-architecture-filtered-view.jpg)
 
