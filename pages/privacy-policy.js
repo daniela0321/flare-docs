@@ -11,7 +11,7 @@ function PrivacyPolicy() {
 
             <HeadMeta
                 title="Privacy Policy | Flare Hub"
-                description="According to the data privacy regulation, a registrar has the responsibility to inform data subjects distinctly. This privacy policy respects this obligation."
+                description="More information on the Privacy Policy."
             />
 
             <PageTitle
@@ -33,31 +33,31 @@ function PrivacyPolicy() {
                     country="Finland"
                     phone="+358 400 416187"
                     email="info@flarehub.io"
-                />
+                /> <br />
 
                 <p>This Privacy Policy applies to flarehub.io and any other products and services provided by Flare Hub (“Services”).</p>
 
                 <h2>2. Data Subjects</h2>
 
-                <p>The register includes</p>
+                <p>The register includes:</p>
                 <ul>
-                    <li>Visitors who have given their details in the Services</li>
-                    <li>Customers and partners of Flare Hub</li>
-                    <li>Potential customers (e.g. a lead list from an event, when a permission given to save the details)</li>
+                    <li>Visitors who have given their details in the Services.</li>
+                    <li>Customers and partners of Flare Hub.</li>
+                    <li>Potential customers (e.g. a lead list from an event, when a permission given to save the details).</li>
                 </ul>
 
-                <h2>3. Legal bases for the Register and Intended Use of the Register</h2>
+                <h2>3. Legal bases and Intended Use of the Register</h2>
 
                 <p>We may collect personal data about you in the case of:</p>
                 <ul>
-                    <li>A customer relationship, partnership or legitimate interest: the processing is necessary for managing the relationship and tasks</li>
-                    <li>Provided consent: the individual has given clear consent for us to process their personal data</li>
+                    <li>A customer relationship, partnership or legitimate interest: the processing is necessary for managing the relationship and tasks.</li>
+                    <li>Provided consent: the individual has given clear consent for us to process their personal data.</li>
                 </ul>
                 <p>Personal data is used only for the following purposes:</p>
                 <ul>
-                    <li>Managing the Flare Hub customer relationships and tasks</li>
-                    <li>Communication of the Services and products and related offerings</li>
-                    <li>Quality assurance, administration and development of customer relationships and existing/upcoming services and products</li>
+                    <li>Managing the Flare Hub customer relationships and tasks.</li>
+                    <li>Communication of the Services and products and related offerings.</li>
+                    <li>Quality assurance, administration and development of customer relationships and existing/upcoming services and products.</li>
                 </ul>
 
                 <p>The Services can include different kinds of Social Media components which enable users to move their details to different kinds of Social Media services. The Services can also include embedded content from other websites (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the same way as if the visitor has visited the other website. These service providers may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content. We recommend getting acquainted with the privacy policies of these service providers.</p>
@@ -75,7 +75,7 @@ function PrivacyPolicy() {
 
                 <p>We may collect Technical Data about your computer for system administration and statistical analysis. This is statistical data about our users’ browsing actions and patterns and does not identify any individual. One way Flare Hub collects this data is with cookies. A cookie is a small file which is stored on the hard drive of your computer and is used to improve the quality of the Services. Browsing the pages without cookies can have impact on the Services so that some functions cannot be used. More information on the cookies we use can be found in our <Link href="/cookie-policy">Cookie Policy</Link>.</p>
 
-                <h2>5. Rights of a Data Subject</h2>
+                <h2 id="rights-of-data-subject">5. Rights of a Data Subject</h2>
 
                 <p>A data subject has the following rights. Requests regarding these should be sent to the address info@flarehub.io</p>
                 <ul>
