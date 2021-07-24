@@ -17,13 +17,13 @@ function Footer() {
                 {/* Links */}
                 <Row className={classes.row}>
                     <Col sm className={classes.column}>
-                        <Link href="#"><a className={classes.footerlink}>Terms of Use</a></Link>
+                        <Link href="/terms"><a className={classes.footerlink}>Terms of Use</a></Link>
                     </Col>
                     <Col sm className={classes.column}>
-                        <Link href="#"><a className={classes.footerlink}>Privacy Policy</a></Link>
+                        <Link href="/privacy-policy"><a className={classes.footerlink}>Privacy Policy</a></Link>
                     </Col>
                     <Col sm className={classes.column}>
-                        <Link href="#"><a className={classes.footerlink}>Cookie Policy</a></Link>
+                        <Link href="/cookie-policy"><a className={classes.footerlink}>Cookie Policy</a></Link>
                     </Col>
                 </Row>
                 {/* Copyright */}

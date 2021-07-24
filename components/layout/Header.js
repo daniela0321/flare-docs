@@ -31,13 +31,9 @@ function Header() {
             <Navbar.Collapse id="basic-navbar-nav" className="ml-1 ml-xl-0">
                 <Nav className="ml-auto fh-link-white">
                     <Link href="/" passHref><Nav.Link className="pr-4">Home</Nav.Link></Link>
-                    <NavDropdown className="pr-4" title="Insight Library" id="basic-nav-dropdown">
-                        <Link href="#" passHref><NavDropdown.Item>Introduction</NavDropdown.Item></Link>
-                        <Link href="#" passHref><NavDropdown.Item>Insights</NavDropdown.Item></Link>
-                        <Link href="#" passHref><NavDropdown.Item>Subscribe</NavDropdown.Item></Link>
-                    </NavDropdown>
-                    <Link href="#" passHref><Nav.Link className="pr-4">About Us</Nav.Link></Link>
-                    <Link href="#" passHref><Nav.Link className="pr-5">Contact</Nav.Link></Link>
+                    <Link href="/insights" passHref><Nav.Link className="pr-4">Insights</Nav.Link></Link>
+                    <Link href="/about" passHref><Nav.Link className="pr-4">About Us</Nav.Link></Link>
+                    <Link href="/contact" passHref><Nav.Link className="pr-5">Contact</Nav.Link></Link>
                 </Nav>
                 <Form inline className="mt-2 mb-4 mt-lg-1 mb-lg-1">
                     <InputGroup>

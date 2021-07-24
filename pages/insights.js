@@ -9,6 +9,7 @@ import ReactMarkdown from 'react-markdown'
 import PageTitle from "../components/layout/PageTitle"
 import InsightList from "../components/insights/InsightList"
 import InsightsPagination from "../components/insights/InsightsPagination"
+import Link from 'next/link'
 
 export default function Insights(props) {
     const [activePage, setActivePage] = useState(1)
@@ -19,13 +20,20 @@ export default function Insights(props) {
 
     return (
         <Fragment>
+
             <HeadMeta
                 title="Flare Hub Insights"
                 description="Browse the list of Insights which address common frameworks and theories used when building digital solutions"
             />
+
             <PageTitle
                 title="Insights"
             />
+
+            <Container className="d-flex flex-row justify-content-center">
+                <p>See also <Link href="/how-to-build-value-adding-digital-solutions" passHref>Introduction</Link> to Insights.</p>
+            </Container>
+
             <Container>
                 <InsightList
                     insights={props.insights}
