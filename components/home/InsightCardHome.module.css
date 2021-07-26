@@ -14,6 +14,7 @@
     color: var(--white);
     margin-bottom: 20px;
     text-align: center;
+    max-width: 700px;
 }
 
 .description {
@@ -24,12 +25,22 @@
 .amountAndTime {
     color: var(--white);
     font-size: small;
+    margin-top: 10px;
 }
 
 /* Not the normal lg breakpoint */
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     .title {
-        margin-top: 30px;
+        margin-top: 60px;
+    }
+    .amountAndTime {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .title {
+        font-size: xx-large;
     }
 }

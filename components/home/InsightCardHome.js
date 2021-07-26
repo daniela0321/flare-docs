@@ -15,9 +15,8 @@ function InsightCardHome({ image, imageTitle, title, description, amountAndTime,
                     alt={imageTitle}
                 />
             </Col>
-            <Col lg={textColumnOrder} className="m-0 py-4 px-3 bg-primary d-flex flex-column justify-content-center align-items-center" >
-                <h2 className={classes.title}>{title}</h2>
-                <p className={classes.description}>{description}</p>
+            <Col lg={textColumnOrder} className="m-0 py-0 px-5 bg-primary d-flex flex-column justify-content-center align-items-center" >
+                <h3 className={classes.title}>{title}</h3>
                 <Button variant="light" className={classes.button}>Read more</Button>
                 <p className={classes.amountAndTime}>{amountAndTime}</p>
             </Col>
