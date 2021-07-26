@@ -18,7 +18,7 @@ import classes from "./Header.module.css"
 function Header() {
     return (
         <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/">
                 <Image
                     src={flareLogo}
                     width="110"
@@ -31,8 +31,11 @@ function Header() {
             <Navbar.Collapse id="basic-navbar-nav" className="ml-1 ml-xl-0">
                 <Nav className="ml-auto fh-link-white">
                     <Link href="/" passHref><Nav.Link className="pr-4">Home</Nav.Link></Link>
-                    <Link href="/insights" passHref><Nav.Link className="pr-4">Insights</Nav.Link></Link>
-                    <Link href="/about" passHref><Nav.Link className="pr-4">About Us</Nav.Link></Link>
+                    <NavDropdown className="pr-2" title="Insights" id="basic-nav-dropdown">
+                        <Link href="/insights/how-to-build-value-adding-digital-solutions" passHref><NavDropdown.Item>Introduction</NavDropdown.Item></Link>
+                        <Link href="/insights" passHref><NavDropdown.Item>Insight list</NavDropdown.Item></Link>
+                    </NavDropdown>
+                    <Link href="/about" passHref><Nav.Link className="pr-4">About</Nav.Link></Link>
                     <Link href="/contact" passHref><Nav.Link className="pr-5">Contact</Nav.Link></Link>
                 </Nav>
                 <Form inline className="mt-2 mb-4 mt-lg-1 mb-lg-1">

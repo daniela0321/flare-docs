@@ -30,10 +30,6 @@ export default function Insights(props) {
                 title="Insights"
             />
 
-            <Container className="d-flex flex-row justify-content-center">
-                <p>See also <Link href="/how-to-build-value-adding-digital-solutions" passHref>Introduction</Link> to Insights.</p>
-            </Container>
-
             <Container>
                 <InsightList
                     insights={props.insights}
