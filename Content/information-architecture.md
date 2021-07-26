@@ -9,13 +9,13 @@ imageTitle: "Types of Information Architecture"
 excerpt: "In this Insight you can read what information architecture means and - from website and mobile application point of view - what types of information architecture there are."
 ---
 
-## 1. What Is Information Architecture?
+## 1. What Is Information Architecture (IA)?
 
-Information Architecture (IA) is all about organizing information in a meaningful way – the goal is that the user can easily find the information (when needed) through proper organization, navigation, labelling, and searching systems. In addition, good information architecture ensures that there is no information breakdown or explosion with the scaling of information overtime. [1]
+Information Architecture is all about organizing information in a meaningful way – the goal is that the user can easily find the information (when needed) through proper organization, navigation, labelling, and searching systems. In addition, good information architecture ensures that there is no information breakdown or explosion with the scaling of information overtime. [1]
 
-## 2. Types of Information Architecture
+## 2. Types of IA from User Experience Point of View
 
-Joe Natoli has listed examples of types of information architecture on websites and mobile applications. [2]
+Joe Natoli has listed examples of types of information architecture on websites and mobile applications - in other words, IA types from the User Experience (UX) point of view [2]:
 
 ### 2.1 Hierarchical Structure
 
@@ -54,7 +54,7 @@ The filtered view can also be used as a sub-pattern within another navigation pa
 
 ##### Move up to
 
-[User Experience Design](/insights/ux-design)
+[**User Experience Design**](/insights/ux-design)
 
 &nbsp;
 
