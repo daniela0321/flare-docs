@@ -43,7 +43,7 @@ Choose where you would like to start and dive deeper to the child Insights when 
 
 ### 5.1 Umbrella Insight: Product Life Cycles
 
-[Digital product life cycle](/product-lifecycles) describes the process of creating value-adding digital solutions. It’s five major components are requirements development, design, implementation, testing, and transition & operation. 
+[**Digital product life cycle**](/product-lifecycles) describes the process of creating value-adding digital solutions. It’s five major components are requirements development, design, implementation, testing, and transition & operation. 
 
 System development life cycle models, for example waterfall model or agile development model, describe how these components are executed.
 
@@ -51,7 +51,7 @@ System development life cycle models, for example waterfall model or agile devel
 
 ### 5.2 Umbrella Insight: Governing Practices
 
-[Governing Practices](/governing-practices) refer to some fundamental management practices that provide essential support and governance for the product life cycle mentioned above.
+[**Governing Practices**](/governing-practices) refer to some fundamental management practices that provide essential support and governance for the product life cycle mentioned above.
 
 In addition, there is a need for some kind of management system, e.g. Service Management. That provides a framework to manage and integrate all activities of an organization.
 
@@ -61,4 +61,4 @@ Naturally, the organizational culture and values are a foundation for all the ot
 
 ### 5.3 Complete List of Insights
 
-You can also start by seeing the [complete list ](/insights) of published Insights.
+You can also start by seeing the [**complete list**](/insights) of published Insights.
