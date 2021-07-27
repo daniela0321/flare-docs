@@ -4,7 +4,7 @@ author: "Daniela"
 created: "August 11, 2020"
 revised: "July 26, 2021"
 time: "10 min"
-image: "/images/insights/200919 Service Design.jpg"
+image: "/images/insights/200919-service-design.jpg"
 imageTitle: "Service Design"
 excerpt: "In this Insight you can find information on what service design is, what the six essential principles of service design thinking are, and what the four different steps in the service design process are."
 ---
@@ -14,6 +14,8 @@ excerpt: "In this Insight you can find information on what service design is, wh
 There are numerous definitions for service design. According to The Copenhagen Institute of Interaction Design, service design helps to innovate (new) or improve (existing) services to make them more useful, usable, desirable for clients and efficient as well as effective for organisations. [1] 
 
 This cross-disciplinary practice combines numerous skills for example in design, management, and process engineering.
+
+There there is a variety of specific [**tools**](/insights/customer-experience-and-service-design-tools) you can use to facilitate the service design process.
 
 ## 2. From Service Design to Changing the Customer’s Behaviour
 
