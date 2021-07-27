@@ -4,7 +4,7 @@ author: "Daniela"
 created: "July 13, 2020"
 revised: "July 26, 2021"
 time: "3 min"
-image: "/images/insights/201027 Service, User Experience and User Interface Design.jpg"
+image: "/images/insights/201027-service-user-experience-and-user-interface-design.jpg"
 imageTitle: "Service Design, User Experience Design, and User Interface Design"
 excerpt: "In this Insight you can find information on what design means, and what the three tiers of design are."
 ---
@@ -19,7 +19,7 @@ With the rise of digital services, the boundaries between the disciplines are be
 
 - [**Service Design**](/insights/service-design) generally involves designing the complete customer experience: it considers every touchpoint between an organization and its customer, regardless of it being physical or digital.
 - [**User Experience (UX) Design**](/insights/ux-design) is about all interactions between a user and a specific (typically digital) product. Its goal is to create a product that provides meaningful and relevant experiences to users.
-- [**User Interface (UI) Design**](/insights/ux-design/#UI-design) is more about the look and feel of digital interfaces. It focuses on ensuring interactions with the product are simple and efficient, and that the product is pleasing to the eye. (This part is covered under ‘Surface’ in the Insight on User Experience Design).
+- [**User Interface (UI) Design**](/insights/ux-design/#ui-design) is more about the look and feel of digital interfaces. It focuses on ensuring interactions with the product are simple and efficient, and that the product is pleasing to the eye. (This part is covered under ‘Surface’ in the Insight on User Experience Design).
 
 ## 3. What Influences User Experience?
 
