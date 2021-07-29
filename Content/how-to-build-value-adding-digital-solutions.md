@@ -47,7 +47,7 @@ Choose where you would like to start and dive deeper to the child Insights when 
 
 System development life cycle models, for example waterfall model or agile development model, describe how these components are executed.
 
-![Product Life Cycles](/images/insights/200726-systems-development-life-cycle-2.jpg)
+![Product Life Cycles](/images/insights/210726-systems-development-life-cycle-2.jpg)
 
 ### 5.2 Umbrella Insight: Governing Practices
 

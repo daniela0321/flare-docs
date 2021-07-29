@@ -141,8 +141,8 @@ Before automating testing, you need to consider for example the following things
 ##### Sources
 
 1. Microsoft (2012). Software Development Fundamentals.
-2. International Organization for Standardization. [ISO/IEC Standard 9126-1](https://www.iso.org/standard/22749.html).  
+2. ISO. [ISO/IEC Standard 9126-1](https://www.iso.org/standard/22749.html).  
 3. Shinde, Vijay (2014). Software Testing Career Package: A Software Tester’s Journey from Getting a Job to Becoming a Test Leader!
 4. Spillner, Andreas; Linz, Tilo; Schaefer, Hans (2014). Software Testing Foundations (4th Edition).
 5. Heuer, Florian (2015). Agile Testing: An Overview.
-6. International Organization for Standardization. [ISO/IEC/IEEE 29119-3:2013, Part 3: Test documentation](https://www.iso.org/standard/56737.html). 
+6. ISO. [ISO/IEC/IEEE 29119-3:2013, Part 3: Test documentation](https://www.iso.org/standard/56737.html). 

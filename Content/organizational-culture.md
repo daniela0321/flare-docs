@@ -1,10 +1,10 @@
 ---
-title: "Organizational Culture - DRAW AN IMAGE!"
+title: "Organizational Culture"
 author: "Daniela"
 created: "January 11, 2021"
 revised: "July 28, 2021"
 time: "11 min"
-image: "/images/insights/temp-image.png"
+image: "/images/insights/210729-organizational-culture.jpg"
 imageTitle: "Organizational Culture"
 excerpt: "In this Insight you find information on what organizational culture is, who is responsible for it, and what kinds of important factors there are in respect to changing and maintaining culture. [1,2,3,4]"
 ---
