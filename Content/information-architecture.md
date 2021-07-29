@@ -13,9 +13,11 @@ excerpt: "In this Insight you can read what information architecture means and -
 
 Information Architecture is all about organizing information in a meaningful way – the goal is that the user can easily find the information (when needed) through proper organization, navigation, labelling, and searching systems. In addition, good information architecture ensures that there is no information breakdown or explosion with the scaling of information overtime. [1]
 
+Note the difference between **information architecture** and **data architecture**. Data architecture defines the collection, storage and movement of data across an organization [2]. It is addressed in the Insight on [**Enterprise Architecture**](/insights/enterprise-architecture).
+
 ## 2. Types of IA from User Experience Point of View
 
-Joe Natoli has listed examples of types of information architecture on websites and mobile applications - in other words, IA types from the User Experience (UX) point of view [2]:
+Joe Natoli has listed examples of types of information architecture on websites and mobile applications - in other words, IA types from the User Experience (UX) point of view [3]:
 
 ### 2.1 Hierarchical Structure
 
@@ -61,4 +63,5 @@ The filtered view can also be used as a sub-pattern within another navigation pa
 ##### Sources
 
 1. Dash, Samir (2014). UX Simplified: Models & Methodologies.
-2. Natoli, Joe (2019). User Experience Design Fundamentals. Retrieved 13 July 2020.
+2. Lebenthal, Alon / BMC (2018). [Data Architecture vs Information Architecture: What’s The Difference?](https://www.bmc.com/blogs/data-architecture-vs-information-architecture/) Retrieved 29 July 2021.
+3. Natoli, Joe (2019). [User Experience Design Fundamentals](https://www.udemy.com/course/user-experience-design-fundamentals/). Retrieved 13 July 2020.
