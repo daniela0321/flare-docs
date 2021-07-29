@@ -71,6 +71,8 @@ Note the difference between **data architecture** and [**information architectur
 
 One way to describe the difference is that data architecture defines the collection, storage and movement of data across an organization while information architecture interprets the individual data points into meaningful, useable information. [6]
 
+See also how **enterprise data architecture** and [**data management**](/insights/data-management) are related.
+
 ### 2.3 Enterprise Application Architecture
 
 **Purpose**
