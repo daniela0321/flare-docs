@@ -4,7 +4,7 @@ author: "Daniela"
 created: "September 15, 2020"
 revised: "July 28, 2021"
 time: "4 min"
-image: "/images/insights/210726-systems-development-life-cycle.png.jpg"
+image: "/images/insights/210730-systems-development-life-cycle.jpg"
 imageTitle: "Systems Development Life Cycle"
 excerpt: "In this Insight you can find information on what a product lifecycle and a systems development life cycle mean, and examples of popular models of a systems development life cycle."
 ---

@@ -106,7 +106,7 @@ You can find standards for example on IT service management, quality management,
 
 ##### Move up to
 
-[**Introduction: How to Build Value-Adding Digital Solutions**](/insights/how-to-build-value-adding-digital-solutions)
+[**Governing Practices**](/insights/governing-practices)
 
 &nbsp;
 

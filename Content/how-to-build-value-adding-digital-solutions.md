@@ -4,7 +4,7 @@ author: "Daniela"
 created: "July 13, 2020"
 revised: "July 26, 2021"
 time: "4 min"
-image: "/images/insights/210726-how-to-build-value-adding-digital-solutions.jpg"
+image: "/images/insights/210730-how-to-build-value-adding-digital-solutions.jpg"
 imageTitle: "How to Build Value-Adding Digital Solutions"
 excerpt: "This is an introduction to the Insights - what these are and why we are creating them."
 ---
@@ -43,21 +43,19 @@ Choose where you would like to start and dive deeper to the child Insights when 
 
 ### 5.1 Umbrella Insight: Product Life Cycles
 
-[**Digital product life cycle**](/product-lifecycles) describes the process of creating value-adding digital solutions. It’s five major components are requirements development, design, implementation, testing, and transition & operation. 
+[**Digital product life cycle**](/insights/product-lifecycles) describes the process of creating value-adding digital solutions. It’s five major components are requirements development, design, implementation, testing, and transition & operation. 
 
 System development life cycle models, for example waterfall model or agile development model, describe how these components are executed.
 
-![Product Life Cycles](/images/insights/210726-systems-development-life-cycle-2.jpg)
+![Product Life Cycles](/images/insights/210730-systems-development-life-cycle-2.jpg)
 
 ### 5.2 Umbrella Insight: Governing Practices
 
-[**Governing Practices**](/governing-practices) refer to some fundamental management practices that provide essential support and governance for the product life cycle mentioned above.
+[**Governing Practices**](/insights/governing-practices) refer to some fundamental management practices that provide essential support and governance for the product life cycle mentioned above.
 
-In addition, there is a need for some kind of management system, e.g. Service Management. That provides a framework to manage and integrate all activities of an organization.
+In addition, it includes information on how to manage and integrate all activities in an organization, and how to cultivate the organizational culture.
 
-Naturally, the organizational culture and values are a foundation for all the other activities mentioned above.
-
-![Governing Practices](/images/insights/210724-governing-practices-2.jpg)
+![Governing Practices](/images/insights/210730-governing-practices-2.jpg)
 
 ### 5.3 Complete List of Insights
 

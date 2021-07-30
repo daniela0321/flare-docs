@@ -59,14 +59,14 @@ function Home() {
 
       <Container fluid className="m-0 p-0">
         <InsightCardHome
-          image="./images/home/200726-systems-development-life-cycle-home.jpg"
+          image="./images/home/210730-systems-development-life-cycle-home.jpg"
           imageTitle="Systems Development Life Cycle"
-          title="What is the product lifecycle when creating value-adding digital products?"
+          title="What is the process of creating value-adding digital solutions?"
           amountAndTime="15 Insights (1 hour 58 minutes)"
           textFirst={false}
         />
         <InsightCardHome
-          image="./images/home/210724-governing-practices-home.jpg"
+          image="./images/home/210730-governing-practices-home.jpg"
           imageTitle="Governing Practices"
           title="What processes provide support and governance for the product life cycle?"
           amountAndTime="12 Insights (1 hour 47 minutes)"
