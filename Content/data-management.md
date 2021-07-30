@@ -4,9 +4,9 @@ author: "Daniela"
 created: "November 17, 2020"
 revised: "July 29, 2021"
 time: "13 min"
-image: "/images/insights/201117-data-management.jpg"
+image: "/images/insights/210930-data-management.jpg"
 imageTitle: "Data Management"
-excerpt: "In this Insight you can find information on what Data Management is, and what the different Knowledge Areas of Data Management are."
+excerpt: "In this Insight you can find information on what Data Management is, and what the different domains of Data Management are."
 ---
 
 ## 1. What Is Data Management?
@@ -63,11 +63,11 @@ Lifecycle and lineage intersect. Both need to be understood and planned to effec
 
 There are several frameworks that help to understand the data management comprehensively and see relationships between its components. Understanding the wider context of data management helps you to make better decisions about where to focus as you improve practices within and across these functions.
 
-The DAMA-DMBOK Framework [1] defines the Data Management Knowledge Areas (DAMA Wheel). In addition, the framework includes detail related to people, processes, and technology, and shows the relationship between these three.
+The DAMA-DMBOK Framework [1] defines the different knowledge areas of data management (DAMA Wheel). In addition, the framework includes detail related to people, processes, and technology, and shows the relationship between these three.
 
-## 2. Knowledge Areas of Data Management
+The DAMA Wheel has been used as a starting point in the following section on data management domains.
 
-The DAMA Wheel defines the different knowledge areas of data management:
+## 2. Data Management Domains
 
 ### 2.1 Data Governance
 
@@ -75,17 +75,41 @@ Data Governance is about planning, oversight, and control over management and us
 
 The Data Governance function guides all other data management functions and aims to ensure that data is managed according to policies and best practices.
 
-### 2.2 Data Architecture
+### 2.2 Data Handling Ethics
 
-In the systems and software engineering context architecture refers to “the fundamental organization of a system, embodied in its components, their relationships to each other and the environment, and the principles governing its design and evolution”. [4]
+Data Handling Ethics is about how to procure, store, manage, use, and dispose of data in ways that are aligned with ethical principles. Ethics refers to the “principles of behaviour based on ideas of right and wrong”, and “doing it right when no one is looking”.
+
+Establishing acceptable practices for data handling belongs to data governance area, but responsibility extends beyond data governance – handling data ethically requires organization-wide recognition of the risks and organizational commitment to ethical data handling.
+
+### 2.3 Data Quality
+
+Data Quality Management is about planning, implementation, and control activities that apply quality management techniques to data.
+
+All Data Management domains contribute to the quality of data.
+
+### 2.4 Data Management and Change Management
+
+It is important to understand, that for most organizations, improving data management practices requires changing how people work, how they understand the role of data in their organizations, and the way they used data and deploy technology. 
+
+This can be achieved only through a careful and structured approach to the [**change management**](/insights/change-management) in the organization.
+
+### 2.5 Data Management Maturity Assessment
+
+Maturity models help an organization to evaluate its level of maturity and improve its capabilities.
+
+A Data Management Maturity Assessment can be used to evaluate Data Management overall, a single Data Management domain, or even a single process.
+
+### 2.6 Data Architecture
+
+In the systems and software engineering context [**architecture**](/insights/enterprise-architecture) refers to “the fundamental organization of a system, embodied in its components, their relationships to each other and the environment, and the principles governing its design and evolution”. [4]
 
 Architecture is carried out at different levels within an organization (e.g. enterprise, domain, project) and with different areas of focus (infrastructure, application, and data).
 
-Data Architecture presents the overall structure of data and data-related resources. It represents organizational data at different levels of abstraction so that it can be understood also by non-technical people.
+**Data Architecture** presents the overall structure of data and data-related resources. It represents organizational data at different levels of abstraction so that it can be understood also by non-technical people.
 
 Data Architecture artifacts include specifications used to describe existing state, define data requirements, guide data integration, and control data assets. The most detailed Data Architecture design document is a formal enterprise *data model*.
 
-### 2.3 Data Modelling and Design
+### 2.7 Data Modelling and Design
 
 Data Modelling is the process of discovering, analysing, representing, and communicating data requirements in a precise form called the *data model*.
 
@@ -95,33 +119,29 @@ There are multiple different schemes used to represent data, for example Relatio
 
 Models of these schemes exist at three levels of detail: conceptual (represents the high-level data requirements), logical (represents detailed data requirements), and physical (represents a detailed technical solution).
 
-### 2.4 Data Storage and Operations
+### 2.8 Data Storage and Operations
 
 Data Storage and Operations include the design, implementation, and support of stored data, specifically structured data assets.
 
-### 2.5 Data Security
-
-Data Security includes the planning, development and execution of security policies and procedures. The specifics of data security differ between countries and industries.
-
-### 2.6 Data Integration and Interoperability
+### 2.9 Data Integration and Interoperability
 
 Data Integration and Interoperability is about managing the movement and consolidation of data within and between data stores, applications, and organizations.
 
-### 2.7 Document and Content Management
+### 2.10 Data Security
+
+Data Security includes the planning, development and execution of security policies and procedures. The specifics of data security differ between countries and industries.
+
+### 2.11 Document and Content Management
 
 Document and Content Management includes controlling the capture, storage, access, and use of data and information stored outside relational databases. It is about planning, implementation, and control activities used to manage the lifecycle of this data and information.
 
-### 2.8 Reference and Master Data
+### 2.12 Reference and Master Data
 
 Reference and Master Data is about data that is required across business areas, processes, and systems. Customer data and product data are examples of master data, location codes and cost center codes are examples of reference data.
 
 Reference and Master Data Management reduces inconsistencies in data structure and data values between systems – the goal is to enable consistent use of the most accurate, timely, and relevant version of truth about the data.
 
-### 2.9 Data Warehousing and Business Intelligence
-
-Data Warehousing and Business Intelligence is about planning, implementation, and control processes to provide decision support data. It supports knowledge workers engaged in reporting, query, and analysis.
-
-### 2.10 Metadata
+### 2.13 Metadata
 
 A common definition for Metadata is that it is “data about data”, but this is a misleadingly simple definition. 
 
@@ -129,39 +149,15 @@ Metadata includes information about technical and business processes, data rules
 
 Metadata Management is about planning, implementation, and control activities of this type of data.
 
-### 2.11 Data Quality
+### 2.14 Data Warehousing and Business Intelligence
 
-Data Quality Management is about planning, implementation, and control activities that apply quality management techniques to data.
+Data Warehousing and Business Intelligence is about planning, implementation, and control processes to provide decision support data. It supports knowledge workers engaged in reporting, query, and analysis.
 
-All Data Management Knowledge Areas contribute to the quality of data.
-
-## 3. Other Important Aspects of Data Management
-
-The picture above illustrates also other important aspects of data management: data handling ethics, big data and data science, data management maturity assessment, and change management.
-
-### 3.1 Data Handling Ethics
-
-Data Handling Ethics is about how to procure, store, manage, use, and dispose of data in ways that are aligned with ethical principles. Ethics refers to the “principles of behaviour based on ideas of right and wrong”, and “doing it right when no one is looking”.
-
-Establishing acceptable practices for data handling belongs to data governance area, but responsibility extends beyond data governance – handling data ethically requires organization-wide recognition of the risks and organizational commitment to ethical data handling.
-
-### 3.2 Big Data and Data Science
+### 2.15 Big Data and Data Science
 
 Big Data refers to the volume of data, variety of data, and the speed at which it is produced. Data Science merges data mining, statistical analysis, and machine learning with data integration and data modelling capabilities, to build predictive models.
 
 Traditional Business Intelligence provides analysis of structured data to describe past trends. As Big Data has been brought into Data Warehousing and Business Intelligence environments, Data Science techniques are used to provide a forward-looking view.
-
-### 3.3 Data Management Maturity Assessment
-
-Maturity models help an organization to evaluate its level of maturity and improve its capabilities.
-
-A Data Management Maturity Assessment can be used to evaluate Data Management overall, a Single Knowledge Area, or even a single process.
-
-### 3.4 Data Management and Change Management
-
-It is important to understand, that for most organizations, improving data management practices requires changing how people work, how they understand the role of data in their organizations, and the way they used data and deploy technology. 
-
-This can be achieved only through a careful and structured approach to the [**change management**](/insights/change-management) in the organization.
 
 &nbsp;
 
