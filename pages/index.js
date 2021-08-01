@@ -69,7 +69,7 @@ function Home() {
           image="./images/home/210730-governing-practices-home.jpg"
           imageTitle="Governing Practices"
           title="What processes provide support and governance for the product life cycle?"
-          amountAndTime="12 Insights (1 hour 47 minutes)"
+          amountAndTime="11 Insights (1 hour 41 minutes)"
           textFirst={true}
         />
       </Container>
