@@ -4,9 +4,9 @@ author: "Daniela"
 created: "October 13, 2020"
 revised: "July 27, 2021"
 time: "7 min"
-image: "/images/insights/201027-implementation.jpg"
+image: "/images/insights/210801-implementation.jpg"
 imageTitle: "Implementation"
-excerpt: "In this Insight you find information on the tasks related to software development and examples on some essential development principles. In addition, there is some information on infrastructure and platform management."
+excerpt: "In this Insight you find information on the tasks related to technical design, software development, and infrastructure and platform management."
 ---
 
 Note that the service transition activities are included in the [**Service Transition and Operation**](/insights/service-transition-and-operation) Insight.
@@ -21,11 +21,13 @@ There are three types of software:
 
 This Insight is relevant when building custom software or using software that requires additional programming.
 
-## 2. Architectural Design
+## 2. Technical Design
 
 A pre-requisite for the implementation is that also the more detailed technical design is in place. This can have several names, e.g. system design, technical design, or technical specification. A big part of this phase is designing the software architecture.
 
 Software architecture is the representation of an integrated software product and provides the foundation for software implementation. The primary intent of software product architecture is to describe the way in which functions are assigned to physical elements and how they interact. [1]
+
+Read more about architectural design and documentation on the [**Enterprise Architecture**](/insights/enterprise-architecture) Insight.
 
 ## 3. Software Development
 
