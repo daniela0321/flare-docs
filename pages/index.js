@@ -29,7 +29,7 @@ function Home() {
           <div className={styles.introText}>
             <h1>Build Value-Adding Digital Solutions</h1>
             <p>Gain the Insights and understand relationships between the concepts.</p>
-            <Button variant="light">Read more</Button>
+            <Button href="/insights/how-to-build-value-adding-digital-solutions" variant="light">Read more</Button>
           </div>
         </div>
       </Container>
@@ -62,6 +62,7 @@ function Home() {
           image="./images/home/210730-systems-development-life-cycle-home.jpg"
           imageTitle="Systems Development Life Cycle"
           title="What is the process of creating value-adding digital solutions?"
+          button="/insights/product-lifecycles"
           amountAndTime="15 Insights (1 hour 58 minutes)"
           textFirst={false}
         />
@@ -69,6 +70,7 @@ function Home() {
           image="./images/home/210730-governing-practices-home.jpg"
           imageTitle="Governing Practices"
           title="What processes provide support and governance for the product life cycle?"
+          button="/insights/governing-practices"
           amountAndTime="11 Insights (1 hour 41 minutes)"
           textFirst={true}
         />
@@ -76,7 +78,7 @@ function Home() {
 
       <Container className="py-5 px-3 d-flex flex-column justify-content-center align-items-center">
         <h2 className={styles.viewInsightsTitle}>Complete List of All Insights</h2>
-        <Button className={styles.viewInsightsButton}>View the list</Button>
+        <Button href="/insights" className={styles.viewInsightsButton}>View the list</Button>
       </Container>
 
     </main>
