@@ -86,7 +86,7 @@ function PrivacyPolicy() {
                     <li>Right for removal of data: A data subject may ask to remove his personal data if the purpose for which the data is being processed is no longer legal or appropriate. We will process the request, after which we either remove the data or inform if there are obstacles for removing the data (e.g. the applicable law requires otherwise).</li>
                     <li>Cancelling consent: If the data processing is based only on a consent, a data subject can cancel the consent.</li>
                     <li>Right to appeal: A data subject may require limiting the use of controversial personal data until the dispute has been resolved.</li>
-                    <li>Right to appeal to the Data Protection Ombudsman: A data subject may make a complaint to the Data Protection Ombudsman if he feels that we are breaking the privacy laws when processing personal data. Contact details for the Data Protection Ombudsman: <Link href="https://tietosuoja.fi/en/contact-information">https://tietosuoja.fi/en/contact-information</Link></li>
+                    <li>Right to appeal to the Data Protection Ombudsman: A data subject may make a complaint to the Data Protection Ombudsman if he feels that we are breaking the privacy laws when processing personal data. Contact details for the Data Protection Ombudsman: <Link href="https://tietosuoja.fi/en/contact-information"><a target="_blank">https://tietosuoja.fi/en/contact-information</a></Link></li>
                 </ul>
 
                 <h2>6. Regular Sources of Information</h2>

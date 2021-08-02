@@ -46,7 +46,7 @@ function CookiePolicy() {
 
                 <ul>
                     <li><b>Usage</b>: we use Google Analytics for website statistics.</li>
-                    <li><b>Sharing data</b>: for more information, please read the <Link href="https://policies.google.com/privacy">Google Analytics Privacy Statement</Link>.</li>
+                    <li><b>Sharing data</b>: for more information, please read the <Link href="https://policies.google.com/privacy"><a target="_blank">Google Analytics Privacy Statement</a></Link>.</li>
                 </ul>
 
                 {/* <h2>5. Consent</h2>
