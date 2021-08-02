@@ -1,0 +1,9 @@
+a.cardlink {
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+a.cardlink:hover {
+    text-decoration: none;
+}
