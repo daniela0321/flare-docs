@@ -12,7 +12,7 @@ function Home() {
     <main>
 
       <HeadMeta
-        title="Flare Hub"
+        title="Home"
         description="Flare Hub provides you with an interconnected library of Insights - a top-down view to the common frameworks and theories used when building digital solutions."
       />
 
