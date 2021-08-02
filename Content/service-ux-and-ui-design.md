@@ -19,7 +19,7 @@ With the rise of digital services, the boundaries between the disciplines are be
 
 - [**Service Design**](/insights/service-design) generally involves designing the complete customer experience: it considers every touchpoint between an organization and its customer, regardless of it being physical or digital.
 - [**User Experience (UX) Design**](/insights/ux-design) is about all interactions between a user and a specific (typically digital) product. Its goal is to create a product that provides meaningful and relevant experiences to users.
-- [**User Interface (UI) Design**](/insights/ux-design/#ui-design) is more about the look and feel of digital interfaces. It focuses on ensuring interactions with the product are simple and efficient, and that the product is pleasing to the eye. (This part is covered under ‘Surface’ in the Insight on User Experience Design).
+- [**User Interface (UI) Design**](/insights/ux-design/#25-surface) is more about the look and feel of digital interfaces. It focuses on ensuring interactions with the product are simple and efficient, and that the product is pleasing to the eye. (This part is covered under ‘Surface’ in the Insight on User Experience Design).
 
 ## 3. What Influences User Experience?
 
