@@ -38,13 +38,15 @@ All these different models mentioned above have following basic phases in common
 
 ### 2.2 Five Major Components of SDLC
 
-Basically, the model of the system development life cycle boils down to five major components. [2] These components are explained in the following child Insights:
+Basically, the model of the system development life cycle boils down to five major components. [2] These components are addressed in the following child Insights:
 
 - [**Requirement analysis**](/insights/requirements)
 - [**Design**](/insights/service-ux-and-ui-design)
 - [**Implementation**](/insights/implementation)
 - [**Testing**](/insights/testing)
 - [**Service transition and operation**](/insights/service-transition-and-operation)
+
+Naturally these different phases can be iterative and overlapping.
 
 It is important that both management and everybody working in this process have a sufficient understanding of the whole process. When all parties understand each other’s roles and responsibilities, there is a much bigger chance for the process to produce successful digital products.
 
