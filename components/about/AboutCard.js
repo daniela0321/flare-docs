@@ -18,14 +18,12 @@ function AboutCard({ image, title, email, mobile, text1, text2, buttonname1, but
                 <Card.Text className={classes.mobile}>{mobile}</Card.Text>
                 <Card.Text className={classes.text1}>{text1}</Card.Text>
                 <Card.Text className={classes.text2}>{text2}</Card.Text>
-                {/* <Card.Footer className={classes.footer}> */}
-                <AboutButton
+                {/* <AboutButton
                     buttonname={buttonname1}
                 />
                 <AboutButton
                     buttonname={buttonname2}
-                />
-                {/* </Card.Footer> */}
+                /> */}
             </Card.Body>
         </Card>
     )
