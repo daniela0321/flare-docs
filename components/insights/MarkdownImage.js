@@ -1,6 +1,7 @@
 import { Modal } from 'react-bootstrap'
 import React, { useState } from 'react';
 import Close from "./Close"
+import classes from "./MarkdownImage.module.css"
 
 function MarkdownImage({ src, title }) {
     const [show, setShow] = useState(false);
@@ -16,9 +17,8 @@ function MarkdownImage({ src, title }) {
             </a>
 
             <Modal
-                className="mh-100"
                 show={show}
-                size="xl"
+                dialogClassName={classes.modalSize}
                 onHide={handleClose}
             >
 
@@ -26,7 +26,7 @@ function MarkdownImage({ src, title }) {
                     <div onClick={handleClose} className="mb-2 d-flex flex-row-reverse">
                         <Close />
                     </div>
-                    <img src={src} alt={title} className="mh-100 mw-100" />
+                    <img src={src} alt={title} className={classes.imageSize} />
                 </Modal.Body>
             </Modal>
         </>

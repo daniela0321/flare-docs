@@ -1,0 +1,9 @@
+.modalSize {
+    width: min-content;
+    max-width: none;
+}
+
+.imageSize {
+    max-height: 85vh;
+    max-width: 85vw;
+}
