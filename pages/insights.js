@@ -83,6 +83,7 @@ export async function getStaticProps(context) {
             // body: frontmatter.content.slice(0, 200) + "...",
             buttonLink: "/insights/" + slug,
             id: slug,
+            revisedMs: Date.parse(frontmatter.data.revised),
         }
     })
 
