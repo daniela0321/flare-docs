@@ -12,7 +12,13 @@
 #FFFFFF
 */
 
-/* ToDo: finetuning, use Sass variables for colours!*/
+/* Variables (colours outside Flare standards colours listed above)*/
+
+:root {
+  /* bg-light is tint of the secondary color*/
+  --bg-light: #f8f9fa;
+  --grey-text: rgba(255, 255, 255, 0.75);
+}
 
 /* Global CSS */
 
@@ -36,15 +42,12 @@ ul.nomarker {
   list-style-type: none;
 }
 
-/* Change to 800px? */
-
 .container700 {
+  /* Changed to 800px */
   max-width: 800px;
   margin-bottom: 100px;
   padding: 0 30px;
 }
-
-/* Check title styling on pages*/
 
 .container700 h2, h3 {
   scroll-margin-top: 5.5rem;
@@ -56,7 +59,6 @@ ul.nomarker {
 /* Links on light background */
 
 a {
-  color: #3182CE;
   text-decoration: none;
 }
 
@@ -101,7 +103,7 @@ a:hover.sidelink {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(237,242,247)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* Insights / markdown content */
+/* Insight / markdown content */
 
 .markdown-content img {
   max-width: 100%;
@@ -114,8 +116,8 @@ a:hover.sidelink {
   font-weight: 650;
 }
 
-/* TOC - ToDo: change the exact right color later, this is tint of the secondary color (see also sidebar top css) */
+/* Insight / TOC */
 
 .custom-bg {
-  background-color: #f8f9fa;
+  background-color: var(--bg-light);
 }

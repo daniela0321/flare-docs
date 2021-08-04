@@ -1,38 +1,22 @@
 // Installed SASS in order to be able to customise Bootstrap
+// See the Bootstrap 4 default values on https://pikock.github.io/bootstrap-magic/app/index.html#!/editor
 
-// Colours
+// Customised variables (colours)
+
 $blue:    #2B6CB0;
-// $indigo:  #6610f2 !default;
-// $purple:  #6f42c1 !default;
-// $pink:    #e83e8c !default;
-// $red:     #dc3545 !default;
-// $orange:  #fd7e14 !default;
-// $yellow:  #ffc107 !default;
-// $green:   #28a745 !default;
-// $teal:    #20c997 !default;
-// $cyan:    #17a2b8 !default;
+$black:   #1A202C;
 
-// Grays
-$white:    #fff;
 $gray-100: #F7FAFC;
-// $gray-200: 
-// $gray-300: #dee2e6 !default;
-// $gray-400: #ced4da !default;
-// $gray-500: #adb5bd !default;
-// $gray-600: #6c757d !default;
-// $gray-700: #495057 !default;
-// $gray-800: #343a40 !default;
-// $gray-900: #212529 !default;
-$black:    #1A202C;
 
-// Theme colours
 $primary:       #4A5568;
 $secondary:     #718096;
-// $success:       $green !default;
 $info:          #3182CE;
-// $warning:       $yellow !default;
-// $danger:        $red !default;
 $light:         #EDF2F7;
 $dark:          #2D3748;
+
+// Custom variables (other)
+
+$link-color: $info;
+
 
 @import "node_modules/bootstrap/scss/bootstrap";

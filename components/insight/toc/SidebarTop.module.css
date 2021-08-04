@@ -1,14 +1,11 @@
-/* ToDo: finetuning */
-
-/* ToDo: change the exact right color later, this is tint of the secondary color (see also Globals*/
-
 .toggle {
-    background-color: #f8f9fa;
+    /* var: see globals.css */
+    background-color: var(--bg-light);
 }
 
 .card {
-    background-color: #f8f9fa;
-    ;
+    /* var: see globals.css */
+    background-color: var(--bg-light);
 }
 
 .title {
