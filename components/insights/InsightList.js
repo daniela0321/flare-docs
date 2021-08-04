@@ -1,5 +1,4 @@
 import InsightCard from "./InsightCard"
-import classes from "./InsightList.module.css"
 import { Row } from "react-bootstrap"
 
 function InsightList({ insights, activePage }) {
