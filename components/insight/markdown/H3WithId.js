@@ -1,4 +1,4 @@
-import slugify from "../../utils/slugify"
+import slugify from "../../../utils/slugify"
 
 function H3WithId({ children }) {
 
