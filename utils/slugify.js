@@ -1,4 +1,5 @@
-function slugify(text) {
+// Slugify text:
+export default function slugify(text) {
     return text
         .toString()                     // Cast to string
         .toLowerCase()                  // Convert the string to lowercase letters
@@ -8,5 +9,3 @@ function slugify(text) {
         .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
         .replace(/\-\-+/g, '-');        // Replace multiple - with single -
 }
-
-export default slugify

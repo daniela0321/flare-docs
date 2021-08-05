@@ -1,17 +1,18 @@
-import Header from "../components/layout/Header"
-import Footer from "../components/layout/Footer"
-// import 'bootstrap/dist/css/bootstrap.min.css'
+// Styles:
 import '../styles/bootstrap.theme.scss'
 import '../styles/globals.css'
+// Internal components:
+import Header from "../components/layout/Header"
+import Footer from "../components/layout/Footer"
 
-function MyApp({ Component, pageProps }) {
+
+export default function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <>
       <Header />
       <Component {...pageProps} />
       <Footer />
-    </div>
+    </>
   )
 }
 
-export default MyApp
