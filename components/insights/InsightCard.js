@@ -1,9 +1,9 @@
 import classes from "./InsightCard.module.css"
-import { Card, Button } from "react-bootstrap"
 import Link from 'next/link'
+import { Card } from "react-bootstrap"
 
-function InsightCard({ image, title, excerpt, buttonLink }) {
-
+// A clickable card which includes a short introduction of a post:
+export default function InsightCard({ image, title, excerpt, buttonLink }) {
     return (
         <Link href={buttonLink} passHref>
             <a className={classes.cardlink}>
@@ -20,5 +20,4 @@ function InsightCard({ image, title, excerpt, buttonLink }) {
     )
 }
 
-export default InsightCard
 

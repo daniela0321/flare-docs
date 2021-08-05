@@ -1,8 +1,8 @@
 import classes from "./InfoCard.module.css"
 import { Col } from "react-bootstrap"
 
-// Props decomposed to get them with the autocomplete
-function InfoCard({ image, imageTitle, title, description }) {
+// An info card to be used to explain the benefits of the service:
+export default function InfoCard({ image, imageTitle, title, description }) {
     return (
         <Col md={12} lg={4} className="p-3 d-flex flex-column align-items-center">
             <img
@@ -17,5 +17,3 @@ function InfoCard({ image, imageTitle, title, description }) {
         </Col>
     )
 }
-
-export default InfoCard

@@ -1,9 +1,9 @@
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
-import '@fortawesome/fontawesome-svg-core/styles.css'
 
-function Close() {
-
+// Close icon to close the modal:
+export default function Close() {
     return (
         <FontAwesomeIcon
             icon={faTimes}
@@ -11,5 +11,3 @@ function Close() {
         />
     )
 }
-
-export default Close

@@ -1,21 +1,13 @@
-import {
-    Nav,
-    Navbar,
-    Form,
-    FormControl,
-    Button,
-    NavDropdown,
-    InputGroup
-} from "react-bootstrap"
 import Link from "next/link"
 import Image from "next/image"
+import { Nav, Navbar, Form, FormControl, Button, NavDropdown, InputGroup } from "react-bootstrap"
 import flareLogo from "../../public/images/200701-flare-hub-logo-white.png"
 
-// react-bootstrap Navbar with next/links and next/image
-// ToDo: Add URLs and fixed top with custom css
-function Header() {
+// react-bootstrap Navbar with next/links and next/image:
+export default function Header() {
     return (
         <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
+
             <Navbar.Brand href="/">
                 <Image
                     src={flareLogo}
@@ -25,8 +17,11 @@ function Header() {
                     alt="Flare Hub logo"
                 />
             </Navbar.Brand>
+
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="fh-toggler" />
+
             <Navbar.Collapse id="basic-navbar-nav" className="ml-1 ml-xl-0">
+
                 <Nav className="ml-auto fh-link-white">
                     <Link href="/" passHref><Nav.Link className="pr-4">Home</Nav.Link></Link>
                     <NavDropdown className="pr-2" title="Insights" id="basic-nav-dropdown">
@@ -36,6 +31,7 @@ function Header() {
                     <Link href="/about" passHref><Nav.Link className="pr-4">About</Nav.Link></Link>
                     <Link href="/contact" passHref><Nav.Link className="pr-5">Contact</Nav.Link></Link>
                 </Nav>
+
                 <Form inline className="mt-2 mb-4 mt-lg-1 mb-lg-1">
                     <InputGroup>
                         <FormControl type="text" placeholder="Search" className="mt-2 mt-lg-0" />
@@ -44,9 +40,9 @@ function Header() {
                         </InputGroup.Append>
                     </InputGroup>
                 </Form>
+
             </Navbar.Collapse>
         </Navbar>
     )
 }
 
-export default Header

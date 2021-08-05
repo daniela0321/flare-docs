@@ -1,10 +1,12 @@
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
-import '@fortawesome/fontawesome-svg-core/styles.css'
 import { useContext } from 'react'
 import { AccordionContext } from 'react-bootstrap'
 
-function ClickArrow({ eventKey }) {
+// Arrow that turns 180 degrees when clicking it:
+export default function ClickArrow({ eventKey }) {
+
     const activeAccordionKey = useContext(AccordionContext)
     const isActiveAccordionKey = activeAccordionKey === eventKey
 
@@ -16,5 +18,3 @@ function ClickArrow({ eventKey }) {
         />
     )
 }
-
-export default ClickArrow

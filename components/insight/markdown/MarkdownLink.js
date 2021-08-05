@@ -1,9 +1,6 @@
 import Link from "next/link"
 
-function MarkdownLink({ href, children }) {
-
-    // With react-markdown, a (link) will get href prop
+// Open all markdown links in a new tab:
+export default function MarkdownLink({ href, children }) {
     return <Link href={href}><a target="_blank">{children}</a></Link>
 }
-
-export default MarkdownLink

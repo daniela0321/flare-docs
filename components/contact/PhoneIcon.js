@@ -1,9 +1,9 @@
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
-import '@fortawesome/fontawesome-svg-core/styles.css'
 
-function PhoneIcon() {
-
+// Phone icon:
+export default function PhoneIcon() {
     return (
         <FontAwesomeIcon
             icon={faPhone}
@@ -11,5 +11,3 @@ function PhoneIcon() {
         />
     )
 }
-
-export default PhoneIcon

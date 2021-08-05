@@ -1,10 +1,12 @@
+import classes from "./SidebarTop.module.css"
 import React, { useState } from "react"
 import { Accordion, Card, Button } from "react-bootstrap"
-import classes from "./SidebarTop.module.css"
 import ClickArrow from "./ClickArrow"
 import TableOfContents from "./TableOfContents"
 
-function SidebarTop({ content }) {
+// Clickable Page Contents on top of the screen (used on a smaller screen):
+export default function SidebarTop({ content }) {
+
     const [open, setOpen] = useState(false)
 
     return (
@@ -29,8 +31,7 @@ function SidebarTop({ content }) {
 
                 </Card>
             </Accordion>
-        </aside >
+        </aside>
     );
 }
 
-export default SidebarTop

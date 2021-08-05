@@ -1,14 +1,16 @@
-import InsightCard from "./InsightCard"
 import { Row } from "react-bootstrap"
+import InsightCard from "./InsightCard"
 
-function InsightList({ insights, activePage }) {
+// A list or collection of posts:
+export default function InsightList({ insights, activePage }) {
 
-    // Sort Insights based on 'revised' date that has been converted to milliseconds
+    // Sort posts based on 'revised' date (that has been converted to milliseconds):
     const sortedInsights = insights.sort((a, b) => (b.revisedMs - a.revisedMs))
 
-    // Only return insights for current page
+    // Only include posts for current page (pagination):
     const filteredInsights = sortedInsights.slice(((activePage - 1) * 12), (activePage * 12))
 
+    // Return post cards for current page:
     return (
         <Row className="mt-3 d-flex flex-row justify-content-center align-items-stretch">
             {
@@ -26,5 +28,3 @@ function InsightList({ insights, activePage }) {
         </Row>
     )
 }
-
-export default InsightList

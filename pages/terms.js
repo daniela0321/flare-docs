@@ -1,6 +1,6 @@
 import HeadMeta from "../components/layout/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
-import Container700 from "../components/layout/Container700"
+import TextContainer from "../components/layout/TextContainer"
 import Link from 'next/link'
 
 function Terms() {
@@ -16,7 +16,7 @@ function Terms() {
                 title="Terms of Use"
             />
 
-            <Container700>
+            <TextContainer>
 
                 <p className="font-italic">Last Updated: July 13th, 2020</p>
 
@@ -74,7 +74,7 @@ function Terms() {
 
                 <p>You may not assign or transfer Your membership or use of the Service to anyone without Our consent. However, You agree that We may assign Your membership without Your consent to Flare Hub’s affiliates or if there will be any company ownership restructurings with Flare Hub.</p>
 
-            </Container700>
+            </TextContainer>
 
         </main>
     )

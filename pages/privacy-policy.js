@@ -1,7 +1,7 @@
 import { Container, Row, Text } from "react-bootstrap"
 import HeadMeta from "../components/layout/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
-import Container700 from "../components/layout/Container700"
+import TextContainer from "../components/layout/TextContainer"
 import ContactDetails from "../components/privacy-policy/ContactDetails"
 import Link from 'next/link'
 
@@ -18,7 +18,7 @@ function PrivacyPolicy() {
                 title="Privacy Policy"
             />
 
-            <Container700>
+            <TextContainer>
 
                 <p className="font-italic">Last Updated: July 13th, 2020</p>
 
@@ -119,7 +119,7 @@ function PrivacyPolicy() {
 
                 </p>
 
-            </Container700>
+            </TextContainer>
 
         </main>
     )

@@ -1,4 +1,5 @@
-function ContactDetails({ name, address1, address2, country, phone, email }) {
+// Company contact details:
+export default function ContactDetails({ name, address1, address2, country, phone, email }) {
     return (
         <div>
             <p className="m-0">{name}</p>
@@ -10,5 +11,3 @@ function ContactDetails({ name, address1, address2, country, phone, email }) {
         </div>
     )
 }
-
-export default ContactDetails

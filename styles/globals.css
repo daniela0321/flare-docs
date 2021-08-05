@@ -42,14 +42,13 @@ ul.nomarker {
   list-style-type: none;
 }
 
-.container700 {
-  /* Changed to 800px */
+.textContainer {
   max-width: 800px;
   margin-bottom: 100px;
   padding: 0 30px;
 }
 
-.container700 h2, h3 {
+.textContainer h2, h3 {
   scroll-margin-top: 5.5rem;
   margin-top: 3rem;
   margin-bottom: 1rem;

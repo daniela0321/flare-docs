@@ -1,13 +1,12 @@
 import { Container, Row } from "react-bootstrap"
 
-function PageTitle(props) {
+// Page title:
+export default function PageTitle({ title }) {
     return (
         <Container className="py-5" >
             <Row className="pt-4 px-2 d-flex flex-row justify-content-center">
-                <h1>{props.title}</h1>
+                <h1>{title}</h1>
             </Row>
-        </Container >
+        </Container>
     )
 }
-
-export default PageTitle
