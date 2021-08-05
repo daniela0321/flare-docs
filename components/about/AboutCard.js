@@ -1,6 +1,8 @@
+// Styles:
 import classes from "./AboutCard.module.css"
+// External packages:
 import { Card } from "react-bootstrap"
-// import AboutButton from "./AboutButton"
+
 
 // A card that includes information and image of one person:
 export default function AboutCard({ image, title, email, mobile, children }) {

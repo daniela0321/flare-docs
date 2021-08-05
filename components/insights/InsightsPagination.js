@@ -1,5 +1,7 @@
+// External packages:
 import React from "react"
 import { Pagination, Row } from "react-bootstrap"
+
 
 // Pagination for post list or collection:
 export default function InsightsPagination({ amountOfFiles, handleClick, activePage }) {

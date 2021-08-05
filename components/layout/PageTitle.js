@@ -1,4 +1,6 @@
+// External packages:
 import { Container, Row } from "react-bootstrap"
+
 
 // Page title:
 export default function PageTitle({ title }) {

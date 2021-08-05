@@ -1,4 +1,6 @@
+// Internal modules:
 import slugify from "../../../utils/slugify"
+
 
 // Create a clickable list item from the h2 heading with a certain style:
 export default function TocH2({ children }) {

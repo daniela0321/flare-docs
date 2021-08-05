@@ -1,5 +1,8 @@
+// External packages:
 import { Row } from "react-bootstrap"
+// Internal components:
 import InsightCard from "./InsightCard"
+
 
 // A list or collection of posts:
 export default function InsightList({ insights, activePage }) {

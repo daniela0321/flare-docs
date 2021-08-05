@@ -1,5 +1,8 @@
+// Styles:
 import classes from "./InsightCardHome.module.css"
+// External packages:
 import { Button, Row, Col } from 'react-bootstrap'
+
 
 // An info card to give a high-level view to the content of the site:
 export default function InsightCardHome({ image, imageTitle, title, button, amountAndTime, textFirst }) {
