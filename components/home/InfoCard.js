@@ -1,5 +1,8 @@
+// Styles:
 import classes from "./InfoCard.module.css"
+// External packages:
 import { Col } from "react-bootstrap"
+
 
 // An info card to be used to explain the benefits of the service:
 export default function InfoCard({ image, imageTitle, title, description }) {

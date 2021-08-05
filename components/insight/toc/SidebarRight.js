@@ -1,5 +1,8 @@
+// Styles:
 import classes from "./SidebarRight.module.css"
+// Internal components:
 import TableOfContents from "./TableOfContents"
+
 
 // Fixed sidebar including Page Contents (used on a bigger screen):
 export default function SidebarRight({ content }) {

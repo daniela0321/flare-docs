@@ -1,4 +1,6 @@
+// External packages:
 import Head from "next/head"
+
 
 // Head with metadata:
 // TO-DO: Check what data is required here and then complete props in files

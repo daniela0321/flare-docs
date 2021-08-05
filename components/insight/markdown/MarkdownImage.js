@@ -1,7 +1,11 @@
+// Styles:
 import classes from "./MarkdownImage.module.css"
+// External packages:
 import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap'
+// Internal components:
 import Close from "./Close"
+
 
 // Open image as modal:
 export default function MarkdownImage({ src, title }) {

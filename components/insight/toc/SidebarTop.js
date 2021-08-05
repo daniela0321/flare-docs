@@ -1,8 +1,12 @@
+// Styles:
 import classes from "./SidebarTop.module.css"
+// External packages:
 import React, { useState } from "react"
 import { Accordion, Card, Button } from "react-bootstrap"
+// Internal components:
 import ClickArrow from "./ClickArrow"
 import TableOfContents from "./TableOfContents"
+
 
 // Clickable Page Contents on top of the screen (used on a smaller screen):
 export default function SidebarTop({ content }) {

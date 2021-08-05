@@ -1,6 +1,9 @@
+// Styles:
 import classes from "./Footer.module.css"
+// External packages:
 import Link from "next/link"
 import { Row, Col, Container } from "react-bootstrap"
+
 
 // Html footer with react-bootstrap elements and next/links
 export default function Footer() {
