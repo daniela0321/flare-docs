@@ -32,7 +32,7 @@ export default function Contact() {
                         <p>If you would like to call us, see our direct contact details <Link href="/about"><a>here</a></Link>.</p>
                     </Row>
 
-                    <Row className="mb-2 d-flex flex-row justify-content-center">
+                    <Row className="mt-5 mb-2 d-flex flex-row justify-content-center">
                         <FormIcon />
                     </Row>
                     <Row className="mx-2 text-center d-flex flex-row justify-content-center">
