@@ -1,6 +1,6 @@
 import HeadMeta from "../components/layout/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
-import Container700 from "../components/layout/Container700"
+import TextContainer from "../components/layout/TextContainer"
 import ContactDetails from "../components/privacy-policy/ContactDetails"
 import Link from 'next/link'
 
@@ -17,7 +17,7 @@ function CookiePolicy() {
                 title="Cookie Policy (EU)"
             />
 
-            <Container700>
+            <TextContainer>
 
                 <p className="font-italic">Last Updated: August 1st, 2021</p>
                 <p className="font-italic">This Cookie Policy applies to citizens and legal permanent residents of the European Economic Area.</p>
@@ -74,7 +74,7 @@ function CookiePolicy() {
                     email="info@flarehub.io"
                 />
 
-            </Container700>
+            </TextContainer>
 
         </main>
     )

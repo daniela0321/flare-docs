@@ -2,7 +2,8 @@ import ReactMarkdown from 'react-markdown'
 import TocH2 from "./TocH2"
 import TocH3 from "./TocH3"
 
-function TableOfContents({ content }) {
+// Fetch h2 and h3 headings from markdown and use these to create Page Contents:
+export default function TableOfContents({ content }) {
     return (
         <ul className="ml-4 nomarker">
             <ReactMarkdown
@@ -17,5 +18,3 @@ function TableOfContents({ content }) {
         </ul>
     )
 }
-
-export default TableOfContents

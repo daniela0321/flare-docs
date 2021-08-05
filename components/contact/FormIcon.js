@@ -1,9 +1,9 @@
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEdit } from '@fortawesome/free-solid-svg-icons'
-import '@fortawesome/fontawesome-svg-core/styles.css'
 
-function FormIcon() {
-
+// Icon for the contact form:
+export default function FormIcon() {
     return (
         <FontAwesomeIcon
             icon={faEdit}
@@ -11,5 +11,3 @@ function FormIcon() {
         />
     )
 }
-
-export default FormIcon

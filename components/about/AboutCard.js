@@ -1,10 +1,13 @@
-import { Card, Button } from "react-bootstrap"
 import classes from "./AboutCard.module.css"
-import AboutButton from "./AboutButton"
+import { Card } from "react-bootstrap"
+// import AboutButton from "./AboutButton"
 
-function AboutCard({ image, title, email, mobile, children, buttonname1, buttonname2 }) {
+// A card that includes information and image of one person:
+export default function AboutCard({ image, title, email, mobile, children }) {
+
     return (
         <Card className="mb-3 mx-1">
+
             <div className="d-flex justify-content-center">
                 <Card.Img
                     className={classes.image}
@@ -12,20 +15,14 @@ function AboutCard({ image, title, email, mobile, children, buttonname1, buttonn
                     src={image}
                 />
             </div>
+
             <Card.Body className="mb-4">
                 <Card.Title className={classes.title}>{title}</Card.Title>
                 <Card.Text className={classes.email}>{email}</Card.Text>
                 <Card.Text className={classes.mobile}>{mobile}</Card.Text>
                 <Card.Text className={classes.text}>{children}</Card.Text>
-                {/* <AboutButton
-                    buttonname={buttonname1}
-                />
-                <AboutButton
-                    buttonname={buttonname2}
-                /> */}
             </Card.Body>
+
         </Card>
     )
 }
-
-export default AboutCard
