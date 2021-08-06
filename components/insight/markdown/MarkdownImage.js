@@ -10,8 +10,8 @@ import Close from "./Close"
 // Open image as modal:
 export default function MarkdownImage({ src, title }) {
 
+    // To control the opening and closing the image in a modal
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
