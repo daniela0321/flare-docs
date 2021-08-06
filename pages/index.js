@@ -1,7 +1,7 @@
 // Styles:
 import styles from '../styles/Home.module.css'
 // External packages:
-import { Container, Button, Row, Col } from "react-bootstrap"
+import { Container, Button, Row } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/layout/HeadMeta"
 import InfoCard from "../components/home/InfoCard"
@@ -14,7 +14,8 @@ export default function Home() {
     <>
       <HeadMeta
         title="Home"
-        description="Flare Hub provides you with an interconnected library of Insights - a top-down view to the common frameworks and theories used when building digital solutions."
+        description="Flare Hub provides you with an interconnected library of Insights - a top-down view 
+        to the common frameworks and theories used when building digital solutions."
       />
 
       <main>
@@ -40,19 +41,22 @@ export default function Home() {
               image="./images/home/im-desperate.jpg"
               imageTitle="I'm desperate"
               title="Why?"
-              description="If you need an introduction, or a refresher, on the specifics of creating value-adding digital products"
+              description="If you need an introduction, or a refresher, on the specifics of creating 
+              value-adding digital products"
             />
             <InfoCard
               image="./images/home/pile-of-books.jpg"
               imageTitle="Pile of books"
               title="What?"
-              description="An interconnected library of Insights that offer a top-down view to the common frameworks and models"
+              description="An interconnected library of Insights that offer a top-down view to the 
+              common frameworks and models"
             />
             <InfoCard
               image="./images/home/teaching.jpg"
               imageTitle="Teaching"
               title="To Whom?"
-              description="E.g. for project managers, product managers, product owners, general managers, students and entrepreneurs"
+              description="E.g. for project managers, product managers, product owners, general managers, 
+              students and entrepreneurs"
             />
           </Row>
         </Container>
