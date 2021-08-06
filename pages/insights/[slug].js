@@ -9,7 +9,6 @@ import SidebarRight from "../../components/insight/toc/SidebarRight"
 import SidebarTop from "../../components/insight/toc/SidebarTop"
 import H2WithId from "../../components/insight/markdown/H2WithId"
 import H3WithId from "../../components/insight/markdown/H3WithId"
-import MarkdownList from "../../components/insight/markdown/MarkdownList"
 import MarkdownLink from "../../components/insight/markdown/MarkdownLink"
 import MarkdownImage from "../../components/insight/markdown/MarkdownImage"
 import HeadMeta from "../../components/layout/HeadMeta"
@@ -68,7 +67,6 @@ export default function InsightTemplate({ frontmatter, content }) {
                                 components={{
                                     h2: H2WithId,
                                     h3: H3WithId,
-                                    ul: MarkdownList,
                                     a: MarkdownLink,
                                     img: MarkdownImage,
                                 }}

@@ -14,7 +14,7 @@ function getFileNames() {
 }
 
 // For all posts, return the necessary content for the card
-export async function getStaticProps(context) {
+export async function getStaticProps() {
 
     // Get file names
     const fileNames = getFileNames()
