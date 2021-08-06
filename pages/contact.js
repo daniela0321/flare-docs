@@ -29,7 +29,8 @@ export default function Contact() {
                         <PhoneIcon />
                     </Row>
                     <Row className="mb-3 mx-2 text-center d-flex flex-row justify-content-center">
-                        <p>If you would like to call us, see our direct contact details <Link href="/about"><a>here</a></Link>.</p>
+                        <p>If you would like to call us, see our direct contact details
+                            <Link href="/about"><a>here</a></Link>.</p>
                     </Row>
 
                     <Row className="mt-5 mb-2 d-flex flex-row justify-content-center">
@@ -69,7 +70,10 @@ export default function Contact() {
                             <Form.Group className="mb-5" id="formGridCheckbox">
                                 <Form.Check>
                                     <FormCheck.Input type="checkbox" id="consent" />
-                                    <FormCheck.Label htmlFor="consent">I agree that these details will be processed and saved according to our <Link href="/privacy-policy"><a target="_blank">Privacy Policy</a></Link>.</FormCheck.Label>
+                                    <FormCheck.Label htmlFor="consent">I agree that these details will be processed
+                                        and saved according to our
+                                        <Link href="/privacy-policy"><a target="_blank">Privacy Policy</a></Link>.
+                                    </FormCheck.Label>
                                     {/* <Feedback type="invalid">Yo this is required</Feedback> */}
                                 </Form.Check>
                             </Form.Group>

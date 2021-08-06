@@ -25,7 +25,8 @@ export default function Insights(props) {
         <>
             <HeadMeta
                 title="Insights"
-                description="Browse the list of Insights which address common frameworks and theories used when building digital solutions"
+                description="Browse the list of Insights which address common frameworks and theories 
+                used when building digital solutions"
             />
 
             <main>
