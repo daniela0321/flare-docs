@@ -19,8 +19,7 @@ export default function Contact() {
 
             <main>
                 <PageTitle
-                    title="Contact"
-                    description="Contact us via phone or the form"
+                    title="Contact Us"
                 />
 
                 <Container>

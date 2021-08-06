@@ -21,9 +21,6 @@ export { getStaticPaths, getStaticProps } from "../../server/[slug]"
 // Insight page template:
 export default function InsightTemplate({ frontmatter, content }) {
 
-    const contentColumnOrder = { span: 8, order: 1 }
-    const sidebarColumnOrder = { span: 4, order: 2 }
-
     return (
         <>
             <HeadMeta
@@ -38,7 +35,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                 {/* Page Contents: */}
                 <Row className="m-0 p-0">
 
-                    <Col xl={sidebarColumnOrder} className={`${styles.customBg} m-0 p-0 border-left`}>
+                    <Col xl={{ span: 4, order: 2 }} className={`${styles.customBg} m-0 p-0 border-left`}>
                         {/* Page Contents on large screens */}
                         <SidebarRight
                             content={content}
@@ -50,7 +47,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                     </Col>
 
                     {/* Post content: */}
-                    <Col xl={contentColumnOrder} className="mt-3 p-5 d-flex flex-column align-items-center">
+                    <Col xl={{ span: 8, order: 1 }} className="mt-3 p-5 d-flex flex-column align-items-center">
                         <main className={styles.markdown}>
                             <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
                             <p className={styles.authorEtc}>By {frontmatter.author} |
