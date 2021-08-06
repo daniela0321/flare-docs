@@ -15,8 +15,8 @@ export { getStaticProps } from "../server/insights"
 // Page with list or collection of posts:
 export default function Insights(props) {
 
+    // To control what the active pagination page is
     const [activePage, setActivePage] = useState(1)
-
     function handleClick(newActivePage) {
         setActivePage(newActivePage)
     }

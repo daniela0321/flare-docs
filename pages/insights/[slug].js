@@ -1,5 +1,5 @@
 // Styles:
-import classes from "./[slug].module.css"
+import styles from '../../styles/[slug].module.css'
 // External packages:
 import React from "react"
 import ReactMarkdown from 'react-markdown'
@@ -39,7 +39,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                 {/* Page Contents: */}
                 <Row className="m-0 p-0">
 
-                    <Col xl={sidebarColumnOrder} className={`${classes.customBg} m-0 p-0 border-left`}>
+                    <Col xl={sidebarColumnOrder} className={`${styles.customBg} m-0 p-0 border-left`}>
                         {/* Page Contents on large screens */}
                         <SidebarRight
                             content={content}
@@ -52,12 +52,12 @@ export default function InsightTemplate({ frontmatter, content }) {
 
                     {/* Post content: */}
                     <Col xl={contentColumnOrder} className="mt-3 p-5 d-flex flex-column align-items-center">
-                        <main className={classes.markdown}>
+                        <main className={styles.markdown}>
                             <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
-                            <p className={classes.authorEtc}>By {frontmatter.author} |
+                            <p className={styles.authorEtc}>By {frontmatter.author} |
                                 Created on {frontmatter.created} |
                                 Last revised on {frontmatter.revised}</p>
-                            <p className={classes.time}>Reading time: {frontmatter.time}</p>
+                            <p className={styles.time}>Reading time: {frontmatter.time}</p>
                             <MarkdownImage
                                 src={frontmatter.image}
                                 title={frontmatter.title}
