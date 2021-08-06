@@ -39,7 +39,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                 {/* Page Contents: */}
                 <Row className="m-0 p-0">
 
-                    <Col xl={sidebarColumnOrder} className="m-0 p-0 border-left custom-bg">
+                    <Col xl={sidebarColumnOrder} className={`${classes.customBg} m-0 p-0 border-left`}>
                         {/* Page Contents on large screens */}
                         <SidebarRight
                             content={content}

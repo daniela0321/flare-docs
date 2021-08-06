@@ -1,4 +1,4 @@
-/* Flare Hub colours */
+/* Flare Hub colours: the ones listed below (see bootstrap.theme.scss file) + the variables listed below */
 
 /*
 #2B6CB0
@@ -65,7 +65,21 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Links in the insight TOC */
+/* Navbar (overwriting Bootstrap classes) */
+
+.fh-link-white.navbar-nav .nav-link {
+  color: white;
+}
+
+.fh-toggler.navbar-toggler {
+  border-color: var(--light);
+}
+
+.fh-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(237,242,247)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Links in the Insight Table of Contents (multiple components) */
 
 a.sidelink {
   color: inherit;
@@ -88,35 +102,11 @@ a:hover.sidelink {
   font-weight: 600;
 }
 
-/* Navbar */
-
-.fh-link-white.navbar-nav .nav-link {
-  color: white;
-}
-
-.fh-toggler.navbar-toggler {
-  border-color: var(--light);
-}
-
-.fh-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(237,242,247)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-/* Insight / markdown content */
-
-.markdown-content img {
-  max-width: 100%;
-}
+/* Insight / markdown content (multiple components) */
 
 .markdown-content h2, h3 {
   scroll-margin-top: 5.5rem;
   margin-top: 3rem;
   margin-bottom: 1rem;
   font-weight: 650;
-}
-
-/* Insight / TOC */
-
-.custom-bg {
-  background-color: var(--bg-light);
 }

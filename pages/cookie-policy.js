@@ -1,9 +1,9 @@
 // External packages:
 import Link from 'next/link'
+import { Container } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/layout/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
-import TextContainer from "../components/layout/TextContainer"
 import ContactDetails from "../components/privacy-policy/ContactDetails"
 
 
@@ -21,7 +21,7 @@ export default function CookiePolicy() {
                     title="Cookie Policy (EU)"
                 />
 
-                <TextContainer>
+                <Container className="textContainer">
 
                     <p className="font-italic">Last Updated: August 1st, 2021</p>
                     <p className="font-italic">This Cookie Policy applies to citizens and legal permanent residents of the European Economic Area.</p>
@@ -69,7 +69,7 @@ export default function CookiePolicy() {
                         email="info@flarehub.io"
                     />
 
-                </TextContainer>
+                </Container>
             </main>
         </>
     )
