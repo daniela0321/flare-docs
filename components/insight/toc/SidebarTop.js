@@ -14,7 +14,7 @@ export default function SidebarTop({ content }) {
     const [open, setOpen] = useState(false)
 
     return (
-        <aside className="d-xl-none">
+        <aside>
             <Accordion>
 
                 <Card className={classes.card}>
