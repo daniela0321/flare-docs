@@ -1,9 +1,9 @@
 // External packages:
 import Link from 'next/link'
+import { Container } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/layout/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
-import TextContainer from "../components/layout/TextContainer"
 import ContactDetails from "../components/privacy-policy/ContactDetails"
 
 
@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
                     title="Privacy Policy"
                 />
 
-                <TextContainer>
+                <Container className="textContainer">
 
                     <p className="font-italic">Last Updated: July 13th, 2020</p>
 
@@ -122,7 +122,7 @@ export default function PrivacyPolicy() {
 
                     </p>
 
-                </TextContainer>
+                </Container>
             </main>
         </>
     )

@@ -1,9 +1,9 @@
 // External packages:
 import Link from 'next/link'
+import { Container } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/layout/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
-import TextContainer from "../components/layout/TextContainer"
 
 
 // Termus of use page:
@@ -20,7 +20,7 @@ export default function Terms() {
                     title="Terms of Use"
                 />
 
-                <TextContainer>
+                <Container className="textContainer">
 
                     <p className="font-italic">Last Updated: July 13th, 2020</p>
 
@@ -78,7 +78,7 @@ export default function Terms() {
 
                     <p>You may not assign or transfer Your membership or use of the Service to anyone without Our consent. However, You agree that We may assign Your membership without Your consent to Flare Hub’s affiliates or if there will be any company ownership restructurings with Flare Hub.</p>
 
-                </TextContainer>
+                </Container>
 
             </main>
         </>
