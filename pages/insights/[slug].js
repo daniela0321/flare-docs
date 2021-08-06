@@ -32,18 +32,16 @@ export default function InsightTemplate({ frontmatter, content }) {
 
             <Container className="mx-0 mt-0 mb-5 p-0" fluid>
 
-                {/* Page Contents on smaller screens */}
-                <Row className="m-0 p-0 d-xl-none">
-                    <Col className="m-0 p-0">
+                <Row className="m-0 p-0">
+
+                    {/* Page Contents on smaller screens: */}
+                    <Col className="m-0 p-0 d-xl-none">
                         <SidebarTop
                             content={content}
                         />
                     </Col>
-                </Row>
 
-                <Row className="m-0 p-0">
-
-                    {/* Page Contents on large screens */}
+                    {/* Page Contents on large screens: */}
                     <Col xl={{ span: 4, order: 2 }} className={`${styles.customBg} m-0 p-0 border-left d-none d-xl-block`}>
                         <SidebarRight
                             content={content}
