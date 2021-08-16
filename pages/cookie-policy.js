@@ -29,8 +29,8 @@ export default function CookiePolicy() {
 
                     <h2>1. Introduction</h2>
 
-                    <p>Our website, <Link href="/"><a>https://flarehub.io</a></Link>
-                        (hereinafter: &quot;the website&quot;) uses cookies and other related technologies
+                    <p>Our website, <Link href="/"><a>https://flarehub.io</a></Link> (hereinafter:
+                        &quot;the website&quot;) uses cookies and other related technologies
                         (for convenience all technologies are referred to as &quot;cookies&quot;). Cookies
                         are also placed by third parties we have engaged. In the document below we inform you
                         about the use of cookies on our website.</p>
@@ -61,8 +61,8 @@ export default function CookiePolicy() {
 
                     <ul>
                         <li><b>Usage</b>: we use Google Analytics for website statistics.</li>
-                        <li><b>Sharing data</b>: for more information, please read the
-                            <Link href="https://policies.google.com/privacy"><a target="_blank">Google Analytics Privacy Statement</a></Link>.</li>
+                        <li><b>Sharing data</b>: for more information, please read
+                            the <Link href="https://policies.google.com/privacy"><a target="_blank">Google Analytics Privacy Statement</a></Link>.</li>
                     </ul>
 
                     <h2>5. Enabling/Disabling and Deleting Cookies</h2>

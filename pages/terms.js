@@ -36,8 +36,8 @@ export default function Terms() {
                         alter these Terms at any time. You must review these Terms at
                         https://flarehub.io/terms/ on a regular basis to keep Yourself informed of any changes.</p>
 
-                    <p>Your use of Our Service is also subject to Our
-                        <Link href="/cookie-policy"><a>Cookie Policy</a></Link> and Our <Link href="privacy-policy"><a>Privacy Policy</a></Link>,
+                    <p>Your use of Our Service is also subject to
+                        Our <Link href="/cookie-policy"><a>Cookie Policy</a></Link> and Our <Link href="privacy-policy"><a>Privacy Policy</a></Link>,
                         which covers how We collect, use, share, and store Your personal information.</p>
 
                     <h2>2. Other Sites and Apps</h2>
