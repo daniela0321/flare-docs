@@ -56,7 +56,7 @@ The filtered view can also be used as a sub-pattern within another navigation pa
 
 ##### Move up to
 
-[**User Experience Design**](/insights/ux-design)
+- [**User Experience Design**](/insights/ux-design)
 
 &nbsp;
 

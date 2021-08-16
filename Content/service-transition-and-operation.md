@@ -139,7 +139,7 @@ Monitoring should be performed in a highly automated manner. Note that an event 
 
 ##### Move up to
 
-[**Product Life Cycles**](/insights/product-lifecycles)
+- [**Product Life Cycles**](/insights/product-lifecycles)
 
 &nbsp;
 

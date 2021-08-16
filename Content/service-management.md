@@ -106,7 +106,7 @@ You can find standards for example on IT service management, quality management,
 
 ##### Move up to
 
-[**Governing Practices**](/insights/governing-practices)
+- [**Governing Practices**](/insights/governing-practices)
 
 &nbsp;
 

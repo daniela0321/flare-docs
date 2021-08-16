@@ -69,7 +69,7 @@ IT infrastructure may be managed by the organization itself or by an external su
 
 ##### Move up to
 
-[**Product Life Cycles**](/insights/product-lifecycles)
+- [**Product Life Cycles**](/insights/product-lifecycles)
 
 &nbsp;
 

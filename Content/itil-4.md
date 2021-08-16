@@ -108,7 +108,7 @@ One component of the ITIL Service Value System (SVS) described above was Practic
 
 ##### Move up to
 
-[**Service Management**](/insights/service-management)
+- [**Service Management**](/insights/service-management)
 
 &nbsp;
 

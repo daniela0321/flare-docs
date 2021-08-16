@@ -131,7 +131,7 @@ When developing digital products, a particular [**product’s life cycle**](/ins
 
 ##### Move up to
 
-[**Enterprise Project Management**](/insights/project-portfolio-program-and-project-management)
+- [**Enterprise Project Management**](/insights/project-portfolio-program-and-project-management)
 
 &nbsp;
 

@@ -91,7 +91,7 @@ There is no clearly defined single approach for determining progress with stakeh
 
 ##### Move up to
 
-[**Agile Software Development**](/insights/agile-software-development)
+- [**Agile Software Development**](/insights/agile-software-development)
 
 &nbsp;
 

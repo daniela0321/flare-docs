@@ -134,7 +134,7 @@ Remember that you will always have to cope with dilemmas and paradoxes – you w
 
 ##### Move up to
 
-[**3 Tiers of Design**](/insights/service-ux-and-ui-design)
+- [**3 Tiers of Design**](/insights/service-ux-and-ui-design)
 
 &nbsp;
 

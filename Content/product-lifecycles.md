@@ -68,7 +68,7 @@ Some popular models of a system development life cycle include for example the w
 
 ##### Move up to
 
-[**Introduction: How to Build Value-Adding Digital Solutions**](/insights/how-to-build-value-adding-digital-solutions)
+- [**Introduction: How to Build Value-Adding Digital Solutions**](/insights/how-to-build-value-adding-digital-solutions)
 
 &nbsp;
 

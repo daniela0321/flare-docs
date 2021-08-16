@@ -112,7 +112,7 @@ While these methods differ in a variety of aspects, they all stem from the same 
 
 ##### Move up to
 
-[**Product Life Cycles**](/insights/product-lifecycles)
+- [**Product Life Cycles**](/insights/product-lifecycles)
 
 &nbsp;
 

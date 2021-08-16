@@ -100,7 +100,7 @@ Over time, the reasons for the design decisions made fade from memory. In additi
 
 ##### Move up to
 
-[**3 Tiers of Design**](/insights/service-ux-and-ui-design)
+- [**3 Tiers of Design**](/insights/service-ux-and-ui-design)
 
 &nbsp;
 

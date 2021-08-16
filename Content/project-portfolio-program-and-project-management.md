@@ -43,7 +43,7 @@ A short explanation on projects, programs, and project portfolios [1] and relate
 
 ##### Move up to
 
-[**Governing Practices**](/insights/governing-practices)
+- [**Governing Practices**](/insights/governing-practices)
 
 &nbsp;
 

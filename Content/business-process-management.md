@@ -177,7 +177,7 @@ Traditional business process management takes a [**waterfall approach**](/insigh
 
 ##### Move up to
 
-[**Governing Practices**](/insights/governing-practices)
+- [**Governing Practices**](/insights/governing-practices)
 
 &nbsp;
 

@@ -143,7 +143,7 @@ The horizontal axis indicates how complete the solution is. The vertical axis in
 
 ##### Move up to
 
-[**3 Tiers of Design**](/insights/service-ux-and-ui-design)
+- [**3 Tiers of Design**](/insights/service-ux-and-ui-design)
 
 &nbsp;
 
