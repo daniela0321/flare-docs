@@ -55,7 +55,7 @@ Despite of the criticism, waterfall can be a good choice in certain situations. 
 
 ##### Move up to
 
-[**Product Life Cycles**](/insights/product-lifecycles)
+- [**Product Life Cycles**](/insights/product-lifecycles)
 
 &nbsp;
 

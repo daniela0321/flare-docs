@@ -148,7 +148,7 @@ Below you can find more information on the four levels of Enterprise Architectur
 
 ##### Move up to
 
-[**Governing Practices**](/insights/governing-practices)
+- [**Governing Practices**](/insights/governing-practices)
 
 &nbsp;
 

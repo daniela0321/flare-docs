@@ -54,7 +54,7 @@ Behaviour includes the mechanism of a product and involves two important questio
 
 ##### Move up to
 
-[**User Experience Design**](/insights/ux-design)
+- [**User Experience Design**](/insights/ux-design)
 
 &nbsp;
 

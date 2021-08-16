@@ -102,7 +102,7 @@ Completely changing a culture can take years, depending on how you measure it. W
 
 ##### Move up to
 
-[**Governing Practices**](/insights/governing-practices/)
+- [**Governing Practices**](/insights/governing-practices/)
 
 &nbsp;
 

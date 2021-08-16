@@ -134,7 +134,7 @@ Before automating testing, you need to consider for example the following things
 
 ##### Move up to
 
-[**Product Life Cycles**](/insights/product-lifecycles)
+- [**Product Life Cycles**](/insights/product-lifecycles)
 
 &nbsp;
 

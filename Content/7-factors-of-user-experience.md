@@ -69,7 +69,7 @@ Accessible design is now a legal obligation in many jurisdictions, such as the E
 
 ##### Move up to
 
-[**3 Tiers of Design**](/insights/service-ux-and-ui-design)
+- [**3 Tiers of Design**](/insights/service-ux-and-ui-design)
 
 &nbsp;
 

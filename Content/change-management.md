@@ -2,7 +2,7 @@
 title: "Change Management"
 author: "Daniela"
 created: "February 10, 2020"
-revised: "July 30, 2021"
+revised: "August 18, 2021"
 time: "11 min"
 image: "/images/insights/210210-change-management.jpg"
 imageTitle: "Two Dimensions of Change Management"
@@ -124,7 +124,13 @@ An organization is comprised of two equally important parts – the business eco
 
 ##### Move up to
 
-[**Governing Practices**](/insights/governing-practices/)
+- [**Governing Practices**](/insights/governing-practices/)
+
+&nbsp;
+
+##### Further reading
+
+- [Change Management: Everything You Need to Know](https://www.propelplm.com/articles/change-management-definition) by Propel
 
 &nbsp;
 

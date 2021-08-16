@@ -36,7 +36,7 @@ With the rise of digital services, the boundaries between the disciplines are be
 
 ##### Move up to
 
-[**Product Life Cycles**](/insights/product-lifecycles)
+- [**Product Life Cycles**](/insights/product-lifecycles)
 
 &nbsp;
 

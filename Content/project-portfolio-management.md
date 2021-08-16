@@ -57,7 +57,7 @@ Three main areas of portfolio management [2]:
 
 ##### Move up to
 
-[**Enterprise Project Management**](/insights/project-portfolio-program-and-project-management)
+- [**Enterprise Project Management**](/insights/project-portfolio-program-and-project-management)
 
 &nbsp;
 

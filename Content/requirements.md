@@ -116,7 +116,7 @@ It will be inevitable that requirements change during a project, so most require
 
 ##### Move up to
 
-[**Product Life Cycles**](/insights/product-lifecycles)
+- [**Product Life Cycles**](/insights/product-lifecycles)
 
 &nbsp;
 

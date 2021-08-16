@@ -166,7 +166,7 @@ Traditional Business Intelligence provides analysis of structured data to descri
 
 ##### Move up to
 
-[**Enterprise Architecture**](/insights/enterprise-architecture)
+- [**Enterprise Architecture**](/insights/enterprise-architecture)
 
 &nbsp;
 
