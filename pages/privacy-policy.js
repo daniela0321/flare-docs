@@ -127,8 +127,8 @@ export default function PrivacyPolicy() {
                             personal data until the dispute has been resolved.</li>
                         <li>Right to appeal to the Data Protection Ombudsman: A data subject may make
                             a complaint to the Data Protection Ombudsman if he feels that we are breaking
-                            the privacy laws when processing personal data. Contact details for the Data Protection Ombudsman:
-                            <Link href="https://tietosuoja.fi/en/contact-information"><a target="_blank">https://tietosuoja.fi/en/contact-information</a></Link></li>
+                            the privacy laws when processing personal data. Contact details for the Data Protection
+                            Ombudsman: <a href="https://tietosuoja.fi/en/contact-information" target="_blank">https://tietosuoja.fi/en/contact-information</a></li>
                     </ul>
 
                     <h2>6. Regular Sources of Information</h2>
