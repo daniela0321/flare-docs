@@ -71,7 +71,7 @@ export default function Home() {
             textFirst={false}
           />
           <InsightCardHome
-            image="./images/home/210730-governing-practices-home.jpg"
+            image="./images/home/210817-governing-practices-home.jpg"
             imageTitle="Governing Practices"
             title="What processes provide support and governance for the product life cycle?"
             button="/insights/governing-practices"
