@@ -30,26 +30,26 @@ export default function InsightTemplate({ frontmatter, content }) {
                 styleFontAwesome={true}
             />
 
-            <Container className="mx-0 mt-0 mb-5 p-0" fluid>
+            <Container className="m-0 p-0" fluid>
 
                 <Row className="m-0 p-0">
 
-                    {/* Page Contents on smaller screens: */}
+                    {/* Table of Contents on smaller screens: */}
                     <Col className="m-0 p-0 d-xl-none">
                         <SidebarTop
                             content={content}
                         />
                     </Col>
 
-                    {/* Page Contents on large screens: */}
-                    <Col xl={{ span: 4, order: 2 }} className={`${styles.customBg} m-0 p-0 border-left d-none d-xl-block`}>
+                    {/* Table of Contents on large screens: */}
+                    <Col xl={{ span: 4, order: 2 }} className={`${styles.customBg} m-0 px-0 pt-0 pb-2 border-left d-none d-xl-block`}>
                         <SidebarRight
                             content={content}
                         />
                     </Col>
 
                     {/* Post content: */}
-                    <Col xl={{ span: 8, order: 1 }} className="mt-3 p-5 d-flex flex-column align-items-center">
+                    <Col xl={{ span: 8, order: 1 }} className="mt-3 mb-5 p-5 d-flex flex-column align-items-center">
                         <main className={styles.markdown}>
                             <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
                             <p className={styles.authorEtc}>By {frontmatter.author} |
