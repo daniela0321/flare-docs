@@ -7,7 +7,7 @@ import TableOfContents from "./TableOfContents"
 // Fixed sidebar including Page Contents (used on a bigger screen):
 export default function SidebarRight({ content }) {
     return (
-        <aside className="mt-4 px-2 py-5 position-fixed">
+        <aside className={`${classes.toc} px-2 py-5`} >
             <h6 className={classes.title}>Page Contents</h6>
             <div>
                 <TableOfContents
