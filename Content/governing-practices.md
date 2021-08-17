@@ -4,7 +4,7 @@ author: "Daniela"
 created: "December 4, 2020"
 revised: "July 30, 2021"
 time: "4 min"
-image: "/images/insights/210730-governing-practices.jpg"
+image: "/images/insights/210817-governing-practices.jpg"
 imageTitle: "Governing Practices"
 excerpt: "In this Insight you can find information on governing and supporting practices that provide essential support and guidance for the product life cycle."
 ---

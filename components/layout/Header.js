@@ -37,7 +37,7 @@ export default function Header() {
 
                 <Form inline className="mt-2 mb-4 mt-lg-1 mb-lg-1">
                     <InputGroup>
-                        <FormControl type="text" placeholder="Search" className="mt-2 mt-lg-0" />
+                        <FormControl type="text" placeholder="Search for Insights" className="mt-2 mt-lg-0" />
                         <InputGroup.Append>
                             <Button variant="outline-light" className="mt-2 mt-lg-0">Search</Button>
                         </InputGroup.Append>

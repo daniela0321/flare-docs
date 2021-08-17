@@ -63,7 +63,7 @@ System development life cycle models, for example waterfall model or agile devel
 
 In addition, it includes information on how to manage and integrate all activities in an organization, and how to cultivate the organizational culture.
 
-![Governing Practices](/images/insights/210730-governing-practices-2.jpg)
+![Governing Practices](/images/insights/210817-governing-practices-2.jpg)
 
 ### 3.3 Complete List of Insights
 
