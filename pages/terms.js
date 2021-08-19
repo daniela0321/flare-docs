@@ -11,7 +11,7 @@ export default function Terms() {
     return (
         <>
             <HeadMeta
-                title="Terms"
+                title="Terms of Use"
                 description="More information on the terms of use"
             />
 

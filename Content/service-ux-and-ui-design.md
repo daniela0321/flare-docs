@@ -23,7 +23,7 @@ With the rise of digital services, the boundaries between the disciplines are be
 
 ## 3. What Influences User Experience?
 
-- [**The 7 Factors that Influence User Experience**](/insights/7-factors-of-user-experience). One way to understand the factors that influence user experience is to use the ‘User Experience Honeycomb’. This model was created by Peter Morville. He arranged seven factors that influence user experience into this model, and it became a well-known tool to help understand user experience design.
+- [**The 7 Factors that Influence User Experience**](/insights/seven-factors-of-user-experience). One way to understand the factors that influence user experience is to use the ‘User Experience Honeycomb’. This model was created by Peter Morville. He arranged seven factors that influence user experience into this model, and it became a well-known tool to help understand user experience design.
 
 ## 4. Common Design Tools
 

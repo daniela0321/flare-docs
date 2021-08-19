@@ -13,7 +13,7 @@ export default function About() {
     return (
         <>
             <HeadMeta
-                title="About"
+                title="About Us"
                 description="A little bit about us"
             />
 

@@ -22,6 +22,6 @@ export default function CookieBanner() {
                 </div>
 
             </div>
-        </div >
+        </div>
     )
 }
