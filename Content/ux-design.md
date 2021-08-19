@@ -15,7 +15,7 @@ User experience (UX) means “user’s perceptions and responses that result fro
 
 Always remember that UX design must be an ongoing effort, continually learning about users, responding to behaviours, evolving the product or service.
 
-In addition, familiarize yourself with the [**factors that influence user experience**](/insights/7-factors-of-user-experience).
+In addition, familiarize yourself with the [**factors that influence user experience**](/insights/seven-factors-of-user-experience).
 
 ## 2. The Process of Creating a Positive User Experience
 
