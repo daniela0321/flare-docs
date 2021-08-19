@@ -77,7 +77,7 @@ export default function CookiePolicy() {
                             <label htmlFor="functional" className="form-check-label"> Functional cookies (see the explanation above)</label>
                         </div>
                         <div className="ml-4">
-                            <input type="checkbox" className="form-check-input" id="statistics" />
+                            <input type="checkbox" className="form-check-input" id="statistics" checked />
                             <label htmlFor="statistics" className="form-check-label"> Statistics cookies (anonymous, see the explanation above)</label>
                         </div>
                     </div>
