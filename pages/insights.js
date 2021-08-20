@@ -2,7 +2,7 @@
 import React, { useState } from "react"
 import { Container } from "react-bootstrap"
 // Internal components:
-import HeadMeta from "../components/layout/HeadMeta"
+import HeadMeta from "../components/head/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
 import InsightList from "../components/insights/InsightList"
 import InsightsPagination from "../components/insights/InsightsPagination"

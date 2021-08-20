@@ -3,7 +3,7 @@ import styles from '../styles/About.module.css'
 // External packages:
 import { Container, Row, CardDeck } from "react-bootstrap"
 // Internal components:
-import HeadMeta from "../components/layout/HeadMeta"
+import HeadMeta from "../components/head/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
 import AboutCard from "../components/about/AboutCard"
 

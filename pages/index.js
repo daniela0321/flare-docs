@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 // External packages:
 import { Container, Button, Row } from "react-bootstrap"
 // Internal components:
-import HeadMeta from "../components/layout/HeadMeta"
+import HeadMeta from "../components/head/HeadMeta"
 import InfoCard from "../components/home/InfoCard"
 import InsightCardHome from "../components/home/InsightCardHome"
 
