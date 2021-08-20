@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { Container, Row, Col, Button, Form, FormCheck } from "react-bootstrap"
 // Internal components:
-import HeadMeta from "../components/layout/HeadMeta"
+import HeadMeta from "../components/head/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
 import PhoneIcon from "../components/contact/PhoneIcon"
 import FormIcon from "../components/contact/FormIcon"

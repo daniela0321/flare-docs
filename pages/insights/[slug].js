@@ -11,7 +11,7 @@ import H2WithId from "../../components/insight/markdown/H2WithId"
 import H3WithId from "../../components/insight/markdown/H3WithId"
 import MarkdownLink from "../../components/insight/markdown/MarkdownLink"
 import MarkdownImage from "../../components/insight/markdown/MarkdownImage"
-import HeadMeta from "../../components/layout/HeadMeta"
+import HeadMeta from "../../components/head/HeadMeta"
 
 
 // Import and export server side functions:
