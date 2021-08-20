@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap"
 
 
 // A card that includes information and image of one person:
-export default function AboutCard({ image, title, email, mobile, children }) {
+export default function AboutCard({ image, imageAlt, title, email, mobile, children }) {
 
     return (
         <Card className="mb-3 mx-1">
@@ -15,6 +15,7 @@ export default function AboutCard({ image, title, email, mobile, children }) {
                     className={classes.image}
                     variant="top"
                     src={image}
+                    alt={imageAlt}
                 />
             </div>
 
