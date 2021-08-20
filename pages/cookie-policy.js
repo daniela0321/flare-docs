@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap"
 import HeadMeta from "../components/head/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
 import ContactDetails from "../components/privacy-policy/ContactDetails"
+import ConsentSettings from '../components/cookie-policy/ConsentSettings'
 
 
 // Cookie Policy page:
@@ -71,16 +72,7 @@ export default function CookiePolicy() {
 
                     <p>Functional cookies are mandatory for the site to function, so this is the minimum requirement.</p>
 
-                    <div>
-                        <div className="ml-4">
-                            <input type="checkbox" className="form-check-input" id="functional" checked disabled />
-                            <label htmlFor="functional" className="form-check-label"> Functional cookies (see the explanation above)</label>
-                        </div>
-                        <div className="ml-4">
-                            <input type="checkbox" className="form-check-input" id="statistics" checked />
-                            <label htmlFor="statistics" className="form-check-label"> Statistics cookies (anonymous, see the explanation above)</label>
-                        </div>
-                    </div>
+                    <ConsentSettings />
 
                     <h2>6. Enabling/Disabling and Deleting Cookies</h2>
 
