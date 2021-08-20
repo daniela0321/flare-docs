@@ -8,7 +8,7 @@ import Close from "./Close"
 
 
 // Open image as modal:
-export default function MarkdownImage({ src, title }) {
+export default function MarkdownImage({ src, alt }) {
 
     // To control the opening and closing the image in a modal
     const [show, setShow] = useState(false);
@@ -19,7 +19,7 @@ export default function MarkdownImage({ src, title }) {
         <>
             {/* Show image as a link */}
             <a href="#" onClick={handleShow}>
-                <img src={src} alt={title} className="mt-3 mw-100" />
+                <img src={src} alt={alt} className="mt-3 mw-100" />
             </a>
 
             {/* Modal that opens up when clicking the image above */}
@@ -32,7 +32,7 @@ export default function MarkdownImage({ src, title }) {
                     <div onClick={handleClose} className="mb-2 d-flex flex-row-reverse">
                         <Close />
                     </div>
-                    <img src={src} alt={title} className={classes.imageSize} />
+                    <img src={src} alt={alt} className={classes.imageSize} />
                 </Modal.Body>
             </Modal>
         </>

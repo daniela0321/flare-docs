@@ -58,7 +58,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                             <p className={styles.time}>Reading time: {frontmatter.time}</p>
                             <MarkdownImage
                                 src={frontmatter.image}
-                                title={frontmatter.title}
+                                alt={frontmatter.imageTitle}
                             />
                             <p className="mt-4 font-semi-bold">{frontmatter.excerpt}</p>
                             <ReactMarkdown
