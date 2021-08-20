@@ -51,27 +51,29 @@ export default function InsightTemplate({ frontmatter, content }) {
                     {/* Post content: */}
                     <Col xl={{ span: 8, order: 1 }} className="mt-3 mb-5 p-5 d-flex flex-column align-items-center">
                         <main className={styles.markdown}>
-                            <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
-                            <p className={styles.authorEtc}>By {frontmatter.author} |
-                                Created on {frontmatter.created} |
-                                Last revised on {frontmatter.revised}</p>
-                            <p className={styles.time}>Reading time: {frontmatter.time}</p>
-                            <MarkdownImage
-                                src={frontmatter.image}
-                                alt={frontmatter.imageTitle}
-                            />
-                            <p className="mt-4 font-semi-bold">{frontmatter.excerpt}</p>
-                            <ReactMarkdown
-                                className="markdown-content"
-                                components={{
-                                    h2: H2WithId,
-                                    h3: H3WithId,
-                                    a: MarkdownLink,
-                                    img: MarkdownImage,
-                                }}
-                            // This will change later when I will install the image plugin
-                            // transformImageUri={uri => uri.startsWith("/") ? `${process.env.IMAGE_BASE_URL}${uri}` : uri}
-                            >{content}</ReactMarkdown>
+                            <article>
+                                <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
+                                <p className={styles.authorEtc}>By {frontmatter.author} |
+                                    Created on {frontmatter.created} |
+                                    Last revised on {frontmatter.revised}</p>
+                                <p className={styles.time}>Reading time: {frontmatter.time}</p>
+                                <MarkdownImage
+                                    src={frontmatter.image}
+                                    alt={frontmatter.imageTitle}
+                                />
+                                <p className="mt-4 font-semi-bold">{frontmatter.excerpt}</p>
+                                <ReactMarkdown
+                                    className="markdown-content"
+                                    components={{
+                                        h2: H2WithId,
+                                        h3: H3WithId,
+                                        a: MarkdownLink,
+                                        img: MarkdownImage,
+                                    }}
+                                // This will change later when I will install the image plugin
+                                // transformImageUri={uri => uri.startsWith("/") ? `${process.env.IMAGE_BASE_URL}${uri}` : uri}
+                                >{content}</ReactMarkdown>
+                            </article>
                         </main>
                     </Col>
 
