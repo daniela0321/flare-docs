@@ -40,7 +40,7 @@ export default function Insights(props) {
                         activePage={activePage}
                     />
                     <InsightsPagination
-                        amountOfFiles={props.insights.length}
+                        amountOfPosts={props.insights.length}
                         handleClick={handleClick}
                         activePage={activePage}
                     />
