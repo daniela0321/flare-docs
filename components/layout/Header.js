@@ -6,13 +6,13 @@ import { Nav, Navbar, Form, FormControl, Button, NavDropdown, InputGroup } from 
 // react-bootstrap Navbar with next/links and next/image:
 export default function Header() {
     return (
-        <header>
-            <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
+        <header className="sticky-top">
+            <Navbar bg="dark" variant="dark" expand="lg">
 
                 <Link href="/" passHref>
                     <Navbar.Brand>
                         <img
-                            src="./images/200701-flare-hub-logo-white.png"
+                            src={process.env.NEXT_PUBLIC_IMAGE_BASE_URL + '/images/200701-flare-hub-logo-white.png'}
                             width="110"
                             height="29.6"
                             className="d-inline-block  align-top"
