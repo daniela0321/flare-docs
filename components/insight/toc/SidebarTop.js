@@ -1,5 +1,5 @@
 // Styles:
-import classes from "./SidebarTop.module.css"
+import styles from "./SidebarTop.module.css"
 // External packages:
 import React, { useState } from "react"
 import { Accordion, Card } from "react-bootstrap"
@@ -17,10 +17,10 @@ export default function SidebarTop({ content }) {
         <aside>
             <Accordion>
 
-                <Card className={classes.card}>
+                <Card className={styles.card}>
 
-                    <Accordion.Toggle className={classes.toggle} as={Card.Header} variant="link" eventKey="1">
-                        <h6 className={classes.title}>Page Contents
+                    <Accordion.Toggle className={styles.toggle} as={Card.Header} variant="link" eventKey="1">
+                        <h6 className={styles.title}>Page Contents
                             <span className="ml-3"><ClickArrow eventKey="1" /></span>
                         </h6>
                     </Accordion.Toggle>

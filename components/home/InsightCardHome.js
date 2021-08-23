@@ -1,5 +1,5 @@
 // Styles:
-import classes from "./InsightCardHome.module.css"
+import styles from "./InsightCardHome.module.css"
 // External packages:
 import { Button, Row, Col } from 'react-bootstrap'
 
@@ -15,16 +15,16 @@ export default function InsightCardHome({ image, imageTitle, title, button, amou
 
             <Col lg={imageColumnOrder} className="m-0 p-0">
                 <img
-                    className={classes.imageStyle}
+                    className={styles.imageStyle}
                     src={image}
                     alt={imageTitle}
                 />
             </Col>
 
             <Col lg={textColumnOrder} className="m-0 py-0 px-5 bg-primary d-flex flex-column justify-content-center align-items-center" >
-                <h3 className={classes.title}>{title}</h3>
-                <Button href={button} variant="light" className={classes.button}>Read more</Button>
-                <p className={classes.amountAndTime}>{amountAndTime}</p>
+                <h3 className={styles.title}>{title}</h3>
+                <Button href={button} variant="light" className={styles.button}>Read more</Button>
+                <p className={styles.amountAndTime}>{amountAndTime}</p>
             </Col>
 
         </Row>

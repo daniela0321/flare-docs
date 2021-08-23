@@ -65,7 +65,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navbar (overwriting Bootstrap classes) */
+/* Navbar (overwriting Bootstrap styles) */
 
 .fh-link-white.navbar-nav .nav-link {
   color: white;
