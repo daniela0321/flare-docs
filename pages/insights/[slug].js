@@ -39,7 +39,8 @@ export default function InsightTemplate({ frontmatter, content }) {
                 <Row className="m-0 p-0">
 
                     {/* Table of Contents on smaller screens: */}
-                    <Col className={`${styles.mobileToc} sticky-top m-0 p-0 d-xl-none`}>
+                    <Col className="m-0 p-0 d-xl-none">
+                        {/* <Col className={`${styles.mobileToc} sticky-top m-0 p-0 d-xl-none`}> */}
                         <SidebarTop
                             content={content}
                         />

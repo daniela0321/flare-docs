@@ -7,7 +7,7 @@ import { Nav, Navbar, Form, FormControl, Button, NavDropdown, InputGroup } from 
 export default function Header() {
     return (
         <header className="sticky-top">
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg">
 
                 <Link href="/" passHref>
                     <Navbar.Brand>
