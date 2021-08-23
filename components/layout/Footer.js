@@ -3,6 +3,8 @@ import classes from "./Footer.module.css"
 // External packages:
 import Link from "next/link"
 import { Row, Col, Container } from "react-bootstrap"
+// Internal components:
+import GitHubIcon from "./GitHubIcon"
 
 
 // Html footer with react-bootstrap elements and next/links
@@ -25,6 +27,13 @@ export default function Footer() {
                     <Col sm className={classes.column}>
                         <Link href="/cookie-policy"><a className={classes.footerlink}>Cookie Policy</a></Link>
                     </Col>
+                </Row>
+
+                {/* Link to GitHub project */}
+                <Row className="mt-4">
+                    <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener" className={classes.footerlink}>
+                        <GitHubIcon />
+                    </a>
                 </Row>
 
                 {/* Copyright text */}
