@@ -23,7 +23,7 @@ export default function AboutCard({ image, imageAlt, title, email, mobile, child
                 <Card.Title className={classes.title}>{title}</Card.Title>
                 <Card.Text className={classes.email}>{email}</Card.Text>
                 <Card.Text className={classes.mobile}>{mobile}</Card.Text>
-                <Card.Text className={classes.text}>{children}</Card.Text>
+                <Card.Text className={classes.text} as="div">{children}</Card.Text>
             </Card.Body>
 
         </Card>
