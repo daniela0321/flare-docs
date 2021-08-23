@@ -15,6 +15,12 @@ export default function Contact() {
             <HeadMeta
                 title="Contact Us"
                 description="Please contact us via the form or by phone"
+            // canonical=
+            // type=
+            // image={{
+            // url: 
+            // alt:
+            // }}
             />
 
             <main>

@@ -27,6 +27,12 @@ export default function Insights(props) {
                 title="Insights"
                 description="Browse the list of Insights which address common frameworks and theories 
                 used when building digital solutions"
+            // canonical=
+            // type=
+            // image={{
+            // url: 
+            // alt:
+            // }}
             />
 
             <main>

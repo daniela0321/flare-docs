@@ -25,9 +25,13 @@ export default function InsightTemplate({ frontmatter, content }) {
         <>
             <HeadMeta
                 title={frontmatter.title}
-                // Add description
-                description=""
-                styleFontAwesome={true}
+                description={frontmatter.excerpt}
+                // canonical=
+                // type=
+                image={{
+                    url: frontmatter.image,
+                    alt: frontmatter.imageTitle
+                }}
             />
 
             <Container className="m-0 p-0" fluid>
