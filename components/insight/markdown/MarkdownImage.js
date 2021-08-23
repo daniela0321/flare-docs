@@ -1,5 +1,5 @@
 // Styles:
-import classes from "./MarkdownImage.module.css"
+import styles from "./MarkdownImage.module.css"
 // External packages:
 import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap'
@@ -25,14 +25,14 @@ export default function MarkdownImage({ src, alt }) {
             {/* Modal that opens up when clicking the image above */}
             <Modal
                 show={show}
-                dialogClassName={classes.modalSize}
+                dialogClassName={styles.modalSize}
                 onHide={handleClose}
             >
                 <Modal.Body>
                     <div onClick={handleClose} className="mb-2 d-flex flex-row-reverse">
                         <Close />
                     </div>
-                    <img src={src} alt={alt} className={classes.imageSize} />
+                    <img src={src} alt={alt} className={styles.imageSize} />
                 </Modal.Body>
             </Modal>
         </>

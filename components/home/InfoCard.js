@@ -1,5 +1,5 @@
 // Styles:
-import classes from "./InfoCard.module.css"
+import styles from "./InfoCard.module.css"
 // External packages:
 import { Col } from "react-bootstrap"
 
@@ -11,10 +11,10 @@ export default function InfoCard({ image, imageTitle, title, description }) {
             <img
                 src={image}
                 alt={imageTitle}
-                className={classes.roundImage}
+                className={styles.roundImage}
             />
             <h2>{title}</h2>
-            <p className={classes.paragraphWidth}>
+            <p className={styles.paragraphWidth}>
                 {description}
             </p>
         </Col>

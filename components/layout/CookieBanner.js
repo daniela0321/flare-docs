@@ -1,5 +1,5 @@
 // Styles:
-import classes from "./CookieBanner.module.css"
+import styles from "./CookieBanner.module.css"
 // External packages:
 import Link from "next/link"
 import { useState, useEffect } from "react"
@@ -25,18 +25,18 @@ export default function CookieBanner() {
 
     // Only return cookie banner if no consent has been set
     if (!statConsent) return (
-        <div className={`${classes.banner} container-fluid p-3 bg-secondary text-light`}>
-            <div className={`${classes.bannerRow} row d-flex justify-content-end align-items-center`}>
+        <div className={`${styles.banner} container-fluid p-3 bg-secondary text-light`}>
+            <div className={`${styles.bannerRow} row d-flex justify-content-end align-items-center`}>
 
                 <div>
                     <p className="mx-4 my-4">We use cookies to optimise our website and our
-                        service. <Link href="/cookie-policy"><a className={classes.link}>Read more</a></Link></p>
+                        service. <Link href="/cookie-policy"><a className={styles.link}>Read more</a></Link></p>
                 </div>
 
                 <div>
-                    <button type="button" className={`${classes.button} btn btn-light mx-4`} onClick={handleClick}>OK</button>
+                    <button type="button" className={`${styles.button} btn btn-light mx-4`} onClick={handleClick}>OK</button>
                     <Link href="/cookie-policy/#consent"><a><button type="button"
-                        className={`${classes.button} btn btn-outline-light mr-4`} onClick={handleClick}>Settings</button></a></Link>
+                        className={`${styles.button} btn btn-outline-light mr-4`} onClick={handleClick}>Settings</button></a></Link>
                 </div>
 
             </div>

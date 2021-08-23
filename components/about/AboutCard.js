@@ -1,5 +1,5 @@
 // Styles:
-import classes from "./AboutCard.module.css"
+import styles from "./AboutCard.module.css"
 // External packages:
 import { Card } from "react-bootstrap"
 
@@ -12,7 +12,7 @@ export default function AboutCard({ image, imageAlt, title, email, mobile, child
 
             <div className="d-flex justify-content-center">
                 <Card.Img
-                    className={classes.image}
+                    className={styles.image}
                     variant="top"
                     src={image}
                     alt={imageAlt}
@@ -20,10 +20,10 @@ export default function AboutCard({ image, imageAlt, title, email, mobile, child
             </div>
 
             <Card.Body className="mb-4">
-                <Card.Title className={classes.title}>{title}</Card.Title>
-                <Card.Text className={classes.email}>{email}</Card.Text>
-                <Card.Text className={classes.mobile}>{mobile}</Card.Text>
-                <Card.Text className={classes.text} as="div">{children}</Card.Text>
+                <Card.Title className={styles.title}>{title}</Card.Title>
+                <Card.Text className={styles.email}>{email}</Card.Text>
+                <Card.Text className={styles.mobile}>{mobile}</Card.Text>
+                <Card.Text className={styles.text} as="div">{children}</Card.Text>
             </Card.Body>
 
         </Card>
