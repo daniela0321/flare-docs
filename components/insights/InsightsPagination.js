@@ -1,23 +1,29 @@
 // External packages:
-import React from "react"
+import React, { useMemo } from "react"
 import { Pagination, Row } from "react-bootstrap"
 
 
-// Pagination for post list or collection:
-export default function InsightsPagination({ amountOfFiles, handleClick, activePage }) {
+// Pagination for collection:
+export default function InsightsPagination({ amountOfPosts, handleClick, activePage }) {
 
-    const items = []
-    const amountOfPages = Math.floor(amountOfFiles / 12) + 1
+    // Amount of pages needed to show the whole collection:
+    const amountOfPages = Math.floor(amountOfPosts / 12) + 1
 
     // Create an array of the pagination items:
     // (When a pagination link is clicked, open the relevant page and indicate what page is active)
-    for (let number = 1; number <= amountOfPages; number++) {
-        items.push(
-            <Pagination.Item onClick={() => { handleClick(number) }} key={number} active={number === activePage}>
-                {number}
-            </Pagination.Item>,
-        )
-    }
+    const items = useMemo(() => {
+        const itemsArray = []
+
+        for (let number = 1; number <= amountOfPages; number++) {
+            itemsArray.push(
+                <Pagination.Item onClick={() => { handleClick(number) }} key={number} active={number === activePage}>
+                    {number}
+                </Pagination.Item>,
+            )
+        }
+        return itemsArray
+    }, [activePage, amountOfPages, handleClick]
+    )
 
     // Return the pagination items:
     return (
