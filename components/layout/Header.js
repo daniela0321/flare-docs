@@ -1,9 +1,6 @@
 // External packages:
 import Link from "next/link"
-import Image from "next/image"
 import { Nav, Navbar, Form, FormControl, Button, NavDropdown, InputGroup } from "react-bootstrap"
-// Images:
-import flareLogo from "../../public/images/200701-flare-hub-logo-white.png"
 
 
 // react-bootstrap Navbar with next/links and next/image:
@@ -14,8 +11,8 @@ export default function Header() {
 
                 <Link href="/" passHref>
                     <Navbar.Brand>
-                        <Image
-                            src={flareLogo}
+                        <img
+                            src="./images/200701-flare-hub-logo-white.png"
                             width="110"
                             height="29.6"
                             className="d-inline-block  align-top"
