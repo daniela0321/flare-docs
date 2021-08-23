@@ -15,6 +15,12 @@ export default function About() {
             <HeadMeta
                 title="About Us"
                 description="A little bit about us"
+            // canonical=
+            // type=
+            // image={{
+            // url: 
+            // alt:
+            // }}
             />
 
             <main>

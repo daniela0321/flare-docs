@@ -16,6 +16,12 @@ export default function Home() {
         title="Home"
         description="Flare Hub provides you with an interconnected library of Insights - a top-down view 
         to the common frameworks and theories used when building digital solutions."
+      // canonical=
+      // type=
+      // image={{
+      // url: 
+      // alt:
+      // }}
       />
 
       <main>

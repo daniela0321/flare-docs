@@ -3,15 +3,33 @@ import Head from "next/head"
 
 
 // Head with metadata:
-// TO-DO: Check what data is required here and then complete props in files
-export default function HeadMeta({ title, description, type }) {
+export default function HeadMeta({ title, description, canonical, type, image }) {
+
+    const fullTitle = title + " | Flare Hub"
+    const imagePath = process.env.NEXT_PUBLIC_IMAGE_BASE_URL + (image ? image.url : '/images/intro-image.jpg')
+    const iconPath = process.env.NEXT_PUBLIC_IMAGE_BASE_URL + 'favicon.ico'
+
     return (
         <Head>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>{title} | Flare Hub</title>
+            <title>{fullTitle}</title>
             <meta name="description" content={description} />
-            <link rel="icon" href="/favicon.ico" />
-            {type && <meta property="og:type" content={type} />}
+            <link rel="icon" href={iconPath} />
+            {/* Icon used for a web page icon on the Apple iPhone, iPod Touch, and iPad */}
+            <link rel="apple-touch-icon" href={iconPath} />
+            {/* Use canonical URL if duplicate content */}
+            {canonical && <link rel="canonical" href={canonical} />}
+            {/* Facebook */}
+            <meta property="og:type" content={type || 'website'} />
+            <meta name="og:title" property="og:title" content={title} />
+            <meta name="og:description" property="og:description" content={description} />
+            <meta property="og:site_name" content="Flare Hub" />
+            {canonical && <meta property="og:url" content={canonical} />}
+            <meta property="og:image" content={imagePath} />
+            <meta property="og:image:alt" content={image ? image.alt : "Flare intro image"} />
+            {/* Twitter (falls back to OpenGraph*/}
+            <meta name="twitter:title" content={fullTitle} />
         </Head>
     )
 }
+
