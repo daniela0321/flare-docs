@@ -1,13 +1,15 @@
 // External packages:
 import Head from "next/head"
+import { useRouter } from 'next/router'
 
 
 // Head with metadata:
 export default function HeadMeta({ title, description, canonical, type, image }) {
 
+    const router = useRouter()
     const fullTitle = title + " | Flare Hub"
-    const imagePath = process.env.NEXT_PUBLIC_IMAGE_BASE_URL + (image ? image.url : '/images/intro-image.jpg')
-    const iconPath = process.env.NEXT_PUBLIC_IMAGE_BASE_URL + 'favicon.ico'
+    const imagePath = process.env.SITE_URL + router.basePath + (image ? image.url : '/images/intro-image.jpg')
+    const iconPath = router.basePath + '/favicon.ico'
 
     return (
         <Head>
