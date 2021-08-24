@@ -1,10 +1,13 @@
 // External packages:
 import Link from "next/link"
 import { Nav, Navbar, Form, FormControl, Button, NavDropdown, InputGroup } from "react-bootstrap"
+import { useRouter } from 'next/router'
 
 
 // react-bootstrap Navbar with next/links and next/image:
 export default function Header() {
+    const router = useRouter()
+
     return (
         <header className="sticky-top">
             <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg">
@@ -12,7 +15,7 @@ export default function Header() {
                 <Link href="/" passHref>
                     <Navbar.Brand>
                         <img
-                            src={process.env.NEXT_PUBLIC_IMAGE_BASE_URL + '/images/200701-flare-hub-logo-white.png'}
+                            src={router.basePath + '/images/200701-flare-hub-logo-white.png'}
                             width="110"
                             height="29.6"
                             className="d-inline-block  align-top"

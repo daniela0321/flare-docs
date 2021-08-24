@@ -2,6 +2,7 @@
 import styles from '../styles/About.module.css'
 // External packages:
 import { Container, Row, CardDeck } from "react-bootstrap"
+import { useRouter } from 'next/router'
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
@@ -10,6 +11,9 @@ import AboutCard from "../components/about/AboutCard"
 
 // About Us page:
 export default function About() {
+
+    const router = useRouter()
+
     return (
         <>
             <HeadMeta
@@ -39,7 +43,7 @@ export default function About() {
                     <CardDeck className="mx-0 mb-5">
 
                         <AboutCard
-                            image="./images/about/daniela.jpg"
+                            image={router.basePath + '/images/about/daniela.jpg'}
                             imageAlt="Daniela"
                             title="Daniela Vinaccia"
                             email="daniela@flarehub.io"
@@ -60,7 +64,7 @@ export default function About() {
                         </AboutCard>
 
                         <AboutCard
-                            image="./images/about/igor.jpg"
+                            image={router.basePath + '/images/about/igor.jpg'}
                             imageAlt="Igor"
                             title="Igor Honhoff"
                             email="igor@flarehub.io"

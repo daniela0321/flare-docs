@@ -76,7 +76,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                                         img: MarkdownImage,
                                     }}
                                 // This will change later when I will install the image plugin
-                                // transformImageUri={uri => uri.startsWith("/") ? `${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}${uri}` : uri}
+                                // transformImageUri={uri => uri.startsWith("/") ? `${process.env.SITE_URL}${uri}` : uri}
                                 >{content}</ReactMarkdown>
                             </article>
                         </main>
