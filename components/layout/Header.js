@@ -14,11 +14,12 @@ export default function Header() {
                     <Navbar.Brand>
                         <Image
                             src='/images/200701-flare-hub-logo-white.png'
-                            srcSizes={[110]}
+                            srcSizes={[220]}
                             width="110"
                             height="29.6"
                             className="d-inline-block  align-top"
                             alt="Flare Hub logo"
+                            lazy={false}
                         />
                     </Navbar.Brand>
                 </Link>
