@@ -1,25 +1,25 @@
 // External packages:
 import Link from "next/link"
 import { Nav, Navbar, Form, FormControl, Button, NavDropdown, InputGroup } from "react-bootstrap"
-import { useRouter } from 'next/router'
+import Image from "./Image"
 
 
 // react-bootstrap Navbar with next/links and next/image:
 export default function Header() {
-    const router = useRouter()
-
     return (
         <header className="sticky-top">
             <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg">
 
                 <Link href="/" passHref>
                     <Navbar.Brand>
-                        <img
-                            src={router.basePath + '/images/200701-flare-hub-logo-white.png'}
+                        <Image
+                            src='/images/200701-flare-hub-logo-white.png'
+                            srcSizes={[220]}
                             width="110"
                             height="29.6"
                             className="d-inline-block  align-top"
                             alt="Flare Hub logo"
+                            lazy={false}
                         />
                     </Navbar.Brand>
                 </Link>
