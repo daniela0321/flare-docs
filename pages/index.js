@@ -2,17 +2,15 @@
 import styles from '../styles/Home.module.css'
 // External packages:
 import { Container, Button, Row } from "react-bootstrap"
-import { useRouter } from 'next/router'
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
 import InfoCard from "../components/home/InfoCard"
 import InsightCardHome from "../components/home/InsightCardHome"
+import Image from '../components/layout/Image'
 
 
 // Home Page:
 export default function Home() {
-  const router = useRouter()
-
   return (
     <>
       <HeadMeta
@@ -31,10 +29,12 @@ export default function Home() {
 
         <Container fluid className="m-0 p-0">
           <div className={styles.intro}>
-            <img
-              src={router.basePath + '/images/intro-image.jpg'}
+            <Image
+              src="/images/intro-image.jpg"
               alt="Flare intro image"
               className={styles.introImage}
+              srcSizes={[534, 1067, 1920, 4000]}
+              lazy="false"
             />
             <div className={styles.introText}>
               <h1>Build Value-Adding Digital Solutions</h1>
@@ -47,21 +47,21 @@ export default function Home() {
         <Container className="py-5 px-3">
           <Row className="d-flex flex-row justify-content-center">
             <InfoCard
-              image={router.basePath + '/images/home/im-desperate.jpg'}
+              image="/images/home/im-desperate.jpg"
               imageTitle="I'm desperate"
               title="Why?"
               description="If you need an introduction, or a refresher, on the specifics of creating 
               value-adding digital products"
             />
             <InfoCard
-              image={router.basePath + '/images/home/pile-of-books.jpg'}
+              image="/images/home/pile-of-books.jpg"
               imageTitle="Pile of books"
               title="What?"
               description="An interconnected library of Insights that offer a top-down view to the 
               common frameworks and models"
             />
             <InfoCard
-              image={router.basePath + '/images/home/teaching.jpg'}
+              image="/images/home/teaching.jpg"
               imageTitle="Teaching"
               title="To Whom?"
               description="E.g. for project managers, product managers, product owners, general managers, 
@@ -72,7 +72,7 @@ export default function Home() {
 
         <Container fluid className="m-0 p-0">
           <InsightCardHome
-            image={router.basePath + '/images/home/210730-systems-development-life-cycle-home.jpg'}
+            image="/images/home/210730-systems-development-life-cycle-home.jpg"
             imageTitle="Systems Development Life Cycle"
             title="What is the process of creating value-adding digital solutions?"
             button="/insights/product-lifecycles"
@@ -80,7 +80,7 @@ export default function Home() {
             textFirst={false}
           />
           <InsightCardHome
-            image={router.basePath + '/images/home/210817-governing-practices-home.jpg'}
+            image="/images/home/210817-governing-practices-home.jpg"
             imageTitle="Governing Practices"
             title="What processes provide support and governance for the product life cycle?"
             button="/insights/governing-practices"
