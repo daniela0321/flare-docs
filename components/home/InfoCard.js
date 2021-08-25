@@ -14,7 +14,8 @@ export default function InfoCard({ image, imageTitle, title, description }) {
                 src={image}
                 alt={imageTitle}
                 className={styles.roundImage}
-                srcSizes={[150]}
+                srcSizes={[150, 300]}
+                sizes="(min-resolution: 192dpi) 300px, 150px"
             />
             <h2>{title}</h2>
             <p className={styles.paragraphWidth}>

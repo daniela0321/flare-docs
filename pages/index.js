@@ -34,6 +34,7 @@ export default function Home() {
               alt="Flare intro image"
               className={styles.introImage}
               srcSizes={[534, 1067, 1920, 4000]}
+              lazy="false"
             />
             <div className={styles.introText}>
               <h1>Build Value-Adding Digital Solutions</h1>
