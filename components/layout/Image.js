@@ -15,7 +15,7 @@ export default function Image({ src, srcSizes, defaultSize, sizes, alt, lazy, cl
     + (defaultSize || srcSetList[srcSetList.length - 1])
 
   // Only disable lazy loading if lazy is set to false (default to true)
-  const loading = lazy === false ? 'eager' : 'lazy'
+  const loading = (lazy === false || lazy === 'false') ? 'eager' : 'lazy'
 
   // Return img element
   return (

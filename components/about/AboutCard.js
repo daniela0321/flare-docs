@@ -2,6 +2,7 @@
 import styles from "./AboutCard.module.css"
 // External packages:
 import { Card } from "react-bootstrap"
+import Image from "../layout/Image"
 
 
 // A card that includes information and image of one person:
@@ -11,11 +12,11 @@ export default function AboutCard({ image, imageAlt, title, email, mobile, child
         <Card className="mb-3 mx-1">
 
             <div className="d-flex justify-content-center">
-                <Card.Img
-                    className={styles.image}
-                    variant="top"
+                <Image
+                    className={`${styles.image} card-img-top`}
                     src={image}
                     alt={imageAlt}
+                    srcSizes={[400]}
                 />
             </div>
 
