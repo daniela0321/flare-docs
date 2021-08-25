@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap'
 // Internal components:
 import Close from "./Close"
+import Image from "../../layout/Image";
 
 
 // Open image as modal:
@@ -19,7 +20,7 @@ export default function MarkdownImage({ src, alt }) {
         <>
             {/* Show image as a link */}
             <a href="#" onClick={handleShow}>
-                <img src={src} alt={alt} className="mt-3 mw-100" />
+                <Image src={src} alt={alt} className="mt-3 mw-100" sizes="(min-width: 796px) 700px, 80vw" />
             </a>
 
             {/* Modal that opens up when clicking the image above */}
@@ -32,7 +33,7 @@ export default function MarkdownImage({ src, alt }) {
                     <div onClick={handleClose} className="mb-2 d-flex flex-row-reverse">
                         <Close />
                     </div>
-                    <img src={src} alt={alt} className={styles.imageSize} />
+                    <Image src={src} alt={alt} className={styles.imageSize} />
                 </Modal.Body>
             </Modal>
         </>

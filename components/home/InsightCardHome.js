@@ -2,6 +2,7 @@
 import styles from "./InsightCardHome.module.css"
 // External packages:
 import { Button, Row, Col } from 'react-bootstrap'
+import Image from "../layout/Image"
 
 
 // An info card to give a high-level view to the content of the site:
@@ -14,10 +15,13 @@ export default function InsightCardHome({ image, imageTitle, title, button, amou
         <Row className="m-0 p-0">
 
             <Col lg={imageColumnOrder} className="m-0 p-0">
-                <img
+                <Image
                     className={styles.imageStyle}
                     src={image}
                     alt={imageTitle}
+                    srcSizes={[375, 750, 1500, 3000]}
+                    defaultSize="1500"
+                    sizes="(min-width: 992px) 50vw, 100vw"
                 />
             </Col>
 
