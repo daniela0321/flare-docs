@@ -7,11 +7,11 @@ export default function Image({ src, srcSizes, defaultSize, sizes, alt, lazy, cl
   // Create srcset from sizes provided in srcSizes or using defaults
   const srcSetList = srcSizes || [375, 700, 1400, 3000]
   const srcSet = srcSetList.map(
-    size => `${router.basePath + src}?nf_resize=fit&w=${size} ${size}w`
+    size => `${router.basePath + process.env.LOCAL_PATH + src}?nf_resize=fit&w=${size} ${size}w`
   ).join(', ')
 
   // Set src url including resize query parameter
-  const resizedSrc = router.basePath + src + '?nf_resize=fit&w='
+  const resizedSrc = router.basePath + process.env.LOCAL_PATH + src + '?nf_resize=fit&w='
     + (defaultSize || srcSetList[srcSetList.length - 1])
 
   // Only disable lazy loading if lazy is set to false (default to true)
