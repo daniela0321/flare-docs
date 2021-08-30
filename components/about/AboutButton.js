@@ -1,14 +1,18 @@
 // Styles:
 import styles from "./AboutButton.module.css"
 // External packages:
-import { Button } from "react-bootstrap"
+import Link from "next/link"
 
 
 // 'See our work' button:
-export default function AboutButton({ buttonname }) {
+export default function AboutButton({ link, buttonname }) {
     return (
         <div className="d-flex justify-content-center">
-            <Button variant="outline-primary" className={styles.button}>{buttonname}</Button>
+            <Link href={link}>
+                <a className={`${styles.button} btn btn-outline-primary`}>
+                    {buttonname}
+                </a>
+            </Link>
         </div>
     )
 }

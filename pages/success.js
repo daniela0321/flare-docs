@@ -1,6 +1,7 @@
 // Styles:
 import styles from '../styles/success.module.css'
 // External packages:
+import Link from "next/link"
 import { Container, Button } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
@@ -22,11 +23,17 @@ export default function Success() {
             />
 
             <Container className="d-flex justify-content-center">
-                <div className={styles.success}>
+                <div className={`${styles.success} p-5 border rounded`}>
 
                     <p>We have received your message.</p>
                     <p>Thank you for your feedback!</p>
-                    <Button href="/" className="mt-3">Home page</Button>
+
+
+                    <Link href="/">
+                        <a role="button" className="mt-3 btn btn-primary">
+                            Home page
+                        </a>
+                    </Link>
 
                 </div>
             </Container>

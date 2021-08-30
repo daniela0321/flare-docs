@@ -2,6 +2,7 @@
 import styles from '../styles/Home.module.css'
 // External packages:
 import { Container, Button, Row } from "react-bootstrap"
+import Link from "next/link"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
 import InfoCard from "../components/home/InfoCard"
@@ -37,10 +38,18 @@ export default function Home() {
               lazy="false"
             />
             <div className={styles.introText}>
+
               <h1>Build Value-Adding Digital Solutions</h1>
               <p>Gain the Insights and understand relationships between the concepts.</p>
-              <Button href="/insights/how-to-build-value-adding-digital-solutions" variant="light">Read more</Button>
+
+              <Link href="/insights/how-to-build-value-adding-digital-solutions">
+                <a role="button" className="btn btn-light">
+                  Read more
+                </a>
+              </Link>
+
             </div>
+
           </div>
         </Container>
 
@@ -74,7 +83,7 @@ export default function Home() {
           <InsightCardHome
             image="/images/home/210730-systems-development-life-cycle-home.jpg"
             imageTitle="Systems Development Life Cycle"
-            title="What is the process of creating value-adding digital solutions?"
+            title="What is the process for creating value-adding digital solutions?"
             button="/insights/product-lifecycles"
             amountAndTime="15 Insights (1 hour 58 minutes)"
             textFirst={false}
@@ -82,7 +91,7 @@ export default function Home() {
           <InsightCardHome
             image="/images/home/210817-governing-practices-home.jpg"
             imageTitle="Governing Practices"
-            title="What processes provide support and governance for the product life cycle?"
+            title="How to provide support and governance for the product life cycle?"
             button="/insights/governing-practices"
             amountAndTime="11 Insights (1 hour 41 minutes)"
             textFirst={true}
@@ -90,8 +99,15 @@ export default function Home() {
         </Container>
 
         <Container className="py-5 px-3 d-flex flex-column justify-content-center align-items-center">
-          <h2 className={styles.viewInsightsTitle}>Complete List of All Insights</h2>
-          <Button href="/insights" className={styles.viewInsightsButton}>View the list</Button>
+
+          <h2 className={styles.viewInsightsTitle}>Complete list of Insights</h2>
+
+          <Link href="/insights">
+            <a role="button" className={`${styles.viewInsightsButton} btn btn-primary`}>
+              View the list
+            </a>
+          </Link>
+
         </Container>
 
       </main>
