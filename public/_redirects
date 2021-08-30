@@ -1,0 +1,151 @@
+# Page redirects:	
+/cookie-policy-eu/	                                /cookie-policy
+/category/insights/                                 /insights
+# See if these need to be changed later
+/insights/page/2/	                                /insights
+/insights/page/3/	                                /insights
+
+# Page redirects insights:	
+/information-architecture/	                        /insights/information-architecture
+/service-design/	                                /insights/service-design
+/business-process-management/	                    /insights/business-process-management
+/data-management/	                                /insights/data-management
+/project-portfolio-program-and-project-management/	/insights/project-portfolio-program-and-project-management
+/project-portfolio-management/	                    /insights/project-portfolio-management
+/how-to-build-value-adding-digital-solutions/	    /insights/how-to-build-value-adding-digital-solutions
+/customer-experience-and-service-design-tools/	    /insights/customer-experience-and-service-design-tools
+/ux-design/	                                        /insights/ux-design
+/interaction-design/	                            /insights/interaction-design
+/enterprise-architecture/	                        /insights/enterprise-architecture
+/scrum/	                                            /insights/scrum
+/product-lifecycles/	                            /insights/product-lifecycles
+/project-management/	                            /insights/project-management
+/change-management/	                                /insights/change-management
+/service-ux-and-ui-design/	                        /insights/service-ux-and-ui-design
+/7-factors-of-user-experience/	                    /insights/seven-factors-of-user-experience
+/governing-practices/	                            /insights/governing-practices
+/waterfall-software-development/	                /insights/waterfall-software-development
+/testing/	                                        /insights/testing
+/itil-4/	                                        /insights/itil-4
+/requirements/	                                    /insights/requirements
+/agile-software-development/	                    /insights/agile-software-development
+/organizational-culture/	                        /insights/organizational-culture
+/service-transition-and-operation/	                /insights/service-transition-and-operation
+/implementation/	                                /insights/implementation
+/service-management/	                            /insights/service-management
+
+
+# Image redirects:	
+ /wp-content/uploads/2020/10/cropped-200701-Flare-Hub-logo-white-Microsoft-Sans-Serif-bold.png	    /images/200701-flare-hub-logo-white.png
+ /wp-content/uploads/2020/09/Daniela-300x300.jpg	                                                /images/about/daniela.jpg
+ /wp-content/uploads/2020/09/Igor-300x300.jpg	                                                    /images/about/igor.jpg
+ /wp-content/uploads/2020/09/1-Im-desperate-150x150.jpg	                                            /images/home/im-desperate.jpg
+ /wp-content/uploads/2020/09/2-pile-of-books-150x150.jpg	                                        /images/home/pile-of-books.jpg
+ /wp-content/uploads/2020/09/3-teaching-150x150.jpg	                                                /images/home/teaching.jpg
+ /wp-content/uploads/2020/06/main2-1024x576.jpg	                                                    /images/intro-image.jpg
+	
+# Image redirects Insights:	
+ /wp-content/uploads/2020/06/200701-Bento-box-1024x683.jpg	                                        /images/insights/200701-information-architecture-bento-box.jpg
+ /wp-content/uploads/2020/06/200701-Bento-box-scaled.jpg	                                        /images/insights/200701-information-architecture-bento-box.jpg
+ /wp-content/uploads/2020/06/200701-Filtered-view-1024x683.jpg	                                    /images/insights/200701-information-architecture-filtered-view.jpg
+ /wp-content/uploads/2020/06/200701-Filtered-view-scaled.jpg	                                    /images/insights/200701-information-architecture-filtered-view.jpg
+ /wp-content/uploads/2020/06/200701-Hierachy-1024x683.jpg	                                        /images/insights/200701-information-architecture-hierachy.jpg
+ /wp-content/uploads/2020/06/200701-Hierachy-scaled.jpg	                                            /images/insights/200701-information-architecture-hierachy.jpg
+ /wp-content/uploads/2020/06/200701-Nested-list-1024x683.jpg	                                    /images/insights/200701-information-architecture-nested-list.jpg
+ /wp-content/uploads/2020/06/200701-Nested-list-scaled.jpg	                                        /images/insights/200701-information-architecture-nested-list.jpg
+ /wp-content/uploads/2020/06/200704-Hub-and-spoke-1024x683.jpg	                                    /images/insights/200704-information-architecture-hub-and-spoke.jpg
+ /wp-content/uploads/2020/06/200704-Hub-and-spoke-scaled.jpg	                                    /images/insights/200704-information-architecture-hub-and-spoke.jpg
+ /wp-content/uploads/2020/08/200819b-Business-Model-Canvas-scaled.jpg	                            /images/insights/200819b-business-model-canvas.jpg
+ /wp-content/uploads/2020/08/200819b-Business-Model-Canvas-1024x683.jpg	                            /images/insights/200819b-business-model-canvas.jpg
+ /wp-content/uploads/2020/08/200819b-POC-Prototype-Pilot-and-MVP-1024x683.jpg	                    /images/insights/200819b-poc-prototype-pilot-and-mvp.jpg
+ /wp-content/uploads/2020/08/200819b-POC-Prototype-Pilot-and-MVP-scaled.jpg	                        /images/insights/200819b-poc-prototype-pilot-and-mvp.jpg
+ /wp-content/uploads/2020/08/200819b-Roadmaps-1024x683.jpg	                                        /images/insights/200819b-roadmaps.jpg
+ /wp-content/uploads/2020/08/200819b-Roadmaps-scaled.jpg	                                        /images/insights/200819b-roadmaps.jpg
+ /wp-content/uploads/2020/08/200830b-Personas-1024x683.jpg	                                        /images/insights/200830b-personas.jpg
+ /wp-content/uploads/2020/08/200830b-Personas-scaled.jpg	                                        /images/insights/200830b-personas.jpg
+ /wp-content/uploads/2020/08/200902b-Customer-Experience-and-Service-Design-Tools-768x512.jpg	    /images/insights/200902b-customer-experience-and-service-design-tools.jpg
+ /wp-content/uploads/2020/08/200902b-Customer-Experience-and-Service-Design-Tools-scaled.jpg	    /images/insights/200902b-customer-experience-and-service-design-tools.jpg
+ /wp-content/uploads/2020/08/200902b-Customer-Experience-and-Service-Design-Tools-1024x683.jpg	    /images/insights/200902b-customer-experience-and-service-design-tools.jpg
+ /wp-content/uploads/2020/07/200902b-Types-of-Information-Architecture-768x512.jpg	                /images/insights/200902b-information-architecture.jpg
+ /wp-content/uploads/2020/07/200902b-Types-of-Information-Architecture-1024x683.jpg	                /images/insights/200902b-information-architecture.jpg
+ /wp-content/uploads/2020/07/200902b-Types-of-Information-Architecture-scaled.jpg	                /images/insights/200902b-information-architecture.jpg
+ /wp-content/uploads/2020/08/200902b-Journey-Map-vs-Service-Blueprint-1024x683.jpg	                /images/insights/200902b-journey-map-vs-service-blueprint.jpg
+ /wp-content/uploads/2020/08/200902b-Journey-Map-vs-Service-Blueprint-scaled.jpg	                /images/insights/200902b-journey-map-vs-service-blueprint.jpg
+ /wp-content/uploads/2020/09/200907-The-7-Factors-that-Influence-User-Experience-768x512.jpg	    /images/insights/200907-the-7-factors-that-influence-user-experience.jpg
+ /wp-content/uploads/2020/09/200907-The-7-Factors-that-Influence-User-Experience-1024x683.jpg	    /images/insights/200907-the-7-factors-that-influence-user-experience.jpg
+ /wp-content/uploads/2020/09/200907-The-7-Factors-that-Influence-User-Experience-scaled.jpg	        /images/insights/200907-the-7-factors-that-influence-user-experience.jpg
+ /wp-content/uploads/2020/09/200910-The-Five-Dimensions-of-Interaction-Design-768x512.jpg	        /images/insights/200910-the-five-dimensions-of-interaction-design.jpg
+ /wp-content/uploads/2020/09/200910-The-Five-Dimensions-of-Interaction-Design-scaled.jpg	        /images/insights/200910-the-five-dimensions-of-interaction-design.jpg
+ /wp-content/uploads/2020/09/200910-The-Five-Dimensions-of-Interaction-Design-1024x683.jpg	        /images/insights/200910-the-five-dimensions-of-interaction-design.jpg
+ /wp-content/uploads/2020/09/200911-Project-Portfolio-Management-768x512.jpg	                    /images/insights/200911-project-portfolio-management.jpg
+ /wp-content/uploads/2020/09/200911-Project-Portfolio-Management-scaled.jpg	                        /images/insights/200911-project-portfolio-management.jpg
+ /wp-content/uploads/2020/09/200911-Project-Portfolio-Management-1024x683.jpg	                    /images/insights/200911-project-portfolio-management.jpg
+ /wp-content/uploads/2020/07/200917-Requirements-Development-768x512.jpg	                        /images/insights/200917-requirements-development.jpg
+ /wp-content/uploads/2020/07/200917-Requirements-Development-scaled.jpg	                            /images/insights/200917-requirements-development.jpg
+ /wp-content/uploads/2020/07/200917-Requirements-Development-1024x683.jpg	                        /images/insights/200917-requirements-development.jpg
+ /wp-content/uploads/2020/08/200919-Service-Design-768x512.jpg	                                    /images/insights/200919-service-design.jpg
+ /wp-content/uploads/2020/08/200919-Service-Design-1024x683.jpg	                                    /images/insights/200919-service-design.jpg
+ /wp-content/uploads/2020/08/200919-Service-Design-scaled.jpg	                                    /images/insights/200919-service-design.jpg
+ /wp-content/uploads/2020/08/200921-Project-Portfolio-Program-and-Project-Management-768x512.jpg	/images/insights/200921-project-portfolio-program-and-project-management.jpg
+ /wp-content/uploads/2020/08/200921-Project-Portfolio-Program-and-Project-Management-1024x683.jpg	/images/insights/200921-project-portfolio-program-and-project-management.jpg
+ /wp-content/uploads/2020/08/200921-Project-Portfolio-Program-and-Project-Management-scaled.jpg	    /images/insights/200921-project-portfolio-program-and-project-management.jpg
+ /wp-content/uploads/2020/07/200921-User-Experience-Design-768x512.jpg	                            /images/insights/200921-user-experience-design.jpg
+ /wp-content/uploads/2020/07/200921-User-Experience-Design-1024x683.jpg	                            /images/insights/200921-user-experience-design.jpg
+ /wp-content/uploads/2020/07/200921-User-Experience-Design-scaled.jpg	                            /images/insights/200921-user-experience-design.jpg
+ /wp-content/uploads/2020/09/200923-Project-Management-1024x683.jpg	                                /images/insights/200923-project-management.jpg
+ /wp-content/uploads/2020/09/200923-Project-Management-768x512.jpg	                                /images/insights/200923-project-management.jpg
+ /wp-content/uploads/2020/09/200923-Project-Management-1024x683.jpg	                                /images/insights/200923-project-management.jpg
+ /wp-content/uploads/2020/09/200923-Project-Management-scaled.jpg	                                /images/insights/200923-project-management.jpg
+ /wp-content/uploads/2020/09/200929-Scrum-scaled.jpg	                                            /images/insights/200929-scrum.jpg
+ /wp-content/uploads/2020/09/200929-Scrum-768x512.jpg	                                            /images/insights/200929-scrum.jpg
+ /wp-content/uploads/2020/09/200929-Scrum-1024x683.jpg	                                            /images/insights/200929-scrum.jpg
+ /wp-content/uploads/2020/10/201006-Waterfall-Software-Development-768x512.jpg	                    /images/insights/201006-waterfall-software-development.jpg
+ /wp-content/uploads/2020/10/201006-Waterfall-Software-Development-scaled.jpg	                    /images/insights/201006-waterfall-software-development.jpg
+ /wp-content/uploads/2020/10/201006-Waterfall-Software-Development-1024x683.jpg	                    /images/insights/201006-waterfall-software-development.jpg
+ /wp-content/uploads/2020/10/201020-Testing-scaled.jpg	                                            /images/insights/201020-testing.jpg
+ /wp-content/uploads/2020/10/201020-Testing-1024x683.jpg	                                        /images/insights/201020-testing.jpg
+ /wp-content/uploads/2020/10/201020-Testing-768x512.jpg	                                            /images/insights/201020-testing.jpg
+ /wp-content/uploads/2020/09/201027-Agile-Software-Development-768x512.jpg	                        /images/insights/201027-agile-software-development.jpg
+ /wp-content/uploads/2020/09/201027-Agile-Software-Development-scaled.jpg	                        /images/insights/201027-agile-software-development.jpg
+ /wp-content/uploads/2020/09/201027-Agile-Software-Development-1024x683.jpg	                        /images/insights/201027-agile-software-development.jpg
+ /wp-content/uploads/2020/10/201027-Service-Transition-and-Operation-1024x683.jpg	                /images/insights/201027-service-transition-and-operation.jpg
+ /wp-content/uploads/2020/10/201027-Service-Transition-and-Operation-768x512.jpg	                /images/insights/201027-service-transition-and-operation.jpg
+ /wp-content/uploads/2020/10/201027-Service-Transition-and-Operation-scaled.jpg	                    /images/insights/201027-service-transition-and-operation.jpg
+ /wp-content/uploads/2020/07/201027-Service-User-Experience-and-User-Interface-Design-768x512.jpg	/images/insights/201027-service-user-experience-and-user-interface-design.jpg
+ /wp-content/uploads/2020/07/201027-Service-User-Experience-and-User-Interface-Design-scaled.jpg	/images/insights/201027-service-user-experience-and-user-interface-design.jpg
+ /wp-content/uploads/2020/07/201027-Service-User-Experience-and-User-Interface-Design-1024x683.jpg	/images/insights/201027-service-user-experience-and-user-interface-design.jpg
+ /wp-content/uploads/2020/11/201103-ITIL-4-scaled.jpg	                                            /images/insights/201103-itil-4.jpg
+ /wp-content/uploads/2020/11/201103-ITIL-4-768x512.jpg	                                            /images/insights/201103-itil-4.jpg
+ /wp-content/uploads/2020/11/201103-ITIL-4-1024x683.jpg	                                            /images/insights/201103-itil-4.jpg
+ /wp-content/uploads/2020/11/201103-Service-Management-1024x683.jpg	                                /images/insights/201103-service-management.jpg
+ /wp-content/uploads/2020/11/201103-Service-Management-scaled.jpg	                                /images/insights/201103-service-management.jpg
+ /wp-content/uploads/2020/11/201103-Service-Management-768x512.jpg	                                /images/insights/201103-service-management.jpg
+ /wp-content/uploads/2020/11/201124-Enterprise-Architecture-768x512.jpg	                            /images/insights/201124-enterprise-architecture.jpg
+ /wp-content/uploads/2020/11/201124-Enterprise-Architecture-1024x683.jpg	                        /images/insights/201124-enterprise-architecture.jpg
+ /wp-content/uploads/2020/11/201124-Enterprise-Architecture-scaled.jpg	                            /images/insights/201124-enterprise-architecture.jpg
+ /wp-content/uploads/2021/02/210210-Change-Management-1024x683.jpg	                                /images/insights/210210-change-management.jpg
+ /wp-content/uploads/2021/02/210210-Change-Management-768x512.jpg	                                /images/insights/210210-change-management.jpg
+ /wp-content/uploads/2021/02/210210-Change-Management-scaled.jpg	                                /images/insights/210210-change-management.jpg
+ /wp-content/uploads/2021/01/210111-Organizational-Culture-768x512.jpg	                            /images/insights/210729-organizational-culture.jpg
+ /wp-content/uploads/2021/01/210111-Organizational-Culture-scaled.jpg	                            /images/insights/210729-organizational-culture.jpg
+ /wp-content/uploads/2021/01/210111-Organizational-Culture-1024x683.jpg	                            /images/insights/210729-organizational-culture.jpg
+ /wp-content/uploads/2020/07/201204-How-to-Build-Value-Adding-Digital-Solutions-scaled.jpg	        /images/insights/210730-how-to-build-value-adding-digital-solutions.jpg
+ /wp-content/uploads/2020/07/201204-How-to-Build-Value-Adding-Digital-Solutions-1024x683.jpg	    /images/insights/210730-how-to-build-value-adding-digital-solutions.jpg
+ /wp-content/uploads/2020/07/201204-How-to-Build-Value-Adding-Digital-Solutions-768x512.jpg	        /images/insights/210730-how-to-build-value-adding-digital-solutions.jpg
+ /wp-content/uploads/2020/09/200916-Systems-Development-Life-Cycle-scaled.jpg	                    /images/insights/210730-systems-development-life-cycle.jpg
+ /wp-content/uploads/2020/09/200916-Systems-Development-Life-Cycle-1024x683.jpg	                    /images/insights/210730-systems-development-life-cycle.jpg
+ /wp-content/uploads/2020/09/200916-Systems-Development-Life-Cycle-768x512.jpg	                    /images/insights/210730-systems-development-life-cycle.jpg
+ /wp-content/uploads/2020/12/201205-Business-Process-Management-1024x683.jpg	                    /images/insights/210801-business-process-management-life-cycle.jpg
+ /wp-content/uploads/2020/12/201205-Business-Process-Management-scaled.jpg	                        /images/insights/210801-business-process-management-life-cycle.jpg
+ /wp-content/uploads/2020/12/201205-Business-Process-Management-768x512.jpg	                        /images/insights/210801-business-process-management-life-cycle.jpg
+ /wp-content/uploads/2020/09/200907-Skeletons-and-Wireframes-scaled.jpg	                            /images/insights/210801-skeletons-and-wireframes.jpg
+ /wp-content/uploads/2020/09/200907-Skeletons-and-Wireframes-1024x683.jpg	                        /images/insights/210801-skeletons-and-wireframes.jpg
+ /wp-content/uploads/2020/10/201027-Implementation-768x512.jpg	                                    /images/insights/210805-implementation.jpg
+ /wp-content/uploads/2020/10/201027-Implementation-1024x683.jpg	                                    /images/insights/210805-implementation.jpg
+ /wp-content/uploads/2020/10/201027-Implementation-scaled.jpg	                                    /images/insights/210805-implementation.jpg
+ /wp-content/uploads/2020/12/201204-Governing-Practices-768x512.jpg	                                /images/insights/210817-governing-practices.jpg
+ /wp-content/uploads/2020/12/201204-Governing-Practices-1024x683.jpg	                            /images/insights/210817-governing-practices.jpg
+ /wp-content/uploads/2020/12/201204-Governing-Practices-scaled.jpg	                                /images/insights/210817-governing-practices.jpg
+ /wp-content/uploads/2020/11/201117-Data-Management-768x512.jpg	                                    /images/insights/210930-data-management.jpg
+ /wp-content/uploads/2020/11/201117-Data-Management-scaled.jpg	                                    /images/insights/210930-data-management.jpg
+ /wp-content/uploads/2020/11/201117-Data-Management-1024x683.jpg	                                /images/insights/210930-data-management.jpg
