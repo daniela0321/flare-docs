@@ -6,7 +6,7 @@ import Image from "../layout/Image"
 
 
 // A card that includes information and image of one person:
-export default function AboutCard({ image, imageAlt, title, email, mobile, children }) {
+export default function AboutCard({ image, imageAlt, lazyImage, title, email, mobile, children }) {
 
     return (
         <Card className="mb-3 mx-1">
@@ -17,6 +17,7 @@ export default function AboutCard({ image, imageAlt, title, email, mobile, child
                     src={image}
                     alt={imageAlt}
                     srcSizes={[400]}
+                    lazy={lazyImage}
                 />
             </div>
 

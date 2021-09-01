@@ -65,6 +65,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                                 <MarkdownImage
                                     src={frontmatter.image}
                                     alt={frontmatter.imageTitle}
+                                    lazy="false"
                                 />
                                 <p className="mt-4 font-semi-bold">{frontmatter.excerpt}</p>
                                 <ReactMarkdown
