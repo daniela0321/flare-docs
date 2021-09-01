@@ -8,4 +8,4 @@ disabled = false
 # customDomain = "flarehub.io"
 #default:
 renderJavaScript = false
-template = "hierarchical"
+# template = "hierarchical"
