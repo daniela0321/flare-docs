@@ -2,8 +2,10 @@
 package = "@algolia/netlify-plugin-crawler"
 [plugins.inputs]
 branches = ['production']
+#default:
 disabled = false
-pathPrefix = "/insights"
+# pathPrefix = ""
 # customDomain = "flarehub.io"
+#default:
 renderJavaScript = false
 template = "hierarchical"
