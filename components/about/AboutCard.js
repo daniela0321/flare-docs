@@ -9,7 +9,7 @@ import Image from "../layout/Image"
 export default function AboutCard({ image, imageAlt, lazyImage, title, email, mobile, children }) {
 
     return (
-        <Card className="mb-3 mx-1">
+        <Card className="mb-5 mx-1">
 
             <div className="d-flex justify-content-center">
                 <Image
@@ -21,7 +21,7 @@ export default function AboutCard({ image, imageAlt, lazyImage, title, email, mo
                 />
             </div>
 
-            <Card.Body className="mb-4">
+            <Card.Body className="mb-1">
                 <Card.Title className={styles.title}>{title}</Card.Title>
                 <Card.Text className={styles.email}>{email}</Card.Text>
                 <Card.Text className={styles.mobile}>{mobile}</Card.Text>
