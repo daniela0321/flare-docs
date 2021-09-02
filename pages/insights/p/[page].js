@@ -1,24 +1,23 @@
 // External packages:
-import React, { useState } from "react"
 import { Container } from "react-bootstrap"
+import { useRouter } from "next/router"
 // Internal components:
-import HeadMeta from "../components/head/HeadMeta"
-import PageTitle from "../components/layout/PageTitle"
-import InsightList from "../components/insights/InsightList"
-import InsightsPagination from "../components/insights/InsightsPagination"
+import HeadMeta from "../../../components/head/HeadMeta"
+import PageTitle from "../../../components/layout/PageTitle"
+import InsightList from "../../../components/insights/InsightList"
+import InsightsPagination from "../../../components/insights/InsightsPagination"
 
 
 // Import and export server side functions:
-export { getStaticProps } from "../server/insights"
+export { getStaticPaths, getStaticProps } from "../../../server/insights/p/[page]"
 
 
 // Page with list or collection of posts:
-export default function Insights(props) {
+export default function Insights({ insights, totalPages }) {
+    const router = useRouter()
 
-    // To control what the active pagination page is
-    const [activePage, setActivePage] = useState(1)
-    function handleClick(newActivePage) {
-        setActivePage(newActivePage)
+    function handlePageChange(pageNum) {
+        router.push('/insights/p/' + pageNum)
     }
 
     return (
@@ -42,13 +41,12 @@ export default function Insights(props) {
 
                 <Container>
                     <InsightList
-                        insights={props.insights}
-                        activePage={activePage}
+                        insights={insights}
                     />
                     <InsightsPagination
-                        amountOfPosts={props.insights.length}
-                        handleClick={handleClick}
-                        activePage={activePage}
+                        amountOfPages={totalPages}
+                        activePage={router.query.page}
+                        onPageChange={handlePageChange}
                     />
                 </Container>
             </main>
