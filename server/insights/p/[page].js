@@ -16,7 +16,7 @@ function getInsights() {
     const insights = fileNames.map((fileName) => {
 
         // Construct file path
-        const filePath = path.join(process.cwd(), `Content/${fileName}`)
+        const filePath = path.join(insightFolder, fileName)
 
         //  Import .md file using the file path (readFileSync returns the content of a file)
         const content = readFileSync(filePath, "utf8")
