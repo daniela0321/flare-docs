@@ -9,7 +9,7 @@ import Image from "../../layout/Image";
 
 
 // Open image as modal:
-export default function MarkdownImage({ src, alt }) {
+export default function MarkdownImage({ src, alt, lazy }) {
 
     // To control the opening and closing the image in a modal
     const [show, setShow] = useState(false);
@@ -20,7 +20,7 @@ export default function MarkdownImage({ src, alt }) {
         <>
             {/* Show image as a link */}
             <a href="#" onClick={handleShow}>
-                <Image src={src} alt={alt} className="mt-3 mw-100" sizes="(min-width: 796px) 700px, 80vw" />
+                <Image src={src} alt={alt} className="mt-3 mw-100" sizes="(min-width: 796px) 700px, 80vw" lazy={lazy} />
             </a>
 
             {/* Modal that opens up when clicking the image above */}

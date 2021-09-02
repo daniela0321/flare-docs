@@ -7,3 +7,8 @@ a.cardlink {
 a.cardlink:hover {
     text-decoration: none;
 }
+
+.placeholder {
+    background-color: #d4e1ef;
+    height: 233px;
+}

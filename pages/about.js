@@ -41,6 +41,7 @@ export default function About() {
                         <AboutCard
                             image="/images/about/daniela.jpg"
                             imageAlt="Daniela"
+                            lazyImage="false"
                             title="Daniela Vinaccia"
                             email="daniela@flarehub.io"
                             mobile="+358 (0)400 416187"
@@ -62,6 +63,7 @@ export default function About() {
                         <AboutCard
                             image="/images/about/igor.jpg"
                             imageAlt="Igor"
+                            lazyImage="false"
                             title="Igor Honhoff"
                             email="igor@flarehub.io"
                             mobile="+358 (0)45 8730130"
