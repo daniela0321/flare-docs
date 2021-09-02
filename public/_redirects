@@ -1,3 +1,6 @@
+# Internal page redirects
+/insights                                           /insights/p/1   200
+
 # Page redirects:	
 /cookie-policy-eu/	                                /cookie-policy
 /category/insights/                                 /insights
@@ -33,9 +36,6 @@
 /service-transition-and-operation/	                /insights/service-transition-and-operation
 /implementation/	                                /insights/implementation
 /service-management/	                            /insights/service-management
-
-# internal page redirects
-/insights                                         /insights/p/1
 
 # Image redirects:	
  /wp-content/uploads/2020/10/cropped-200701-Flare-Hub-logo-white-Microsoft-Sans-Serif-bold.png	    /images/200701-flare-hub-logo-white.png
