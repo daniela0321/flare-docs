@@ -6,7 +6,7 @@ import { Container, Row } from "react-bootstrap"
 export default function PageTitle({ title }) {
     return (
         <Container className="py-5" >
-            <Row className="pt-4 px-2 d-flex flex-row justify-content-center">
+            <Row className="pt-4 px-2 d-flex flex-row justify-content-center text-center">
                 <h1>{title}</h1>
             </Row>
         </Container>

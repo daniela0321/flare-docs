@@ -1,7 +1,9 @@
 // External packages:
 import Link from "next/link"
-import { Nav, Navbar, Form, FormControl, Button, NavDropdown, InputGroup } from "react-bootstrap"
+import { Nav, Navbar, NavDropdown } from "react-bootstrap"
+// Internal components:
 import Image from "./Image"
+import SearchField from "./SearchField"
 
 
 // react-bootstrap Navbar with next/links and next/image:
@@ -38,14 +40,7 @@ export default function Header() {
                         <Link href="/contact" passHref><Nav.Link className="pr-5">Contact</Nav.Link></Link>
                     </Nav>
 
-                    <Form inline className="mt-2 mb-4 mt-lg-1 mb-lg-1">
-                        <InputGroup>
-                            <FormControl type="text" placeholder="Search for Insights" className="mt-2 mt-lg-0" />
-                            <InputGroup.Append>
-                                <Button variant="outline-light" className="mt-2 mt-lg-0">Search</Button>
-                            </InputGroup.Append>
-                        </InputGroup>
-                    </Form>
+                    <SearchField />
 
                 </Navbar.Collapse>
             </Navbar>
