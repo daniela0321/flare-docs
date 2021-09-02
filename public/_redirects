@@ -2,8 +2,8 @@
 /cookie-policy-eu/	                                /cookie-policy
 /category/insights/                                 /insights
 # See if these need to be changed later
-/insights/page/2/	                                /insights
-/insights/page/3/	                                /insights
+/insights/page/2/	                                /insights/p/2
+/insights/page/3/	                                /insights/p/3
 
 # Page redirects insights:	
 /information-architecture/	                        /insights/information-architecture
@@ -34,6 +34,8 @@
 /implementation/	                                /insights/implementation
 /service-management/	                            /insights/service-management
 
+# internal page redirects
+/insights                                         /insights/p/1
 
 # Image redirects:	
  /wp-content/uploads/2020/10/cropped-200701-Flare-Hub-logo-white-Microsoft-Sans-Serif-bold.png	    /images/200701-flare-hub-logo-white.png
