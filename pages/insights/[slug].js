@@ -15,7 +15,7 @@ import HeadMeta from "../../components/head/HeadMeta"
 
 
 // Import and export server side functions:
-export { getStaticPaths, getStaticProps } from "../../server/[slug]"
+export { getStaticPaths, getStaticProps } from "../../server/insights/[slug]"
 
 
 // Insight page template:
