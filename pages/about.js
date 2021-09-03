@@ -39,7 +39,7 @@ export default function About() {
                     <CardDeck className="mx-0 mb-5">
 
                         <AboutCard
-                            image="/images/about/daniela.jpg"
+                            image="/images/about/daniela-pic.jpg"
                             imageAlt="Daniela"
                             lazyImage="false"
                             title="Daniela Vinaccia"
@@ -61,7 +61,7 @@ export default function About() {
                         </AboutCard>
 
                         <AboutCard
-                            image="/images/about/igor.jpg"
+                            image="/images/about/igor-pic.jpg"
                             imageAlt="Igor"
                             lazyImage="false"
                             title="Igor Honhoff"
