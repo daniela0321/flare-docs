@@ -4,7 +4,7 @@ author: "Daniela"
 created: "December 4, 2020"
 revised: "August 1, 2021"
 time: "19 min"
-image: "/images/insights/210801-business-process-management-life-cycle.jpg"
+image: "/images/insights/business-process-management-life-cycle.jpg"
 imageTitle: "Business Process Management Life Cycle"
 excerpt: "In this Insight you can find information on what Business Process Management (BPM) is, what the phases of BPM Life Cycle are, some important approaches of BPM, and how to apply agile principles to BPM."
 ---
@@ -23,7 +23,7 @@ To understand Business Process Management, you also need to understand the defin
 
 Business process can be classified and categorized in multiple ways [1]:
 
-![Business Process Classification and Categorization](/images/insights/210801-business-process-classification-and-categorization.jpg)
+![Business Process Classification and Categorization](/images/insights/business-process-classification-and-categorization.jpg)
 
 - **Process decomposition**. The manner by which the process components are broken down into simpler forms of objects. See more information in the section ‘Process decomposition’ below.
 - **A process type**. Categorizes the process based on the role of the process: 1) Management processes - focus on planning and control. 2) Main processes - to produce output. 3) Support processes - necessary for the main processes to execute.

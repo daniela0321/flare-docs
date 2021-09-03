@@ -81,7 +81,7 @@ export default function Home() {
 
         <Container fluid className="m-0 p-0">
           <InsightCardHome
-            image="/images/home/210730-systems-development-life-cycle-home.jpg"
+            image="/images/home/systems-development-life-cycle-home.jpg"
             imageTitle="Systems Development Life Cycle"
             title="What is the process for creating value-adding digital solutions?"
             button="/insights/product-lifecycles"
@@ -89,7 +89,7 @@ export default function Home() {
             textFirst={false}
           />
           <InsightCardHome
-            image="/images/home/210817-governing-practices-home.jpg"
+            image="/images/home/governing-practices-home.jpg"
             imageTitle="Governing Practices"
             title="How to provide support and governance for the product life cycle?"
             button="/insights/governing-practices"

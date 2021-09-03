@@ -4,7 +4,7 @@ author: "Daniela"
 created: "September 29, 2020"
 revised: "July 28, 2021"
 time: "10 min"
-image: "/images/insights/200929-scrum.jpg"
+image: "/images/insights/scrum.jpg"
 imageTitle: "Scrum"
 excerpt: "In this Insight you find information on what Scrum is and when to use it. In addition, it unwraps the Scrum roles, artifacts, events, and processes, and how to measure progress in Scrum."
 ---

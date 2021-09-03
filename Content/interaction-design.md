@@ -4,7 +4,7 @@ author: "Daniela"
 created: "July 21, 2020"
 revised: "July 27, 2021"
 time: "4 min"
-image: "/images/insights/200910-the-five-dimensions-of-interaction-design.jpg"
+image: "/images/insights/the-five-dimensions-of-interaction-design.jpg"
 imageTitle: "5 Dimensions of Interaction Design"
 excerpt: "In this Insight you can find information on what interaction design is, and what its five dimensions are."
 ---

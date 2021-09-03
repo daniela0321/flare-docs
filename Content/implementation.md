@@ -4,7 +4,7 @@ author: "Daniela"
 created: "October 13, 2020"
 revised: "July 27, 2021"
 time: "7 min"
-image: "/images/insights/210805-implementation.jpg"
+image: "/images/insights/implementation.jpg"
 imageTitle: "Implementation"
 excerpt: "In this Insight you find information on the tasks related to technical design, software development, and infrastructure and platform management."
 ---

@@ -4,7 +4,7 @@ author: "Daniela"
 created: "August 25, 2020"
 revised: "July 30, 2021"
 time: "3 min"
-image: "/images/insights/200921-project-portfolio-program-and-project-management.jpg"
+image: "/images/insights/project-portfolio-program-and-project-management.jpg"
 imageTitle: "Project Portfolio, Program, and Project Management"
 excerpt: "In this Insight you can find information on what enterprise project management means, and what the difference between the terms project management, program management, and portfolio management is."
 ---

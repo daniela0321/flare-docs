@@ -4,7 +4,7 @@ author: "Daniela"
 created: "October 20, 2020"
 revised: "July 27, 2021"
 time: "13 min"
-image: "/images/insights/201020-testing.jpg"
+image: "/images/insights/testing.jpg"
 imageTitle: "Software Testing"
 excerpt: "In this Insight you find information on what software testing is, what the goal of testing is, what software testing methods there are, how a generic testing process looks like, and when to use test automation."
 ---

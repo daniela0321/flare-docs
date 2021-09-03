@@ -4,7 +4,7 @@ author: "Daniela"
 created: "August 11, 2020"
 revised: "July 26, 2021"
 time: "10 min"
-image: "/images/insights/200919-service-design.jpg"
+image: "/images/insights/service-design.jpg"
 imageTitle: "Service Design"
 excerpt: "In this Insight you can find information on what service design is, what the six essential principles of service design thinking are, and what the four different steps in the service design process are."
 ---
@@ -27,7 +27,7 @@ To succeed with this, you need to holistically understand what your customer is 
 
 These six principles [1, 2] describe the essence of service design.
 
-![Six principles of Service Design](/images/insights/210726-service-design-six-principles.jpg)
+![Six principles of Service Design](/images/insights/service-design-six-principles.jpg)
 
 ### 3.1 Human-Centred
 
@@ -72,7 +72,7 @@ These six principles [1, 2] describe the essence of service design.
 
 An iterative four step approach for designing services [1] is described below.
 
-![Service Design process](/images/insights/210726-service-design-process.jpg)
+![Service Design process](/images/insights/service-design-process.jpg)
 
 It is important to understand that this structure is iterative in its approach: at every stage of the process, it might be necessary to take a step back or even start from scratch.
 

@@ -4,7 +4,7 @@ author: "Daniela"
 created: "July 28, 2020"
 revised: "July 24, 2021"
 time: "2 min"
-image: "/images/insights/200902b-information-architecture.jpg"
+image: "/images/insights/information-architecture.jpg"
 imageTitle: "Types of Information Architecture"
 excerpt: "In this Insight you can read what information architecture means and what types of information architecture there are."
 ---
@@ -23,31 +23,31 @@ Joe Natoli has listed examples of types of information architecture on websites 
 
 The hierarchical structure refers to an index page and a series of sub-pages:
 
-![Hierarchical Structure](/images/insights/200701-information-architecture-hierarchy.JPG)
+![Hierarchical Structure](/images/insights/information-architecture-hierarchy.JPG)
 
 ### 2.2 Hub-and-Spoke
 
 In the hub-and-spoke model users navigate out from a central index (hub). I.e. users cannot navigate between spokes but they have to return to the hub:
 
-![Hub-and-Spoke](/images/insights/200704-information-architecture-hub-and-spoke.jpg)
+![Hub-and-Spoke](/images/insights/information-architecture-hub-and-spoke.jpg)
 
 ### 2.3 Nested List
 
 The nested list leads users to more detailed content through linear paths:
 
-![Nested List](/images/insights/200701-information-architecture-nested-list.JPG)
+![Nested List](/images/insights/information-architecture-nested-list.JPG)
 
 ### 2.4 Bento Box (Dashboard)
 
 The bento box (dashboard) displays portions of related tools or content on a main screen:
 
-![Bento Box](/images/insights/200701-information-architecture-bento-box.jpg)
+![Bento Box](/images/insights/information-architecture-bento-box.jpg)
 
 ### 2.5 Filtered View
 
 The filtered view can also be used as a sub-pattern within another navigation pattern. Filtering is a feature designed to make sorting out items easy and simple:
 
-![Filtered View](/images/insights/200701-information-architecture-filtered-view.jpg)
+![Filtered View](/images/insights/information-architecture-filtered-view.jpg)
 
 &nbsp;
 

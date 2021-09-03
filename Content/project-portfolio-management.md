@@ -4,7 +4,7 @@ author: "Daniela"
 created: "September 8, 2020"
 revised: "July 30, 2021"
 time: "5 min"
-image: "/images/insights/200911-project-portfolio-management.jpg"
+image: "/images/insights/project-portfolio-management.jpg"
 imageTitle: "Project Portfolio Management"
 excerpt: "In this Insight you can find information on what project portfolio and a project portfolio management mean, and what the three main areas of project portfolio management are."
 ---

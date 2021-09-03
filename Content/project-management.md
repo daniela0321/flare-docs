@@ -4,7 +4,7 @@ author: "Daniela"
 created: "September 1, 2020"
 revised: "July 30, 2021"
 time: "14 min"
-image: "/images/insights/200923-project-management.jpg"
+image: "/images/insights/project-management.jpg"
 imageTitle: "Project Management"
 excerpt: "In this Insight you can find information on what a project is, what project management is, what the phases of a project lifecycle are, how a successful project looks, and what kinds of skills a project manager needs."
 ---

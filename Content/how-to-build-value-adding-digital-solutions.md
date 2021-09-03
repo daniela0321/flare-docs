@@ -4,7 +4,7 @@ author: "Daniela"
 created: "July 13, 2020"
 revised: "July 26, 2021"
 time: "5 min"
-image: "/images/insights/210730-how-to-build-value-adding-digital-solutions.jpg"
+image: "/images/insights/how-to-build-value-adding-digital-solutions.jpg"
 imageTitle: "How to Build Value-Adding Digital Solutions"
 excerpt: "This is an introduction to Flare Insights - what these are and why we are creating them."
 ---
@@ -55,7 +55,7 @@ Choose where you would like to start and dive deeper to the child Insights when 
 
 System development life cycle models, for example waterfall model or agile development model, describe how these components are executed.
 
-![Product Life Cycles](/images/insights/210730-systems-development-life-cycle-2.jpg)
+![Product Life Cycles](/images/insights/systems-development-life-cycle-2.jpg)
 
 ### 3.2 Umbrella Insight: Governing Practices
 
@@ -63,7 +63,7 @@ System development life cycle models, for example waterfall model or agile devel
 
 In addition, it includes information on how to manage and integrate all activities in an organization, and how to cultivate the organizational culture.
 
-![Governing Practices](/images/insights/210817-governing-practices-2.jpg)
+![Governing Practices](/images/insights/governing-practices-2.jpg)
 
 ### 3.3 Complete List of Insights
 

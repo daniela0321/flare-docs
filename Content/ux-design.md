@@ -4,7 +4,7 @@ author: "Daniela"
 created: "July 13, 2020"
 revised: "July 27, 2021"
 time: "9 min"
-image: "/images/insights/200921-user-experience-design.jpg"
+image: "/images/insights/user-experience-design.jpg"
 imageTitle: "User Experience Design"
 excerpt: "In this Insight you can find information on what user experience design is, and the process of creating a positive user experience."
 ---
@@ -70,7 +70,7 @@ The next step is to further refine the structure. This means identifying specifi
 
 These three elements of the skeleton plane are closely bound together and form a unified page layout. Page layout document is called a wireframe.
 
-![Skeletons and wireframes](/images/insights/210801-skeletons-and-wireframes.jpg)
+![Skeletons and wireframes](/images/insights/skeletons-and-wireframes.jpg)
 
 The level of detail varies but wireframes rarely contain colour, images, or styling. Pencil sketches with sticky notes attached might be enough for a small team. However, when there are more people (and possibly locations) involved, using a dedicated tool is probably a good idea.
 

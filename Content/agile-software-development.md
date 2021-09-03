@@ -4,7 +4,7 @@ author: "Daniela"
 created: "September 22, 2020"
 revised: "July 28, 2021"
 time: "9 min"
-image: "/images/insights/201027-agile-software-development.jpg"
+image: "/images/insights/agile-software-development.jpg"
 imageTitle: "Agile Software Development"
 excerpt: "In this Insight you can find information on what agile software development is, why this method was created, and when it can be used. In addition, the Insight lists some examples of agile methods."
 ---

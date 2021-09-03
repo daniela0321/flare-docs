@@ -4,7 +4,7 @@ author: "Daniela"
 created: "August 18, 2020"
 revised: "July 27, 2021"
 time: "14 min"
-image: "/images/insights/200902b-customer-experience-and-service-design-tools.jpg"
+image: "/images/insights/customer-experience-and-service-design-tools.jpg"
 imageTitle: "Common Customer Experience and Service Design Tools"
 excerpt: "In this Insight you can find information on tools like personas, lifecycles and journeys, business model canvas, and roadmaps. In addition, you can read about methods for testing and developing solutions."
 ---
@@ -21,7 +21,7 @@ You can find examples on user personas and templates e.g. on the site of [**Venn
 
 A persona template could for example look like something like this:
 
-![Personas](/images/insights/200830b-personas.jpg)
+![Personas](/images/insights/personas.jpg)
 
 ## 2. Customer Lifecycles and Customer Journeys
 
@@ -51,7 +51,7 @@ You can find more information and examples e.g. on the site of [**Nielsen Norman
 
 This image illustrates the differences between a journey map and a service blueprint:
 
-![Customer Journey Map vs. Service Blueprint](/images/insights/200902b-journey-map-vs-service-blueprint.jpg)
+![Customer Journey Map vs. Service Blueprint](/images/insights/journey-map-vs-service-blueprint.jpg)
 
 ## 3. Business Model Canvas
 
@@ -73,7 +73,7 @@ You can find the business model canvas template and more information on the site
 
 Nine building blocks of business model canvas:
 
-![Business Model Canvas](/images/insights/200819b-business-model-canvas.jpg)
+![Business Model Canvas](/images/insights/business-model-canvas.jpg)
 
 ## 4. Roadmaps
 
@@ -92,7 +92,7 @@ You can find different kinds of roadmap templates e.g. on the site of [**Roadmun
 
 An example of a technology roadmap:
 
-![Roadmaps](/images/insights/200819b-roadmaps.jpg)
+![Roadmaps](/images/insights/roadmaps.jpg)
 
 ## 5. Methods for Testing and Developing Solutions
 
@@ -134,7 +134,7 @@ In the diagram below Leuers and Duggan have mapped out the four different method
 
 The horizontal axis indicates how complete the solution is. The vertical axis indicates how comprehensive the “unit of testing” is.
 
-![Proof of concepts, prototypes, pilots, and minimal viable products](/images/insights/200819b-poc-prototype-pilot-and-mvp.jpg)
+![Proof of concepts, prototypes, pilots, and minimal viable products](/images/insights/poc-prototype-pilot-and-mvp.jpg)
 
 &nbsp;
 

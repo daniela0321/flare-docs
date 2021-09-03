@@ -4,7 +4,7 @@ author: "Daniela"
 created: "November 17, 2020"
 revised: "July 29, 2021"
 time: "13 min"
-image: "/images/insights/210930-data-management.jpg"
+image: "/images/insights/data-management.jpg"
 imageTitle: "Data Management"
 excerpt: "In this Insight you can find information on what Data Management is, and what the different domains of Data Management are."
 ---

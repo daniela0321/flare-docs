@@ -4,7 +4,7 @@ author: "Daniela"
 created: "February 10, 2020"
 revised: "August 18, 2021"
 time: "11 min"
-image: "/images/insights/210210-change-management.jpg"
+image: "/images/insights/change-management.jpg"
 imageTitle: "Two Dimensions of Change Management"
 excerpt: "In this Insight you find information on what change management is and its two dimensions: business side of change and people side of change."
 ---

@@ -4,7 +4,7 @@ author: "Daniela"
 created: "July 13, 2020"
 revised: "July 26, 2021"
 time: "3 min"
-image: "/images/insights/201027-service-user-experience-and-user-interface-design.jpg"
+image: "/images/insights/service-user-experience-and-user-interface-design.jpg"
 imageTitle: "Service Design, User Experience Design, and User Interface Design"
 excerpt: "In this Insight you can find information on what design means, and what the three tiers of design are."
 ---
