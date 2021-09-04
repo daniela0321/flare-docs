@@ -26,12 +26,14 @@ export default function InsightTemplate({ frontmatter, content }) {
             <HeadMeta
                 title={frontmatter.title}
                 description={frontmatter.excerpt}
-                // canonical=
-                // type=
+                canonical="true"
                 image={{
                     url: frontmatter.image,
                     alt: frontmatter.imageTitle
                 }}
+                algoliaIndexing="true"
+            // type=
+
             />
 
             <Container className="m-0 p-0" fluid>

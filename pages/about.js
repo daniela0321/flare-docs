@@ -15,7 +15,8 @@ export default function About() {
             <HeadMeta
                 title="About Us"
                 description="A little bit about us"
-            // canonical=
+                canonical="true"
+            // algoliaIndexing=
             // type=
             // image={{
             // url: 

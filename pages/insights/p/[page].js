@@ -26,7 +26,8 @@ export default function Insights({ insights, totalPages }) {
                 title="Insights"
                 description="Browse the list of Insights which address common frameworks and theories 
                 used when building digital solutions"
-            // canonical=
+                canonical={(router.query.page === '1') ? '/insights' : true}
+            // algoliaIndexing=
             // type=
             // image={{
             // url: 

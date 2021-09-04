@@ -15,7 +15,8 @@ export default function CookiePolicy() {
             <HeadMeta
                 title="Cookie Policy"
                 description="More information on the Cookie Policy"
-            // canonical=
+                canonical="true"
+            // algoliaIndexing=
             // type=
             // image={{
             // url: 
