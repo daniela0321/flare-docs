@@ -1,5 +1,8 @@
 # Manual deployment step instructions
 **❗️Note: Add new commits to top❗️**
+### 04/09/2021: Add manual deployment step instructions
+- After deployment
+  - Add key 'is_admin' with value 1 to Local Storage
 ## 02/09/2021 Deployed to production
 ### 02/09/2021: Modify search
 - Before deployment
