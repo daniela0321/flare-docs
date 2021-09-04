@@ -1,5 +1,6 @@
 // Key for storing consent preferences in local storage
 const GA_STORAGE_TOKEN = 'ga_analytics_storage'
+const ADMIN_TOKEN = 'admin_user'
 
 // Pass consent preferences to Google Analytics and update local storage
 export function set(consent) {
