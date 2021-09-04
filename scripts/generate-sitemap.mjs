@@ -2,11 +2,13 @@ import genSitemap from 'next-ssg-sitemap'
 import unified from 'unified'
 import remarkParse from 'remark-parse'
 import visit from 'unist-util-visit'
+import { config as envConfig } from 'dotenv-flow'
 
+envConfig()
 console.log('Creating sitemap...')
 
 // Create a sitemap based on the static files generated in the build phase.
-genSitemap(process.cwd(), 'https://flarehub.io', {
+genSitemap(process.cwd(), process.env.URL, {
   // Transform each page with props to a sitemap url object.
   async processPath({ url, path, props }) {
     // Exclude pages from sitemap
