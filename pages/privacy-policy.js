@@ -14,7 +14,8 @@ export default function PrivacyPolicy() {
             <HeadMeta
                 title="Privacy Policy"
                 description="More information on the Privacy Policy"
-            // canonical=
+                canonical="true"
+            // algoliaIndexing=
             // type=
             // image={{
             // url: 

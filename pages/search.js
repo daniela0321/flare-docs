@@ -20,7 +20,8 @@ export default function Search() {
             <HeadMeta
                 title="Search results"
                 description="Search results found"
-            // canonical=
+                canonical="true"
+            // algoliaIndexing=
             // type=
             // image={{
             // url: 

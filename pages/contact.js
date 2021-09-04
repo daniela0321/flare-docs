@@ -16,7 +16,8 @@ export default function Contact() {
             <HeadMeta
                 title="Contact Us"
                 description="Please contact us via the form or by phone"
-            // canonical=
+                canonical="true"
+            // algoliaIndexing=
             // type=
             // image={{
             // url: 

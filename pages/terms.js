@@ -13,7 +13,8 @@ export default function Terms() {
             <HeadMeta
                 title="Terms of Use"
                 description="More information on the terms of use"
-            // canonical=
+                canonical="true"
+            // algoliaIndexing=
             // type=
             // image={{
             // url: 

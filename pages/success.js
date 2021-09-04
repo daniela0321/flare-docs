@@ -14,7 +14,8 @@ export default function Success() {
             <HeadMeta
                 title="Success"
                 description="Form successfully submitted"
-            // canonical=
+                canonical="true"
+            // algoliaIndexing=
             // type=
             // image={{
             // url: 
