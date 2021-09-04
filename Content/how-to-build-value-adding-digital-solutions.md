@@ -7,6 +7,7 @@ time: "5 min"
 image: "/images/insights/how-to-build-value-adding-digital-solutions.jpg"
 imageTitle: "How to Build Value-Adding Digital Solutions"
 excerpt: "This is an introduction to Flare Insights - what these are and why we are creating them."
+priority: "-1"
 ---
 
 ## 1. Background

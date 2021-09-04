@@ -34,11 +34,22 @@ function getInsights() {
             buttonLink: "/insights/" + slug,
             id: slug,
             revisedMs: Date.parse(frontmatter.data.revised),
+            priority: frontmatter.data.priority === undefined ? "0" : frontmatter.data.priority
         }
     })
 
-    // Sort posts based on 'revised' date (that has been converted to milliseconds):
-    return insights.sort((a, b) => (b.revisedMs - a.revisedMs))
+    // Sort posts
+    const sortedPosts = insights.sort(function (a, b) {
+        // Sort by priority
+        if (a.priority > b.priority) return -1
+        if (a.priority < b.priority) return 1
+        // If the priorities are the same, sort based on 'revised' date 
+        // (that has been converted to milliseconds)
+        if (a.revisedMs > b.revisedMs) return -1
+        if (a.revisedMs < b.revisedMs) return 1
+    })
+
+    return sortedPosts
 }
 
 // Get all insights
