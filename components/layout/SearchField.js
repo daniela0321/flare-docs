@@ -13,7 +13,6 @@ export default function SearchField() {
     // to the search page with a query parameter that contains the search.
     function handleSubmit(event) {
         event.preventDefault()
-        console.log('target:', event.target);
         const query = event.target.elements.query.value
         router.push({
             pathname: '/search',
