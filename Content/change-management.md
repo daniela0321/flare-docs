@@ -2,7 +2,7 @@
 title: "Change Management"
 author: "Daniela"
 created: "February 10, 2020"
-revised: "August 18, 2021"
+revised: "September 5, 2021"
 time: "11 min"
 image: "/images/insights/change-management.jpg"
 imageTitle: "Two Dimensions of Change Management"

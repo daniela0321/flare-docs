@@ -2,7 +2,7 @@
 title: "Implementation"
 author: "Daniela"
 created: "October 13, 2020"
-revised: "July 27, 2021"
+revised: "September 5, 2021"
 time: "7 min"
 image: "/images/insights/implementation.jpg"
 imageTitle: "Implementation"

@@ -2,7 +2,7 @@
 title: "User Experience Design"
 author: "Daniela"
 created: "July 13, 2020"
-revised: "July 27, 2021"
+revised: "September 5, 2021"
 time: "9 min"
 image: "/images/insights/user-experience-design.jpg"
 imageTitle: "User Experience Design"

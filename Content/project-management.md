@@ -2,7 +2,7 @@
 title: "Project Management"
 author: "Daniela"
 created: "September 1, 2020"
-revised: "July 30, 2021"
+revised: "September 5, 2021"
 time: "14 min"
 image: "/images/insights/project-management.jpg"
 imageTitle: "Project Management"

@@ -2,7 +2,7 @@
 title: "Testing"
 author: "Daniela"
 created: "October 20, 2020"
-revised: "July 27, 2021"
+revised: "September 5, 2021"
 time: "13 min"
 image: "/images/insights/testing.jpg"
 imageTitle: "Software Testing"

@@ -2,7 +2,7 @@
 title: "Waterfall Software Development"
 author: "Daniela"
 created: "October 6, 2020"
-revised: "July 28, 2021"
+revised: "September 5, 2021"
 time: "4 min"
 image: "/images/insights/waterfall-software-development.jpg"
 imageTitle: "Waterfall Software Development"

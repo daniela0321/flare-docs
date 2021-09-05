@@ -2,7 +2,7 @@
 title: "Scrum"
 author: "Daniela"
 created: "September 29, 2020"
-revised: "July 28, 2021"
+revised: "September 5, 2021"
 time: "10 min"
 image: "/images/insights/scrum.jpg"
 imageTitle: "Scrum"

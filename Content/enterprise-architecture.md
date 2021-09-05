@@ -2,7 +2,7 @@
 title: "Enterprise Architecture"
 author: "Daniela"
 created: "November 24, 2020"
-revised: "July 29, 2021"
+revised: "September 5, 2021"
 time: "6 min"
 image: "/images/insights/enterprise-architecture.jpg"
 imageTitle: "Enterprise Architecture"

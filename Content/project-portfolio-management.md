@@ -2,7 +2,7 @@
 title: "Project Portfolio Management"
 author: "Daniela"
 created: "September 8, 2020"
-revised: "July 30, 2021"
+revised: "September 5, 2021"
 time: "5 min"
 image: "/images/insights/project-portfolio-management.jpg"
 imageTitle: "Project Portfolio Management"

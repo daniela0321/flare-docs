@@ -2,7 +2,7 @@
 title: "Common Customer Experience and Service Design Tools"
 author: "Daniela"
 created: "August 18, 2020"
-revised: "July 27, 2021"
+revised: "September 5, 2021"
 time: "14 min"
 image: "/images/insights/customer-experience-and-service-design-tools.jpg"
 imageTitle: "Common Customer Experience and Service Design Tools"

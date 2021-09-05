@@ -2,7 +2,7 @@
 title: "Business Process Management"
 author: "Daniela"
 created: "December 4, 2020"
-revised: "August 1, 2021"
+revised: "September 5, 2021"
 time: "19 min"
 image: "/images/insights/business-process-management-life-cycle.jpg"
 imageTitle: "Business Process Management Life Cycle"

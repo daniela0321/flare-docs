@@ -2,7 +2,7 @@
 title: "Enterprise Project Management"
 author: "Daniela"
 created: "August 25, 2020"
-revised: "July 30, 2021"
+revised: "September 5, 2021"
 time: "3 min"
 image: "/images/insights/project-portfolio-program-and-project-management.jpg"
 imageTitle: "Project Portfolio, Program, and Project Management"

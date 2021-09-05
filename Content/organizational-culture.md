@@ -2,7 +2,7 @@
 title: "Organizational Culture"
 author: "Daniela"
 created: "January 11, 2021"
-revised: "July 28, 2021"
+revised: "September 5, 2021"
 time: "11 min"
 image: "/images/insights/organizational-culture.jpg"
 imageTitle: "Organizational Culture"

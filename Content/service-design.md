@@ -2,7 +2,7 @@
 title: "Service Design"
 author: "Daniela"
 created: "August 11, 2020"
-revised: "July 26, 2021"
+revised: "September 5, 2021"
 time: "10 min"
 image: "/images/insights/service-design.jpg"
 imageTitle: "Service Design"

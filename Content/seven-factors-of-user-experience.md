@@ -2,7 +2,7 @@
 title: "The 7 Factors that Influence User Experience"
 author: "Daniela"
 created: "August 4, 2020"
-revised: "July 27, 2021"
+revised: "September 5, 2021"
 time: "4 min"
 image: "/images/insights/the-7-factors-that-influence-user-experience.jpg"
 imageTitle: "The 7 Factors that Influence User Experience"
