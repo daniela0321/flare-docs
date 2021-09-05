@@ -9,3 +9,7 @@ disabled = false
 #default:
 renderJavaScript = false
 # template = "hierarchical"
+[[headers]]
+for = "/img/*"
+[headers.values]
+Cache-Control = "public, s-max-age=172800"
