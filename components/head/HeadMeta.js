@@ -21,6 +21,15 @@ export default function HeadMeta({ title, description, canonical, type, image, a
 
     return (
         <Head>
+            <meta
+                httpEquiv="Content-Security-Policy"
+                content={`default-src 'self';
+                font-src 'self' data:;
+                style-src 'self' 'unsafe-inline';
+                img-src 'self' 'unsafe-inline' data: https://flarehub.io;
+                script-src 'self' 'unsafe-inline' https://www.googletagmanager.com;
+                connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;`}
+            />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>{fullTitle}</title>
             <meta name="description" content={description} />
