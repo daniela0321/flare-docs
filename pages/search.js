@@ -7,6 +7,7 @@ import { Container } from "react-bootstrap"
 import HeadMeta from "../components/head/HeadMeta"
 import PageTitle from "../components/layout/PageTitle"
 import SearchResults from "../components/layout/SearchResults"
+import Image from "../components/layout/Image"
 
 
 // Page with search results:
@@ -30,6 +31,15 @@ export default function Search() {
             />
 
             <main>
+
+                <Container fluid className="position-relative">
+                    <Image className={styles.algolia}
+                        src="/images/search/search-by-algolia-light-background.svg"
+                        alt="Search by Algolia"
+                        srcSizes={[1000]}
+                    />
+                </Container>
+
                 <PageTitle
                     title="Search Results"
                 />
