@@ -2,7 +2,14 @@
 import Link from "next/link"
 
 
-// Open all markdown links in a new tab:
+// Markdown links:
 export default function MarkdownLink({ href, children }) {
-    return <Link href={href}><a target="_blank" rel="noopener">{children}</a></Link>
+
+    if (href.startsWith("http")) {
+        // External link
+        return <a href={href} target="_blank" rel="noopener">{children}</a>
+    } else {
+        // Internal link
+        return <Link href={href}><a>{children}</a></Link>
+    }
 }

@@ -70,7 +70,7 @@ export default function CookiePolicy() {
                                 <li><b>Type</b>: Statistics cookies (anonymous).</li>
                                 <li><b>Usage</b>: we use Google Analytics for website statistics.</li>
                                 <li><b>Sharing data</b>: for more information, please read
-                                    the <Link href="https://policies.google.com/privacy"><a target="_blank" rel="noopener">Google Analytics Privacy Statement</a></Link>.</li>
+                                    the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Analytics Privacy Statement</a>.</li>
                             </ul>
                         </li>
                     </ul>
