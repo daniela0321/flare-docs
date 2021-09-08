@@ -8,7 +8,7 @@ import TocH3 from "./TocH3"
 // Fetch h2 and h3 headings from markdown and use these to create Page Contents:
 export default function TableOfContents({ content }) {
     return (
-        <ul className="ml-4 nomarker">
+        <ul className="ml-0 nomarker">
             <ReactMarkdown
                 allowedElements={['h2', 'h3']}
                 components={{

@@ -56,7 +56,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                     </Col>
 
                     {/* Post content: */}
-                    <Col xl={{ span: 8, order: 1 }} className="mt-3 mb-5 p-5 d-flex flex-column align-items-center">
+                    <Col xl={{ span: 8, order: 1 }} className="mt-3 mb-5 py-5 px-4 d-flex flex-column align-items-center">
                         <main className={styles.markdown}>
                             <article>
                                 <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
@@ -78,8 +78,6 @@ export default function InsightTemplate({ frontmatter, content }) {
                                         a: MarkdownLink,
                                         img: MarkdownImage,
                                     }}
-                                // This will change later when I will install the image plugin
-                                // transformImageUri={uri => uri.startsWith("/") ? `${process.env.SITE_URL}${uri}` : uri}
                                 >{content}</ReactMarkdown>
                             </article>
                         </main>
