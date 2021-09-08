@@ -9,6 +9,13 @@
     #default:
     renderJavaScript = false
 # template = "hierarchical"
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+  [plugins.inputs]
+    # Path to the sitemap URL
+    sitemapPath = "/sitemap.xml"
+    # Enabled providers to submit sitemap to. Possible providers are currently only 'google', 'bing', 'yandex'.
+    providers = ["google", "bing"]
 [[headers]]
   for = "/*"
   [headers.values]
