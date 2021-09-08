@@ -13,6 +13,7 @@
 # production
 /build
 /public/sitemap_new_site.xml
+/public/_headers
 
 # misc
 .DS_Store
