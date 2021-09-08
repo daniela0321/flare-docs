@@ -32,7 +32,7 @@ export default function Home() {
         <Container fluid className="m-0 p-0">
           <div className={styles.intro}>
             <Image
-              src="/images/intro-image.jpg"
+              src="/images/home/intro-image.jpg"
               alt="Flare intro image"
               className={styles.introImage}
               srcSizes={[534, 1067, 1920, 4000]}
