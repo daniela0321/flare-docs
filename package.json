@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "npm run build && node scripts/generate-sitemap.mjs && next export",
+    "export-noindex": "npm run build && node scripts/prevent-indexing.mjs && next export",
     "lint": "next lint"
   },
   "dependencies": {

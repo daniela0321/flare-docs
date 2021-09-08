@@ -13,3 +13,5 @@ renderJavaScript = false
 for = "/img/*"
 [headers.values]
 Cache-Control = "public, must-revalidate, s-max-age=172800"
+[context.branch-deploy]
+  command = "npm run export-noindex"

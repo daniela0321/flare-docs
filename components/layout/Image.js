@@ -11,8 +11,9 @@ export default function Image({ src, srcSizes, defaultSize, sizes, alt, lazy, cl
   ).join(', ')
 
   // Set src url including resize query parameter
+  const defaultSizeItem = Math.floor((srcSetList.length - 1) / 2)
   const resizedSrc = router.basePath + process.env.LOCAL_PATH + src + '?nf_resize=fit&w='
-    + (defaultSize || srcSetList[srcSetList.length - 1])
+    + (defaultSize || srcSetList[defaultSizeItem])
 
   // Only disable lazy loading if lazy is set to false (default to true)
   const loading = (lazy === false || lazy === 'false') ? 'eager' : 'lazy'
