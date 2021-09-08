@@ -39,6 +39,10 @@ ul {
   margin-left: 20px;
 }
 
+ol {
+  padding-left: 20px;
+}
+
 ul.nomarker {
   list-style-type: none;
 }
