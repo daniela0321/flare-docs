@@ -17,7 +17,7 @@ export default function AboutCard({ image, imageAlt, lazyImage, title, email, mo
                     src={image}
                     alt={imageAlt}
                     srcSizes={[400]}
-                    lazy={lazyImage}
+                // lazy={lazyImage}
                 />
             </div>
 

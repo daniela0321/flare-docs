@@ -36,7 +36,7 @@ export default function Home() {
               alt="Flare intro image"
               className={styles.introImage}
               srcSizes={[534, 1067, 1920, 4000]}
-              lazy="false"
+            // lazy="false"
             />
             <div className={styles.introText}>
 
