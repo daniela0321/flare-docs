@@ -1,4 +1,5 @@
 // External packages:
+import React, { useState } from 'react'
 import Link from "next/link"
 import { Nav, Navbar, NavDropdown } from "react-bootstrap"
 // Internal components:
@@ -8,9 +9,23 @@ import SearchField from "./SearchField"
 
 // react-bootstrap Navbar with next/links and next/image:
 export default function Header() {
+
+    const [expanded, setExpanded] = useState(false)
+
+    function collapseNavbar() {
+        setExpanded(false)
+    }
+
     return (
         <header className="sticky-top">
-            <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg">
+            <Navbar
+                expanded={expanded}
+                onToggle={setExpanded}
+                onSelect={collapseNavbar}
+                bg="dark"
+                variant="dark"
+                expand="lg"
+            >
 
                 <Link href="/" passHref>
                     <Navbar.Brand>
@@ -40,11 +55,13 @@ export default function Header() {
                         <Link href="/contact" passHref><Nav.Link className="pr-5">Contact</Nav.Link></Link>
                     </Nav>
 
-                    <SearchField />
+                    <SearchField
+                        onSearch={collapseNavbar}
+                    />
 
                 </Navbar.Collapse>
             </Navbar>
-        </header>
+        </header >
     )
 }
 

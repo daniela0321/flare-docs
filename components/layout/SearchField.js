@@ -5,7 +5,7 @@ import { Form, FormControl, Button, InputGroup } from "react-bootstrap"
 
 
 // Search field:
-export default function SearchField() {
+export default function SearchField({ onSearch: handleButtonClick }) {
 
     const router = useRouter()
 
@@ -14,6 +14,9 @@ export default function SearchField() {
     function handleSubmit(event) {
         event.preventDefault()
         const query = event.target.elements.query.value
+
+        handleButtonClick()
+
         router.push({
             pathname: '/search',
             query: { q: query },
