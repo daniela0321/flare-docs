@@ -11,7 +11,7 @@ import * as gaConsent from "../../utils/gaConsent"
 // Cookie banner:
 export default function CookieBanner() {
     // Get consent status on browser side
-    const [statConsent, setStatConsent] = useState(false)
+    const [statConsent, setStatConsent] = useState(true)
 
     const router = useRouter()
 
