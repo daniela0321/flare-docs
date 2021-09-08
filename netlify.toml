@@ -20,7 +20,7 @@ Content-Security-Policy = '''
   img-src 'self' 'unsafe-inline' data: https://flarehub.io https://www.google-analytics.com;
   script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
   connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;'''
-X-Frame-Options: DENY
+X-Frame-Options = "DENY"
 [context.branch-deploy]
 command = "npm run export-noindex"
 environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
