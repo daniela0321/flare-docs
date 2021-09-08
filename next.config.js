@@ -15,4 +15,26 @@ module.exports = {
       },
     ]
   },
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          {
+            key: 'Content-Security-Policy',
+            value: "default-src 'self'; "
+              + "font-src 'self' data:; "
+              + "style-src 'self' 'unsafe-inline'; "
+              + "img-src 'self' 'unsafe-inline' data: https://flarehub.io https://www.google-analytics.com; "
+              + "script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; "
+              + "connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;"
+          },
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY'
+          }
+        ]
+      }
+    ]
+  }
 }

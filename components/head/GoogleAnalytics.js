@@ -27,7 +27,7 @@ export default function GoogleAnalytics() {
     if (localStorage.getItem('is_admin') !== '1') {
       // Add Google Analytics script to App and initiate Google Analytics when it's loaded
       setGaScript(< Script
-        strategy="lazyOnload"
+        strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_TRACKING_ID}`}
         onLoad={initGa}
       />)
