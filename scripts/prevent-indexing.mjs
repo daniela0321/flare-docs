@@ -11,5 +11,7 @@ const branchDir = resolve(scriptDir, '..', '..', 'branch-deploy')
 const hdrFile = '_headers'
 copyFileSync(resolve(branchDir, hdrFile), resolve(publicDir, hdrFile))
 
-// Remove robots.txt
+// Remove robots.txt and sitemaps
 unlinkSync(resolve(publicDir, 'robots.txt'))
+unlinkSync(resolve(publicDir, 'sitemap.xml'))
+unlinkSync(resolve(publicDir, 'sitemap_old_site.xml'))
