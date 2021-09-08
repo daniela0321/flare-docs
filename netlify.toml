@@ -1,26 +1,29 @@
 [[plugins]]
-package = "@algolia/netlify-plugin-crawler"
-[plugins.inputs]
-branches = ['production']
-#default:
-disabled = false
-# pathPrefix = ""
-# customDomain = "flarehub.io"
-#default:
-renderJavaScript = false
+  package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+    branches = ['production']
+    #default:
+    disabled = false
+    # pathPrefix = ""
+    # customDomain = "flarehub.io"
+    #default:
+    renderJavaScript = false
 # template = "hierarchical"
 [[headers]]
-for = "/img/*"
-[headers.values]
-Cache-Control = "public, must-revalidate, s-max-age=172800"
-Content-Security-Policy = '''
-  default-src 'self';
-  font-src 'self' data:;
-  style-src 'self' 'unsafe-inline';
-  img-src 'self' 'unsafe-inline' data: https://flarehub.io https://www.google-analytics.com;
-  script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
-  connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;'''
-X-Frame-Options = "DENY"
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = '''
+      default-src 'self';
+      font-src 'self' data:;
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' 'unsafe-inline' data: https://flarehub.io https://www.google-analytics.com;
+      script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
+      connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;'''
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, must-revalidate, s-max-age=172800"
 [context.branch-deploy]
-command = "npm run export-noindex"
-environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
+  command = "npm run export-noindex"
+  environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
