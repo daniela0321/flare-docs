@@ -1,5 +1,5 @@
 // Internal modules:
-import slugify from "../../../utils/slugify"
+import slugify from "../../../../utils/slugify"
 
 
 // Create a clickable list item from the h3 heading with a certain style:

@@ -5,8 +5,8 @@ import React from "react"
 import ReactMarkdown from 'react-markdown'
 import { Container, Row, Col } from "react-bootstrap"
 // Internal components:
-import SidebarRight from "../../components/insight/toc/SidebarRight"
-import SidebarTop from "../../components/insight/toc/SidebarTop"
+import SidebarRight from "../../components/layout/common/toc/SidebarRight"
+import SidebarTop from "../../components/layout/common/toc/SidebarTop"
 import H2WithId from "../../components/insight/markdown/H2WithId"
 import H3WithId from "../../components/insight/markdown/H3WithId"
 import MarkdownLink from "../../components/insight/markdown/MarkdownLink"
