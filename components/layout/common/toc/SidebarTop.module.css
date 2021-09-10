@@ -1,11 +1,5 @@
-.toggle {
-    /* var: see globals.css */
-    background-color: var(--bg-light);
-}
-
-.card {
-    /* var: see globals.css */
-    background-color: var(--bg-light);
+.bgWhite {
+    background-color: #fff;
 }
 
 .title {

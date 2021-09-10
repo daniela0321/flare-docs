@@ -1,18 +1,17 @@
 // Internal components:
-import { useEffect } from "react"
-import TocH2 from "./TocH2"
-import TocH3 from "./TocH3"
+// import TocH2 from "./TocH2"
+// import TocH3 from "./TocH3"
 
 
-// Add this shortly!
+// Later, create a script to fetch page titles automatically
 
-// Fetch h2 and h3 headings from page content and use these to create Table of Contents:
-// export default function TocForPage({ content }) {
-//     return (
-//         <ul className="ml-0 nomarker">
-//             {content}
-//         </ul>
-//     )
-// }
+// Table of Contents for a normal page:
+export default function TocForPage({ children }) {
+    return (
+        <ul className="ml-0 nomarker">
+            {children}
+        </ul>
+    )
+}
 
 

@@ -8,7 +8,7 @@ import ClickArrow from "./ClickArrow"
 
 
 // Clickable Page Contents on top of the screen (used on a smaller screen):
-export default function SidebarTop({ children }) {
+export default function SidebarTop({ children, bgClass }) {
 
     const [open, setOpen] = useState(false)
 
@@ -16,9 +16,9 @@ export default function SidebarTop({ children }) {
         <aside>
             <Accordion>
 
-                <Card className={styles.card}>
+                <Card className={styles[bgClass]}>
 
-                    <Accordion.Toggle className={styles.toggle} as={Card.Header} variant="link" eventKey="1">
+                    <Accordion.Toggle className={styles[bgClass]} as={Card.Header} variant="link" eventKey="1">
                         <h6 className={styles.title}>Page Contents
                             <span className="ml-3"><ClickArrow eventKey="1" /></span>
                         </h6>

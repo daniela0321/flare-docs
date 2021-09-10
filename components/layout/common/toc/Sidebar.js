@@ -14,7 +14,9 @@ export default function Sidebar({ children, bgClass }) {
             {/* Table of Contents on smaller screens: */}
             <Col className="m-0 p-0 d-xl-none">
                 {/* Make this sticky later */}
-                <SidebarTop>
+                <SidebarTop
+                    bgClass={bgClass}
+                >
                     {children}
                 </SidebarTop>
             </Col>
