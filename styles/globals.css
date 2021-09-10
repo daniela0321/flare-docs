@@ -107,9 +107,9 @@ a:hover.sidelink {
   font-weight: 600;
 }
 
-/* Insight / markdown content (multiple components) */
+/* Markdown headings */
 
-.markdown-content h2, h3 {
+.markdownHeadings h2, .markdownHeadings h3 {
   scroll-margin-top: 5.5rem;
   margin-top: 3rem;
   margin-bottom: 1rem;

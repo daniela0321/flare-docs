@@ -11,6 +11,7 @@ import MarkdownLink from "../../components/insight/markdown/MarkdownLink"
 import MarkdownImage from "../../components/insight/markdown/MarkdownImage"
 import HeadMeta from "../../components/head/HeadMeta"
 import Sidebar from '../../components/layout/common/toc/Sidebar'
+import TocForPost from '../../components/layout/common/toc/TocForPost'
 
 
 // Import and export server side functions:
@@ -42,13 +43,16 @@ export default function InsightTemplate({ frontmatter, content }) {
                     {/* Table of Contents sidebar
                     (on the rigth side with bigger screen, and at the top with smaller screen) */}
                     <Sidebar
-                        content={content}
                         bgClass="bgGrey"
-                    />
+                    >
+                        <TocForPost
+                            content={content}
+                        />
+                    </Sidebar>
 
                     {/* Post content: */}
-                    <Col xl={{ span: 8, order: 1 }} className="mt-3 mb-5 py-5 px-4 d-flex flex-column align-items-center">
-                        <main className={styles.markdown}>
+                    <Col xl={{ span: 8, order: 1 }} className="mt-2 mb-5 py-5 px-4 d-flex flex-column align-items-center">
+                        <main className={styles.width}>
                             <article>
                                 <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
                                 <p className={styles.authorEtc}>By {frontmatter.author} |
@@ -62,7 +66,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                                 />
                                 <p className="mt-4 font-semi-bold">{frontmatter.excerpt}</p>
                                 <ReactMarkdown
-                                    className="markdown-content"
+                                    className="markdownHeadings"
                                     components={{
                                         h2: H2WithId,
                                         h3: H3WithId,
