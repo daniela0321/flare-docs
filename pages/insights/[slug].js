@@ -5,13 +5,12 @@ import React from "react"
 import ReactMarkdown from 'react-markdown'
 import { Container, Row, Col } from "react-bootstrap"
 // Internal components:
-import SidebarRight from "../../components/layout/common/toc/SidebarRight"
-import SidebarTop from "../../components/layout/common/toc/SidebarTop"
 import H2WithId from "../../components/insight/markdown/H2WithId"
 import H3WithId from "../../components/insight/markdown/H3WithId"
 import MarkdownLink from "../../components/insight/markdown/MarkdownLink"
 import MarkdownImage from "../../components/insight/markdown/MarkdownImage"
 import HeadMeta from "../../components/head/HeadMeta"
+import Sidebar from '../../components/layout/common/toc/Sidebar'
 
 
 // Import and export server side functions:
@@ -40,20 +39,12 @@ export default function InsightTemplate({ frontmatter, content }) {
 
                 <Row className="m-0 p-0">
 
-                    {/* Table of Contents on smaller screens: */}
-                    <Col className="m-0 p-0 d-xl-none">
-                        {/* <Col className={`${styles.mobileToc} sticky-top m-0 p-0 d-xl-none`}> */}
-                        <SidebarTop
-                            content={content}
-                        />
-                    </Col>
-
-                    {/* Table of Contents on large screens: */}
-                    <Col xl={{ span: 4, order: 2 }} className={`${styles.customBg} m-0 px-0 pt-0 pb-2 border-left d-none d-xl-block`}>
-                        <SidebarRight
-                            content={content}
-                        />
-                    </Col>
+                    {/* Table of Contents sidebar
+                    (on the rigth side with bigger screen, and at the top with smaller screen) */}
+                    <Sidebar
+                        content={content}
+                        bgClass="bgGrey"
+                    />
 
                     {/* Post content: */}
                     <Col xl={{ span: 8, order: 1 }} className="mt-3 mb-5 py-5 px-4 d-flex flex-column align-items-center">
