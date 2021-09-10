@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css'
 // External packages:
 import { Container, Button, Row } from "react-bootstrap"
 import Link from "next/link"
+import identity from 'netlify-identity-widget'
+import { useEffect } from 'react'
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
 import InfoCard from "../components/home/InfoCard"
@@ -12,6 +14,10 @@ import Image from '../components/layout/common/Image'
 
 // Home Page:
 export default function Home() {
+  useEffect(() => {
+    identity.init()
+  }, [])
+
   return (
     <>
       <HeadMeta
