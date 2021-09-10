@@ -5,7 +5,7 @@ export default {
     branch: 'production',
   },
   site_url: process.env.SITE_URL,
-
+  publish_mode: 'editorial_workflow',
   media_folder: 'public/images/insights',
   public_folder: process.env.LOCAL_PATH + '/images/insights',
   logo_url: process.env.LOCAL_PATH + '/images/200701-flare-hub-logo-white.png',
@@ -18,7 +18,6 @@ export default {
       extension: 'md',
       format: 'frontmatter',
       preview_path: 'insights/{{slug}}',
-      publish_mode: 'editorial_workflow',
       slug: '{{slug}}',
       create: true,
       delete: false,

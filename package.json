@@ -8,7 +8,8 @@
     "start": "next start",
     "export": "npm run build && node scripts/generate-sitemap.mjs && next export",
     "export-noindex": "npm run build && node scripts/prevent-indexing.mjs && next export",
-    "lint": "next lint"
+    "lint": "next lint",
+    "proxy-netlify": "npx netlify-cms-proxy-server"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
