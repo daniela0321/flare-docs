@@ -2,7 +2,7 @@
 import styles from "./AboutCard.module.css"
 // External packages:
 import { Card } from "react-bootstrap"
-import Image from "../layout/Image"
+import Image from "../layout/common/Image"
 
 
 // A card that includes information and image of one person:

@@ -5,7 +5,7 @@ import Link from "next/link"
 import { useRouter } from 'next/router'
 import { useState, useEffect } from "react"
 // Internal modules
-import * as gaConsent from "../../utils/gaConsent"
+import * as gaConsent from "../../../utils/gaConsent"
 
 
 // Cookie banner:

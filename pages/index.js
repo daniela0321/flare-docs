@@ -7,7 +7,7 @@ import Link from "next/link"
 import HeadMeta from "../components/head/HeadMeta"
 import InfoCard from "../components/home/InfoCard"
 import InsightCardHome from "../components/home/InsightCardHome"
-import Image from '../components/layout/Image'
+import Image from '../components/layout/common/Image'
 
 
 // Home Page:

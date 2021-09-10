@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap'
 // Internal components:
 import Close from "./Close"
-import Image from "../../layout/Image";
+import Image from "../../layout/common/Image";
 
 
 // Open image as modal:
