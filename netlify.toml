@@ -27,6 +27,17 @@
       img-src 'self' 'unsafe-inline' data: https://flarehub.io https://www.google-analytics.com;
       script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
       connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;'''
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = '''
+      default-src 'self';
+      font-src 'self' data:;
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' 'unsafe-inline' data:;
+      script-src 'self' 'unsafe-eval';
+      connect-src 'self';'''
 [context.branch-deploy]
   command = "npm run export-noindex"
   environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
