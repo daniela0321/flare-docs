@@ -1,6 +1,7 @@
 // Styles:
 import styles from '../styles/About.module.css'
 // External packages:
+import Link from "next/link"
 import { Container, Row, CardDeck } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
@@ -30,9 +31,17 @@ export default function About() {
                 />
 
                 <Container>
-                    <Row className="d-flex flex-row justify-content-center">
-                        <p className={styles.paragraph}>We enjoy designing and building solutions that smoothen
+                    <Row className={`${styles.text} mx-auto text-center`}>
+                        <p>We enjoy designing and building solutions that smoothen
                             user experience and processes, and offer informative and useful content.</p>
+                    </Row>
+
+                    <Row className="mt-2 mb-5 d-flex justify-content-center">
+                        <Link href="/portfolio">
+                            <a role="button" className="btn btn-primary">
+                                See our work
+                            </a>
+                        </Link>
                     </Row>
                 </Container>
 
@@ -82,8 +91,8 @@ export default function About() {
                                 implementation, including architecture and full stack development, using JavaScript
                                 frameworks like React, Node.js and Electron.
                             </p>
-
                         </AboutCard>
+
                     </CardDeck>
                 </Container>
             </main>
