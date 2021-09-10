@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Container } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
-import PageTitle from "../components/layout/PageTitle"
+import PageTitle from "../components/layout/common/PageTitle"
 
 
 // Termus of use page:

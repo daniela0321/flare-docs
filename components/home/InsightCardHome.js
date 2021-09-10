@@ -3,7 +3,8 @@ import styles from "./InsightCardHome.module.css"
 // External packages:
 import Link from "next/link"
 import { Button, Row, Col } from 'react-bootstrap'
-import Image from "../layout/Image"
+// Inernal components
+import Image from "../layout/common/Image"
 
 
 // An info card to give a high-level view to the content of the site:

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Container } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
-import PageTitle from "../components/layout/PageTitle"
+import PageTitle from "../components/layout/common/PageTitle"
 import ContactDetails from "../components/privacy-policy/ContactDetails"
 import ConsentSettings from '../components/cookie-policy/ConsentSettings'
 

@@ -4,7 +4,7 @@ import styles from '../styles/About.module.css'
 import { Container, Row, CardDeck } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
-import PageTitle from "../components/layout/PageTitle"
+import PageTitle from "../components/layout/common/PageTitle"
 import AboutCard from "../components/about/AboutCard"
 
 

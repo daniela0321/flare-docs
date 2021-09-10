@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap"
 import { useRouter } from "next/router"
 // Internal components:
 import HeadMeta from "../../../components/head/HeadMeta"
-import PageTitle from "../../../components/layout/PageTitle"
+import PageTitle from "../../../components/layout/common/PageTitle"
 import InsightList from "../../../components/insights/InsightList"
 import InsightsPagination from "../../../components/insights/InsightsPagination"
 
