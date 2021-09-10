@@ -18,6 +18,8 @@
     "algoliasearch": "^4.10.5",
     "bootstrap": "^4.6.0",
     "gray-matter": "^4.0.3",
+    "netlify-cms-app": "^2.15.40",
+    "netlify-identity-widget": "^1.9.2",
     "next": "^11.1.2",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.1",
