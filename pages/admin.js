@@ -14,7 +14,7 @@ const AdminPage = dynamic(
   }),
   {
     ssr: false,
-    loading: () => <div className="text-center my-5"><h2>Loading...</h2></div>
+    loading() { return <div className="text-center my-5"><h2>Loading...</h2></div> }
   }
 );
 
