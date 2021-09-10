@@ -4,7 +4,7 @@ export default {
     name: 'git-gateway',
     branch: 'production',
   },
-  site_url: process.env.SITE_URL,
+  site_url: process.env.BUILD_URL,
   publish_mode: 'editorial_workflow',
   media_folder: 'public/images/insights',
   public_folder: process.env.LOCAL_PATH + '/images/insights',
