@@ -41,3 +41,6 @@
 [context.branch-deploy]
   command = "npm run export-noindex"
   environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
+[context.deploy-preview]
+  command = "npm run export-noindex"
+  environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
