@@ -14,6 +14,7 @@
 /build
 /public/sitemap_new_site.xml
 /public/_headers
+/public/admin/preview.css
 
 # misc
 .DS_Store

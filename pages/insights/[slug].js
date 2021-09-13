@@ -2,16 +2,13 @@
 import styles from '../../styles/[slug].module.css'
 // External packages:
 import React from "react"
-import ReactMarkdown from 'react-markdown'
 import { Container, Row, Col } from "react-bootstrap"
 // Internal components:
 import SidebarRight from "../../components/insight/toc/SidebarRight"
 import SidebarTop from "../../components/insight/toc/SidebarTop"
-import H2WithId from "../../components/insight/markdown/H2WithId"
-import H3WithId from "../../components/insight/markdown/H3WithId"
-import MarkdownLink from "../../components/insight/markdown/MarkdownLink"
 import MarkdownImage from "../../components/insight/markdown/MarkdownImage"
 import HeadMeta from "../../components/head/HeadMeta"
+import Content from "../../components/insight/Content"
 
 
 // Import and export server side functions:
@@ -57,30 +54,11 @@ export default function InsightTemplate({ frontmatter, content }) {
 
                     {/* Post content: */}
                     <Col xl={{ span: 8, order: 1 }} className="mt-3 mb-5 py-5 px-4 d-flex flex-column align-items-center">
-                        <main className={styles.markdown}>
-                            <article>
-                                <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
-                                <p className={styles.authorEtc}>By {frontmatter.author} |
-                                    Created on {frontmatter.created} |
-                                    Last revised on {frontmatter.revised}</p>
-                                <p className={styles.time}>Reading time: {frontmatter.time}</p>
-                                <MarkdownImage
-                                    src={frontmatter.image}
-                                    alt={frontmatter.imageTitle}
-                                    lazy="false"
-                                />
-                                <p className="mt-4 font-semi-bold">{frontmatter.excerpt}</p>
-                                <ReactMarkdown
-                                    className="markdown-content"
-                                    components={{
-                                        h2: H2WithId,
-                                        h3: H3WithId,
-                                        a: MarkdownLink,
-                                        img: MarkdownImage,
-                                    }}
-                                >{content}</ReactMarkdown>
-                            </article>
-                        </main>
+                        <Content
+                            frontmatter={frontmatter}
+                            content={content}
+                            ImgComponent={MarkdownImage}
+                        />
                     </Col>
 
                 </Row>

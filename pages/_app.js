@@ -1,6 +1,5 @@
 // Styles:
 import '../styles/bootstrap.theme.scss'
-import '../styles/globals.css'
 // Internal components:
 import CookieBanner from "../components/layout/common/CookieBanner"
 import Default from "../components/layout/Default"

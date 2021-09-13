@@ -1,3 +1,4 @@
+// See definitions of each property in https://www.netlifycms.org/docs/configuration-options/
 export default {
   load_config_file: false,
   backend: {
@@ -8,7 +9,7 @@ export default {
   publish_mode: 'editorial_workflow',
   media_folder: 'public/images/insights',
   public_folder: process.env.LOCAL_PATH + '/images/insights',
-  logo_url: process.env.LOCAL_PATH + '/images/200701-flare-hub-logo-white.png',
+  logo_url: process.env.LOCAL_PATH + '/images/200701-flare-hub-logo-black.png',
   collections: [
     {
       name: 'insights',

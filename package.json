@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npm run build-cms-styles",
     "start": "next start",
-    "export": "npm run build && node scripts/generate-sitemap.mjs && next export",
-    "export-noindex": "npm run build && node scripts/prevent-indexing.mjs && next export",
+    "export": "npm run build && npm run generate-sitemap && next export",
+    "export-noindex": "npm run build && node scripts/prevent-indexing.mjs && npm run build-cms-styles && next export",
     "lint": "next lint",
+    "generate-sitemap": "node scripts/generate-sitemap.mjs",
+    "build-cms-styles": "node scripts/generate-cms-preview-css.mjs",
     "proxy-netlify": "npx netlify-cms-proxy-server"
   },
   "dependencies": {
