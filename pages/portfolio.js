@@ -7,6 +7,7 @@ import Sidebar from '../components/layout/common/toc/Sidebar'
 import TocForPage from '../components/layout/common/toc/TocForPage'
 import TocH2 from "../components/layout/common/toc/TocH2"
 import TocH3 from "../components/layout/common/toc/TocH3"
+import TocPageTitle from "../components/layout/common/TocPageTitle"
 import PageContent from '../components/layout/common/PageContent'
 
 
@@ -105,9 +106,9 @@ export default function Portfolio() {
                     <PageContent>
                         <div>
 
-                            <div className="mb-5 d-flex flex-row justify-content-center text-center">
-                                <h1>Our Work</h1>
-                            </div>
+                            <TocPageTitle
+                                title="Our Work"
+                            />
 
                             <p>Our Ways of Working - move to second pageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
 
