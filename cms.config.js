@@ -58,8 +58,8 @@ export default {
         {
           name: 'time',
           label: 'Reading time in minutes',
-          widget: 'number',
-          value_type: 'int',
+          widget: 'string',
+          // value_type: 'int',
         },
         {
           name: 'image',
