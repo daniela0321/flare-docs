@@ -24,11 +24,12 @@ export default function PrivacyPolicy() {
             />
 
             <main>
-                <PageTitle
-                    title="Privacy Policy"
-                />
 
                 <Container className="textContainer">
+
+                    <PageTitle
+                        title="Privacy Policy"
+                    />
 
                     <p className="font-italic">Last Updated: July 13th, 2020</p>
 

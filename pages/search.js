@@ -40,13 +40,16 @@ export default function Search() {
                     />
                 </Container>
 
-                <PageTitle
-                    title="Search Results"
-                />
-                <h4 className="mt-n5 mb-5 mx-2 text-center">for &quot;{query}&quot;</h4>
-
                 <Container className={styles.results}>
+
+                    <PageTitle
+                        title="Search Results"
+                    />
+
+                    <h4 className="mt-n5 mb-5 text-center">for &quot;{query}&quot;</h4>
+
                     <SearchResults />
+
                 </Container>
 
             </main>

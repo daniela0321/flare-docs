@@ -27,11 +27,11 @@ export default function Contact() {
 
             <main>
 
-                <PageTitle
-                    title="Contact Us"
-                />
-
                 <Container>
+
+                    <PageTitle
+                        title="Contact Us"
+                    />
 
                     <Row className="mb-2 d-flex flex-row justify-content-center">
                         <PhoneIcon />

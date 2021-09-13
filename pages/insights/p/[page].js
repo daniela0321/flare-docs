@@ -36,19 +36,23 @@ export default function Insights({ insights, totalPages }) {
             />
 
             <main>
-                <PageTitle
-                    title="Insights"
-                />
 
                 <Container>
+
+                    <PageTitle
+                        title="Insights"
+                    />
+
                     <InsightList
                         insights={insights}
                     />
+
                     <InsightsPagination
                         amountOfPages={totalPages}
                         activePage={router.query.page}
                         onPageChange={handlePageChange}
                     />
+
                 </Container>
             </main>
         </>

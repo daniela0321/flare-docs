@@ -23,11 +23,12 @@ export default function Terms() {
             />
 
             <main>
-                <PageTitle
-                    title="Terms of Use"
-                />
 
                 <Container className="textContainer">
+
+                    <PageTitle
+                        title="Terms of Use"
+                    />
 
                     <p className="font-italic">Last Updated: July 13th, 2020</p>
 

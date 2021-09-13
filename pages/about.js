@@ -26,11 +26,13 @@ export default function About() {
             />
 
             <main>
-                <PageTitle
-                    title="About Us"
-                />
 
                 <Container>
+
+                    <PageTitle
+                        title="About Us"
+                    />
+
                     <Row className={`${styles.text} mx-auto text-center`}>
                         <p>We enjoy designing and building solutions that smoothen
                             user experience and processes, and offer informative and useful content.</p>
@@ -43,6 +45,7 @@ export default function About() {
                             </a>
                         </Link>
                     </Row>
+
                 </Container>
 
                 <Container fluid className={styles.container2}>

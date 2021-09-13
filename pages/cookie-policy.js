@@ -25,11 +25,12 @@ export default function CookiePolicy() {
             />
 
             <main>
-                <PageTitle
-                    title="Cookie Policy (EU)"
-                />
 
                 <Container className="textContainer">
+
+                    <PageTitle
+                        title="Cookie Policy (EU)"
+                    />
 
                     <p className="font-italic">Last Updated: September 5th, 2021</p>
                     <p className="font-italic">This Cookie Policy applies to citizens and legal permanent
