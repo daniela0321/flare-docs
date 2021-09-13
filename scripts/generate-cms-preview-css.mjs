@@ -1,6 +1,6 @@
 import sass from 'sass'
 import { join } from 'path'
-import { fileURLToPath } from 'url'
+// import { fileURLToPath } from 'url'
 import { writeFileSync } from 'fs'
 
 // Generate preview.css to load in the CMS for previewing insights
