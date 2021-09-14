@@ -37,7 +37,7 @@
       style-src 'self' 'unsafe-inline';
       img-src 'self' 'unsafe-inline' data: blob: *.netlify.app *.flarehub.io;
       script-src 'self' 'unsafe-eval';
-      connect-src 'self' blob: https://www.netlifystatus.com *.netlify.app; *.flarehub.io'''
+      connect-src 'self' blob: https://www.netlifystatus.com *.netlify.app *.flarehub.io;'''
 [context.branch-deploy]
   command = "npm run export-noindex"
   environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
