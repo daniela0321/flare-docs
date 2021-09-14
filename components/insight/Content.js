@@ -1,8 +1,7 @@
 // External packages:
 import ReactMarkdown from 'react-markdown'
 // Internal components
-import H2WithId from "../../components/insight/markdown/H2WithId"
-import H3WithId from "../../components/insight/markdown/H3WithId"
+import HeadingWithId from "./markdown/HeadingWithId"
 import MarkdownLink from "../../components/insight/markdown/MarkdownLink"
 
 
@@ -28,8 +27,8 @@ export default function Content({ frontmatter, content, ImgComponent, styles }) 
         <ReactMarkdown
           className="markdown-content"
           components={{
-            h2: H2WithId,
-            h3: H3WithId,
+            h2: HeadingWithId,
+            h3: HeadingWithId,
             a: MarkdownLink,
             img: ImgComponent,
           }}
