@@ -33,18 +33,21 @@ export default function About() {
                         title="About Us"
                     />
 
-                    <Row className={`${styles.text} mx-auto text-center`}>
+                    <Row className={`${styles.text} mx-auto mb-5 d-flex justify-content-center text-center`}>
                         <p>We enjoy designing and building solutions that smoothen
                             user experience and processes, and offer informative and useful content.</p>
+
+                        <p>See <Link href="/portfolio"><a><b>samples of our work</b></a></Link>,
+                            and information on <Link href="/services"><a><b>our focus areas</b></a></Link>.</p>
                     </Row>
 
-                    <Row className="mt-2 mb-5 d-flex justify-content-center">
+                    {/* <Row className="mt-2 mb-5 d-flex justify-content-center">
                         <Link href="/portfolio">
                             <a role="button" className="btn btn-primary">
                                 See our work
                             </a>
                         </Link>
-                    </Row>
+                    </Row> */}
 
                 </Container>
 

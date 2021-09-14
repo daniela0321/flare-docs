@@ -46,8 +46,8 @@ export default function Portfolio() {
                                 1. Knowledge Base
                             </TocH2Page>
 
-                            <TocH3Page path="#knowledge-base-challenge">
-                                1.1 The Challenge
+                            <TocH3Page path="#knowledge-base-goal">
+                                1.1 The Goal
                             </TocH3Page>
                             <TocH3Page path="#knowledge-base-architecture">
                                 1.2 Architecture
@@ -60,19 +60,19 @@ export default function Portfolio() {
                             </TocH3Page>
 
                             <TocH2Page path="#electron-plugin">
-                                2. Electron Plugin
+                                2. Electron Plugin Framework
                             </TocH2Page>
 
-                            <TocH3Page path="#electron-plugin-challenge">
-                                2.1 The Challenge
+                            <TocH3Page path="#electron-framework-goal">
+                                2.1 The Goal
                             </TocH3Page>
-                            <TocH3Page path="#electron-plugin-architecture">
+                            <TocH3Page path="#electron-framework-architecture">
                                 2.2 Architecture
                             </TocH3Page>
-                            <TocH3Page path="#electron-plugin-technologies">
+                            <TocH3Page path="#electron-framework-technologies">
                                 2.3 Used Technologies
                             </TocH3Page>
-                            <TocH3Page path="#electron-plugin-responsibilities">
+                            <TocH3Page path="#electron-framework-responsibilities">
                                 2.4 Main Responsibilities
                             </TocH3Page>
 
@@ -80,10 +80,10 @@ export default function Portfolio() {
                                 3. Open Data Service - Coming
                             </TocH2Page>
 
-                            <TocH3Page path="#open-data-service-challenge">
-                                3.1 The Challenge
+                            <TocH3Page path="#open-data-service-goal">
+                                3.1 The Goal
                             </TocH3Page>
-                            <TocH3Page path="#open-data-service-architecture">
+                            {/* <TocH3Page path="#open-data-service-architecture">
                                 3.2 Architecture
                             </TocH3Page>
                             <TocH3Page path="#open-data-service-technologies">
@@ -91,7 +91,7 @@ export default function Portfolio() {
                             </TocH3Page>
                             <TocH3Page path="#open-data-service-responsibilities">
                                 3.4 Main Responsibilities
-                            </TocH3Page>
+                            </TocH3Page> */}
 
                         </TocForPage>
                     </Sidebar>
@@ -104,60 +104,68 @@ export default function Portfolio() {
                                 title="Samples of Our Work"
                             />
 
-                            <p><b><i>Describe the process for each project: use this space as a way to
-                                communicate your thinking and explain certain design or technical choices you made.</i></b></p>
-
                             <h2 id="knowledge-base">1. Knowledge Base</h2>
 
-                            <p><Link href="/"><a><b>Flarehub.io</b></a></Link> is our site which
-                                includes a growing knowledge base on how to build value-adding digital
-                                solutions.</p>
+                            <p><Link href="/"><a><b>Flarehub.io</b></a></Link> is our company&apos;s website. Here we
+                                provide a growing knowledge base on how to build value-adding digital solutions.</p>
 
-                            {/* Check image settings + images as modal*/}
+                            {/* Images as modal*/}
                             <Image
                                 src="/images/portfolio/knowledge-base.jpg"
                                 alt="Flarehub.io Knowledge Base"
                                 className="mt-3 mw-100"
                                 sizes="(min-width: 796px) 700px, 80vw"
-                                lazy="false"
+                                lazy="true"
                             />
 
-                            <h3 id="knowledge-base-challenge">1.1 The Challenge</h3>
+                            <h3 id="knowledge-base-goal">1.1 The Goal</h3>
 
+                            <h6>The Challenge</h6>
                             <p>The previous flarehub.io site was implemented with WordPress:</p>
                             <ul>
-                                <li>Customizing possibilities were limited</li>
+                                <li>Expanding beyond the default WordPress capabilities was complex.</li>
                                 <li>The solution included multiple heavy third-party plugins
-                                    adding the time required for testing</li>
-                                <li>The deployment process was time-taking and complicated</li>
+                                    which required significant effort to maintain (e.g. updates and testing).</li>
+                                <li>The deployment process was time-taking and complicated.</li>
                             </ul>
 
+                            <h6>The Solution</h6>
                             <p>The goal was to replace the WordPress implementation with a solution which
-                                would be easy to:</p>
+                                would:</p>
                             <ul>
-                                <li>Maintain and deploy</li>
-                                <li>Customize (e.g. the template for Insights)</li>
-                                <li>Scale</li>
+                                <li>Enhance the user experience (e.g. adding custom table of contents).</li>
+                                <li>Improve performance on both server and client side.</li>
+                                <li>Allow for a simple and easy development flow (continuous delivery).</li>
+                                <li>Remove any limitations on the abilitites to customize the service.</li>
+                                <li>Be easy to / automatically scale with the service demand.</li>
                             </ul>
 
-                            <p>In addition, it was important the the performance...</p>
+                            <p>In this process we should not loose the advantages that WordPress offers,
+                                like SEO and easy content editing.</p>
 
                             <h3 id="knowledge-base-architecture">1.2 Architecture</h3>
 
-                            <p>The sitemap of the knowledge base:</p>
+                            <h6>Information architecture</h6>
 
-                            {/* Check image settings + images as modal + DRAW SITEMAP*/}
+                            <p>Sitemap (ADD ADMIN AREA) xxxxxxxxxxxxxx:</p>
+
+                            {/* Images as modal, new image*/}
                             <Image
-                                src="/images/portfolio/temp.jpg"
+                                src="/images/portfolio/knowledge-base-sitemap.jpg"
                                 alt="Flarehub.io sitemap"
-                                className="mt-3 mw-100"
+                                className="mt-3 mb-5 mw-100"
                                 sizes="(min-width: 796px) 700px, 80vw"
                                 lazy="true"
                             />
 
-                            <p>The application architecture of the knowledge base:</p>
+                            <h6>Application Architecture</h6>
 
-                            {/* Check image settings + images as modal + DRAW ARCH IMAGE*/}
+                            <p><b><i>Describe the process for each project: use this space as a way to
+                                communicate your thinking and explain certain design or technical choices you made.</i></b></p>
+
+                            <p>The application architecture of the knowledge base xxxxxxxxxxxxxx:</p>
+
+                            {/* Images as modal, new image*/}
                             <Image
                                 src="/images/portfolio/temp-2.png"
                                 alt="Flarehub.io architecture"
@@ -168,18 +176,15 @@ export default function Portfolio() {
 
                             <h3 id="knowledge-base-technologies">1.3 Used Technologies</h3>
 
-                            <p>xxxxx (what to put below and in which order):</p>
                             <ul>
-                                <li>React and Next.js</li>
-                                <li>React Bootstrap</li>
-                                <li>React Markdown</li>
+                                <li>Frontend development: React</li>
+                                <li>Static site generation: Next.js</li>
+                                <li>Content delivery: Netlify with automatic deployments from GitHub</li>
+                                <li>Content management: Netlify CMS</li>
                             </ul>
 
-                            <p>Project in GitHub:{" "}
-                                <b>
-                                    <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener">flare-docs</a>
-                                </b>
-                            </p>
+                            <h6>GitHub repository:{" "}
+                                <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener">flare-docs</a></h6>
 
                             <h3 id="knowledge-base-responsibilities">1.4 Main Responsibilities</h3>
 
@@ -193,21 +198,36 @@ export default function Portfolio() {
                             <p>Igor:</p>
                             <ul>
                                 <li>Architectural design</li>
-                                <li>Backend development</li>
-                                <li>Deployment management</li>
+                                <li>Delivery management (Jamstack)</li>
                             </ul>
 
-                            <h2 id="electron-plugin">2. Electron Plugin</h2>
-                            <h3 id="electron-plugin-challenge">2.1 The Challenge</h3>
-                            <h3 id="electron-plugin-architecture">2.2 Architecture</h3>
-                            <h3 id="electron-plugin-technologies">2.3 Used Technologies</h3>
-                            <h3 id="electron-plugin-responsibilities">2.4 Main Responsibilities</h3>
+                            <h2 id="electron-framework">2. Electron Plugin Framework</h2>
+                            <h3 id="electron-framework-goal">2.1 The Goal</h3>
+                            <h3 id="electron-framework-architecture">2.2 Architecture</h3>
+                            <h3 id="electron-framework-technologies">2.3 Used Technologies</h3>
+                            <h3 id="electron-framework-responsibilities">2.4 Main Responsibilities</h3>
 
                             <h2 id="open-data-service">3. Open Data Service - Coming</h2>
-                            <h3 id="open-data-service-challenge">3.1 The Challenge</h3>
-                            <h3 id="open-data-service-architecture">3.2 Architecture</h3>
+                            <h3 id="open-data-service-challenge">3.1 The Goal</h3>
+
+                            <h6>The Challenge</h6>
+
+                            <p>More and more useful information is provided as open data. However,
+                                the challenge often is that it requires technical knowledge and capabilities
+                                to make use of it. </p>
+
+                            <h6>The Solution</h6>
+
+                            <p>Having a standardized interface which allows non-technical people to
+                                access, group and present open data - the service would allow for example
+                                building pilots and minimum viable products quickly, without the need to build
+                                your own solution.</p>
+
+                            <p>More information coming soon.</p>
+
+                            {/* <h3 id="open-data-service-architecture">3.2 Architecture</h3>
                             <h3 id="open-data-service-technologies">3.3 Used Technologies</h3>
-                            <h3 id="open-data-service-responsibilities">3.4 Main Responsibilities</h3>
+                            <h3 id="open-data-service-responsibilities">3.4 Main Responsibilities</h3> */}
 
                         </div>
                     </PageContent>
