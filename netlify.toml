@@ -35,9 +35,9 @@
       default-src 'self';
       font-src 'self' data:;
       style-src 'self' 'unsafe-inline';
-      img-src 'self' 'unsafe-inline' data: blob:;
+      img-src 'self' 'unsafe-inline' data: blob: https://*wizardly-jones-21a82d.netlify.app;
       script-src 'self' 'unsafe-eval';
-      connect-src 'self' https://www.netlifystatus.com;'''
+      connect-src 'self' https://www.netlifystatus.com blob: https://*wizardly-jones-21a82d.netlify.app;'''
 [context.branch-deploy]
   command = "npm run export-noindex"
   environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
