@@ -5,3 +5,18 @@
 .customBg {
     background-color: var(--bg-light);
 }
+
+.insightMarkdown {
+    max-width: 700px;
+}
+  
+.insightAuthorEtc {
+    font-size: small;
+    margin-bottom: 0;
+}
+  
+.insightTime {
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

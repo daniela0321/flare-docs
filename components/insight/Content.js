@@ -1,5 +1,3 @@
-// Styles:
-import styles from './Content.module.css'
 // External packages:
 import ReactMarkdown from 'react-markdown'
 // Internal components
@@ -9,15 +7,15 @@ import MarkdownLink from "../../components/insight/markdown/MarkdownLink"
 
 
 // Component to format the content of an insight for public display
-export default function Content({ frontmatter, content, ImgComponent }) {
+export default function Content({ frontmatter, content, ImgComponent, styles }) {
   return (
-    <main className={styles.markdown}>
+    <main className={styles.insightMarkdown}>
       <article>
         <h1 className="mt-3 mb-4">{frontmatter.title}</h1>
-        <p className={styles.authorEtc}>By {frontmatter.author} |
+        <p className={styles.insightAuthorEtc}>By {frontmatter.author} |
           Created on {frontmatter.created} |
           Last revised on {frontmatter.revised}</p>
-        <p className={styles.time}>Reading time: {frontmatter.time}</p>
+        <p className={styles.insightTime}>Reading time: {frontmatter.time}</p>
 
         {/* Use the component provided as a prop to display the featured image */}
         <ImgComponent

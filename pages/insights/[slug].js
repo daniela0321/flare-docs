@@ -58,6 +58,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                             frontmatter={frontmatter}
                             content={content}
                             ImgComponent={MarkdownImage}
+                            styles={styles}
                         />
                     </Col>
 
