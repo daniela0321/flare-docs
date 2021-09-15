@@ -20,7 +20,7 @@ export default function MarkdownImage({ src, alt, lazy }) {
         <>
             {/* Show image as a link */}
             <a href="#" onClick={handleShow}>
-                <Image src={src} alt={alt} className="mt-3 mw-100" sizes="(min-width: 796px) 700px, 80vw" lazy={lazy} />
+                <Image src={src} alt={alt} className="mt-3 mw-100" sizes="(min-width: 796px) 700px, 96vw" lazy={lazy} />
             </a>
 
             {/* Modal that opens up when clicking the image above */}
