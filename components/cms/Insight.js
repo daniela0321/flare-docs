@@ -2,7 +2,7 @@
 import { useRef } from 'react'
 import { Row, Col } from 'react-bootstrap'
 // Internal components
-import Content from '../insight/Content'
+import ArticleContent from '../insight/ArticleContent'
 
 
 // Component to show a live preview of the insight whilst editing in the CMS
@@ -16,16 +16,18 @@ export default function Insight({ entry, getAsset }) {
   return (
     <Row className="m-0 p-0">
       <Col className="mt-3 mb-5 py-5 px-4 d-flex flex-column align-items-center">
-        <Content
-          frontmatter={frontmatter}
-          content={frontmatter.body}
-          ImgComponent={PreviewImg.current}
-          styles={{
-            insightMarkdown: 'insightMarkdown',
-            insightAuthorEtc: 'insightAuthorEtc',
-            insightTime: 'insightTime'
-          }}
-        />
+        <main className="maxWidth">
+          <ArticleContent
+            frontmatter={frontmatter}
+            content={frontmatter.body}
+            ImgComponent={PreviewImg.current}
+            styles={{
+              insightMarkdown: 'insightMarkdown',
+              insightAuthorEtc: 'insightAuthorEtc',
+              insightTime: 'insightTime'
+            }}
+          />
+        </main>
       </Col>
     </Row>
   )

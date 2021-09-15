@@ -15,7 +15,7 @@ export default function Sidebar({ children, bgClass }) {
             <Col className="m-0 p-0 d-xl-none">
                 {/* Make this sticky later */}
                 <SidebarTop
-                    bgClass={bgClass}
+                    className={styles[bgClass]}
                 >
                     {children}
                 </SidebarTop>
