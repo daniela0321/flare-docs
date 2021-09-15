@@ -5,11 +5,10 @@ import React, { useState } from "react"
 import { Accordion, Card } from "react-bootstrap"
 // Internal components:
 import ClickArrow from "./ClickArrow"
-import TableOfContents from "./TableOfContents"
 
 
 // Clickable Page Contents on top of the screen (used on a smaller screen):
-export default function SidebarTop({ content }) {
+export default function SidebarTop({ children, bgClass }) {
 
     const [open, setOpen] = useState(false)
 
@@ -17,9 +16,9 @@ export default function SidebarTop({ content }) {
         <aside>
             <Accordion>
 
-                <Card className={styles.card}>
+                <Card className={styles[bgClass]}>
 
-                    <Accordion.Toggle className={styles.toggle} as={Card.Header} variant="link" eventKey="1">
+                    <Accordion.Toggle className={styles[bgClass]} as={Card.Header} variant="link" eventKey="1">
                         <h6 className={styles.title}>Page Contents
                             <span className="ml-3"><ClickArrow eventKey="1" /></span>
                         </h6>
@@ -27,9 +26,7 @@ export default function SidebarTop({ content }) {
 
                     <Accordion.Collapse eventKey="1">
                         <Card.Body>
-                            <TableOfContents
-                                content={content}
-                            />
+                            {children}
                         </Card.Body>
                     </Accordion.Collapse>
 
