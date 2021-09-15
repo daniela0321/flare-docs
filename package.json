@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npm run build-cms-styles",
     "start": "next start",
-    "export": "npm run build && node scripts/generate-sitemap.mjs && next export",
-    "export-noindex": "npm run build && node scripts/prevent-indexing.mjs && next export",
-    "lint": "next lint"
+    "export": "npm run build && npm run generate-sitemap && next export",
+    "export-noindex": "npm run build && node scripts/prevent-indexing.mjs && npm run build-cms-styles && next export",
+    "lint": "next lint",
+    "generate-sitemap": "node scripts/generate-sitemap.mjs",
+    "build-cms-styles": "node scripts/generate-cms-preview-css.mjs",
+    "proxy-netlify": "npx netlify-cms-proxy-server"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -18,6 +21,8 @@
     "algoliasearch": "^4.10.5",
     "bootstrap": "^4.6.0",
     "gray-matter": "^4.0.3",
+    "netlify-cms-app": "^2.15.40",
+    "netlify-identity-widget": "^1.9.2",
     "next": "^11.1.2",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.1",
