@@ -114,7 +114,7 @@ export default function Portfolio() {
                                 src="/images/portfolio/knowledge-base.jpg"
                                 alt="Flarehub.io Knowledge Base"
                                 className="mt-3 mw-100"
-                                sizes="(min-width: 796px) 700px, 80vw"
+                                sizes="(min-width: 796px) 700px, 96vw"
                                 lazy="true"
                             />
 
@@ -154,7 +154,7 @@ export default function Portfolio() {
                                 src="/images/portfolio/knowledge-base-sitemap.jpg"
                                 alt="Flarehub.io sitemap"
                                 className="mt-3 mb-5 mw-100"
-                                sizes="(min-width: 796px) 700px, 80vw"
+                                sizes="(min-width: 796px) 700px, 96vw"
                                 lazy="true"
                             />
 
@@ -170,7 +170,7 @@ export default function Portfolio() {
                                 src="/images/portfolio/temp-2.png"
                                 alt="Flarehub.io architecture"
                                 className="mt-3 mw-100"
-                                sizes="(min-width: 796px) 700px, 80vw"
+                                sizes="(min-width: 796px) 700px, 96vw"
                                 lazy="true"
                             />
 
