@@ -29,6 +29,8 @@ There are many different types of requirements ranging from high level business 
 
 ## 2. What Is Requirements Development?
 
+### 2.1 Activities and tasks
+
 Requirements development (or requirements engineering) includes all the activities and tasks associated with generating, evaluating, recording, documenting, and validating the requirements for a project.
 
 Requirements development is one of the most critical disciplines in the solution development lifecycle as it sets the foundation for a successful project or program. It should always ensure that great value is delivered to the users and other stakeholders.
@@ -37,7 +39,7 @@ There can be a lot of people involved in the development or management of requir
 
 The problems of requirements development increase exponentially with the size of the system. There is a wide range of tools, techniques, and standards you can use to make this process easier.
 
-### 2.1 Agile Requirement Processes
+### 2.2 Agile Requirement Processes
 
 The term [**agile**](/insights/agile-software-development) refers to a group of software development methods that are iterative and focus on early development and delivery using customer and developer collaboration. There are a variety of agile methods that have become predominant for developing particular types of systems. Note that the use of agile processes impact the requirements development process described below.
 
