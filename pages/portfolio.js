@@ -1,7 +1,7 @@
 // External packages:
 import React from "react"
 import Link from 'next/link'
-import { Container, Row } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
 import Sidebar from '../components/layout/common/toc/Sidebar'
@@ -11,6 +11,7 @@ import TocH3Page from "../components/layout/common/toc/TocH3Page"
 import TocPageTitle from "../components/layout/common/TocPageTitle"
 import PageContent from '../components/layout/common/PageContent'
 import Image from "../components/layout/common/Image"
+import GitHubIcon from "../components/layout/common/GitHubIcon"
 
 
 // Portfolio page:
@@ -120,71 +121,160 @@ export default function Portfolio() {
 
                             <h3 id="knowledge-base-challenge">1.1 The Challenge</h3>
 
-                            <p>The previous flarehub.io site was implemented with WordPress:</p>
+                            <h6 className="h6Margin">The Initial Situation</h6>
+
+                            <p>The previous flarehub.io site was implemented with WordPress. This worked but had some limitations:</p>
                             <ul>
                                 <li>Expanding beyond the default WordPress capabilities was complex.</li>
                                 <li>The solution included multiple heavy third-party plugins
                                     which required significant effort to maintain (e.g. updates and testing).</li>
                                 <li>The deployment process was time-taking and complicated.</li>
+                                <li>There was a clear limit to the number of visitors the site could support,
+                                    after which actions needed to be taken to improve performance.</li>
                             </ul>
 
-                            <h3 id="knowledge-base-solution">1.2 The Solution</h3>
+                            <h6 className="h6Margin">The Goal</h6>
 
-                            <p>The goal was to replace the WordPress implementation with a solution which
-                                would:</p>
+                            <p>Eliminating these limitations would require replacing the WordPress
+                                implementation with a solution which would:</p>
                             <ul>
                                 <li>Enhance the user experience (e.g. adding custom table of contents).</li>
                                 <li>Improve performance on both server and client side.</li>
                                 <li>Allow for a simple and easy development flow (continuous delivery).</li>
                                 <li>Remove any limitations on the abilitites to customize the service.</li>
-                                <li>Be easy to / automatically scale with the service demand.</li>
+                                <li>Scale easily or even automatically with the service demand.</li>
                             </ul>
 
-                            <p>In this process we should not loose the advantages that WordPress offers,
-                                like SEO and easy content editing.</p>
+                            <p>
+                                On the other hand, we should not loose the advantages that WordPress offers,
+                                like SEO and easy content editing.
+                            </p>
 
-                            <h6 className="h6Margin">Information Architecture</h6>
+                            <h3 id="knowledge-base-solution">1.2 The Solution</h3>
 
-                            <p>Sitemap (ADD ADMIN AREA) xxxxxxxxxxxxxx:</p>
+                            <h6 className="h6Margin">The Root Cause of the Challenges</h6>
 
-                            {/* Images as modal, new image*/}
-                            <Image
-                                src="/images/portfolio/knowledge-base-sitemap.jpg"
-                                alt="Flarehub.io sitemap"
-                                className="mt-3 mb-5 mw-100"
-                                sizes="(min-width: 796px) 700px, 96vw"
-                                lazy="true"
-                            />
+                            <p>The root of most of the limitations defined above can be traced back to
+                                two core issues:</p>
+
+                            <ul>
+                                <li>WordPress is responsible for both the management and delivery of the
+                                    content in one application.</li>
+                                <li>WordPress dynamically generates pages on request, requiring server
+                                    actions on each page view.</li>
+                            </ul>
+
+                            <h6 className="h6Margin">Our Approach</h6>
+
+                            <p>These issues are common for any website built on a traditional CMS and a
+                                solution to this, that is becoming popular, is to use a Jamstack. </p>
+
+                            <ul>
+                                <li>
+                                    With Jamstack, the entire frontend is prebuilt into static pages and
+                                    assets during the content management process. This results in sites which
+                                    can be served directly from a static CDN. Interactivity can then be
+                                    introduced again on the browser side using JavaScript.
+                                </li>
+                                <li>
+                                    Another concept of Jamstack is to decouple content sources from the
+                                    website functionality. Deploying content and functional changes separately
+                                    simplifies the deployment process significantly and makes it easier to use
+                                    Continuous Delivery.
+                                </li>
+                            </ul>
 
                             <h6 className="h6Margin">Application Architecture</h6>
 
-                            <p><b><i>Describe the process for each project: use this space as a way to
-                                communicate your thinking and explain certain design or technical choices you made.</i></b></p>
+                            <p>
+                                To keep the development, content management and maintenance as simple and
+                                flexible as possible, we decided to go build our site with Next.js, host it on
+                                Netlify and manage the content using Netlify CMS.
+                            </p>
 
-                            <p>The application architecture of the knowledge base xxxxxxxxxxxxxx:</p>
+                            <p>These elements fit together as follows:</p>
+
+                            <ul>
+                                <li>The site functionality and layout are written using the Next.js framework
+                                    and stored in GitHub.</li>
+                                <li>The Insights are managed using Netlify CMS and stored in GitHub.</li>
+                                <li>When a change in GitHub is flagged as a candidate for production
+                                    update (pull request), Netlify creates a preview deployment for verification.</li>
+                                <li>When the preview is approved, it is deployed to production (merge).</li>
+                                <li>Netlify serves the production site as static files from its CDN all over the world.</li>
+                            </ul>
+
+                            <p><i>
+                                The application architecture of the knowledge base xxxxxxxxxxxxxx:
+                            </i></p>
 
                             {/* Images as modal, new image*/}
                             <Image
                                 src="/images/portfolio/knowledge-base-architecture.jpg"
                                 alt="Flarehub.io architecture"
-                                className="mt-3 mw-100"
+                                className="mt-3 mb-5 mw-100"
+                                sizes="(min-width: 796px) 700px, 96vw"
+                                lazy="true"
+                            />
+
+                            <h6 className="h6Margin">Information Architecture</h6>
+
+                            <p>The site has the sitemap as defined below. We use Netlify CMS for the admin area.
+                                It has a standard site structure so we have not included this in the sitemap further.
+                            </p>
+
+                            <i>ADD ADMIN AREA</i>
+
+                            {/* Images as modal, new image*/}
+                            <Image
+                                src="/images/portfolio/knowledge-base-sitemap.jpg"
+                                alt="Flarehub.io sitemap"
+                                className="mt-3 mb-2 mw-100"
                                 sizes="(min-width: 796px) 700px, 96vw"
                                 lazy="true"
                             />
 
                             <h3 id="knowledge-base-technologies">1.3 Used Technologies</h3>
 
-                            <p>ADD LINKS!</p>
-
                             <ul>
-                                <li>Frontend development: React</li>
-                                <li>Static site generation: Next.js</li>
-                                <li>Content delivery: Netlify with automatic deployments from GitHub</li>
-                                <li>Content management: Netlify CMS</li>
+                                <li>
+                                    Frontend development: {" "}
+                                    <a href="https://reactjs.org/" target="_blank" rel="noopener">
+                                        React
+                                    </a>
+                                </li>
+                                <li>
+                                    Static site generation: {" "}
+                                    <a href="https://nextjs.org/" target="_blank" rel="noopener">
+                                        Next.js
+                                    </a>
+                                </li>
+                                <li>
+                                    Content delivery: {" "}
+                                    <a href="https://www.netlify.com/" target="_blank" rel="noopener">
+                                        Netlify
+                                    </a> with automatic deployments from GitHub
+                                </li>
+                                <li>
+                                    Content management: {" "}
+                                    <a href="https://www.netlifycms.org/" target="_blank" rel="noopener">
+                                        Netlify CMS
+                                    </a>
+                                </li>
                             </ul>
 
-                            <h6 className="h6Margin">GitHub repository:{" "}
-                                <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener">flare-docs</a></h6>
+                            <div className="d-flex justify-content-start align-items-center">
+                                <div className="gitHubIconBlack">
+                                    <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener">
+                                        <GitHubIcon />
+                                    </a>
+                                </div>
+                                <div className="ml-2">
+                                    <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener">
+                                        flare-docs
+                                    </a>
+                                </div>
+                            </div>
 
                             <h3 id="knowledge-base-responsibilities">1.4 Main Responsibilities</h3>
 
@@ -289,19 +379,41 @@ export default function Portfolio() {
 
                             <h3 id="electron-framework-technologies">2.3 Used Technologies</h3>
 
-                            <p>
-                                The entire framework is written in plain JavaScript. For the plugin
-                                lifecycle, CommonJS is used to best work with Node. For the executions,
-                                ES6 is used to best work with Chromium.
-                            </p>
+                            <ul>
+                                <li>
+                                    The entire framework is written in plain JavaScript
+                                </li>
+                                <li>
+                                    For the plugin lifecycle, CommonJS is used to best work with Node
+                                </li>
+                                <li>
+                                    For the executions, ES6 is used to best work with Chromium
+                                </li>
+                                <li>
+                                    Pluggable Electron uses {" "}
+                                    <a href="https://en.wikipedia.org/wiki/Inversion_of_control" target="_blank" rel="noopener">
+                                        inversion of control
+                                    </a> {" "}
+                                    and {" "}
+                                    <a href="https://en.wikipedia.org/wiki/Dependency_inversion_principle" target="_blank" rel="noopener">
+                                        dependency inversion
+                                    </a> {" "}
+                                    principles as a best practice for an extendable architecture
+                                </li>
+                            </ul>
 
-                            <p><i>
-                                Pluggable Electron uses [inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control) and [dependency inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle) principles as a best practice for an extendable architecture.
-                            </i></p>
-
-                            <p><i>
-                                GitHub repository:
-                            </i></p>
+                            <div className="d-flex justify-content-start align-items-center">
+                                <div className="gitHubIconBlack">
+                                    <a href="https://github.com/dutchigor/pluggable-electron" target="_blank" rel="noopener">
+                                        <GitHubIcon />
+                                    </a>
+                                </div>
+                                <div className="ml-2">
+                                    <a href="https://github.com/dutchigor/pluggable-electron" target="_blank" rel="noopener">
+                                        pluggable-electron
+                                    </a>
+                                </div>
+                            </div>
 
                             <h3 id="electron-framework-responsibilities">2.4 Main Responsibilities</h3>
 
