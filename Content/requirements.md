@@ -1,9 +1,9 @@
 ---
 title: "Requirements Development"
 author: "Daniela"
-created: "July 13, 2020"
-revised: "September 5, 2021"
-time: "13 min"
+created: 2020-07-13
+revised: 2021-09-05
+time: 13
 image: "/images/insights/requirements-development.jpg"
 imageTitle: "Requirements Development"
 excerpt: "In this Insight you can find information on what a requirement is, what requirements development means, what types of requirements there are, and what the process for requirements development is. [1, 2]"

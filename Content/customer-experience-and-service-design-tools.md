@@ -1,9 +1,9 @@
 ---
 title: "Common Customer Experience and Service Design Tools"
 author: "Daniela"
-created: "August 18, 2020"
-revised: "September 5, 2021"
-time: "14 min"
+created: 2020-08-18
+revised: 2021-09-05
+time: 14
 image: "/images/insights/customer-experience-and-service-design-tools.jpg"
 imageTitle: "Common Customer Experience and Service Design Tools"
 excerpt: "In this Insight you can find information on tools like personas, lifecycles and journeys, business model canvas, and roadmaps. In addition, you can read about methods for testing and developing solutions."

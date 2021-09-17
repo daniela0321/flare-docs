@@ -1,9 +1,9 @@
 ---
 title: "Service Design"
 author: "Daniela"
-created: "August 11, 2020"
-revised: "September 5, 2021"
-time: "10 min"
+created: 2020-08-11
+revised: 2021-09-05
+time: 10
 image: "/images/insights/service-design.jpg"
 imageTitle: "Service Design"
 excerpt: "In this Insight you can find information on what service design is, what the six essential principles of service design thinking are, and what the four different steps in the service design process are."

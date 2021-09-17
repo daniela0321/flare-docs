@@ -1,9 +1,9 @@
 ---
 title: "Service Transition and Operation"
 author: "Daniela"
-created: "October 27, 2020"
-revised: "September 5, 2021"
-time: "12 min"
+created: 2020-10-27
+revised: 2021-09-05
+time: 12
 image: "/images/insights/service-transition-and-operation.jpg"
 imageTitle: "Service Transition and Operation"
 excerpt: "In this Insight you can find information on service transition and operation practices regarding 1) service performance and availability, 2) documentation and knowledge bases, 3) release and deployment management, and 4) changes, incidents, and service requests."

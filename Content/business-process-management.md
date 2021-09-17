@@ -1,9 +1,9 @@
 ---
 title: "Business Process Management"
 author: "Daniela"
-created: "December 4, 2020"
-revised: "September 5, 2021"
-time: "19 min"
+created: 2020-12-04
+revised: 2021-09-05
+time: 19
 image: "/images/insights/business-process-management-life-cycle.jpg"
 imageTitle: "Business Process Management Life Cycle"
 excerpt: "In this Insight you can find information on what Business Process Management (BPM) is, what the phases of BPM Life Cycle are, some important approaches of BPM, and how to apply agile principles to BPM."
