@@ -105,6 +105,7 @@ a:hover.sidelink {
 
 .maxWidth {
   max-width: 700px;
+  padding-top: 16px;
 }
 
 /* Navbar (overwriting Bootstrap styles) */

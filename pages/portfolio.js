@@ -123,7 +123,8 @@ export default function Portfolio() {
 
                             <h6 className="h6Margin">The Initial Situation</h6>
 
-                            <p>The previous flarehub.io site was implemented with WordPress. This worked but had some limitations:</p>
+                            <p>The previous flarehub.io site was implemented with WordPress. This worked but
+                                had some limitations:</p>
                             <ul>
                                 <li>Expanding beyond the default WordPress capabilities was complex.</li>
                                 <li>The solution included multiple heavy third-party plugins
@@ -226,8 +227,6 @@ export default function Portfolio() {
                                 has a standard site structure, determined by Netlify. As such, we have not described the
                                 admin pages further in the sitemap.
                             </p>
-
-                            <i>ADD ADMIN AREA</i>
 
                             {/* Images as modal, new image*/}
                             <Image
