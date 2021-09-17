@@ -60,7 +60,7 @@ export default function Portfolio() {
                                 1.4 Main Responsibilities
                             </TocH3Page>
 
-                            <TocH2Page path="#electron-plugin">
+                            <TocH2Page path="#electron-framework">
                                 2. Electron Plugin Framework
                             </TocH2Page>
 
@@ -135,8 +135,7 @@ export default function Portfolio() {
 
                             <h6 className="h6Margin">The Goal</h6>
 
-                            <p>Eliminating these limitations would require replacing the WordPress
-                                implementation with a solution which would:</p>
+                            <p>Any solution that eliminates these limitations should:</p>
                             <ul>
                                 <li>Enhance the user experience (e.g. adding custom table of contents).</li>
                                 <li>Improve performance on both server and client side.</li>
@@ -146,49 +145,55 @@ export default function Portfolio() {
                             </ul>
 
                             <p>
-                                On the other hand, we should not loose the advantages that WordPress offers,
+                                On the other hand, we should not loose the advantages of the existing solution,
                                 like SEO and easy content editing.
                             </p>
 
                             <h3 id="knowledge-base-solution">1.2 The Solution</h3>
 
-                            <h6 className="h6Margin">The Root Cause of the Challenges</h6>
+                            <h6 className="h6Margin">Root Cause Analysis</h6>
 
                             <p>The root of most of the limitations defined above can be traced back to
-                                two core issues:</p>
+                                two core issues with a traditional CMS like WordPress:</p>
 
                             <ul>
-                                <li>WordPress is responsible for both the management and delivery of the
+                                <li>It is responsible for both the management and delivery of the
                                     content in one application.</li>
-                                <li>WordPress dynamically generates pages on request, requiring server
+                                <li>It dynamically generates pages on request, requiring server
                                     actions on each page view.</li>
                             </ul>
 
                             <h6 className="h6Margin">Our Approach</h6>
 
                             <p>These issues are common for any website built on a traditional CMS and a
-                                solution to this, that is becoming popular, is to use a Jamstack. </p>
+                                solution to this, that is becoming popular, is to use a {" "}
+                                <a href="https://jamstack.org/what-is-jamstack/" target="_blank" rel="noopener">
+                                    Jamstack
+                                </a>.
+                            </p>
 
                             <ul>
                                 <li>
                                     With Jamstack, the entire frontend is prebuilt into static pages and
-                                    assets during the content management process. This results in sites which
+                                    assets during the build phase. This results in sites which
                                     can be served directly from a static CDN. Interactivity can then be
-                                    introduced again on the browser side using JavaScript.
+                                    introduced on the browser side using JavaScript.
                                 </li>
                                 <li>
                                     Another concept of Jamstack is to decouple content sources from the
-                                    website functionality. Deploying content and functional changes separately
-                                    simplifies the deployment process significantly and makes it easier to use
-                                    Continuous Delivery.
+                                    website functionality. One benefit of this is that it simplifies
+                                    the deployment process significantly by deploying content and functional
+                                    changes separately. This, in turn, makes it easier to apply Continuous Delivery.
                                 </li>
                             </ul>
+
+                            <p>As such, we decided to replace WordPress with a Jamstack.</p>
 
                             <h6 className="h6Margin">Application Architecture</h6>
 
                             <p>
                                 To keep the development, content management and maintenance as simple and
-                                flexible as possible, we decided to go build our site with Next.js, host it on
+                                flexible as possible, we decided to build our site with Next.js, host it on
                                 Netlify and manage the content using Netlify CMS.
                             </p>
 
@@ -197,16 +202,14 @@ export default function Portfolio() {
                             <ul>
                                 <li>The site functionality and layout are written using the Next.js framework
                                     and stored in GitHub.</li>
-                                <li>The Insights are managed using Netlify CMS and stored in GitHub.</li>
+                                <li>The content is managed using Netlify CMS and stored in GitHub.</li>
                                 <li>When a change in GitHub is flagged as a candidate for production
                                     update (pull request), Netlify creates a preview deployment for verification.</li>
-                                <li>When the preview is approved, it is deployed to production (merge).</li>
+                                <li>When the preview is approved, it is published to production (merge).</li>
                                 <li>Netlify serves the production site as static files from its CDN all over the world.</li>
                             </ul>
 
-                            <p><i>
-                                The application architecture of the knowledge base xxxxxxxxxxxxxx:
-                            </i></p>
+                            <p>The application architecture diagram:</p>
 
                             {/* Images as modal, new image*/}
                             <Image
@@ -219,8 +222,9 @@ export default function Portfolio() {
 
                             <h6 className="h6Margin">Information Architecture</h6>
 
-                            <p>The site has the sitemap as defined below. We use Netlify CMS for the admin area.
-                                It has a standard site structure so we have not included this in the sitemap further.
+                            <p>The site has the sitemap as defined below. Netlify CMS, which we use for the admin area,
+                                has a standard site structure, determined by Netlify. As such, we have not described the
+                                admin pages further in the sitemap.
                             </p>
 
                             <i>ADD ADMIN AREA</i>
@@ -306,7 +310,7 @@ export default function Portfolio() {
                             <p>
                                 So far, the entire user interface for these products needed to be rebuilt in a
                                 desktop native language. In addition, JavaScript provides an extremely rich
-                                ecosystem of packages, which cannot be utilized with the desktop solution.
+                                ecosystem of packages, which cannot be utilized with a desktop solution.
                             </p>
 
                             <p>
@@ -332,9 +336,9 @@ export default function Portfolio() {
                             <h6 className="h6Margin">A Framework for Adding Plugins to Electron</h6>
 
                             <p>
-                                Pluggable Electron has been designed to tackle this challenge. It is a framework
-                                for standardising and simplifying the process of adding plugins to Electron. It
-                                is the glue between an Electron application and its plugins.
+                                Pluggable Electron has been designed to tackle the challenge described above. It is a
+                                framework for standardising and simplifying the process of adding plugins to Electron.
+                                In other words, it is the glue between an Electron application and its plugins.
                             </p>
 
                             <p>
@@ -344,17 +348,6 @@ export default function Portfolio() {
 
                             <h6 className="h6Margin">Application Architecture</h6>
 
-                            <p><i>The image below describes the high-Level application architecture:</i></p>
-
-                            {/* Images as modal*/}
-                            <Image
-                                src="/images/portfolio/pluggable-electron.jpg"
-                                alt="Pluggable Electron"
-                                className="mt-3 mb-5 mw-100"
-                                sizes="(min-width: 796px) 700px, 96vw"
-                                lazy="true"
-                            />
-
                             <p>
                                 The framework includes the tools necessary to manage the whole life cycle of
                                 plugins, for example writing, installing, uninstalling and updating plugins,
@@ -362,20 +355,32 @@ export default function Portfolio() {
                             </p>
 
                             <p>
-                                To port the client/server model that JavaScript is built for to desktop
+                                To port the client/server model, that JavaScript is built for, to desktop
                                 applications, Electron consists of two layers: a backend layer that has full
                                 access to your computer and a frontend layer that handles the user interface
                                 and is limited to the Electron window.
                             </p>
 
                             <p>
-                                The lifecycle of a plugin is managed by the Pluggable Electron on the backend
+                                The lifecycle of a plugin is managed by Pluggable Electron on the backend
                                 side to be able to store the plugin once it is installed.
                             </p>
 
                             <p>
-                                For security reasons the extensions included in the plugins are, however, executed on the frontend, where they are sandboxed to the Electron window.
+                                For security reasons the extensions included in the plugins are, however,
+                                executed on the frontend, where they are sandboxed to the Electron window.
                             </p>
+
+                            <p>The application architecture diagram:</p>
+
+                            {/* Images as modal*/}
+                            <Image
+                                src="/images/portfolio/pluggable-electron.jpg"
+                                alt="Pluggable Electron"
+                                className="mt-3 mb-1 mw-100"
+                                sizes="(min-width: 796px) 700px, 96vw"
+                                lazy="true"
+                            />
 
                             <h3 id="electron-framework-technologies">2.3 Used Technologies</h3>
 
@@ -418,7 +423,7 @@ export default function Portfolio() {
                             <h3 id="electron-framework-responsibilities">2.4 Main Responsibilities</h3>
 
                             <p>
-                                Pluggable Electron has been a side project of Igor.
+                                Pluggable Electron is an open source project by Igor.
                             </p>
 
                             <h2 id="open-data-service">3. Open Data Service - Coming</h2>
@@ -431,10 +436,10 @@ export default function Portfolio() {
 
                             <h3 id="open-data-service-solution">3.2 The Solution</h3>
 
-                            <p>Having a standardized interface which allows non-technical people to
-                                access, group and present open data - the service would allow for example
-                                building pilots and minimum viable products quickly, without the need to build
-                                your own solution.</p>
+                            <p>Our goal is to provide a standardized service which allows non-technical
+                                people to access selected open data sources, and group and present their contents.
+                                The service would allow for example building pilots and minimum viable products
+                                quickly, without the need to build your own solution.</p>
 
                             <p><b>More information coming soon.</b></p>
 

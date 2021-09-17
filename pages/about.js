@@ -37,8 +37,7 @@ export default function About() {
                         <p>We enjoy designing and building solutions that smoothen
                             user experience and processes, and offer informative and useful content.</p>
 
-                        <p>See <Link href="/portfolio"><a><b>samples of our work</b></a></Link>,
-                            and information on <Link href="/services"><a><b>our focus areas</b></a></Link>.</p>
+                        <p>See <Link href="/portfolio"><a><b>samples of our work</b></a></Link>.</p>
                     </Row>
 
                     {/* <Row className="mt-2 mb-5 d-flex justify-content-center">
