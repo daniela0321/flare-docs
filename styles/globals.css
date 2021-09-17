@@ -74,6 +74,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.gitHubIconBlack a {
+  color: var(--dark);
+}
+
 /* Links in Table of Contents */
 
 a.sidelink {
