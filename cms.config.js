@@ -41,7 +41,7 @@ export default {
           name: 'created',
           label: 'Created on',
           widget: 'datetime',
-          format: 'LL',
+          format: 'YYYY-MM-DD',
           date_format: 'LL',
           time_format: false,
           picker_utc: false,
@@ -50,7 +50,7 @@ export default {
           name: 'revised',
           label: 'Revised on',
           widget: 'datetime',
-          format: 'LL',
+          format: 'YYYY-MM-DD',
           date_format: 'LL',
           time_format: false,
           picker_utc: false,
@@ -58,8 +58,8 @@ export default {
         {
           name: 'time',
           label: 'Reading time in minutes',
-          widget: 'string',
-          // value_type: 'int',
+          widget: 'number',
+          value_type: 'int',
         },
         {
           name: 'image',
