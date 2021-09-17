@@ -13,7 +13,7 @@ export default function ArticleContent({ frontmatter, content, ImgComponent, sty
       <p className={styles.insightAuthorEtc}>By {frontmatter.author} |
         Created on {frontmatter.created} |
         Last revised on {frontmatter.revised}</p>
-      <p className={styles.insightTime}>Reading time: {frontmatter.time}</p>
+      <p className={styles.insightTime}>Reading time: {frontmatter.time} min</p>
 
       {/* Use the component provided as a prop to display the featured image */}
       <ImgComponent

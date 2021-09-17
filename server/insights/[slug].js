@@ -42,13 +42,22 @@ export async function getStaticProps(context) {
 
     // Parse .md data through "matter"
     // This holds the data between `---` from the .md file
-    const frontmatter = matter(content)
+    const insight = matter(content)
+
+    // Duplicate object and stringify dates to allow them to be sent to the client
+    const frontmatter = {}
+    Object.entries(insight.data).map(([field, meta]) => {
+        if (meta instanceof Date) {
+            meta = meta.toLocaleDateString('en-GB', { dateStyle: 'long' })
+        }
+        frontmatter[field] = meta
+    })
 
     // Pass data to component props
     return {
         props: {
-            frontmatter: frontmatter.data,
-            content: frontmatter.content
+            frontmatter: frontmatter,
+            content: insight.content
         }
     }
 }
