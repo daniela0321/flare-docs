@@ -1,9 +1,9 @@
 ---
 title: "Information Architecture"
 author: "Daniela"
-created: "July 28, 2020"
-revised: "September 5, 2021"
-time: "2 min"
+created: 2020-07-28
+revised: 2021-09-05
+time: 2
 image: "/images/insights/information-architecture.jpg"
 imageTitle: "Types of Information Architecture"
 excerpt: "In this Insight you can read what information architecture means and what types of information architecture there are."

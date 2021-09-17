@@ -1,9 +1,9 @@
 ---
 title: "Introduction: How to Build Value-Adding Digital Solutions"
 author: "Daniela"
-created: "July 13, 2020"
-revised: "September 5, 2021"
-time: "5 min"
+created: 2020-07-13
+revised: 2021-09-05
+time: 5
 image: "/images/insights/how-to-build-value-adding-digital-solutions.jpg"
 imageTitle: "How to Build Value-Adding Digital Solutions"
 excerpt: "This is an introduction to Flare Insights - what these are and why we are creating them."

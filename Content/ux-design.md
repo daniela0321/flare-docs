@@ -1,9 +1,9 @@
 ---
 title: "User Experience Design"
 author: "Daniela"
-created: "July 13, 2020"
-revised: "September 5, 2021"
-time: "9 min"
+created: 2020-07-13
+revised: 2021-09-05
+time: 9
 image: "/images/insights/user-experience-design.jpg"
 imageTitle: "User Experience Design"
 excerpt: "In this Insight you can find information on what user experience design is, and the process of creating a positive user experience."
