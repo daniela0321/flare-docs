@@ -8,7 +8,7 @@
 // Table of Contents for a normal page:
 export default function TocForPage({ children }) {
     return (
-        <ul className="ml-0 nomarker">
+        <ul className="ml-0 pl-0 nomarker">
             {children}
         </ul>
     )

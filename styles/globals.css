@@ -47,11 +47,6 @@ h6 .h6Margin {
 
 ul {
   list-style-type: disc;
-  margin-left: 20px;
-}
-
-ol {
-  padding-left: 20px;
 }
 
 ul.nomarker {
