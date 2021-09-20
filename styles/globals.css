@@ -69,7 +69,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.blackLink a {
+  color: var(--dark);
+}
+
 .gitHubIconBlack a {
+  color: var(--dark);
+}
+
+.LinkedInIconBlack a {
   color: var(--dark);
 }
 

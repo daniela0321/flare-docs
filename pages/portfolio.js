@@ -10,9 +10,10 @@ import TocH2Page from "../components/layout/common/toc/TocH2Page"
 import TocH3Page from "../components/layout/common/toc/TocH3Page"
 import TocPageTitle from "../components/layout/common/TocPageTitle"
 import PageContent from '../components/layout/common/PageContent'
-import Image from "../components/layout/common/Image"
-import GitHubIcon from "../components/layout/common/GitHubIcon"
 import ImageModal from "../components/layout/common/ImageModal"
+import IconAndText from '../components/layout/common/IconAndText'
+import GitHubIcon from "../components/layout/common/GitHubIcon"
+
 
 
 // Portfolio page:
@@ -261,18 +262,15 @@ export default function Portfolio() {
                                 </li>
                             </ul>
 
-                            <div className="d-flex justify-content-start align-items-center">
-                                <div className="gitHubIconBlack">
-                                    <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener">
-                                        <GitHubIcon />
-                                    </a>
-                                </div>
-                                <div className="ml-2">
-                                    <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener">
-                                        flare-docs
-                                    </a>
-                                </div>
-                            </div>
+                            <IconAndText
+                                className="d-flex justify-content-start align-items-center"
+                                classNameIcon="gitHubIconBlack"
+                                // classNameLink="blackLink"
+                                link="https://github.com/daniela0321/flare-docs"
+                                linkText="flare-docs"
+                            >
+                                <GitHubIcon />
+                            </IconAndText>
 
                             <h3 id="knowledge-base-responsibilities">1.4 Main Responsibilities</h3>
 
@@ -399,18 +397,15 @@ export default function Portfolio() {
                                 </li>
                             </ul>
 
-                            <div className="d-flex justify-content-start align-items-center">
-                                <div className="gitHubIconBlack">
-                                    <a href="https://github.com/dutchigor/pluggable-electron" target="_blank" rel="noopener">
-                                        <GitHubIcon />
-                                    </a>
-                                </div>
-                                <div className="ml-2">
-                                    <a href="https://github.com/dutchigor/pluggable-electron" target="_blank" rel="noopener">
-                                        pluggable-electron
-                                    </a>
-                                </div>
-                            </div>
+                            <IconAndText
+                                className="d-flex justify-content-start align-items-center"
+                                classNameIcon="gitHubIconBlack"
+                                // classNameLink="blackLink"
+                                link="https://github.com/dutchigor/pluggable-electron"
+                                linkText="pluggable-electron"
+                            >
+                                <GitHubIcon />
+                            </IconAndText>
 
                             <h3 id="electron-framework-responsibilities">2.4 Main Responsibilities</h3>
 
