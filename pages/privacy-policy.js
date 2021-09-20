@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
                         title="Privacy Policy"
                     />
 
-                    <p className="font-italic">Last Updated: July 13th, 2020</p>
+                    <p className="font-italic">Last Updated on 13 July 2020</p>
 
                     <p>According to the data privacy regulation, a registrar has the responsibility
                         to inform data subjects distinctly. This privacy policy respects this obligation.</p>

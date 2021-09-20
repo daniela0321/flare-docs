@@ -30,7 +30,7 @@ export default function Terms() {
                         title="Terms of Use"
                     />
 
-                    <p className="font-italic">Last Updated: July 13th, 2020</p>
+                    <p className="font-italic">Last Updated on 13 July 2020</p>
 
                     <h2>1. Acceptance of Terms</h2>
 

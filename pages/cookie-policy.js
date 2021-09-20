@@ -32,7 +32,7 @@ export default function CookiePolicy() {
                         title="Cookie Policy (EU)"
                     />
 
-                    <p className="font-italic">Last Updated: September 5th, 2021</p>
+                    <p className="font-italic">Last Updated on 5 September 2021</p>
                     <p className="font-italic">This Cookie Policy applies to citizens and legal permanent
                         residents of the European Economic Area.</p>
 
