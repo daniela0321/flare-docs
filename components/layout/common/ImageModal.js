@@ -1,15 +1,15 @@
 // Styles:
-import styles from "./MarkdownImage.module.css"
+import styles from "./ImageModal.module.css"
 // External packages:
 import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap'
 // Internal components:
 import Close from "./Close"
-import Image from "../../layout/common/Image";
+import Image from "./Image";
 
 
 // Open image as modal:
-export default function MarkdownImage({ src, alt, lazy }) {
+export default function ImageModal({ src, alt, lazy, className }) {
 
     // To control the opening and closing the image in a modal
     const [show, setShow] = useState(false);
@@ -19,7 +19,7 @@ export default function MarkdownImage({ src, alt, lazy }) {
     return (
         <>
             {/* Show image as a link */}
-            <a href="#" onClick={handleShow}>
+            <a href="#" onClick={handleShow} className={className}>
                 <Image src={src} alt={alt} className="mt-3 mw-100" sizes="(min-width: 796px) 700px, 96vw" lazy={lazy} />
             </a>
 
