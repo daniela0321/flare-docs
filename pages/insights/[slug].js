@@ -5,7 +5,7 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 // Internal components:
 import Sidebar from '../../components/layout/common/toc/Sidebar'
-import MarkdownImage from "../../components/insight/markdown/MarkdownImage"
+import ImageModal from "../../components/layout/common/ImageModal"
 import HeadMeta from "../../components/head/HeadMeta"
 import ArticleContent from "../../components/insight/ArticleContent"
 import TocForPost from '../../components/layout/common/toc/TocForPost'
@@ -53,7 +53,7 @@ export default function InsightTemplate({ frontmatter, content }) {
                         <ArticleContent
                             frontmatter={frontmatter}
                             content={content}
-                            ImgComponent={MarkdownImage}
+                            ImgComponent={ImageModal}
                             styles={styles}
                         />
                     </PageContent>

@@ -10,8 +10,10 @@ import TocH2Page from "../components/layout/common/toc/TocH2Page"
 import TocH3Page from "../components/layout/common/toc/TocH3Page"
 import TocPageTitle from "../components/layout/common/TocPageTitle"
 import PageContent from '../components/layout/common/PageContent'
-import Image from "../components/layout/common/Image"
+import ImageModal from "../components/layout/common/ImageModal"
+import IconAndText from '../components/layout/common/IconAndText'
 import GitHubIcon from "../components/layout/common/GitHubIcon"
+
 
 
 // Portfolio page:
@@ -110,24 +112,23 @@ export default function Portfolio() {
                             <p><Link href="/"><a><b>Flarehub.io</b></a></Link> is our company&apos;s website. Here we
                                 provide a growing knowledge base on how to build value-adding digital solutions.</p>
 
-                            {/* Images as modal*/}
-                            <Image
+                            <ImageModal
                                 src="/images/portfolio/knowledge-base.jpg"
                                 alt="Flarehub.io Knowledge Base"
-                                className="mt-3 mw-100"
-                                sizes="(min-width: 796px) 700px, 96vw"
                                 lazy="true"
+                                className="d-flex justify-content-center"
                             />
 
                             <h3 id="knowledge-base-challenge">1.1 The Challenge</h3>
 
                             <h6 className="h6Margin">The Initial Situation</h6>
 
-                            <p>The previous flarehub.io site was implemented with WordPress. This worked but had some limitations:</p>
+                            <p>The previous flarehub.io site was implemented with WordPress. This worked but
+                                had some limitations:</p>
                             <ul>
                                 <li>Expanding beyond the default WordPress capabilities was complex.</li>
                                 <li>The solution included multiple heavy third-party plugins
-                                    which required significant effort to maintain (e.g. updates and testing).</li>
+                                    which required significant effort to maintain (e.g., updates and testing).</li>
                                 <li>The deployment process was time-taking and complicated.</li>
                                 <li>There was a clear limit to the number of visitors the site could support,
                                     after which actions needed to be taken to improve performance.</li>
@@ -137,15 +138,15 @@ export default function Portfolio() {
 
                             <p>Any solution that eliminates these limitations should:</p>
                             <ul>
-                                <li>Enhance the user experience (e.g. adding custom table of contents).</li>
+                                <li>Enhance the user experience (e.g., adding custom table of contents).</li>
                                 <li>Improve performance on both server and client side.</li>
                                 <li>Allow for a simple and easy development flow (continuous delivery).</li>
-                                <li>Remove any limitations on the abilitites to customize the service.</li>
+                                <li>Remove any limitations on the abilities to customize the service.</li>
                                 <li>Scale easily or even automatically with the service demand.</li>
                             </ul>
 
                             <p>
-                                On the other hand, we should not loose the advantages of the existing solution,
+                                On the other hand, we should not lose the advantages of the existing solution,
                                 like SEO and easy content editing.
                             </p>
 
@@ -211,31 +212,25 @@ export default function Portfolio() {
 
                             <p>The application architecture diagram:</p>
 
-                            {/* Images as modal, new image*/}
-                            <Image
+                            <ImageModal
                                 src="/images/portfolio/knowledge-base-architecture.jpg"
                                 alt="Flarehub.io architecture"
-                                className="mt-3 mb-5 mw-100"
-                                sizes="(min-width: 796px) 700px, 96vw"
                                 lazy="true"
+                                className="d-flex justify-content-center"
                             />
 
-                            <h6 className="h6Margin">Information Architecture</h6>
+                            <h6 className="h6Margin mt-5">Information Architecture</h6>
 
                             <p>The site has the sitemap as defined below. Netlify CMS, which we use for the admin area,
                                 has a standard site structure, determined by Netlify. As such, we have not described the
                                 admin pages further in the sitemap.
                             </p>
 
-                            <i>ADD ADMIN AREA</i>
-
-                            {/* Images as modal, new image*/}
-                            <Image
+                            <ImageModal
                                 src="/images/portfolio/knowledge-base-sitemap.jpg"
                                 alt="Flarehub.io sitemap"
-                                className="mt-3 mb-2 mw-100"
-                                sizes="(min-width: 796px) 700px, 96vw"
                                 lazy="true"
+                                className="d-flex justify-content-center"
                             />
 
                             <h3 id="knowledge-base-technologies">1.3 Used Technologies</h3>
@@ -267,18 +262,15 @@ export default function Portfolio() {
                                 </li>
                             </ul>
 
-                            <div className="d-flex justify-content-start align-items-center">
-                                <div className="gitHubIconBlack">
-                                    <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener">
-                                        <GitHubIcon />
-                                    </a>
-                                </div>
-                                <div className="ml-2">
-                                    <a href="https://github.com/daniela0321/flare-docs" target="_blank" rel="noopener">
-                                        flare-docs
-                                    </a>
-                                </div>
-                            </div>
+                            <IconAndText
+                                className="d-flex justify-content-start align-items-center"
+                                classNameIcon="gitHubIconBlack"
+                                // classNameLink="blackLink"
+                                link="https://github.com/daniela0321/flare-docs"
+                                linkText="flare-docs"
+                            >
+                                <GitHubIcon />
+                            </IconAndText>
 
                             <h3 id="knowledge-base-responsibilities">1.4 Main Responsibilities</h3>
 
@@ -373,13 +365,11 @@ export default function Portfolio() {
 
                             <p>The application architecture diagram:</p>
 
-                            {/* Images as modal*/}
-                            <Image
+                            <ImageModal
                                 src="/images/portfolio/pluggable-electron.jpg"
                                 alt="Pluggable Electron"
-                                className="mt-3 mb-1 mw-100"
-                                sizes="(min-width: 796px) 700px, 96vw"
                                 lazy="true"
+                                className="d-flex justify-content-center"
                             />
 
                             <h3 id="electron-framework-technologies">2.3 Used Technologies</h3>
@@ -407,18 +397,15 @@ export default function Portfolio() {
                                 </li>
                             </ul>
 
-                            <div className="d-flex justify-content-start align-items-center">
-                                <div className="gitHubIconBlack">
-                                    <a href="https://github.com/dutchigor/pluggable-electron" target="_blank" rel="noopener">
-                                        <GitHubIcon />
-                                    </a>
-                                </div>
-                                <div className="ml-2">
-                                    <a href="https://github.com/dutchigor/pluggable-electron" target="_blank" rel="noopener">
-                                        pluggable-electron
-                                    </a>
-                                </div>
-                            </div>
+                            <IconAndText
+                                className="d-flex justify-content-start align-items-center"
+                                classNameIcon="gitHubIconBlack"
+                                // classNameLink="blackLink"
+                                link="https://github.com/dutchigor/pluggable-electron"
+                                linkText="pluggable-electron"
+                            >
+                                <GitHubIcon />
+                            </IconAndText>
 
                             <h3 id="electron-framework-responsibilities">2.4 Main Responsibilities</h3>
 

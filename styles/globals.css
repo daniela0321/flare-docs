@@ -47,11 +47,6 @@ h6 .h6Margin {
 
 ul {
   list-style-type: disc;
-  margin-left: 20px;
-}
-
-ol {
-  padding-left: 20px;
 }
 
 ul.nomarker {
@@ -74,7 +69,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.blackLink a {
+  color: var(--dark);
+}
+
 .gitHubIconBlack a {
+  color: var(--dark);
+}
+
+.LinkedInIconBlack a {
   color: var(--dark);
 }
 
@@ -105,6 +108,7 @@ a:hover.sidelink {
 
 .maxWidth {
   max-width: 700px;
+  padding-top: 16px;
 }
 
 /* Navbar (overwriting Bootstrap styles) */

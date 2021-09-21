@@ -7,6 +7,9 @@ import { Container, Row, CardDeck } from "react-bootstrap"
 import HeadMeta from "../components/head/HeadMeta"
 import PageTitle from "../components/layout/common/PageTitle"
 import AboutCard from "../components/about/AboutCard"
+import IconAndText from '../components/layout/common/IconAndText'
+import GitHubIcon from '../components/layout/common/GitHubIcon'
+import LinkedInIcon from '../components/about/LinkedInIcon'
 
 
 // About Us page:
@@ -40,14 +43,6 @@ export default function About() {
                         <p>See <Link href="/portfolio"><a><b>samples of our work</b></a></Link>.</p>
                     </Row>
 
-                    {/* <Row className="mt-2 mb-5 d-flex justify-content-center">
-                        <Link href="/portfolio">
-                            <a role="button" className="btn btn-primary">
-                                See our work
-                            </a>
-                        </Link>
-                    </Row> */}
-
                 </Container>
 
                 <Container fluid className={styles.container2}>
@@ -61,7 +56,18 @@ export default function About() {
                             email="daniela@flarehub.io"
                             mobile="+358 (0)400 416187"
                         >
-                            <p>
+
+                            <IconAndText
+                                className="d-flex justify-content-center align-items-center"
+                                classNameIcon="gitHubIconBlack"
+                                classNameLink="blackLink"
+                                link="https://github.com/daniela0321"
+                                linkText="daniela0321"
+                            >
+                                <GitHubIcon />
+                            </IconAndText>
+
+                            <p className="mt-4">
                                 Daniela has more than 10 years of experience in IT projects. This has included roles
                                 diverging from analyst to project manager. In this time, she has performed tasks like
                                 concept design, requirements management, process design, functional design, and project
@@ -83,7 +89,36 @@ export default function About() {
                             email="igor@flarehub.io"
                             mobile="+358 (0)45 8730130"
                         >
-                            <p>
+
+                            <div className="d-flex justify-content-center">
+
+                                <div>
+                                    <IconAndText
+                                        className="d-flex justify-content-center align-items-center"
+                                        classNameIcon="gitHubIconBlack"
+                                        classNameLink="blackLink"
+                                        link="https://github.com/dutchigor"
+                                        linkText="dutchigor"
+                                    >
+                                        <GitHubIcon />
+                                    </IconAndText>
+                                </div>
+
+                                <div className="ml-4">
+                                    <IconAndText
+                                        className="d-flex justify-content-center align-items-center"
+                                        classNameIcon="LinkedInIconBlack"
+                                        classNameLink="blackLink"
+                                        link="https://fi.linkedin.com/in/igorhonhoff"
+                                        linkText="igorhonhoff"
+                                    >
+                                        <LinkedInIcon />
+                                    </IconAndText>
+                                </div>
+
+                            </div>
+
+                            <p className="mt-4">
                                 Igor has over 15 years of experience in IT delivery. In this time, he has had
                                 roles diverging from IT support to technical consultant, process owner and technical
                                 representative. As part of this journey, he has performed tasks like requirements
