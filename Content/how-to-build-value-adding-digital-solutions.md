@@ -52,7 +52,9 @@ Choose where you would like to start and dive deeper to the child Insights when 
 
 ### 3.1 Umbrella Insight: Product Life Cycles
 
-[**Digital product life cycle**](/insights/product-lifecycles) describes the process of creating value-adding digital solutions. It’s five major components are requirements development, design, implementation, testing, and transition & operation. 
+[**Product life cycle**](/insights/product-lifecycles) describes the different stages in the life cycle of a product. When talking specifically about digital products, a framework for describing the development phases is called a systems development life cycle.
+
+It’s five major components are requirements development, design, implementation, testing, and transition & operation. 
 
 System development life cycle models, for example waterfall model or agile development model, describe how these components are executed.
 
