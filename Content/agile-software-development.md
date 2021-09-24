@@ -2,7 +2,7 @@
 title: "Agile Software Development"
 author: "Daniela"
 created: 2020-09-22
-revised: 2021-09-05
+revised: 2021-09-24
 time: 9
 image: "/images/insights/agile-software-development.jpg"
 imageTitle: "Agile Software Development"

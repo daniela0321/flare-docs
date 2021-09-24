@@ -2,7 +2,7 @@
 title: "Requirements Development"
 author: "Daniela"
 created: 2020-07-13
-revised: 2021-09-05
+revised: 2021-09-24
 time: 13
 image: "/images/insights/requirements-development.jpg"
 imageTitle: "Requirements Development"

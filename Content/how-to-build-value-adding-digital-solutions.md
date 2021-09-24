@@ -2,7 +2,7 @@
 title: "Introduction: How to Build Value-Adding Digital Solutions"
 author: "Daniela"
 created: 2020-07-13
-revised: 2021-09-05
+revised: 2021-09-24
 time: 5
 image: "/images/insights/how-to-build-value-adding-digital-solutions.jpg"
 imageTitle: "How to Build Value-Adding Digital Solutions"

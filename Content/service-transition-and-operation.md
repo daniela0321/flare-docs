@@ -2,7 +2,7 @@
 title: "Service Transition and Operation"
 author: "Daniela"
 created: 2020-10-27
-revised: 2021-09-05
+revised: 2021-09-24
 time: 12
 image: "/images/insights/service-transition-and-operation.jpg"
 imageTitle: "Service Transition and Operation"

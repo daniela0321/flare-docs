@@ -2,7 +2,7 @@
 title: "ITIL 4"
 author: "Daniela"
 created: 2020-11-03
-revised: 2021-09-05
+revised: 2021-09-24
 time: 7
 image: "/images/insights/itil-4.jpg"
 imageTitle: "ITIL 4"

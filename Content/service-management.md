@@ -2,7 +2,7 @@
 title: "Service Management"
 author: "Daniela"
 created: 2020-11-03
-revised: 2021-09-05
+revised: 2021-09-24
 time: 8
 image: "/images/insights/service-management.jpg"
 imageTitle: "Service Management"

@@ -2,7 +2,7 @@
 title: "Product Life Cycles"
 author: "Daniela"
 created: 2020-09-15
-revised: 2021-09-05
+revised: 2021-09-24
 time: 4
 image: "/images/insights/systems-development-life-cycle.jpg"
 imageTitle: "Systems Development Life Cycle"

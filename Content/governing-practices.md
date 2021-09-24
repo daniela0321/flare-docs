@@ -2,7 +2,7 @@
 title: "Governing Practices"
 author: "Daniela"
 created: 2020-12-04
-revised: 2021-09-05
+revised: 2021-09-24
 time: 4
 image: "/images/insights/governing-practices.jpg"
 imageTitle: "Governing Practices"

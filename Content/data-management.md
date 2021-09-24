@@ -2,7 +2,7 @@
 title: "Data Management"
 author: "Daniela"
 created: 2020-11-17
-revised: 2021-09-05
+revised: 2021-09-24
 time: 13
 image: "/images/insights/data-management.jpg"
 imageTitle: "Data Management"

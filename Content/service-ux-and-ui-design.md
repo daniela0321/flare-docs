@@ -2,7 +2,7 @@
 title: "3 Tiers of Design"
 author: "Daniela"
 created: 2020-07-13
-revised: 2021-09-05
+revised: 2021-09-24
 time: 3
 image: "/images/insights/service-user-experience-and-user-interface-design.jpg"
 imageTitle: "Service Design, User Experience Design, and User Interface Design"
