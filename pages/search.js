@@ -5,9 +5,9 @@ import { useRouter } from 'next/router'
 import { Container } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
-import PageTitle from "../components/layout/PageTitle"
-import SearchResults from "../components/layout/SearchResults"
-import Image from "../components/layout/Image"
+import PageTitle from "../components/layout/common/PageTitle"
+import SearchResults from "../components/search/SearchResults"
+import Image from "../components/layout/common/Image"
 
 
 // Page with search results:
@@ -40,13 +40,16 @@ export default function Search() {
                     />
                 </Container>
 
-                <PageTitle
-                    title="Search Results"
-                />
-                <h4 className="mt-n5 mb-5 mx-2 text-center">for &quot;{query}&quot;</h4>
-
                 <Container className={styles.results}>
+
+                    <PageTitle
+                        title="Search Results"
+                    />
+
+                    <h4 className="mt-n5 mb-5 text-center">for &quot;{query}&quot;</h4>
+
                     <SearchResults />
+
                 </Container>
 
             </main>

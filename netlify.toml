@@ -9,6 +9,13 @@
     #default:
     renderJavaScript = false
 # template = "hierarchical"
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+  [plugins.inputs]
+    # Path to the sitemap URL
+    sitemapPath = "/sitemap.xml"
+    # Enabled providers to submit sitemap to. Possible providers are currently only 'google', 'bing', 'yandex'.
+    providers = ["google", "bing"]
 [[headers]]
   for = "/*"
   [headers.values]
@@ -21,9 +28,19 @@
       script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
       connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;'''
 [[headers]]
-  for = "/images/*"
+  for = "/admin/*"
   [headers.values]
-    Cache-Control = "public, must-revalidate, s-max-age=172800"
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = '''
+      default-src 'self';
+      font-src 'self' data:;
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' 'unsafe-inline' data: blob: *.netlify.app *.flarehub.io;
+      script-src 'self' 'unsafe-eval';
+      connect-src 'self' blob: https://www.netlifystatus.com *.netlify.app *.flarehub.io;'''
 [context.branch-deploy]
+  command = "npm run export-noindex"
+  environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
+[context.deploy-preview]
   command = "npm run export-noindex"
   environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }

@@ -1,9 +1,9 @@
 ---
 title: "Waterfall Software Development"
 author: "Daniela"
-created: "October 6, 2020"
-revised: "September 5, 2021"
-time: "4 min"
+created: 2020-10-06
+revised: 2021-09-24
+time: 4
 image: "/images/insights/waterfall-software-development.jpg"
 imageTitle: "Waterfall Software Development"
 excerpt: "In this Insight you find information on what waterfall software development model is, where does it originate from, what kind of criticism it has received, and in what situations waterfall model could be used."

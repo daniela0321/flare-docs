@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Container } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
-import PageTitle from "../components/layout/PageTitle"
+import PageTitle from "../components/layout/common/PageTitle"
 
 
 // Termus of use page:
@@ -23,13 +23,14 @@ export default function Terms() {
             />
 
             <main>
-                <PageTitle
-                    title="Terms of Use"
-                />
 
                 <Container className="textContainer">
 
-                    <p className="font-italic">Last Updated: July 13th, 2020</p>
+                    <PageTitle
+                        title="Terms of Use"
+                    />
+
+                    <p className="font-italic">Last Updated on 13 July 2020</p>
 
                     <h2>1. Acceptance of Terms</h2>
 

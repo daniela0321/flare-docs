@@ -3,7 +3,7 @@ import styles from "./InsightCard.module.css"
 // External packages:
 import Link from 'next/link'
 import { Card } from "react-bootstrap"
-import Image from "../layout/Image"
+import Image from "../layout/common/Image"
 
 
 // A clickable card which includes a short introduction of a post:

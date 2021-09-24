@@ -3,15 +3,21 @@ import styles from '../styles/Home.module.css'
 // External packages:
 import { Container, Button, Row } from "react-bootstrap"
 import Link from "next/link"
+import identity from 'netlify-identity-widget'
+import { useEffect } from 'react'
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
 import InfoCard from "../components/home/InfoCard"
 import InsightCardHome from "../components/home/InsightCardHome"
-import Image from '../components/layout/Image'
+import Image from '../components/layout/common/Image'
 
 
 // Home Page:
 export default function Home() {
+  useEffect(() => {
+    identity.init()
+  }, [])
+
   return (
     <>
       <HeadMeta
@@ -92,7 +98,7 @@ export default function Home() {
           <InsightCardHome
             image="/images/home/governing-practices-home.jpg"
             imageTitle="Governing Practices"
-            title="How to provide support and governance for the product life cycle?"
+            title="How to provide support and governance for the systems development life cycle?"
             button="/insights/governing-practices"
             amountAndTime="11 Insights (1 hour 41 minutes)"
             textFirst={true}

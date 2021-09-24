@@ -1,9 +1,9 @@
 ---
 title: "ITIL 4"
 author: "Daniela"
-created: "November 3, 2020"
-revised: "September 5, 2021"
-time: "7 min"
+created: 2020-11-03
+revised: 2021-09-24
+time: 7
 image: "/images/insights/itil-4.jpg"
 imageTitle: "ITIL 4"
 excerpt: "In this Insight you can find information on what ITIL is, how it has evolved, and what the main components of ITIL are."

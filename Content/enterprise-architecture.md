@@ -1,9 +1,9 @@
 ---
 title: "Enterprise Architecture"
 author: "Daniela"
-created: "November 24, 2020"
-revised: "September 5, 2021"
-time: "6 min"
+created: 2020-11-24
+revised: 2021-09-24
+time: 6
 image: "/images/insights/enterprise-architecture.jpg"
 imageTitle: "Enterprise Architecture"
 excerpt: "In this Insight you can find information on what Enterprise Architecture is, what the domains of it are, examples of subdomains, and what the steps of Enterprise Architecture Planning process are."

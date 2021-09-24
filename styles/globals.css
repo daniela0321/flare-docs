@@ -34,13 +34,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
+h2, h3 {
+  scroll-margin-top: 5.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
-ol {
-  padding-left: 20px;
+h6 .h6Margin {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: disc;
 }
 
 ul.nomarker {
@@ -50,14 +56,7 @@ ul.nomarker {
 .textContainer {
   max-width: 800px;
   margin-bottom: 100px;
-  padding: 0 30px;
-}
-
-.textContainer h2, h3 {
-  scroll-margin-top: 5.5rem;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  font-weight: 650;
+  padding: 0 15px;
 }
 
 /* Links on light background */
@@ -70,21 +69,19 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navbar (overwriting Bootstrap styles) */
-
-.fh-link-white.navbar-nav .nav-link {
-  color: white;
+.blackLink a {
+  color: var(--dark);
 }
 
-.fh-toggler.navbar-toggler {
-  border-color: var(--light);
+.gitHubIconBlack a {
+  color: var(--dark);
 }
 
-.fh-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(237,242,247)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+.LinkedInIconBlack a {
+  color: var(--dark);
 }
 
-/* Links in the Insight Table of Contents (multiple components) */
+/* Links in Table of Contents */
 
 a.sidelink {
   color: inherit;
@@ -107,11 +104,23 @@ a:hover.sidelink {
   font-weight: 600;
 }
 
-/* Insight / markdown content (multiple components) */
+/* Page Contents when Table of Contents included */
 
-.markdown-content h2, h3 {
-  scroll-margin-top: 5.5rem;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  font-weight: 650;
+.maxWidth {
+  max-width: 700px;
+  padding-top: 16px;
+}
+
+/* Navbar (overwriting Bootstrap styles) */
+
+.fh-link-white.navbar-nav .nav-link {
+  color: white;
+}
+
+.fh-toggler.navbar-toggler {
+  border-color: var(--light);
+}
+
+.fh-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(237,242,247)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }

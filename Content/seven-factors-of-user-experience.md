@@ -1,9 +1,9 @@
 ---
 title: "The 7 Factors that Influence User Experience"
 author: "Daniela"
-created: "August 4, 2020"
-revised: "September 5, 2021"
-time: "4 min"
+created: 2020-08-04
+revised: 2021-09-05
+time: 4
 image: "/images/insights/the-7-factors-that-influence-user-experience.jpg"
 imageTitle: "The 7 Factors that Influence User Experience"
 excerpt: "Peter Morville arranged seven factors that influence user experience into the ‘User Experience Honeycomb’. [1] This became a well-known tool to help understand user experience design."

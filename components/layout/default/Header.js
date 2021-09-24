@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Link from "next/link"
 import { Nav, Navbar, NavDropdown } from "react-bootstrap"
 // Internal components:
-import Image from "./Image"
+import Image from "../common/Image"
 import SearchField from "./SearchField"
 
 

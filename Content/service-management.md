@@ -1,9 +1,9 @@
 ---
 title: "Service Management"
 author: "Daniela"
-created: "November 3, 2020"
-revised: "September 5, 2021"
-time: "8 min"
+created: 2020-11-03
+revised: 2021-09-24
+time: 8
 image: "/images/insights/service-management.jpg"
 imageTitle: "Service Management"
 excerpt: "In this Insight you can find an introduction to service management, and information on standards, frameworks, and communities related to IT service management."

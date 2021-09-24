@@ -4,7 +4,7 @@ import styles from "./Footer.module.css"
 import Link from "next/link"
 import { Row, Col, Container } from "react-bootstrap"
 // Internal components:
-import GitHubIcon from "./GitHubIcon"
+import GitHubIcon from "../../../components/layout/common/GitHubIcon"
 
 
 // Html footer with react-bootstrap elements and next/links

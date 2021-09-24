@@ -3,7 +3,7 @@ import styles from "./InfoCard.module.css"
 // External packages:
 import { Col } from "react-bootstrap"
 // Internal components
-import Image from "../layout/Image"
+import Image from "../layout/common/Image"
 
 
 // An info card to be used to explain the benefits of the service:

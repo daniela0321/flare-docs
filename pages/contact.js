@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Container, Row } from "react-bootstrap"
 // Internal components:
 import HeadMeta from "../components/head/HeadMeta"
-import PageTitle from "../components/layout/PageTitle"
+import PageTitle from "../components/layout/common/PageTitle"
 import PhoneIcon from "../components/contact/PhoneIcon"
 import FormIcon from "../components/contact/FormIcon"
 import ContactForm from '../components/contact/ContactForm'
@@ -27,11 +27,11 @@ export default function Contact() {
 
             <main>
 
-                <PageTitle
-                    title="Contact Us"
-                />
-
                 <Container>
+
+                    <PageTitle
+                        title="Contact Us"
+                    />
 
                     <Row className="mb-2 d-flex flex-row justify-content-center">
                         <PhoneIcon />
