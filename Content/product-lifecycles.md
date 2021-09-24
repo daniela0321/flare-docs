@@ -11,7 +11,7 @@ excerpt: "In this Insight you can find information on what a product lifecycle a
 
 ## 1. What Is a Product Lifecycle?
 
-Digital products – just like any products – follow some type of product life cycle. Product life cycle describes the different stages in the life cycle of a product, from the product idea to the disposal of the product. [1]
+Digital products – just like any product – follow some type of product life cycle. Product life cycle describes the different stages in the life cycle of a product, from the product idea to the disposal of the product. [1]
 
 Many people argue that to develop digital products, project managers need to modify [**traditional project management**](/insights/project-management) methods. In other words, they always need to consider a particular product’s life cycle. [1]
 
