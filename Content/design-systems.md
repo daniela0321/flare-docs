@@ -12,15 +12,22 @@ excerpt: In this Insight you can find information on what design system is, what
 ---
 ## 1. What Is a Design System?
 
+
+
 A design system provides a single source of truth for design components. However, it is not only a collection of the reusable assets and components you use to build a digital product. It also guides on why and how to use the design components.
+
 
 A design system assists a consistent and accessible user experience. In addition, it enables time-saving features and better, faster output. A good design system empowers designers to code, and engineers to design.
 
+
 ## 2. What Are the Elements of a Design System?
+
 
 A style guide or pattern library can be a starting point for a design system, but they are not the only components. Depending on the case, the elements and grouping of a design system can vary. 
 
+
 Examples of design system elements are:
+
 
 * Brand guidelines
 * Design guidelines
@@ -31,13 +38,18 @@ Examples of design system elements are:
 * Pattern library
 * Tools
 
+
 To see an example, check for example the [**Atlassian design system**](https://atlassian.design/).
+
 
 ## 3. When to Build a Design System?
 
+
 A design system is not a silver bullet. If you work with a fast-moving small team on a single app, you might end up creating solutions for problems you do not have.
 
+
 The economy of scale in a design system works in your favour when sharing UI components across many projects. Building a design system is beneficial for example when you want to 
+
 
 * Decrease inefficiencies that come along when your team hits big enough scale.
 * Remove knowledge silos.
@@ -45,35 +57,51 @@ The economy of scale in a design system works in your favour when sharing UI com
 * Reduce implementation decisions.
 * Reduce waste (over documentation etc).
 
+
 ## 4. The Process of Building a Design System
+
 
 **Go/No-Go decision**
 
+
 * Analyse if building a design system is beneficial in your case and decide if it makes sense to proceed.
+
 
 * Before beginning the process, take a moment to think about the team you’ll need to bring the design system to life. Who needs to be involved? Depending on the company size, the number of stakeholders can vary a lot. They can be for example from marketing, IT, product teams, or third parties. Internal stakeholders can be for example product managers, UX designers, visual designers, content/copy writers, motion designers, frontend developers, producers, and project managers. 
 
+
 **Discovery**
+
 
 * Conduct research and collaborate across disciplines to understand the scope of your system(s). Do a visual audit and take inventory of your current design, whether that’s the design of an app, a website, or some other digital product.
 
+
 **Decide on tooling/technology**
+
 
 * Depending on the scope, invest in tooling/technology on an appropriate level.
 
+
 **Design and Build**
+
 
 * **Create design and content guidelines**. For example, the visual design language is made up of the distinct components that you’ll use to construct your digital product: colours. Typography, sizing and spacing, and imagery. Depending on your specific needs, you might consider including additional categories such as motion or sound.
 
+
 * **Create a UI/pattern library**. This step looks at the actual components of your UI - that means every button, form, modal, and image you will need. Divide the different UI elements into categories such as elements, components, regions, and layouts. 
+
 
 * **Document what each component is and when to use it**. Documentation and standards are what separate a pattern library from a true design system. Document everything in your design system by defining what the component is and when you should use it. Remember to assign unique identifiers for the components. 
 
+
 * **Create a process for utilisation and continuous development**. What happens for example when the horizontal tabs component gets a bug fix? Establish these processes for contribution and bugs, and create feedback loops, to ensure ongoing success of the design system. Make sure you improve, not worsen, the workflow for designers and engineers. 
+
 
 **Maintain/Develop**
 
+
 * Approach a design system as you would a marathon, not a sprint - design systems and their maintenance processes are always evolving. A design system should have its own roadmap and backlog.
+
 
 &nbsp;
 
@@ -82,11 +110,14 @@ The economy of scale in a design system works in your favour when sharing UI com
 
 
 
+
 ##### Move up to
 
 [**3 Tiers of Design**](/insights/service-ux-and-ui-design/)
 
+
 &nbsp;
+
 
 ##### Sources
 
