@@ -66,7 +66,7 @@ The economy of scale in a design system works in your favour when sharing UI com
 
 * Before beginning the process, take a moment to think about the team you’ll need to bring the design system to life. Who needs to be involved? Depending on the company size, the number of stakeholders can vary a lot. They can be for example from marketing, IT, product teams, or third parties. Internal stakeholders can be for example product managers, UX designers, visual designers, content/copy writers, motion designers, frontend developers, producers, and project managers. 
 
-* Perform a high-level analysis to determine if building a design system is beneficial in your case, and with the relevant stakeholders, decide whether or not to start using a design system.
+* Perform a high-level analysis to determine if building a design system is beneficial in your case and, with the relevant stakeholders, decide whether or not to start using a design system.
 
 
 
