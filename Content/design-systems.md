@@ -61,7 +61,7 @@ The economy of scale in a design system works in your favour when sharing UI com
 ## 4. The Process of Building a Design System
 
 
-**Determine usefulness**
+### 4.1 Determine usefulness
 
 
 * Before beginning the process, take a moment to think about the team you’ll need to bring the design system to life. Who needs to be involved? Depending on the company size, the number of stakeholders can vary a lot. They can be for example from marketing, IT, product teams, or third parties. Internal stakeholders can be for example product managers, UX designers, visual designers, content/copy writers, motion designers, frontend developers, producers, and project managers. 
@@ -70,19 +70,19 @@ The economy of scale in a design system works in your favour when sharing UI com
 
 
 
-**Discovery**
+### 4.2 Discovery
 
 
 * Conduct research and collaborate across disciplines to understand the scope of your system(s). Do a visual audit and take inventory of your current design, whether that’s the design of an app, a website, or some other digital product.
 
 
-**Decide on tooling/technology**
+### 4.3 Decide on tooling/technology
 
 
 * Depending on the scope, invest in tooling/technology on an appropriate level.
 
 
-**Design and Build**
+### 4.4 Design and Build
 
 
 * **Create design and content guidelines**. For example, the visual design language is made up of the distinct elements that you’ll use to construct your digital product: colours, typography, sizing and spacing, imagery, possibly motion or sound.
@@ -97,7 +97,7 @@ The economy of scale in a design system works in your favour when sharing UI com
 * **Create a process for utilisation and continuous development**. What happens for example when the horizontal tabs component gets a bug fix? Establish these processes for contribution and bugs, and create feedback loops, to ensure ongoing success of the design system. Make sure you improve, not worsen, the workflow for designers and engineers. 
 
 
-**Maintain/Develop**
+### 4.5 Maintain/Develop
 
 
 * Approach a design system as continuous development - design systems and their maintenance processes are always evolving. A design system should have its own roadmap and backlog.
