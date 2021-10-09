@@ -61,7 +61,7 @@ The economy of scale in a design system works in your favour when sharing UI com
 ## 4. The Process of Building a Design System
 
 
-### 4.1 Determine usefulness
+### 4.1 Determine Usefulness
 
 
 * Before beginning the process, take a moment to think about the team you’ll need to bring the design system to life. Who needs to be involved? Depending on the company size, the number of stakeholders can vary a lot. They can be for example from marketing, IT, product teams, or third parties. Internal stakeholders can be for example product managers, UX designers, visual designers, content/copy writers, motion designers, frontend developers, producers, and project managers. 
@@ -76,7 +76,7 @@ The economy of scale in a design system works in your favour when sharing UI com
 * Conduct research and collaborate across disciplines to understand the scope of your system(s). Do a visual audit and take inventory of your current design, whether that’s the design of an app, a website, or some other digital product.
 
 
-### 4.3 Decide on tooling/technology
+### 4.3 Decide on Tooling/Technology
 
 
 * Depending on the scope, invest in tooling/technology on an appropriate level.
