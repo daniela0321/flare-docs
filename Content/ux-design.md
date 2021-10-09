@@ -86,12 +86,14 @@ Every experience we have fundamentally comes to us through our senses. Which of 
 
 From these five senses, visual design plays a role in virtually every kind of product there is – therefore vision stands out of from the five senses above. Visual design is the process of improving the user interface and user experience through visual elements and effects. In other words, it focuses on the aesthetics of a website or any other type of digital design.
 
+**Visual mock-up or design comp** is a visualization of the finished product. Comp is short for composite.
+
 **Documentation**
 
 Over time, the reasons for the design decisions made fade from memory. In addition, people eventually quit their jobs, and walk away with the knowledge about how a product gets designed and built on a day-to-day basis. Therefore, always make sure you have appropriate documentation regarding design decisions in place:
 
-- **Visual mock-up or design comp**: a visualization of the finished product is called a visual mock-up or design comp. Comp is short for composite.
 - **Style guide**: the definitive documentation of the design decisions. It defines every aspect of the visual design, including also global standards for the product. Global standards can include things like colour palettes, typography standards, logo treatment guidelines, or order of commonly used items – things that affect every part of the product.
+- [**Design System**](/insights/design-systems/): a style guide can be a starting point for a design system, which is even more comprehensive approach - it is a collection of the reusable assets and components you use to build a digital product, and it also guides on why and how to use the design components.
 
 &nbsp;
 

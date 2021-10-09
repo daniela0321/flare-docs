@@ -92,7 +92,7 @@ export default function Home() {
             imageTitle="Systems Development Life Cycle"
             title="What is the process for creating value-adding digital solutions?"
             button="/insights/product-lifecycles"
-            amountAndTime="15 Insights (1 hour 58 minutes)"
+            amountAndTime="16 Insights (2 hours 4 minutes)"
             textFirst={false}
           />
           <InsightCardHome
