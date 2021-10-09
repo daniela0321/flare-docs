@@ -6,9 +6,9 @@ revised: 2021-10-09
 time: 6
 image: /images/insights/design-systems.jpg
 imageTitle: Design Systems
-excerpt: In this Insight you can find information on what design system is, what
-  the elements of a design system are, when to build a design system, and what
-  the process of building it is. [1,2,3,4,5]
+excerpt: In this Insight you can find information on what a design system is,
+  what the elements of a design system are, when to build a design system, and
+  what the process of building it is. [1,2,3,4,5]
 ---
 ## 1. What Is a Design System?
 
