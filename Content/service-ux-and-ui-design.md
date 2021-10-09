@@ -29,6 +29,10 @@ With the rise of digital services, the boundaries between the disciplines are be
 
 - [**Common Customer Experience and Service Design Tools**](/insights/customer-experience-and-service-design-tools). Some common customer experience and service design tools are personas, lifecycles and journeys, business model canvas, and roadmaps. In addition, proof of concepts (POC), prototypes, pilots, and minimum valuable products (MVP) are often used methods for testing and developing solutions.
 
+## 5. Design Systems
+
+- [**Design Systems**](/insights/design-systems/) provide a single source of truth for design components. It is a collection of the reusable assets and components you use to build a digital product, and it also guides on why and how to use the design components. A design system assists a consistent and accessible user experience and enables time-saving features and better, faster output.
+
 &nbsp;
 
 ***
