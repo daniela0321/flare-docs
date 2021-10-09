@@ -113,7 +113,7 @@ The economy of scale in a design system works in your favour when sharing UI com
 
 ##### Move up to
 
-[**3 Tiers of Design**](/insights/service-ux-and-ui-design/)
+* [**3 Tiers of Design**](/insights/service-ux-and-ui-design/)
 
 
 &nbsp;
