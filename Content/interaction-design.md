@@ -2,7 +2,7 @@
 title: "Interaction Design"
 author: "Daniela"
 created: 2020-07-21
-revised: 2021-09-24
+revised: 2021-10-09
 time: 4
 image: "/images/insights/the-five-dimensions-of-interaction-design.jpg"
 imageTitle: "5 Dimensions of Interaction Design"
