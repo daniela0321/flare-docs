@@ -12,7 +12,7 @@
 
 # production
 /build
-/public/sitemap_new_site.xml
+/public/sitemap.xml
 /public/_headers
 /public/admin/preview.css
 

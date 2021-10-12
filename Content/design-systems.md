@@ -122,7 +122,7 @@ The economy of scale in a design system works in your favour when sharing UI com
 ##### Sources
 
 1. Fanguy, Will (2019). [A comprehensive guide to design systems](https://www.invisionapp.com/inside-design/guide-to-design-systems/). Retrieved 7 October 2021. 
-2. Mounter, Diana (2017). [Design Systems, when and how much?](https://youtu.be/Hx02SaL_IH0 ).  Retrieved 7 October 2021. 
+2. Mounter, Diana (2017). [Design Systems, when and how much?](https://youtu.be/Hx02SaL_IH0 )  Retrieved 7 October 2021. 
 3. Farino, Paul (2017). [DesignTalk Ep. 65: Design systems - Zero to one](https://www.youtube.com/watch?v=Eq0-Sz5S9iI). Retrieved 7 October 2021. 
 4. Anne, Jina. [Design Systems Handbook / Designing your design system](https://www.designbetter.co/design-systems-handbook/designing-design-system). Retrieved 7 October 2021. 
 5. Storybook. [Introduction to design systems](https://storybook.js.org/tutorials/design-systems-for-developers/react/en/introduction/). Retrieved 7 October 2021. 

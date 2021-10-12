@@ -10,7 +10,7 @@ console.log('Creating sitemap...')
 // Create a sitemap based on the static files generated in the build phase.
 genSitemap(process.cwd(), process.env.URL, {
   // Set location to save the sitemap
-  sitemapLoc: 'public/sitemap_new_site.xml',
+  sitemapLoc: 'public/sitemap.xml',
   // Transform each page with props to a sitemap url object.
   async processPath({ url, path, props }) {
     // Exclude pages from sitemap
