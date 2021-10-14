@@ -17,7 +17,7 @@ genSitemap(process.cwd(), process.env.URL, {
     if (['search', 'success'].includes(path)) return
     // Create a base sitemap url object.
     const item = {
-      url,
+      url: url + '/',
     }
 
     // If the page has props, add the relevant props to the url object.
