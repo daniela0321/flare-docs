@@ -27,7 +27,8 @@ module.exports = {
               + "font-src 'self' data:; "
               + "style-src 'self' 'unsafe-inline'; "
               + "img-src 'self' 'unsafe-inline' data: https://flarehub.io https://www.google-analytics.com; "
-              + "script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; "
+              + "script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://identity.netlify.com"
+              + (process.env.NODE_ENV !== "production" ? " 'unsafe-eval' 'unsafe-inline'; " : "; ")
               + "connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com https://flarehub.io/;"
           },
           {
