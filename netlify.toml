@@ -24,9 +24,9 @@
       default-src 'self';
       font-src 'self' data:;
       style-src 'self' 'unsafe-inline';
-      img-src 'self' 'unsafe-inline' data: https://flarehub.io https://www.google-analytics.com;
-      script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
-      connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;'''
+      img-src 'self' 'unsafe-inline' data: https://flarehub.io https://flarehub.piwik.pro https://www.google-analytics.com;
+      script-src 'self' https://flarehub.containers.piwik.pro https://www.google-analytics.com;
+      connect-src 'self' https://flarehub.containers.piwik.pro https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;'''
 [[headers]]
   for = "/admin/*"
   [headers.values]
@@ -40,7 +40,7 @@
       connect-src 'self' blob: https://www.netlifystatus.com *.netlify.app *.flarehub.io *.s3.amazonaws.com;'''
 [context.branch-deploy]
   command = "npm run export-noindex"
-  environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
+  environment = { PIWIK_TAG_ID = "1379a89d-fd09-4a99-b62a-25455447ef1e" }
 [context.deploy-preview]
   command = "npm run export-noindex"
-  environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
+  environment = { PIWIK_TAG_ID = "1379a89d-fd09-4a99-b62a-25455447ef1e" }

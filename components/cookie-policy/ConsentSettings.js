@@ -1,35 +1,17 @@
 // External packages
 import { useState, useEffect } from "react"
-// Internal modules
-import * as gaConsent from "../../utils/gaConsent"
+import { Button } from "react-bootstrap"
 
-// Checkboxes to inform that functional cookies are always set and to set statistics cookie preferences
 export default function ConsentSettings() {
-
-  // Get consent status on browser side
-  const [statConsent, setStatConsent] = useState(false)
-
-  useEffect(() => {
-    setStatConsent(gaConsent.get('granted'))
-  }, [])
-
-  // Update consent status when toggling statistics switch
-  function handleStatChange(e) {
-    const consent = e.target.checked ? 'granted' : 'denied'
-    gaConsent.set(consent)
-    setStatConsent(consent)
-  }
-
   return (
     <div>
-      <div className="ml-4">
-        <input type="checkbox" className="form-check-input" id="functional" checked disabled />
-        <label htmlFor="functional" className="form-check-label"> Functional cookies (see the explanation above)</label>
-      </div>
-      <div className="ml-4">
-        <input type="checkbox" className="form-check-input" id="statistics" checked={statConsent === 'granted'} onChange={handleStatChange} />
-        <label htmlFor="statistics" className="form-check-label"> Statistics cookies (anonymous, see the explanation above)</label>
-      </div>
+      <p>
+        Here you can manage your data privacy and consent settings for this website.
+        We request certain data to continually improve your experience on our website.
+        We will only collect and use data for specific uses you have consented to.
+        See the settings page for more details.
+      </p>
+      <Button onClick={() => window.ppms.cm.api('openConsentForm')}>Privacy settings</Button>
     </div>
-  );
+  )
 }
