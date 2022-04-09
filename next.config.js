@@ -29,8 +29,8 @@ module.exports = {
               + "font-src 'self' data: https://flarehub.containers.piwik.pro; "
               + "style-src 'self' 'unsafe-inline' https://flarehub.containers.piwik.pro; "
               + "img-src 'self' 'unsafe-inline' data: https://flarehub.io https://flarehub.piwik.pro https://flarehub.containers.piwik.pro https://www.google-analytics.com; "
-              + "script-src 'self' https://flarehub.containers.piwik.pro https://www.google-analytics.com https://identity.netlify.com"
-              + (process.env.NODE_ENV !== "production" ? " 'unsafe-eval' 'unsafe-inline'; " : "; ")
+              + "script-src 'self' https://flarehub.containers.piwik.pro http://www.google-analytics.com https://identity.netlify.com 'unsafe-eval' 'unsafe-inline'; "
+              // + (process.env.NODE_ENV !== "production" ? " 'unsafe-eval' 'unsafe-inline'; " : "; ")
               + "connect-src 'self' https://flarehub.piwik.pro https://flarehub.containers.piwik.pro https://www.google-analytics.com "
               + "https://*.algolia.net https://*.algolianet.com https://flarehub.io/;"
           },
