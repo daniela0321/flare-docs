@@ -1,3 +1,13 @@
+const { randomUUID } = require("crypto")
+
+const piwikUUID = randomUUID()
+
+function generateCSP(csp) {
+  return Object.entries(csp).reduce((res, rule) => {
+    return res + rule[0] + ' ' + rule[1].join(' ') + '; '
+  }, '')
+}
+
 module.exports = {
   reactStrictMode: true,
   env: {
@@ -7,8 +17,9 @@ module.exports = {
     BUILD_URL: process.env.DEPLOY_PRIME_URL,
     // A path in the public folder that is not tracked in Git. Used to exclude e.g. large images
     LOCAL_PATH: process.env.LOCAL_PATH,
-    // Tracking id for Piwik Pro Tag Manager.
-    PIWIK_TAG_ID: process.env.PIWIK_TAG_ID
+    // Tracking id and nonce for Piwik Pro Tag Manager.
+    PIWIK_TAG_ID: process.env.PIWIK_TAG_ID,
+    PIWIK_NONCE: piwikUUID
   },
   async rewrites() {
     return [
@@ -25,14 +36,41 @@ module.exports = {
         headers: [
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; "
-              + "font-src 'self' data: https://flarehub.containers.piwik.pro; "
-              + "style-src 'self' 'unsafe-inline' https://flarehub.containers.piwik.pro; "
-              + "img-src 'self' 'unsafe-inline' data: https://flarehub.io https://flarehub.piwik.pro https://flarehub.containers.piwik.pro https://www.google-analytics.com; "
-              + "script-src 'self' https://flarehub.containers.piwik.pro http://www.google-analytics.com https://identity.netlify.com 'unsafe-eval' 'unsafe-inline'; "
-              // + (process.env.NODE_ENV !== "production" ? " 'unsafe-eval' 'unsafe-inline'; " : "; ")
-              + "connect-src 'self' https://flarehub.piwik.pro https://flarehub.containers.piwik.pro https://www.google-analytics.com "
-              + "https://*.algolia.net https://*.algolianet.com https://flarehub.io/;"
+            value: generateCSP({
+              'default-src': ["'self'"],
+              'style-src': [
+                "'self'",
+                "'unsafe-inline'",
+                "https://flarehub.containers.piwik.pro"
+              ],
+              'img-src': [
+                "'self'",
+                "'unsafe-inline'",
+                "data:",
+                "https://flarehub.io",
+                "https://flarehub.piwik.pro",
+                "https://flarehub.containers.piwik.pro",
+                "https://www.google-analytics.com"
+              ],
+              'script-src': [
+                "'self'",
+                `'nonce-${piwikUUID}'`,
+                "https://flarehub.containers.piwik.pro",
+                "http://www.google-analytics.com",
+                "https://identity.netlify.com",
+                (process.env.NODE_ENV !== "production" ? " 'unsafe-eval'" : ""),
+              ],
+              'connect-src': [
+                "'self'",
+                "https://flarehub.piwik.pro",
+                "https://flarehub.containers.piwik.pro",
+                "https://www.google-analytics.com",
+                "https://*.algolia.net",
+                "https://*.algolianet.com",
+                "https://flarehub.io"
+              ],
+              'base-uri': ["'none'"],
+            })
           },
           {
             key: 'X-Frame-Options',

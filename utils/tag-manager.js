@@ -29,6 +29,7 @@ export default function () {
     var qPString = qP.length > 0 ? ("?" + qP.join("&")) : "";
     tags.async = !0,
       tags.src = "https://flarehub.containers.piwik.pro/" + id + ".js" + qPString,
+      tags.nonce = process.env.PIWIK_NONCE,
       body.appendChild(tags);
 
     !function (a, n, i) {
