@@ -1,6 +1,11 @@
+.box {
+    max-width: 645px;
+}
+
 .imageStyle {
     width: 100%;
     object-fit: cover;
+    max-width: 645px;
 }
 
 .button {
@@ -26,6 +31,7 @@
     .title {
         margin-top: 60px;
     }
+
     .amountAndTime {
         margin-bottom: 60px;
     }
