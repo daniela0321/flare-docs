@@ -1,7 +1,7 @@
 import genSitemap from 'next-ssg-sitemap'
-import unified from 'unified'
+import { unified } from 'unified'
 import remarkParse from 'remark-parse'
-import visit from 'unist-util-visit'
+import { visit } from 'unist-util-visit'
 import { config as envConfig } from 'dotenv-flow'
 
 envConfig()
