@@ -1,12 +1,12 @@
 // Internal components:
 import Header from "./default/Header"
 import Footer from "./default/Footer"
-import GoogleAnalytics from '../head/GoogleAnalytics'
+import Piwik from "../head/Piwik"
 
 export default function Default({ children }) {
   return (
     <>
-      <GoogleAnalytics />
+      <Piwik />
       <Header />
       {children}
       <Footer />

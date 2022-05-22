@@ -1,35 +1,67 @@
 // External packages
-import { useState, useEffect } from "react"
-// Internal modules
-import * as gaConsent from "../../utils/gaConsent"
+import { FormCheck, FormGroup } from "react-bootstrap"
+import { useEffect, useState } from "react"
 
-// Checkboxes to inform that functional cookies are always set and to set statistics cookie preferences
 export default function ConsentSettings() {
+  const [consent, setConsent] = useState(-2)
 
-  // Get consent status on browser side
-  const [statConsent, setStatConsent] = useState(false)
+  function getConsentStatus() {
+    if (window.ppms) {
+      window.ppms.cm.api('getComplianceSettings', settings => {
+        settings.consents.analytics && setConsent(settings.consents.analytics.status)
+      })
+    }
+  }
 
-  useEffect(() => {
-    setStatConsent(gaConsent.get('granted'))
-  }, [])
+  useEffect(getConsentStatus, [])
 
-  // Update consent status when toggling statistics switch
-  function handleStatChange(e) {
-    const consent = e.target.checked ? 'granted' : 'denied'
-    gaConsent.set(consent)
-    setStatConsent(consent)
+  function handleChangeConsent(e) {
+    window.ppms.cm.api(
+      'setComplianceSettings',
+      { consents: { analytics: { status: +e.target.value } } },
+      getConsentStatus
+    )
   }
 
   return (
     <div>
-      <div className="ml-4">
-        <input type="checkbox" className="form-check-input" id="functional" checked disabled />
-        <label htmlFor="functional" className="form-check-label"> Functional cookies (see the explanation above)</label>
-      </div>
-      <div className="ml-4">
-        <input type="checkbox" className="form-check-input" id="statistics" checked={statConsent === 'granted'} onChange={handleStatChange} />
-        <label htmlFor="statistics" className="form-check-label"> Statistics cookies (anonymous, see the explanation above)</label>
-      </div>
+      <p>
+        Here you can manage your data privacy and consent settings for this website.
+        We request certain data to continually improve your experience on our website.
+        We will only collect and use data for analytics, and only if you have consented to it.
+      </p>
+      <FormGroup>
+        {consent === -1 &&
+          <strong>No information has been provided on your consent preferences</strong>
+        }
+        {/* {consent === -1 &&
+          <FormCheck
+            type="radio"
+            name="consentType"
+            label="No information has been provided on your consent preferences"
+            value={-1}
+            checked={consent === -1}
+            disabled
+          />
+        } */}
+        <FormCheck
+          type="radio"
+          name="consentType"
+          label="I request that you do not collect analytics data on me"
+          value={0}
+          checked={consent === 0}
+          onChange={handleChangeConsent}
+        />
+        <FormCheck
+          type="radio"
+          name="consentType"
+          label="I consent to the collection of analytics data on me"
+          value={1}
+          checked={consent === 1}
+          onChange={handleChangeConsent}
+        />
+      </FormGroup>
+
     </div>
-  );
+  )
 }
