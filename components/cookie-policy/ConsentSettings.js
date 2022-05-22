@@ -3,34 +3,23 @@ import { FormCheck, FormGroup } from "react-bootstrap"
 import { useEffect, useState } from "react"
 
 export default function ConsentSettings() {
-  const [consent, setConsent] = useState(-1)
-  const [consentMsg, setConsentMsg] = useState('not let us know if you consent')
+  const [consent, setConsent] = useState(-2)
 
-  function switchConsentMsg() {
+  function getConsentStatus() {
     if (window.ppms) {
       window.ppms.cm.api('getComplianceSettings', settings => {
-        if (settings.consents.analytics) {
-          setConsent(settings.consents.analytics.status)
-          switch (settings.consents.analytics.status) {
-            case 0:
-              setConsentMsg('requested that we do not collect any data on you')
-              break;
-            case 1:
-              setConsentMsg('provided us with consent to collect analytics data')
-              break;
-          }
-        }
+        settings.consents.analytics && setConsent(settings.consents.analytics.status)
       })
     }
   }
 
-  useEffect(switchConsentMsg, [])
+  useEffect(getConsentStatus, [])
 
   function handleChangeConsent(e) {
     window.ppms.cm.api(
       'setComplianceSettings',
       { consents: { analytics: { status: +e.target.value } } },
-      switchConsentMsg
+      getConsentStatus
     )
   }
 
@@ -39,10 +28,22 @@ export default function ConsentSettings() {
       <p>
         Here you can manage your data privacy and consent settings for this website.
         We request certain data to continually improve your experience on our website.
-        We will only collect and use data for analytics and if you have consented to it.
-        You have currently: <b>{consentMsg}</b>.
+        We will only collect and use data for analytics, and only if you have consented to it.
       </p>
       <FormGroup>
+        {consent === -1 &&
+          <strong>No information has been provided on your consent preferences</strong>
+        }
+        {/* {consent === -1 &&
+          <FormCheck
+            type="radio"
+            name="consentType"
+            label="No information has been provided on your consent preferences"
+            value={-1}
+            checked={consent === -1}
+            disabled
+          />
+        } */}
         <FormCheck
           type="radio"
           name="consentType"

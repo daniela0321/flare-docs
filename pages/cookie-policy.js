@@ -66,11 +66,11 @@ export default function CookiePolicy() {
                     <h2>4. Placed Cookies</h2>
 
                     <ul>
-                        <li><b>Google Analytics</b>
+                        <li className="mb-3"><b>Google Analytics</b>
                             <ul>
                                 <li><b>Type</b>: Statistics cookies (anonymous).</li>
                                 <li><b>Usage</b>: we currently use Google Analytics for website statistics.</li>
-                                <li><b>Sharing data</b>: for more information, please read the
+                                <li><b>Sharing data</b>: for more information, please read the{' '}
                                     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Analytics Privacy Statement</a>.</li>
                             </ul>
                         </li>
@@ -78,7 +78,7 @@ export default function CookiePolicy() {
                             <ul>
                                 <li><b>Type</b>: Statistics cookies (anonymous).</li>
                                 <li><b>Usage</b>: We are migrating to Piwik Pro website statistics.</li>
-                                <li><b>Sharing data</b>: for more information, please read the
+                                <li><b>Sharing data</b>: for more information, please read the{' '}
                                     <a href="https://piwik.pro/privacy-policy" target="_blank" rel="noopener">Piwik Pro privacy policy</a>.</li>
                             </ul>
                         </li>

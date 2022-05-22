@@ -18,9 +18,8 @@ a:hover.link {
 }
 
 /* Media queries */
-
-@media (max-width: 797.98px) {
+/* @media (max-width: 797.98px) {
     .bannerRow {
         padding-bottom: 2rem;
     }
-}
+} */
