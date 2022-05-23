@@ -16,17 +16,17 @@
     sitemapPath = "/sitemap.xml"
     # Enabled providers to submit sitemap to. Possible providers are currently only 'google', 'bing', 'yandex'.
     providers = ["google", "bing"]
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    Content-Security-Policy = '''
-      default-src 'self';
-      font-src 'self' data:;
-      style-src 'self' 'unsafe-inline';
-      img-src 'self' 'unsafe-inline' data: https://flarehub.io https://flarehub.piwik.pro https://www.google-analytics.com;
-      script-src 'self' https://flarehub.containers.piwik.pro https://www.google-analytics.com;
-      connect-src 'self' https://flarehub.containers.piwik.pro https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;'''
+[[plugins]]
+  package = "netlify-plugin-csp-generator"
+  [plugins.inputs]
+    buildDir = "out"
+    [plugins.inputs.policies]
+      defaultSrc = "'self'"
+      fontSrc = "'self' data:"
+      styleSrc = "'self' 'unsafe-inline' flarehub.containers.piwik.pro"
+      img-src = "'self' 'unsafe-inline' data: blob: *.flarehub.io flarehub.piwik.pro flarehub.containers.piwik.pro www.google-analytics.com"
+      scriptSrc = "'self' 'unsafe-inline' 'strict-dynamic' flarehub.containers.piwik.pro www.google-analytics.com identity.netlify.com"
+      connectSrc = "'self' flarehub.piwik.pro flarehub.containers.piwik.pro www.google-analytics.com *.algolia.net *.algolianet.com *.flarehub.io"
 [[headers]]
   for = "/admin/*"
   [headers.values]

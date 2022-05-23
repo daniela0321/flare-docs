@@ -1,6 +1,6 @@
 const { randomUUID } = require("crypto")
 
-const piwikUUID = randomUUID()
+// const piwikUUID = randomUUID()
 
 function generateCSP(csp) {
   return Object.entries(csp).reduce((res, rule) => {
@@ -19,7 +19,7 @@ module.exports = {
     LOCAL_PATH: process.env.LOCAL_PATH,
     // Tracking id and nonce for Piwik Pro Tag Manager.
     PIWIK_TAG_ID: process.env.PIWIK_TAG_ID,
-    PIWIK_NONCE: piwikUUID
+    // PIWIK_NONCE: piwikUUID
   },
   async rewrites() {
     return [
@@ -47,27 +47,27 @@ module.exports = {
                 "'self'",
                 "'unsafe-inline'",
                 "data:",
-                "https://flarehub.io",
-                "https://flarehub.piwik.pro",
-                "https://flarehub.containers.piwik.pro",
-                "https://www.google-analytics.com"
+                "flarehub.io",
+                "flarehub.piwik.pro",
+                "flarehub.containers.piwik.pro",
+                "www.google-analytics.com"
               ],
               'script-src': [
                 "'self'",
-                `'nonce-${piwikUUID}'`,
-                "https://flarehub.containers.piwik.pro",
-                "http://www.google-analytics.com",
-                "https://identity.netlify.com",
-                (process.env.NODE_ENV !== "production" ? " 'unsafe-eval'" : ""),
+                "'unsafe-inline'",
+                "'unsafe-eval'",
+                "flarehub.containers.piwik.pro",
+                "www.google-analytics.com",
+                "identity.netlify.com",
               ],
               'connect-src': [
                 "'self'",
-                "https://flarehub.piwik.pro",
-                "https://flarehub.containers.piwik.pro",
-                "https://www.google-analytics.com",
-                "https://*.algolia.net",
-                "https://*.algolianet.com",
-                "https://flarehub.io"
+                "flarehub.piwik.pro",
+                "flarehub.containers.piwik.pro",
+                "www.google-analytics.com",
+                "*.algolia.net",
+                "*.algolianet.com",
+                "flarehub.io"
               ],
               'base-uri': ["'none'"],
             })

@@ -34,16 +34,6 @@ export default function ConsentSettings() {
         {consent === -1 &&
           <strong>No information has been provided on your consent preferences</strong>
         }
-        {/* {consent === -1 &&
-          <FormCheck
-            type="radio"
-            name="consentType"
-            label="No information has been provided on your consent preferences"
-            value={-1}
-            checked={consent === -1}
-            disabled
-          />
-        } */}
         <FormCheck
           type="radio"
           name="consentType"

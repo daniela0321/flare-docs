@@ -2,36 +2,21 @@
 import styles from "./CookieBanner.module.css"
 // External packages:
 import Link from "next/link"
-import { useState, useEffect } from "react"
 
 // Cookie banner:
-export default function CookieBanner() {
-  // Get consent status on browser side
-  const [show, setShow] = useState(false)
-
-  useEffect(() => {
-    window.ppms.cm.api('getComplianceSettings', settings => {
-      if (!settings.consents.analytics || settings.consents.analytics.status === -1) {
-        window.ppms.cm.api(
-          'setInitialComplianceSettings',
-          { consents: ['analytics'] },
-          () => setShow(true)
-        )
-      }
-    })
-  }, [])
-
+export default function CookieBanner({ answer }) {
   // Update consent status and redirect if necessary
   function handleConsent(agree) {
     window.ppms.cm.api(
       'setComplianceSettings',
       { consents: { analytics: { status: agree } } },
-      () => setShow(false)
+      () => answer(agree)
     )
   }
 
   // Only return cookie banner if no consent has been set
-  if (show) return (
+  // if (!answered)
+  return (
     <div className={`${styles.banner} fixed-bottom container-fluid p-3 pb-4 bg-secondary text-light`}>
       <div className="">
         <h4 className="mb-3">Privacy settings</h4>
@@ -43,7 +28,7 @@ export default function CookieBanner() {
       <div className="d-sm-flex justify-content-between">
         <p className="mb-4 mb-sm-0">
           <Link href="/cookie-policy" >
-            <a className={styles.link} onClick={() => setShow(false)}>
+            <a className={styles.link}>
               See Cookie policy for details
             </a>
           </Link>
@@ -72,5 +57,5 @@ export default function CookieBanner() {
     </div>
   )
 
-  return <></>
+  // return <></>
 }
