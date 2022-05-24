@@ -16,18 +16,6 @@
     sitemapPath = "/sitemap.xml"
     # Enabled providers to submit sitemap to. Possible providers are currently only 'google', 'bing', 'yandex'.
     providers = ["google", "bing"]
-[[plugins]]
-  package = "netlify-plugin-csp-generator"
-  [plugins.inputs]
-    buildDir = "out"
-
-    [plugins.inputs.policies]
-      defaultSrc = "'self'"
-      fontSrc = "'self' data:"
-      styleSrc = "'self' 'unsafe-inline' flarehub.containers.piwik.pro"
-      img-src = "'self' 'unsafe-inline' data: blob: *.flarehub.io flarehub.piwik.pro flarehub.containers.piwik.pro www.google-analytics.com"
-      scriptSrc = "'self' flarehub.containers.piwik.pro www.google-analytics.com identity.netlify.com"
-      connectSrc = "'self' flarehub.piwik.pro flarehub.containers.piwik.pro www.google-analytics.com *.algolia.net *.algolianet.com *.flarehub.io"
 [[headers]]
   for = "/admin/*"
   [headers.values]
