@@ -13,7 +13,7 @@ export default function ConsentSettings() {
     }
   }
 
-  useEffect(getConsentStatus, [])
+  useEffect(getConsentStatus, [setConsent])
 
   function handleChangeConsent(e) {
     window.ppms.cm.api(
@@ -21,6 +21,9 @@ export default function ConsentSettings() {
       { consents: { analytics: { status: +e.target.value } } },
       getConsentStatus
     )
+    window.gtag('consent', 'update', {
+      'analytics_storage': e.target.value === '0' ? 'denied' : 'granted'
+    });
   }
 
   return (

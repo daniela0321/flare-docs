@@ -12,10 +12,11 @@ export default function CookieBanner({ answer }) {
       { consents: { analytics: { status: agree } } },
       () => answer(agree)
     )
+    window.gtag('consent', 'update', {
+      'analytics_storage': agree === 0 ? 'denied' : 'granted'
+    });
   }
 
-  // Only return cookie banner if no consent has been set
-  // if (!answered)
   return (
     <div className={`${styles.banner} fixed-bottom container-fluid p-3 pb-4 bg-secondary text-light`}>
       <div className="">
@@ -56,6 +57,4 @@ export default function CookieBanner({ answer }) {
 
     </div>
   )
-
-  // return <></>
 }

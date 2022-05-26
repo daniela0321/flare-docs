@@ -24,14 +24,15 @@ export default function Document() {
       "flarehub.io",
       "flarehub.piwik.pro",
       "flarehub.containers.piwik.pro",
-      "www.google-analytics.com"
+      "www.googletagmanager.com"
     ],
     'script-src': [
       "'self'",
       `'nonce-${nonce}'`,
       "flarehub.containers.piwik.pro",
-      "www.google-analytics.com",
+      "www.googletagmanager.com",
       "identity.netlify.com",
+      process.env.NODE_ENV !== 'production' && "'unsafe-eval'"
     ],
     'connect-src': [
       "'self'",
@@ -49,6 +50,20 @@ export default function Document() {
     <Html>
       <Head>
         <meta httpEquiv="Content-Security-Policy" content={csp} />
+        {/* <script
+          async
+          src={'https://www.googletagmanager.com/gtag/js?id=' + process.env.GA_PROPERTY_ID}
+          nonce={nonce}
+        />
+        <script async id="google-analytics" nonce={nonce}>
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${process.env.GA_PROPERTY_ID}');
+        `}
+        </script> */}
       </Head>
       <body data-piwik-nonce={nonce}>
         <Main />
