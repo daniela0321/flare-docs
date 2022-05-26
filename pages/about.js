@@ -125,9 +125,9 @@ export default function About() {
                                 solution up to delivery.
                             </p>
                             <p>
-                                At Flare Hub, Igor has lately been working with the technical part of system
-                                implementation, including architecture and full stack development, using JavaScript
-                                frameworks like React, Vue, Node.js and Electron.
+                                At Flare Hub, Igor has been working with the technical part of system implementation,
+                                including architecture and full stack development, using JavaScript frameworks like
+                                React, Vue, Node.js and Electron.
                             </p>
                         </AboutCard>
 
