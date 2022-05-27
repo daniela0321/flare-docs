@@ -29,7 +29,7 @@
       connect-src 'self' blob: https://www.netlifystatus.com *.netlify.app *.flarehub.io *.s3.amazonaws.com;'''
 [context.branch-deploy.environment]
   PIWIK_TAG_ID = "1379a89d-fd09-4a99-b62a-25455447ef1e"
-  NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C"
+  NEXT_PUBLIC_GA_TRACKING_ID = "G-F4LQTMVMJX"
 [context.deploy-preview.environment]
   PIWIK_TAG_ID = "1379a89d-fd09-4a99-b62a-25455447ef1e"
-  NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C"
+  NEXT_PUBLIC_GA_TRACKING_ID = "G-F4LQTMVMJX"
