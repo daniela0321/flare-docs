@@ -6,35 +6,35 @@
     "dev": "next dev",
     "build": "next build && npm run build-cms-styles",
     "start": "next start",
-    "export": "npm run build && npm run generate-sitemap && next export",
-    "export-noindex": "npm run build && node scripts/prevent-indexing.mjs && next export",
+    "export": "npm run build && npm run generate-sitemap && npm run set-headers && next export",
     "lint": "next lint",
     "generate-sitemap": "node scripts/generate-sitemap.mjs",
     "build-cms-styles": "node scripts/generate-cms-preview-css.mjs",
+    "set-headers": "node scripts/set-headers.mjs",
     "proxy-netlify": "npx netlify-cms-proxy-server"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.15",
-    "algoliasearch": "^4.10.5",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "algoliasearch": "^4.13.1",
     "bootstrap": "^4.6.0",
     "gray-matter": "^4.0.3",
-    "netlify-cms-app": "^2.15.40",
-    "netlify-identity-widget": "^1.9.2",
-    "next": "^11.1.2",
+    "netlify-cms-app": "^2.15.72",
+    "next": "^12.1.6",
     "react": "17.0.2",
-    "react-bootstrap": "^1.6.1",
+    "react-bootstrap": "^1.6.4",
     "react-dom": "17.0.2",
-    "react-markdown": "^6.0.3",
-    "sass": "^1.39.0"
+    "react-markdown": "^8.0.3",
+    "sass": "^1.52.1",
+    "unified": "^10.1.2"
   },
   "devDependencies": {
     "dotenv-flow": "^3.2.0",
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^11.1.2",
-    "next-ssg-sitemap": "^0.2.0",
-    "unist-util-visit": "^2.0.3"
+    "eslint": "^8.16.0",
+    "eslint-config-next": "^12.1.6",
+    "next-ssg-sitemap": "^0.3.2",
+    "unist-util-visit": "^4.1.0"
   }
 }

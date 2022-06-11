@@ -68,16 +68,14 @@ export default function About() {
                             </IconAndText>
 
                             <p className="mt-4">
-                                Daniela has more than 10 years of experience in IT projects. This has included roles
-                                diverging from analyst to project manager. In this time, she has performed tasks like
-                                concept design, requirements management, process design, functional design, and project
-                                management.
+                                Daniela has more than 10 years of experience in IT projects. This has included roles diverging from analyst to project manager.
+                                In this time, she has performed tasks like concept design, requirements analysis and management, process design, UX design,
+                                and project management.
                             </p>
                             <p>
-                                At Flare Hub, Daniela has lately been working with both the concept design and
-                                technical part of system implementation. The technical part has been mainly front-end
-                                development, using JavaScript framework React. She also enjoys technical writing -
-                                simplifying and visualizing technical information and concepts.
+                                In addition, Daniela also has some experience with the implementation itself.  This has mainly involved creating WordPress sites
+                                and front-end development, using JavaScript framework React. She also enjoys technical writing - simplifying and visualizing
+                                technical information and concepts.
                             </p>
                         </AboutCard>
 
@@ -127,9 +125,9 @@ export default function About() {
                                 solution up to delivery.
                             </p>
                             <p>
-                                At Flare Hub, Igor has lately been working with the technical part of system
-                                implementation, including architecture and full stack development, using JavaScript
-                                frameworks like React, Node.js and Electron.
+                                At Flare Hub, Igor has been working with the technical part of system implementation,
+                                including architecture and full stack development, using JavaScript frameworks like
+                                React, Vue, Node.js and Electron.
                             </p>
                         </AboutCard>
 

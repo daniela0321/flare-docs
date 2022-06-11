@@ -2,71 +2,59 @@
 import styles from "./CookieBanner.module.css"
 // External packages:
 import Link from "next/link"
-import { useRouter } from 'next/router'
-import { useState, useEffect } from "react"
-// Internal modules
-import * as gaConsent from "../../../utils/gaConsent"
-
 
 // Cookie banner:
-export default function CookieBanner() {
-    // Get consent status on browser side
-    const [statConsent, setStatConsent] = useState(true)
-
-    const router = useRouter()
-
-    useEffect(() => {
-        setStatConsent(gaConsent.get(false))
-    }, [])
-
-    // Update consent status and redirect if necessary
-    function handleClick(redirect) {
-        const consent = 'granted'
-        gaConsent.set(consent)
-        setStatConsent(consent)
-        if (redirect) {
-            router.push(redirect)
-        }
-    }
-
-    // Only return cookie banner if no consent has been set
-    if (!statConsent) return (
-        <div className={`${styles.banner} container-fluid p-3 bg-secondary text-light`}>
-            <div className={`${styles.bannerRow} row d-flex justify-content-end align-items-center`}>
-
-                <div>
-                    <p className="mx-4 my-4">We use cookies to optimise our website and our
-                        service.{" "}
-                        <Link href="/cookie-policy">
-                            <a className={styles.link}>
-                                Read more
-                            </a>
-                        </Link>
-                    </p>
-                </div>
-
-                <div>
-
-                    <button
-                        type="button"
-                        className={`${styles.button} btn btn-light mx-4`}
-                        onClick={() => handleClick()}>
-                        OK
-                    </button>
-
-                    <button
-                        type="button"
-                        className={`${styles.button} btn btn-outline-light mr-4`}
-                        onClick={() => handleClick('/cookie-policy/#consent')}
-                    >
-                        Settings
-                    </button>
-
-                </div>
-
-            </div>
-        </div>
+export default function CookieBanner({ answer }) {
+  // Update consent status and redirect if necessary
+  function handleConsent(agree) {
+    window.ppms.cm.api(
+      'setComplianceSettings',
+      { consents: { analytics: { status: agree } } },
+      () => answer(agree)
     )
+    window.gtag('consent', 'update', {
+      'analytics_storage': agree === 0 ? 'denied' : 'granted'
+    });
+  }
 
-    return <></>
+  return (
+    <div className={`${styles.banner} fixed-bottom container-fluid p-3 pb-4 bg-secondary text-light`}>
+      <div className="">
+        <h4 className="mb-3">Privacy settings</h4>
+        <p>May we collect basic data about how you
+          use our site to improve the user experience for all visitors?
+          The data will only be used for analytical purposes.
+        </p>
+      </div>
+      <div className="d-sm-flex justify-content-between">
+        <p className="mb-4 mb-sm-0">
+          <Link href="/cookie-policy" >
+            <a className={styles.link}>
+              See Cookie policy for details
+            </a>
+          </Link>
+        </p>
+
+        <div className="ml-sm-2">
+          <div className="d-flex">
+            <button
+              type="button"
+              className={`${styles.button} btn btn-light mr-2`}
+              onClick={() => handleConsent(1)}>
+              Agree
+            </button>
+
+            <button
+              type="button"
+              className={`${styles.button} btn btn-outline-light`}
+              onClick={() => handleConsent(0)}
+            >
+              Disagree
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  )
 }

@@ -79,7 +79,7 @@ export default function Portfolio() {
                                 2.4 Main Responsibilities
                             </TocH3Page>
 
-                            <TocH2Page path="#open-data-service">
+                            {/* <TocH2Page path="#open-data-service">
                                 3. Open Data Service - Coming
                             </TocH2Page>
 
@@ -88,7 +88,7 @@ export default function Portfolio() {
                             </TocH3Page>
                             <TocH3Page path="#open-data-service-solution">
                                 3.2 The Solution
-                            </TocH3Page>
+                            </TocH3Page> */}
                             {/* <TocH3Page path="#open-data-service-technologies">
                                 3.3 Used Technologies
                             </TocH3Page> */}
@@ -413,7 +413,7 @@ export default function Portfolio() {
                                 Pluggable Electron is an open source project by Igor.
                             </p>
 
-                            <h2 id="open-data-service">3. Open Data Service - Coming</h2>
+                            {/* <h2 id="open-data-service">3. Open Data Service - Coming</h2>
 
                             <h3 id="open-data-service-challenge">3.1 The Challenge</h3>
 
@@ -428,7 +428,7 @@ export default function Portfolio() {
                                 The service would allow for example building pilots and minimum viable products
                                 quickly, without the need to build your own solution.</p>
 
-                            <p><b>More information coming soon.</b></p>
+                            <p><b>More information coming soon.</b></p> */}
 
                             {/* <h3 id="open-data-service-technologies">3.3 Used Technologies</h3> */}
                             {/* <h3 id="open-data-service-responsibilities">3.4 Main Responsibilities</h3> */}

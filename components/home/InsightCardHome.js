@@ -16,7 +16,7 @@ export default function InsightCardHome({ image, imageTitle, title, button, amou
     return (
         <Row className="m-0 p-0">
 
-            <Col lg={imageColumnOrder} className="m-0 p-0">
+            <Col lg={imageColumnOrder} className="text-center insight-image-bg m-0 p-0">
                 <Image
                     className={styles.imageStyle}
                     src={image}
@@ -28,23 +28,25 @@ export default function InsightCardHome({ image, imageTitle, title, button, amou
             </Col>
 
             <Col lg={textColumnOrder}
-                className="m-0 py-0 px-5 bg-primary d-flex flex-column justify-content-center text-center"
+                className=" p-0 bg-primary d-flex flex-column justify-content-center text-center"
             >
+                <div className={`${styles.box}  mx-auto my-0 py-0 px-5`}>
+                    <h3 className={styles.title}>{title}</h3>
 
-                <h3 className={styles.title}>{title}</h3>
+                    <div>
+                        <Link href={button}>
+                            <a role="button" className={`${styles.button} btn btn-light`}>
+                                Read more
+                            </a>
+                        </Link >
+                    </div >
 
-                <div>
-                    <Link href={button}>
-                        <a role="button" className={`${styles.button} btn btn-light`}>
-                            Read more
-                        </a>
-                    </Link>
+                    <p className={styles.amountAndTime}>{amountAndTime}</p>
                 </div>
 
-                <p className={styles.amountAndTime}>{amountAndTime}</p>
-            </Col>
+            </Col >
 
-        </Row>
+        </Row >
     )
 }
 

@@ -7,6 +7,8 @@ module.exports = {
     BUILD_URL: process.env.DEPLOY_PRIME_URL,
     // A path in the public folder that is not tracked in Git. Used to exclude e.g. large images
     LOCAL_PATH: process.env.LOCAL_PATH,
+    // Tracking id and nonce for Piwik Pro Tag Manager.
+    PIWIK_TAG_ID: process.env.PIWIK_TAG_ID,
   },
   async rewrites() {
     return [
@@ -21,15 +23,6 @@ module.exports = {
       {
         source: "/(.*)",
         headers: [
-          {
-            key: 'Content-Security-Policy',
-            value: "default-src 'self'; "
-              + "font-src 'self' data:; "
-              + "style-src 'self' 'unsafe-inline'; "
-              + "img-src 'self' 'unsafe-inline' data: https://flarehub.io https://www.google-analytics.com; "
-              + "script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; "
-              + "connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com https://flarehub.io/;"
-          },
           {
             key: 'X-Frame-Options',
             value: 'DENY'

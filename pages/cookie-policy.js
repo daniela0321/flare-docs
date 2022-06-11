@@ -32,7 +32,7 @@ export default function CookiePolicy() {
                         title="Cookie Policy (EU)"
                     />
 
-                    <p className="font-italic">Last Updated on 5 September 2021</p>
+                    <p className="font-italic">Last Updated on 26 May 2022</p>
                     <p className="font-italic">This Cookie Policy applies to citizens and legal permanent
                         residents of the European Economic Area.</p>
 
@@ -66,19 +66,25 @@ export default function CookiePolicy() {
                     <h2>4. Placed Cookies</h2>
 
                     <ul>
-                        <li><b>Google Analytics</b>
+                        <li className="mb-3"><b>Google Analytics</b>
                             <ul>
                                 <li><b>Type</b>: Statistics cookies (anonymous).</li>
-                                <li><b>Usage</b>: we use Google Analytics for website statistics.</li>
-                                <li><b>Sharing data</b>: for more information, please read
-                                    the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Analytics Privacy Statement</a>.</li>
+                                <li><b>Usage</b>: we currently use Google Analytics for website statistics.</li>
+                                <li><b>Sharing data</b>: for more information, please read the{' '}
+                                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Analytics Privacy Statement</a>.</li>
+                            </ul>
+                        </li>
+                        <li><b>Piwik Pro</b>
+                            <ul>
+                                <li><b>Type</b>: Statistics cookies (anonymous).</li>
+                                <li><b>Usage</b>: We are migrating to Piwik Pro website statistics.</li>
+                                <li><b>Sharing data</b>: for more information, please read the{' '}
+                                    <a href="https://piwik.pro/privacy-policy" target="_blank" rel="noopener">Piwik Pro privacy policy</a>.</li>
                             </ul>
                         </li>
                     </ul>
 
                     <h2 id="consent">5. Manage Your Consent Settings</h2>
-
-                    <p>Functional cookies are mandatory for the site to function, so this is the minimum requirement.</p>
 
                     <ConsentSettings />
 

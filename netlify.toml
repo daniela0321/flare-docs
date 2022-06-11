@@ -2,11 +2,11 @@
   package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
     branches = ['production']
-    #default:
+    # default:
     disabled = false
     # pathPrefix = ""
     # customDomain = "flarehub.io"
-    #default:
+    # default:
     renderJavaScript = false
 # template = "hierarchical"
 [[plugins]]
@@ -16,17 +16,6 @@
     sitemapPath = "/sitemap.xml"
     # Enabled providers to submit sitemap to. Possible providers are currently only 'google', 'bing', 'yandex'.
     providers = ["google", "bing"]
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    Content-Security-Policy = '''
-      default-src 'self';
-      font-src 'self' data:;
-      style-src 'self' 'unsafe-inline';
-      img-src 'self' 'unsafe-inline' data: https://flarehub.io https://www.google-analytics.com;
-      script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
-      connect-src 'self' https://www.google-analytics.com https://*.algolia.net https://*.algolianet.com;'''
 [[headers]]
   for = "/admin/*"
   [headers.values]
@@ -38,9 +27,9 @@
       img-src 'self' 'unsafe-inline' data: blob: *.netlify.app *.flarehub.io;
       script-src 'self' 'unsafe-eval';
       connect-src 'self' blob: https://www.netlifystatus.com *.netlify.app *.flarehub.io *.s3.amazonaws.com;'''
-[context.branch-deploy]
-  command = "npm run export-noindex"
-  environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
-[context.deploy-preview]
-  command = "npm run export-noindex"
-  environment = { NEXT_PUBLIC_GA_TRACKING_ID = "G-HDMGF9YG4C" }
+[context.branch-deploy.environment]
+  PIWIK_TAG_ID = "1379a89d-fd09-4a99-b62a-25455447ef1e"
+  NEXT_PUBLIC_GA_TRACKING_ID = "G-F4LQTMVMJX"
+[context.deploy-preview.environment]
+  PIWIK_TAG_ID = "1379a89d-fd09-4a99-b62a-25455447ef1e"
+  NEXT_PUBLIC_GA_TRACKING_ID = "G-F4LQTMVMJX"

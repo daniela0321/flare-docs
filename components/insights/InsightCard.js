@@ -12,7 +12,7 @@ export default function InsightCard({ image, title, excerpt, buttonLink }) {
         <Link href={buttonLink} passHref>
             <a className={styles.cardlink}>
                 <Card className="mx-2 mb-3 h-100" style={{ width: '22rem' }}>
-                    <div className={styles.placeholder}>
+                    <div className={`${styles.placeholder} insight-image-bg`}>
                         <Image
                             className="card-img-top"
                             src={image}
