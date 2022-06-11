@@ -26,7 +26,7 @@
       style-src 'self' 'unsafe-inline';
       img-src 'self' 'unsafe-inline' data: blob: *.netlify.app *.flarehub.io;
       script-src 'self' 'unsafe-eval';
-      connect-src 'self' blob: https://www.netlifystatus.com *.netlify.app *.flarehub.io *.s3.amazonaws.com;'''
+      connect-src 'self' blob: https://www.netlifystatus.com *.netlify.app *.flarehub.io *.s3.amazonaws.com google-analytics.com;'''
 [context.branch-deploy.environment]
   PIWIK_TAG_ID = "1379a89d-fd09-4a99-b62a-25455447ef1e"
   NEXT_PUBLIC_GA_TRACKING_ID = "G-F4LQTMVMJX"
